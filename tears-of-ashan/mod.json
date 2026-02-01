@@ -9,7 +9,7 @@
 	"changelog" : {
 		"Public Beta 1.1.3"   : [
 			"Temporarily removed battleEffects.json due to crashing when certain spell animations are played",
-			"Deep Freeze's freezing effect removed due to battleEffects.json causing crashes"
+			"Deep Freeze's freezing colour effect removed due to battleEffects.json causing crashes"
 		],
 		"Public Beta 1.1.2"   : [
 			"Gnoll Shamans now cast twice as intended",
