@@ -2,11 +2,15 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.1.1",
+	"version" : "Public Beta 1.1.2",
 	"modType" : "Expansion",
 	"compatibility" : {"min" : "1.7.0"},
 	
 	"changelog" : {
+		"Public Beta 1.1.2"   : [
+			"Gnoll Shamans now cast twice as intended",
+			"Fear description fixed"
+		],
 		"Public Beta 1.1.1"   : [
 			"Gnoll Shaman sprites and icons updated"
 		],
