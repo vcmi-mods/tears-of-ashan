@@ -507,19 +507,19 @@
 				}
 			},
 			"none" : {
-				"description" : "{Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 25% until it is attacked or overcomes its fear.\n",
+				"description" : "{Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move for 3 turns.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 25% until it is attacked or overcomes its fear.\n",
 				"cost" : 36
 			},
 			"basic" : {
-				"description" : "{Basic Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 25% until it is attacked or overcomes its fear.\n",
+				"description" : "{Basic Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move for 3 turns.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 25% until it is attacked or overcomes its fear.\n",
 				"cost" : 32
 			},
 			"advanced" : {
-				"description" : "{Advanced Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 50% until it is attacked or overcomes its fear.\n",
+				"description" : "{Advanced Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move for 3 turns.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 50% until it is attacked or overcomes its fear.\n",
 				"cost" : 32
 			},
 			"expert" : {
-				"description" : "{Expert Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 75% until it is attacked or overcomes its fear.\n",
+				"description" : "{Expert Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move for 3 turns.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 75% until it is attacked or overcomes its fear.\n",
 				"cost" : 32
 			}
 		}
