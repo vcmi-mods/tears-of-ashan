@@ -9,6 +9,7 @@
 		"hitPoints" : 250,
 		"speed" : 16,
 		"growth" : 1,
+		"horde" : 1,
 		"aiValue" : 7700,
 		"fightValue" : 5700,
 		"cost" : {"gold" : 4000, "mercury" : 2},
