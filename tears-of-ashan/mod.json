@@ -2,11 +2,14 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "Public Beta 1.1.5",
+	"version" : "Public Beta 1.1.6",
 	"modType" : "Expansion",
 	"compatibility" : {"min" : "1.7.0"},
 	
 	"changelog" : {
+		"Public Beta 1.1.6"   : [
+			"Fixed Sacred Phoenix horde growth"
+		],
 		"Public Beta 1.1.5"   : [
 			"Added battleEffects.json back with Deep Freeze colour effects included",
 			"Thunderbird Lightning Strike chance increased 20% → 30%"
