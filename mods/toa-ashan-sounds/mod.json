@@ -12,5 +12,10 @@
 
 	"creatures" : [
 		"config/creatures.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Zvuky Ashanu",
+		"description" : "Přidává zvuky jednotek a prostředí inspirované světem Ashanu."
+	}
 }

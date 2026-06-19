@@ -14,5 +14,10 @@
 
 	"creatures" : [
 		"config/enabled.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Frakční neutrální draci",
+		"description" : "Přesouvá azurové draky k Baště, krystalové draky k Věži, rezavé draky ke Kobce a pohádkové draky k Soutoku."
+	}
 }

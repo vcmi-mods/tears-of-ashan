@@ -13,5 +13,10 @@
 		"wake-of-gods.mainmenu",
 		"tides-of-war.tow-main-menu",
 		"hi-rez-menu"
-	]
+	],
+
+	"czech" : {
+		"name" : "Motiv menu Ashanu",
+		"description" : "Nahrazuje hlavní menu motivem inspirovaným Ashanem."
+	}
 }
