@@ -2,13 +2,15 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra",
 	"contact" : "https://sites.google.com/view/tears-of-ashan",
-	"version" : "1.5.5",
+	"version" : "1.5.6",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
-
 	"changelog" : {
+		"Public Beta 1.5.6" : [
+			"Czech translation by George King"
+		],
 		"Public Beta 1.5.5" : [
 			"Corrected Grim Guard adventure map quantity",
 			"Corrected Dread Guard Attack",
