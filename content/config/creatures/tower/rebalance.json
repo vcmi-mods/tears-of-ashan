@@ -230,6 +230,10 @@
 		}
 	},
 	"core:titan" : {
+		"cost" : {
+			"gold" : 4000,
+			"gems" : 2
+		},
 		"abilities" : {
 			"hateRedDragons" : {
 				"type" : "HATE",
