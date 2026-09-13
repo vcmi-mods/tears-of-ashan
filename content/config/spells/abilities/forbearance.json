@@ -1,0 +1,117 @@
+{
+	"forbearance" : {
+		"name" : "Forbearance",
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"level" : 5,
+		"power" : 1,
+
+		"school" : {
+			"01lightSchool" : true
+		},
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"flags" : {
+			"negative" : true,
+			"special" : true,
+			"nonMagical" : true
+		},
+
+		"targetCondition" : {},
+
+		"canCastOnSelf" : false,
+		"canCastWithoutSkip" : true,
+		"canCastOnlyOnSelf" : false,
+
+		"graphics" : {
+			"iconEffect" : "spells/forbearanceEffect.png"
+		},
+
+		"animation" : {
+			"affect" : [
+				"NewOldSpells/confusionSpell.def"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "PRECISON"
+		},
+
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"battleEffects" : {
+					"forbearance" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"mitigateDamage" : {
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageBoth",
+								"val" : -25,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS",
+								"turns" : 2
+							},
+							"bonusDamage" : {
+								"type" : "HATES_TRAIT",
+								"subtype" : "FORBEARANCE",
+								"val" : 100,
+								"duration" : "N_TURNS",
+								"turns" : 2
+							},
+							"displayBonus" : {
+								"type" : "HATE_FORBEARANCE",
+								"duration" : "N_TURNS",
+								"turns" : 2
+							},
+							"setDebuff" : {
+								"type" : "FORBEARANCE",
+								"propagator" : "BATTLE_WIDE",
+								"propagationUpdater" : "BONUS_OWNER_UPDATER",
+								"limiters" : [
+									{
+										"type" : "CREATURE_TYPE_LIMITER",
+										"creature" : "doppelsoldnerAU",
+										"includeUpgrades" : false
+									}
+								],
+								"duration" : "N_TURNS",
+								"turns" : 2
+							}
+						}
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {
+				"description" : "Enemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
+				"cost" : 20,
+				"power" : 1,
+				"effects" : {}
+			},
+			"basic" : {
+				"description" : "Enemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
+				"cost" : 20,
+				"power" : 1,
+				"effects" : {}
+			},
+			"advanced" : {
+				"description" : "Enemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
+				"cost" : 20,
+				"power" : 1,
+				"effects" : {}
+			},
+			"expert" : {
+				"description" : "Enemy units deal -25% Damage to other allied units but +50% Damage to allied Doppelsoldner.",
+				"cost" : 20,
+				"power" : 1,
+				"effects" : {}
+			}
+		}
+	}
+}

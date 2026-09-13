@@ -21,6 +21,7 @@
 						"type" : "darkElementalAU"
 					}
 				],
+				"bannedForRandomDwelling" : false,
 				"sounds" : {
 					"ambient" : [
 						"LOOPSTAR"
@@ -45,6 +46,32 @@
 
 	"core:creatureGeneratorCommon" : {
 		"types" : {
+			"mdtCathedral" : {
+				"name" : "Cathedral",
+				"creatures" : [
+					[
+						"landsknechtAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"dwellings/TEMPLARLOOP"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/landsknechtDwelling.def",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBB",
+							"VVBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "flagports/casaltdw.json"
+			},
 			"mdtLustChambers" : {
 				"name" : "Lust Chambers",
 				"creatures" : [

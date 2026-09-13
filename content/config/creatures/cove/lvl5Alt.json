@@ -61,7 +61,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "hornSpell",
 				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Summon Fangarms (50% Power)."
+				"description" : "{Spellcaster}\nCan cast Raise Fangarms (50% Power)."
 			},
 			"hornSpellPower" : {
 				"type" : "CREATURE_SPELL_POWER",

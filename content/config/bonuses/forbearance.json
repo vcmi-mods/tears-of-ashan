@@ -1,0 +1,13 @@
+{
+	"FORBEARANCE" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Forbearance}\nUnder the effect of Forbearance.",
+
+		"graphics" : {
+			"icon" : "bonuses/forbearance.png"
+		}
+	}
+}

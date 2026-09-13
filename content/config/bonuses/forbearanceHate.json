@@ -1,0 +1,13 @@
+{
+	"HATE_FORBEARANCE" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Taunted}\nDeals 50% increased damage to Doppelsoldner but 25% decreased damage to other units.",
+
+		"graphics" : {
+			"icon" : "bonuses/forbearanceHate.png"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"PURITY_AURA" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Aura of Purity}\nImmune to debuffing spells.",
+
+		"graphics" : {
+			"icon" : "bonuses/auraOfPurity.png"
+		}
+	}
+}

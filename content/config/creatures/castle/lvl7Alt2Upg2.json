@@ -1,0 +1,95 @@
+{
+	"doppelsoldnerAU" : {
+		"name" : {
+			"singular" : "Doppelsoldner",
+			"plural" : "Doppelsoldner"
+		},
+		"faction" : "castle",
+		"level" : 7,
+		"attack" : 24,
+		"defense" : 28,
+		"damage" : {
+			"min" : 40,
+			"max" : 55
+		},
+		"hitPoints" : 275,
+		"speed" : 11,
+		"growth" : 1,
+		"aiValue" : 7750,
+		"fightValue" : 5650,
+		"cost" : {
+			"gold" : 4000,
+			"gems" : 2
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"upgrades" : [
+			"swordMasterAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"king3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"minimumMorale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"moraleBonus" : {
+				"type" : "NONE",
+				"val" : 0,
+				"description" : "{Positive Morale}\nMorale cannot be decreased below +1.",
+				"icon" : "zvs/Lib1.res/e_minot.png"
+			},
+			"hatesDemonic" : {
+				"type" : "HATES_TRAIT",
+				"subtype" : "DEMONIC",
+				"val" : 50,
+				"description" : "{Hates Demons}\nDeals 50% increased damage to Demonic units.",
+				"icon" : "bonuses/bonusDemonic.png"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"castForbearance" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "forbearance",
+				"val" : 3,
+				"description" : "{Forbearance}\nCan cast Forbearance without skipping a turn (2 Power)."
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/castle/battle/lvl7Alt2Upg2.json",
+			"map" : "creatures/castle/map/lvl7Alt2Upg2.json",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"iconSmall" : "creatures/castle/iconsSmall/lvl7Alt2Upg2.png",
+			"iconLarge" : "creatures/castle/iconsBig/lvl7Alt2Upg2.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/castle/templar/TempATTK.wav",
+			"defend" : "creatures/castle/templar/TempDFND.wav",
+			"killed" : "creatures/castle/templar/TempDEAD.wav",
+			"move" : "creatures/castle/templar/TempMOVE.wav",
+			"wince" : "creatures/castle/templar/TempWNCE.wav",
+			"shoot" : "creatures/castle/templar/TempSPEC.wav"
+		}
+	}
+}

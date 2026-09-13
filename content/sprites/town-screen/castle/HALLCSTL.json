@@ -32,6 +32,18 @@
 		{
 			"frame" : 50,
 			"file" : "ThCsAng2.bmp"
+		},
+		{
+			"frame" : 57,
+			"file" : "ThCsLds1.png"
+		},
+		{
+			"frame" : 64,
+			"file" : "ThCsLds2.png"
+		},
+		{
+			"frame" : 71,
+			"file" : "ThCsLds2.png"
 		}
 	]
 }

@@ -1,0 +1,222 @@
+{
+	"mdtPaladin" : {
+		"name" : {
+			"singular" : "Paladin",
+			"plural" : "Paladins"
+		},
+		"faction" : "castle",
+		"level" : 7,
+		"cost" : {
+			"gold" : 3000,
+			"ore" : 2
+		},
+		"speed" : 7,
+		"hitPoints" : 225,
+		"attack" : 20,
+		"defense" : 25,
+		"damage" : {
+			"min" : 25,
+			"max" : 45
+		},
+		"fightValue" : 5454,
+		"aiValue" : 5500,
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"growth" : 2,
+		"abilities" : {
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"castsPrayer" : {
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "prayer",
+				"val" : 2,
+				"propagator" : "HERO",
+				"description" : "{Pray}\nPaladins cast Adv. Prayer spell at the beginning of the battle",
+				"icon" : "icons/e_prayer.png"
+			},
+			"noCastByDefault" : {
+				"type" : "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"castsDestroyUndead" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "destroyUndead",
+				"val" : 3
+			},
+			//sprobować rozszerzyć na demony
+			"destroyPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "destroyUndead",
+				"val" : 50
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ENCHANTED",
+					"subtype" : "prayer"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ENCHANTED",
+					"subtype" : "bless"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			}
+		],
+		"graphics" : {
+			"iconLarge" : "creatures/castle/iconsBig/paladinBig.png",
+			"iconSmall" : "creatures/castle/iconsSmall/paladinSmall.png",
+			"map" : "creatures/castle/map/CPldnmap.def",
+			"animation" : "creatures/castle/battle/Cpaladin.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/castle/templar/TempATTK.wav",
+			"defend" : "creatures/castle/templar/TempDFND.wav",
+			"killed" : "creatures/castle/templar/TempDEAD.wav",
+			"move" : "creatures/castle/templar/TempMOVE.wav",
+			"wince" : "creatures/castle/templar/TempWNCE.wav"
+		}
+	}
+}
