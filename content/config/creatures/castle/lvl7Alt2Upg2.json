@@ -60,7 +60,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "forbearance",
 				"val" : 3,
-				"description" : "{Forbearance}\nCan cast Forbearance without skipping a turn (2 Power).",
+				"description" : "{Forbearance}\nCan cast Forbearance without skipping a turn (2 Power)."
 			},
 			"spellpoints" : {
 				"type" : "CASTS",
