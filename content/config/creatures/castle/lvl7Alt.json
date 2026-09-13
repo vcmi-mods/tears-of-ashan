@@ -30,23 +30,12 @@
 		],
 		"doubleWide" : true,
 		"abilities" : {
+			"KING_2" : {
+				"type" : "KING",
+				"val" : 2
+			},
 			"canFly" : {
 				"type" : "FLYING"
-			},
-			"castPrayer" : {
-				"type" : "SPELLCASTER",
-				"subtype" : "prayer",
-				"val" : 3,
-				"description" : "{Spellcaster}\nCan cast Expert Prayer (100% Power).",
-				"icon" : "zvs/Lib1.res/spellsSOD/prayer3.png"
-			},
-			"prayerPower" : {
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 1
-			},
-			"spellpoints" : {
-				"type" : "CASTS",
-				"val" : 1
 			},
 			"raisesMorale" : {
 				"type" : "MORALE",
@@ -55,10 +44,6 @@
 				"stacking" : "Angels",
 				"description" : "{Raises Morale}\nAngels, Archangels, and Seraphim raise allied units' Morale by 1.",
 				"icon" : "zvs/Lib1.res/bonusmoraleangel"
-			},
-			"KING_2" : {
-				"type" : "KING",
-				"val" : 2
 			},
 			"hateDevils" : {
 				"type" : "HATE",
@@ -78,6 +63,41 @@
 				"val" : 50,
 				"description" : "{Hates Devils}\nDoes 50% more Damage to Devils, Arch Devils, and Arch Demons.",
 				"icon" : "zvs/Lib1.res/hatearchangels.png"
+			},
+			"castPrayer" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "prayer",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Prayer (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/prayer3.png"
+			},
+			"prayerPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"immunityAura" : {
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "spellSchool.any",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"anyOf",
+					{
+						"type" : "UNIT_ADJACENT",
+						"creature" : "seraphAU"
+					},
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "seraphAU",
+						"includeUpgrades" : false
+					}
+				],
+				"description" : "{Aura of Purity}\nSeraphim and adjacent friendly units are immune to debuffing spells.",
+				"icon" : "bonuses/auraOfPurity.png"
 			}
 		},
 		"graphics" : {

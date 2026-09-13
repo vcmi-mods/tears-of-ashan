@@ -109,7 +109,7 @@
 		"aiValue" : 4400,
 		"fightValue" : 4400,
 		"cost" : {
-			"gold" : 2500,
+			"gold" : 2000,
 			"sulfur" : 1
 		},
 		"abilities#override" : {
@@ -139,10 +139,10 @@
 		"defense" : 20,
 		"hitPoints" : 300,
 		"speed" : 8,
-		"aiValue" : 6800,
-		"fightValue" : 6600,
+		"aiValue" : 6650,
+		"fightValue" : 5375,
 		"cost" : {
-			"gold" : 4000,
+			"gold" : 3500,
 			"sulfur" : 2
 		},
 		"abilities" : {

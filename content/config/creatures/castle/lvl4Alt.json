@@ -13,7 +13,7 @@
 			"max" : 12
 		},
 		"hitPoints" : 45,
-		"speed" : 6,
+		"speed" : 7,
 		"growth" : 4,
 		"aiValue" : 588,
 		"fightValue" : 588,

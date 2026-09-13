@@ -1,7 +1,7 @@
 {
 	"core:castle" : {
 		"town" : {
-			"hallBackground" : "TPTHBKCS",
+			"hallBackground" : "town-screen/castle/castleHallBg.png",
 			"buildingsIcons" : "town-screen/castle/HALLCSTL",
 
 			"creatures" : [
@@ -38,7 +38,10 @@
 				[
 					"angel",
 					"archangel",
-					"seraphAU"
+					"seraphAU",
+					"landsknechtAU",
+					"swordMasterAU",
+					"doppelsoldnerAU"
 				]
 			],
 
@@ -104,8 +107,116 @@
 					"z" : -1,
 					"border" : "TOCSANG2.PCX",
 					"area" : "town-screen/cyan"
+				},
+				"dwellingLvl7B" : {
+					"border" : "town-screen/castle/borders/TBCAlt7border.bmp",
+					"area" : "town-screen/castle/areas/TBCAlt7area.bmp",
+					"animation" : "town-screen/castle/TBCAlt7.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwellingUpLvl7B" : {
+					"border" : "town-screen/castle/borders/TBCAlt7UPborder.bmp",
+					"area" : "town-screen/castle/areas/TBCAlt7UParea.bmp",
+					"animation" : "town-screen/castle/TBCAlt7UP.def",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
+				},
+				"dwellingUp2Lvl7B" : {
+					"border" : "town-screen/castle/borders/TBCAlt7UPborder.bmp",
+					"area" : "town-screen/cyan",
+					"animation" : "town-screen/cyan",
+					"x" : 0,
+					"y" : 0,
+					"z" : 1
 				}
 			},
+
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern",
+						"special3"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"shipyard",
+						"special1"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl7B",
+						"dwellingUpLvl7B"
+					]
+				]
+			],
 
 			"buildings" : {
 				"horde1Upgr2" : {
@@ -212,7 +323,19 @@
 						"sulfur" : 5,
 						"crystal" : 5,
 						"gems" : 5
-					}
+					},
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl7B"
+							]
+						]
+					]
 				},
 				"dwellingUpLvl7" : {
 					"description" : "The Portal of Glory allows you to recruit Archangels and Seraphim."
@@ -225,6 +348,53 @@
 						"allOf",
 						[
 							"dwellingUpLvl7"
+						]
+					]
+				},
+				"dwellingLvl7B" : {
+					"id" : 57,
+					"name" : "Cathedral",
+					"description" : "The Cathedral allows you to recruit Landsknechts.",
+					"cost" : {
+						"gold" : 7500,
+						"wood" : 10,
+						"ore" : 15,
+						"gems" : 5
+					},
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"noneOf",
+							[
+								"dwellingLvl7"
+							]
+						]
+					]
+				},
+				"dwellingUpLvl7B" : {
+					"id" : 64,
+					"name" : "Upg. Cathedral",
+					"description" : "The Cathedral allows you to recruit Sword Masters and Doppelsoldner.",
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 5,
+						"ore" : 15,
+						"gems" : 10
+					},
+					"upgrades" : "dwellingLvl7B"
+				},
+				"dwellingUp2Lvl7B" : {
+					"id" : 71,
+					"name" : "Upg. Cathedral",
+					"description" : "The Cathedral allows you to recruit Sword Masters and Doppelsoldner.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl7B"
 						]
 					]
 				}

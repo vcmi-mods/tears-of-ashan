@@ -1,0 +1,198 @@
+{
+	"mdtTemplar" : {
+		"name" : {
+			"singular" : "Templar",
+			"plural" : "Templars"
+		},
+		"faction" : "castle",
+		"level" : 7,
+		"upgrades" : [
+			"mdtPaladin"
+		],
+		"cost" : {
+			"gold" : 1400,
+			"ore" : 1
+		},
+		"speed" : 5,
+		"hitPoints" : 175,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" : {
+			"min" : 25,
+			"max" : 45
+		},
+		"fightValue" : 2946,
+		"aiValue" : 2700,
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"growth" : 2,
+		"abilities" : {
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"noCastByDefault" : {
+				"type" : "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"castsDestroyUndead" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "destroyUndead",
+				"val" : 3
+			},
+			"destroyPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "destroyUndead",
+				"val" : 30
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "ENCHANTED",
+					"subtype" : "prayer"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					3,
+					3,
+					3,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3
+				]
+			}
+		],
+		"graphics" : {
+			"iconLarge" : "creatures/castle/iconsBig/templarBig.bmp",
+			"iconSmall" : "creatures/castle/iconsSmall/templarSmall.bmp",
+			"map" : "creatures/castle/map/CTmplrmap.def",
+			"animation" : "creatures/castle/battle/CTemplar.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 0.8
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/castle/templar/TempATTK.wav",
+			"defend" : "creatures/castle/templar/TempDFND.wav",
+			"killed" : "creatures/castle/templar/TempDEAD.wav",
+			"move" : "creatures/castle/templar/TempMOVE.wav",
+			"wince" : "creatures/castle/templar/TempWNCE.wav"
+		}
+	}
+}

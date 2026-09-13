@@ -6,8 +6,8 @@
 		},
 		"faction" : "tower",
 		"level" : 7,
-		"attack" : 26,
-		"defense" : 22,
+		"attack" : 28,
+		"defense" : 20,
 		"damage" : {
 			"min" : 40,
 			"max" : 60

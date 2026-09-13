@@ -333,6 +333,10 @@
 		}
 	},
 	"core:behemoth" : {
+		"cost" : {
+			"gold" : 2000,
+			"crystal" : 1
+		},
 		"abilities" : {
 			"battlecryBonus" : {
 				"type" : "PRIMARY_SKILL",
@@ -356,10 +360,10 @@
 	"core:ancientBehemoth" : {
 		"attack" : 20,
 		"defense" : 20,
-		"aiValue" : 6250,
-		"fightValue" : 5450,
+		"aiValue" : 6375,
+		"fightValue" : 5425,
 		"cost" : {
-			"gold" : 3000,
+			"gold" : 3500,
 			"crystal" : 2
 		},
 		"abilities" : {
