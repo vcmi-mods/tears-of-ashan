@@ -19,7 +19,6 @@
 
 		"flags" : {
 			"damage" : true,
-			"offensive" : true,
 			"negative" : true
 		},
 
@@ -55,6 +54,11 @@
 
 		"levels" : {
 			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
 				"range" : "0,1",
 				"targetModifier" : {
 					"smart" : false
