@@ -1,15 +1,15 @@
 {
     "hero.campaign-heroes.finneasVilmar.specialty.description": "Заклинание \"Оживление мертвецов\" увеличивает эффект на 5% за каждые N уровней героя, где N - уровень целевого существа.",
-    "hero.campaign-heroes.generalKendal.specialty.description": "Получает 5% бонус к уровню навыка „Защита“ за каждый уровень.",
-    "hero.campaign-heroes.generalKendal.specialty.name": "Защита",
-    "hero.campaign-heroes.generalKendal.specialty.tooltip": "Бонус вторичного навыка: Защита",
+    "hero.campaign-heroes.generalKendal.specialty.description": "Получает 5% бонус к уровню навыка «Доспехи» за каждый уровень героя.",
+    "hero.campaign-heroes.generalKendal.specialty.name": "Доспехи",
+    "hero.campaign-heroes.generalKendal.specialty.tooltip": "Улучшение вторичного навыка «Доспехи»",
     "hero.campaign-heroes.ordwald.specialty.description": "Эффект заклинания \"Палач\" увеличивается на 20 для существ 1-2 уровня, на 16 для существ 3-4 уровня, на 12 для существ 5-6 уровня и на 8 для существ 7 уровня.",
     "hero.campaign-heroes.youngAlkin.specialty.description": "Увеличивает скорость союзных Горгон, Могучих Горгон и Кислотных Горгон на 1, а их навыки атаки и защиты - на 20% за каждые 5 уровней (округляется вверх).",
     "hero.campaign-heroes.youngCatherine.specialty.description": "Увеличивает скорость союзных Мечников, Крестоносцев и Гвардейцев на 1, а их навыки атаки и защиты - на 20% за каждые 4 уровня (округляется вверх).",
-    "hero.campaign-heroes.youngChristian.specialty.description": "Получает 5% бонус к уровню навыка „Логистика“ за каждый уровень.",
+    "hero.campaign-heroes.youngChristian.specialty.description": "Получает 5% бонус к навыку «Логистика» за каждый уровень героя.",
     "hero.campaign-heroes.youngChristian.specialty.name": "Логистика",
-    "hero.campaign-heroes.youngChristian.specialty.tooltip": "Бонус вторичного навыка: Логистика",
+    "hero.campaign-heroes.youngChristian.specialty.tooltip": "Улучшение вторичного навыка «Логистика»",
     "hero.campaign-heroes.youngYog.specialty.description": "Дальность размещения юнитов при помощи навыка Тактика увеличивается на 2.",
     "hero.campaign-heroes.youngYog.specialty.name": "Тактика",
-    "hero.campaign-heroes.youngYog.specialty.tooltip": "Бонус вторичного навыка: Тактика"
+    "hero.campaign-heroes.youngYog.specialty.tooltip": "Улучшение вторичного навыка «Тактика»"
 }
