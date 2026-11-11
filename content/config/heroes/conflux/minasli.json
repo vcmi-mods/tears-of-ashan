@@ -44,16 +44,16 @@
 			},
 			"bonuses" : {
 				"psychic2dark" : {
-					"subtype" : "creature.psychicElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.psychicElemental" } ]
 				},
 				"magic2dark" : {
-					"subtype" : "creature.magicElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.magicElemental" } ]
 				},
 				"astral2dark" : {
-					"subtype" : "astralElementalAU"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "astralElementalAU" } ]
 				},
 				"light2dark" : {
-					"subtype" : "lightElementalAU"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "lightElementalAU" } ]
 				}
 			}
 		},

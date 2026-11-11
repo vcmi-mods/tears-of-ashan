@@ -65,7 +65,6 @@
 			},
 			"hornSpellPower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"subtype" : "hornSpell",
 				"val" : 50
 			},
 			"spellpoints" : {

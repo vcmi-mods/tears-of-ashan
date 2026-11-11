@@ -152,6 +152,6 @@
 		}
 	},
 	"hota.bulwark:runes" : {
-		"special" : true
+		"tags" : { "special" : true }
 	}
 }

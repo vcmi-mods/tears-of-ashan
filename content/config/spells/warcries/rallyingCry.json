@@ -69,54 +69,62 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"morale" : {
-						"type" : "MORALE",
-						"val" : 1,
-						"duration" : "N_TURNS"
-					},
-					"luck" : {
-						"type" : "LUCK",
-						"val" : 1,
-						"duration" : "N_TURNS"
-					},
-					"combatAttackRageLevels" : {
-						"type" : "RAGE_LEVEL_COUNTER",
-						"val" : 3,
-						"duration" : "ONE_BATTLE",
-						"propagator" : "BATTLE_WIDE",
-						"propagationUpdater" : "BONUS_OWNER_UPDATER",
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "RAGE_LEVEL_COUNTER"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"morale" : {
+								"type" : "MORALE",
+								"val" : 1,
+								"duration" : "N_TURNS"
+							},
+							"luck" : {
+								"type" : "LUCK",
+								"val" : 1,
+								"duration" : "N_TURNS"
+							},
+							"combatAttackRageLevels" : {
+								"type" : "RAGE_LEVEL_COUNTER",
+								"val" : 3,
+								"duration" : "ONE_BATTLE",
+								"propagator" : "BATTLE_WIDE",
+								"propagationUpdater" : "BONUS_OWNER_UPDATER",
+								"limiters" : [
+									{
+										"type" : "HAS_ANOTHER_BONUS_LIMITER",
+										"bonusType" : "RAGE_LEVEL_COUNTER"
+									}
+								]
 							}
-						]
+						}
 					}
 				}
 			},
 			"none" : {
 				"description" : "{Rallying Cry}\n\nRallies all friendly Stronghold units with an awe-inspiring warcry.\n\nEach unit gains +1 Morale and +1 Luck.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 8,
-				"power" : 10,
-				"effects" : {}
+				"power" : 10
 			},
 			"basic" : {
 				"description" : "{Basic Rallying Cry}\n\nRallies all friendly Stronghold units with an awe-inspiring warcry.\n\nEach unit gains +1 Morale and +1 Luck.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 8,
-				"power" : 10,
-				"effects" : {}
+				"power" : 10
 			},
 			"advanced" : {
 				"description" : "{Advanced Rallying Cry}\n\nRallies all friendly Stronghold units with an awe-inspiring warcry.\n\nEach unit gains +2 Morale and +2 Luck.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 8,
 				"power" : 10,
-				"effects" : {
-					"morale" : {
-						"val" : 2
-					},
-					"luck" : {
-						"val" : 2
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"morale" : {
+								"val" : 2
+							},
+							"luck" : {
+								"val" : 2
+							}
+						}
 					}
 				}
 			},
@@ -124,12 +132,17 @@
 				"description" : "{Expert Rallying Cry}\n\nRallies all friendly Stronghold units with an awe-inspiring warcry.\n\nEach unit gains +3 Morale and +3 Luck.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 8,
 				"power" : 10,
-				"effects" : {
-					"morale" : {
-						"val" : 3
-					},
-					"luck" : {
-						"val" : 3
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"morale" : {
+								"val" : 3
+							},
+							"luck" : {
+								"val" : 3
+							}
+						}
 					}
 				}
 			}

@@ -656,6 +656,7 @@
 		"config/spells/abilities/forbearance.json",
 		"config/spells/abilities/gremlinRepair.json",
 		"config/spells/abilities/hatespike.json",
+		"config/spells/abilities/hornSpell.json",
 		"config/spells/abilities/lightningBreath.json",
 		"config/spells/abilities/ogreFrenzy.json"
 	],
@@ -934,14 +935,6 @@
 		"config/university.json",
 		"config/witchHut.json"
 	],
-
-	"scripts" : {
-		"core:damage" : {
-			"patches" : {
-				"append" : "lightningBreathPatch.lua"
-			}
-		}
-	},
 
 	"settings" : {
 		"combat" : {

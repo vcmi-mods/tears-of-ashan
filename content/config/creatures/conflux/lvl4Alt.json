@@ -59,7 +59,8 @@
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 25
 			}
 		},

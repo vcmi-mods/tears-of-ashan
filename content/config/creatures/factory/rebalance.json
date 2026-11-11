@@ -99,13 +99,8 @@
 			},
 			"castDetonation" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "detonates02",
+				"subtype" : "abilityDetonation",
 				"val" : 0
-			},
-			"detonationPower" : {
-				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "detonates02",
-				"val" : 25
 			},
 			"castCount" : {
 				"type" : "CASTS",

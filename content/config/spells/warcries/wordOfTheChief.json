@@ -69,55 +69,63 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 2,
-						"duration" : "N_TURNS"
-					},
-					"initiativeBoost" : {
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "STACK_GETS_TURN"
-					},
-					"combatAttackRageLevels" : {
-						"type" : "RAGE_LEVEL_COUNTER",
-						"val" : 3,
-						"duration" : "ONE_BATTLE",
-						"propagator" : "BATTLE_WIDE",
-						"propagationUpdater" : "BONUS_OWNER_UPDATER",
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "RAGE_LEVEL_COUNTER"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stacksSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 2,
+								"duration" : "N_TURNS"
+							},
+							"initiativeBoost" : {
+								"type" : "STACKS_SPEED",
+								"val" : 1,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "STACK_GETS_TURN"
+							},
+							"combatAttackRageLevels" : {
+								"type" : "RAGE_LEVEL_COUNTER",
+								"val" : 3,
+								"duration" : "ONE_BATTLE",
+								"propagator" : "BATTLE_WIDE",
+								"propagationUpdater" : "BONUS_OWNER_UPDATER",
+								"limiters" : [
+									{
+										"type" : "HAS_ANOTHER_BONUS_LIMITER",
+										"bonusType" : "RAGE_LEVEL_COUNTER"
+									}
+								]
 							}
-						]
+						}
 					}
 				}
 			},
 			"none" : {
 				"description" : "{Word of the Chief}\n\nSurges a friendly Stronghold unit forward with a commanding shout.\n\nThe unit gains +2 Speed (and +1 Initiative this turn of combat).\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 10,
-				"power" : 10,
-				"effects" : {}
+				"power" : 10
 			},
 			"basic" : {
 				"description" : "{Basic Word of the Chief}\n\nSurges a friendly Stronghold unit forward with a commanding shout.\n\nThe unit gains +2 Speed (and +1 Initiative this turn of combat).\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 10,
-				"power" : 10,
-				"effects" : {}
+				"power" : 10
 			},
 			"advanced" : {
 				"description" : "{Advanced Word of the Chief}\n\nSurges a friendly Stronghold unit forward with a commanding shout.\n\nThe unit gains +4 Speed (and +2 Initiative this turn of combat).\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 10,
 				"power" : 10,
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : 4
-					},
-					"initiativeBoost" : {
-						"val" : 2
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stacksSpeed" : {
+								"val" : 4
+							},
+							"initiativeBoost" : {
+								"val" : 2
+							}
+						}
 					}
 				}
 			},
@@ -125,12 +133,17 @@
 				"description" : "{Expert Word of the Chief}\n\nSurges all friendly Stronghold units forward with a commanding shout.\n\nEach unit gains +4 Speed (and +3 Initiative this turn of combat).\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 10,
 				"power" : 10,
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : 4
-					},
-					"initiativeBoost" : {
-						"val" : 3
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stacksSpeed" : {
+								"val" : 4
+							},
+							"initiativeBoost" : {
+								"val" : 3
+							}
+						}
 					}
 				},
 				"range" : "X"

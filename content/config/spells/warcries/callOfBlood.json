@@ -71,48 +71,56 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"damageMax" : {
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageMax",
-						"val" : 1,
-						"duration" : "N_TURNS",
-						"updater" : "TIMES_STACK_LEVEL"
-					},
-					"combatAttackRageLevels" : {
-						"type" : "RAGE_LEVEL_COUNTER",
-						"val" : 3,
-						"duration" : "ONE_BATTLE",
-						"propagator" : "BATTLE_WIDE",
-						"propagationUpdater" : "BONUS_OWNER_UPDATER",
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "RAGE_LEVEL_COUNTER"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageMax" : {
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageMax",
+								"val" : 1,
+								"duration" : "N_TURNS",
+								"updater" : "TIMES_STACK_LEVEL"
+							},
+							"combatAttackRageLevels" : {
+								"type" : "RAGE_LEVEL_COUNTER",
+								"val" : 3,
+								"duration" : "ONE_BATTLE",
+								"propagator" : "BATTLE_WIDE",
+								"propagationUpdater" : "BONUS_OWNER_UPDATER",
+								"limiters" : [
+									{
+										"type" : "HAS_ANOTHER_BONUS_LIMITER",
+										"bonusType" : "RAGE_LEVEL_COUNTER"
+									}
+								]
 							}
-						]
+						}
 					}
 				}
 			},
 			"none" : {
 				"description" : "{Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe unit gains (1 * Creature Level) Maximum Damage.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 6,
-				"power" : 10,
-				"effects" : {}
+				"power" : 10
 			},
 			"basic" : {
 				"description" : "{Basic Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe unit gains (1 * Creature Level) Maximum Damage.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 6,
-				"power" : 10,
-				"effects" : {}
+				"power" : 10
 			},
 			"advanced" : {
 				"description" : "{Advanced Call of Blood}\n\nInstills a primal fury in the target friendly Stronghold unit.\n\nThe unit gains (2 * Creature Level) Maximum Damage.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 6,
 				"power" : 10,
-				"effects" : {
-					"damageMax" : {
-						"val" : 2
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageMax" : {
+								"val" : 2
+							}
+						}
 					}
 				}
 			},
@@ -120,9 +128,14 @@
 				"description" : "{Expert Call of Blood}\n\nInstills a primal fury in all friendly Stronghold units.\n\nAll units gain (2 * Creature Level) Maximum Damage.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 6,
 				"power" : 10,
-				"effects" : {
-					"damageMax" : {
-						"val" : 2
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageMax" : {
+								"val" : 2
+							}
+						}
 					}
 				},
 				"range" : "X"

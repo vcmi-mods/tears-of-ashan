@@ -53,9 +53,15 @@
 				"icon" : "zvs/Lib1.res/acidattack.png"
 			},
 			"acidBreathChance" : {
-				"type" : "ACID_BREATH",
-				"val" : 25,
-				"addInfo" : 30
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "acidBreathDamage",
+				"val" : 30
+			},
+			// damage of the cast above, multiplied by the number of creatures in the stack
+			"acidBreathDamage" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "acidBreathDamage",
+				"val" : 25
 			},
 			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",

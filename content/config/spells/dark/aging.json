@@ -57,12 +57,17 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"stackHealth" : {
-						"val" : -20,
-						"type" : "STACK_HEALTH",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stackHealth" : {
+								"val" : -20,
+								"type" : "STACK_HEALTH",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -80,9 +85,14 @@
 				"description" : "{Aging}\n\nCauses an enemy creature to age rapidly.\n\nThe unit has their Health reduced by 35%. Does not affect undead or non-living units.\n",
 				"cost" : 25,
 				"power" : 10,
-				"effects" : {
-					"stackHealth" : {
-						"val" : -35
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stackHealth" : {
+								"val" : -35
+							}
+						}
 					}
 				}
 			},
@@ -90,9 +100,14 @@
 				"description" : "{Aging}\n\nCauses an enemy creature to age rapidly.\n\nThe unit has their Health reduced by 50%. Does not affect undead or non-living units.\n",
 				"cost" : 25,
 				"power" : 10,
-				"effects" : {
-					"stackHealth" : {
-						"val" : -50
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stackHealth" : {
+								"val" : -50
+							}
+						}
 					}
 				}
 			}

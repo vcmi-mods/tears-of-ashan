@@ -58,8 +58,9 @@
 				"icon" : "zvs/Lib1.res/bonusnegativemorale.png"
 			},
 			"deathStare" : {
-				"type" : "DEATH_STARE",
-				"subtype" : "deathStareGorgon",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : 10
 			},
 			"dragonSkeleton" : {

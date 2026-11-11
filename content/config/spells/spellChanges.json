@@ -223,9 +223,13 @@
 			},
 			"expert" : {
 				"description" : "{Expert Fortune}\n\nBestows great luck upon allied troops.\n\nIncreases the Luck of all allied units by 3.",
-				"effects" : {
-					"luck" : {
-						"val" : 3
+				"battleEffects" : {
+					"fortune" : {
+						"bonus" : {
+							"luck" : {
+								"val" : 3
+							}
+						}
 					}
 				}
 			}
@@ -401,9 +405,13 @@
 			},
 			"expert" : {
 				"description" : "{Expert Mirth}\n\nRallies allied troops.\n\nIncreases the Morale of all allied units by 3.",
-				"effects" : {
-					"morale" : {
-						"val" : 3
+				"battleEffects" : {
+					"mirth" : {
+						"bonus" : {
+							"morale" : {
+								"val" : 3
+							}
+						}
 					}
 				}
 			}
@@ -432,9 +440,13 @@
 			},
 			"expert" : {
 				"description" : "{Expert Misfortune}\n\nBestows bad luck upon enemy troops.\n\nDecreases the Luck of all enemy units by 3.",
-				"effects" : {
-					"luck" : {
-						"val" : -3
+				"battleEffects" : {
+					"misfortune" : {
+						"bonus" : {
+							"luck" : {
+								"val" : -3
+							}
+						}
 					}
 				}
 			}
@@ -494,9 +506,13 @@
 			},
 			"expert" : {
 				"description" : "{Expert Sorrow}\n\nDemoralises enemy troops.\n\nDecreases the Morale of all enemy units by 3.",
-				"effects" : {
-					"morale" : {
-						"val" : -3
+				"battleEffects" : {
+					"sorrow" : {
+						"bonus" : {
+							"morale" : {
+								"val" : -3
+							}
+						}
 					}
 				}
 			}
@@ -676,25 +692,30 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "new-old-spells-plus:deepFreeze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"turns" : 3
-					},
-					"generaldamageReduction" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : -20,
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"turns" : 3
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
+								"subtype" : "new-old-spells-plus:deepFreeze",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"turns" : 3
+							},
+							"generaldamageReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"val" : -20,
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"turns" : 3
+							}
+						}
 					}
 				}
 			},
@@ -712,9 +733,14 @@
 				"description" : "{Advanced Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop receives (Spell Power x 50 + 100) damage. It receives 35% increased damage until it is attacked or thaws out.",
 				"cost" : 25,
 				"power" : 100,
-				"effects" : {
-					"generaldamageReduction" : {
-						"val" : -35
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generaldamageReduction" : {
+								"val" : -35
+							}
+						}
 					}
 				}
 			},
@@ -722,9 +748,14 @@
 				"description" : "{Expert Deep Freeze}\n\nFreezes the target enemy troop with a wave of sheer cold for 3 turns.\n\nTarget enemy troop receives (Spell Power x 50 + 150) damage. It receives 50% increased damage until it is attacked or thaws out.",
 				"cost" : 25,
 				"power" : 150,
-				"effects" : {
-					"generaldamageReduction" : {
-						"val" : -50
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generaldamageReduction" : {
+								"val" : -50
+							}
+						}
 					}
 				}
 			}
@@ -733,19 +764,24 @@
 	"new-old-spells-plus:dragonStrength" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"health" : {
-						"type" : "STACK_HEALTH",
-						"val" : 20,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"damage" : {
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"val" : 20,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"health" : {
+								"type" : "STACK_HEALTH",
+								"val" : 20,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							},
+							"damage" : {
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageBoth",
+								"val" : 20,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -760,24 +796,34 @@
 			"advanced" : {
 				"description" : "{Advanced Dragon Strength}\n\nImbues the target allied troop with the strength and vitality of a Dragon.\n\nIncreases the Health and damage of target allied troop by 35%. Does not affect Dragons.",
 				"cost" : 24,
-				"effects" : {
-					"health" : {
-						"val" : 35
-					},
-					"damage" : {
-						"val" : 35
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"health" : {
+								"val" : 35
+							},
+							"damage" : {
+								"val" : 35
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Dragon Strength}\n\nImbues the target allied troop with the strength and vitality of a Dragon.\n\nIncreases the Health and damage of target allied troop by 50%. Does not affect Dragons.",
 				"cost" : 24,
-				"effects" : {
-					"health" : {
-						"val" : 50
-					},
-					"damage" : {
-						"val" : 50
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"health" : {
+								"val" : 50
+							},
+							"damage" : {
+								"val" : 50
+							}
+						}
 					}
 				}
 			}
@@ -880,67 +926,87 @@
 			"none" : {
 				"description" : "{Puppet Master}\n\nPuppeteers an enemy troop under your control until they receive damage.\n\nThe affected troop has its Speed reduced by 50%. Does not affect undead or non-living units.",
 				"cost" : 40,
-				"effects" : {
-					"undead" : {
-						"type" : "HYPNOTIZED",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"speed" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"val" : -50
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"undead" : {
+								"type" : "HYPNOTIZED",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							},
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"val" : -50
+							}
+						}
 					}
 				}
 			},
 			"basic" : {
 				"description" : "{Basic Puppet Master}\n\nPuppeteers an enemy troop under your control until they receive damage.\n\nThe affected troop has its Speed reduced by 50%. Does not affect undead or non-living units.",
 				"cost" : 35,
-				"effects" : {
-					"undead" : {
-						"type" : "HYPNOTIZED",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"speed" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"val" : -50
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"undead" : {
+								"type" : "HYPNOTIZED",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							},
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"val" : -50
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
 				"description" : "{Advanced Puppet Master}\n\nPuppeteers an enemy troop under your control until they receive damage.\n\nThe affected troop has its Speed reduced by 25%. Does not affect undead or non-living units.",
 				"cost" : 35,
-				"effects" : {
-					"undead" : {
-						"type" : "HYPNOTIZED",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"speed" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"val" : -25
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"undead" : {
+								"type" : "HYPNOTIZED",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							},
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"val" : -25
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Puppet Master}\n\nPuppeteers an enemy troop under your control until they receive damage.\n\nDoes not affect undead or non-living units.",
 				"cost" : 35,
-				"effects" : {
-					"undead" : {
-						"type" : "HYPNOTIZED",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"undead" : {
+								"type" : "HYPNOTIZED",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			}

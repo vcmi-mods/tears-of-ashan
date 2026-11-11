@@ -57,13 +57,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"primarySkill" : {
-						"val" : 6,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"effectRange" : "ONLY_MELEE_FIGHT",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"val" : 6,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"effectRange" : "ONLY_MELEE_FIGHT",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
