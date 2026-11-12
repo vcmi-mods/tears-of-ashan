@@ -37,8 +37,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"magicMirror" : {
-					"type" : "ENCHANTED",
-					"subtype" : "magicMirror",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "magicMirror" },
 					"val" : 2
 				}
 			}

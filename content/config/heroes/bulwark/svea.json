@@ -52,7 +52,6 @@
 				},
 				"lightningBoltPower" : {
 					"type" : "CREATURE_SPELL_POWER",
-					"subtype" : "lightningBolt",
 					"val" : 100,
 					"updater" : "TIMES_HERO_LEVEL",
 					"limiters" : [

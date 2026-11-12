@@ -62,7 +62,6 @@
 			},
 			"waspSwarmPower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"subtype" : "waspSwarm",
 				"val" : 50
 			},
 			"spellpoints" : {
@@ -189,9 +188,15 @@
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
 			"acidBreath" : {
-				"type" : "ACID_BREATH",
-				"val" : 25,
-				"addInfo" : 50
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "acidBreathDamage",
+				"val" : 50
+			},
+			// damage of the cast above, multiplied by the number of creatures in the stack
+			"acidBreathDamage" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "acidBreathDamage",
+				"val" : 25
 			},
 			"reduceDefence" : {
 				"type" : "SPELL_AFTER_ATTACK",

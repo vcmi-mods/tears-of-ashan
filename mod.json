@@ -2,13 +2,16 @@
 	"name" : "Tears of Ashan",
 	"author" : "Aphra; see website for full list of credits!",
 	"contact" : "https://sites.google.com/view/tearsofashan/home",
-	"version" : "1.7.12",
+	"version" : "1.7.13",
 	"modType" : "Expansion",
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
 
 	"changelog" : {
+		"Public Beta 1.7.13" : [
+			"Updated to VCMI 1.8 format"
+		],
 		"Public Beta 1.7.12" : [
 			"Zealots can cast Expert Holy Word (25% Power)",
 			"Wyvern Monarch Attack 14 → 16; Poison 30% → 50%",
@@ -653,6 +656,7 @@
 		"config/spells/abilities/forbearance.json",
 		"config/spells/abilities/gremlinRepair.json",
 		"config/spells/abilities/hatespike.json",
+		"config/spells/abilities/hornSpell.json",
 		"config/spells/abilities/lightningBreath.json",
 		"config/spells/abilities/ogreFrenzy.json"
 	],
@@ -931,14 +935,6 @@
 		"config/university.json",
 		"config/witchHut.json"
 	],
-
-	"scripts" : {
-		"core:damage" : {
-			"patches" : {
-				"append" : "lightningBreathPatch.lua"
-			}
-		}
-	},
 
 	"settings" : {
 		"combat" : {

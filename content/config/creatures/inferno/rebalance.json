@@ -274,7 +274,8 @@
 				"hidden" : true
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 20
 			},
 			"hateGenies" : {
@@ -320,7 +321,8 @@
 				"icon" : "zvs/Lib1.res/e_fly3"
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 25
 			},
 			"immuneToFire" : {

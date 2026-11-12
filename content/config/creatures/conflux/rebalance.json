@@ -335,7 +335,8 @@
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 20
 			}
 		}
@@ -387,7 +388,8 @@
 				"icon" : "zvs/Lib1.res/vulnerabilitywater.png"
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 20
 			},
 			"castFireShield" : {
@@ -576,7 +578,8 @@
 		},
 		"abilities" : {
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 20
 			}
 		}
@@ -609,7 +612,9 @@
 				"val" : 1
 			},
 			"rebirth" : {
-				"type" : "REBIRTH",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : false },
 				"val" : 50
 			},
 			"immuneToFire" : {
@@ -621,7 +626,8 @@
 				"val" : 0
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 25
 			}
 		}

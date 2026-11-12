@@ -1,7 +1,7 @@
 {
 	"gatingDevilSpec" : {
 		"name" : "Gating",
-		"special" : true,
+		"tags" : { "special" : true },
 		"gainChance" : {
 			"might" : 0,
 			"magic" : 0,

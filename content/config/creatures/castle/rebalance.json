@@ -29,7 +29,6 @@
 			},
 			"holyWordPower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"subtype" : "holyWord",
 				"val" : 25
 			},
 			"spellpoints" : {

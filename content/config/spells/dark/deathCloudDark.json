@@ -19,7 +19,6 @@
 
 		"flags" : {
 			"damage" : true,
-			"offensive" : true,
 			"negative" : true
 		},
 
@@ -55,6 +54,11 @@
 
 		"levels" : {
 			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
 				"range" : "0,1",
 				"targetModifier" : {
 					"smart" : false
@@ -63,26 +67,22 @@
 			"none" : {
 				"description" : "{Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 20) damage. Does not affect undead or non-living units.\n",
 				"cost" : 15,
-				"power" : 20,
-				"effects" : {}
+				"power" : 20
 			},
 			"basic" : {
 				"description" : "{Basic Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 20) damage. Does not affect undead or non-living units.\n",
 				"cost" : 12,
-				"power" : 20,
-				"effects" : {}
+				"power" : 20
 			},
 			"advanced" : {
 				"description" : "{Advanced Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 40) damage. Does not affect undead or non-living units.\n",
 				"cost" : 12,
-				"power" : 40,
-				"effects" : {}
+				"power" : 40
 			},
 			"expert" : {
 				"description" : "{Expert Death Cloud}\n\nCauses a cloud of dark energy to engulf the selected target and any units adjacent to the target location.\n\nEach unit receives (Spell Power x 20 + 80) damage. Does not affect undead or non-living units.\n",
 				"cost" : 12,
-				"power" : 80,
-				"effects" : {}
+				"power" : 80
 			}
 		}
 	}

@@ -57,7 +57,6 @@
 			},
 			"infernoPower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"subtype" : "inferno",
 				"val" : 20
 			},
 			"spellpoints" : {

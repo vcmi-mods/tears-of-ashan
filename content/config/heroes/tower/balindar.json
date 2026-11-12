@@ -44,13 +44,13 @@
 			},
 			"bonuses" : {
 				"stoneToSteel" : {
-					"subtype" : "stoneGolem"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "stoneGolem" } ]
 				},
 				"ironToSteel" : {
-					"subtype" : "ironGolem"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "ironGolem" } ]
 				},
 				"magneticToSteel" : {
-					"subtype" : "magneticGolemAU"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "magneticGolemAU" } ]
 				}
 			}
 		},

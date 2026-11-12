@@ -855,22 +855,22 @@
 			},
 			"bonuses" : {
 				"archer2sharpshooter" : {
-					"subtype" : "creature.archer"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.archer" } ]
 				},
 				"marksman2sharpshooter" : {
-					"subtype" : "creature.marksman"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.marksman" } ]
 				},
 				"crossbowman2sharpshooter" : {
-					"subtype" : "creature.crossbowmanAU"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.crossbowmanAU" } ]
 				},
 				"woodElf2sharpshooter" : {
-					"subtype" : "creature.woodElf"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.woodElf" } ]
 				},
 				"grandElf2sharpshooter" : {
-					"subtype" : "creature.grandElf"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.grandElf" } ]
 				},
 				"wardancer2sharpshooter" : {
-					"subtype" : "creature.elfWardancerAU"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.elfWardancerAU" } ]
 				}
 			}
 		},
@@ -1620,22 +1620,22 @@
 			},
 			"bonuses" : {
 				"monk2enchanter" : {
-					"subtype" : "creature.monk"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.monk" } ]
 				},
 				"zealot2enchanter" : {
-					"subtype" : "creature.zealot"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.zealot" } ]
 				},
 				"priest2enchanter" : {
-					"subtype" : "creature.priestAU"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.priestAU" } ]
 				},
 				"mage2enchanter" : {
-					"subtype" : "creature.mage"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.mage" } ]
 				},
 				"archMage2enchanter" : {
-					"subtype" : "creature.archMage"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.archMage" } ]
 				},
 				"battleMage2enchanter" : {
-					"subtype" : "creature.battleMageAU"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.battleMageAU" } ]
 				}
 			}
 		},
