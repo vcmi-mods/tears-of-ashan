@@ -614,7 +614,9 @@
 			"rebirth" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "rebirth",
-				"addInfo" : { "guaranteed" : false },
+				"addInfo" : {
+					"guaranteed" : false
+				},
 				"val" : 50
 			},
 			"immuneToFire" : {

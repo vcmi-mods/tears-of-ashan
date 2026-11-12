@@ -1,7 +1,9 @@
 {
 	"runeloreIngaSpec" : {
 		"name" : "Runelore",
-		"tags" : { "special" : true },
+		"tags" : {
+			"special" : true
+		},
 		"gainChance" : {
 			"might" : 0,
 			"magic" : 0,
@@ -151,6 +153,8 @@
 		}
 	},
 	"hota.bulwark:runes" : {
-		"tags" : { "special" : true }
+		"tags" : {
+			"special" : true
+		}
 	}
 }

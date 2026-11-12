@@ -44,16 +44,36 @@
 			},
 			"bonuses" : {
 				"psychic2light" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.psychicElemental" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.psychicElemental"
+						}
+					]
 				},
 				"magic2light" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.magicElemental" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.magicElemental"
+						}
+					]
 				},
 				"astral2light" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "astralElementalAU" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "astralElementalAU"
+						}
+					]
 				},
 				"dark2light" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "darkElementalAU" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "darkElementalAU"
+						}
+					]
 				}
 			}
 		},

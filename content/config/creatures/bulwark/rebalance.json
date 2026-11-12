@@ -120,7 +120,9 @@
 			"yetiCure" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "yetiCure" },
+				"addInfo" : {
+					"spell" : "yetiCure"
+				},
 				"val" : 0,
 				"icon" : "hota/bulwark/bonuses/yetiCure",
 				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."

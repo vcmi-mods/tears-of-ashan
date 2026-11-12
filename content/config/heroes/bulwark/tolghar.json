@@ -35,7 +35,9 @@
 				"runeOfThunderclap" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "runeOfThunderclap" },
+					"addInfo" : {
+						"spell" : "runeOfThunderclap"
+					},
 					"val" : 2,
 					"icon" : "skills/runelore/runeloreEffect/runeOfThunderclap.png"
 				}

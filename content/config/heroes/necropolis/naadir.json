@@ -44,13 +44,28 @@
 			},
 			"bonuses" : {
 				"walkingDead2mummy" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.walkingDead" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.walkingDead"
+						}
+					]
 				},
 				"plaguezombie2mummy" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.zombieLord" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.zombieLord"
+						}
+					]
 				},
 				"rotzombie2mummy" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "rotZombieAU" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "rotZombieAU"
+						}
+					]
 				}
 			}
 		},

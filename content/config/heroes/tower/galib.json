@@ -39,7 +39,9 @@
 				"magicMirror" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "magicMirror" },
+					"addInfo" : {
+						"spell" : "magicMirror"
+					},
 					"val" : 2
 				}
 			}
