@@ -36,65 +36,10 @@
 
 		"specialty" : {
 			"bonuses" : {
-				"curseLvl3" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+				"curse" : {
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.curse",
-					"addInfo" : 1,
-					"limiters" : [
-						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 3,
-							"maxlevel" : 4
-						}
-					]
-				},
-				"curseLvl4" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
-					"subtype" : "spell.curse",
-					"addInfo" : 2,
-					"limiters" : [
-						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 4,
-							"maxlevel" : 5
-						}
-					]
-				},
-				"curseLvl5" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
-					"subtype" : "spell.curse",
-					"addInfo" : 3,
-					"limiters" : [
-						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 6
-						}
-					]
-				},
-				"curseLvl6" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
-					"subtype" : "spell.curse",
-					"addInfo" : 4,
-					"limiters" : [
-						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 6,
-							"maxlevel" : 7
-						}
-					]
-				},
-				"curseLvl7" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
-					"subtype" : "spell.curse",
-					"addInfo" : 8,
-					"limiters" : [
-						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7,
-							"maxlevel" : 11
-						}
-					]
+					"addInfo" : [ 0, 0, 1, 2, 3, 4, 8 ]
 				}
 			}
 		},
