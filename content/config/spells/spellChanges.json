@@ -845,37 +845,42 @@
 		},
 		"levels" : {
 			"base" : {
-				"effects#override" : {
-					"reducedamage" : {
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"val" : -100,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"turns" : 3
-					},
-					"reduceSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : -25,
-						"valueType" : "PERCENT_TO_BASE",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"turns" : 3
-					},
-					"noAttack" : {
-						"type" : "ADDITIONAL_ATTACK",
-						"val" : -1,
-						"valueType" : "INDEPENDENT_MIN",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"turns" : 3
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus#override" : {
+							"reduceDamage" : {
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageBoth",
+								"val" : -100,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"turns" : 3
+							},
+							"reduceSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : -25,
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"turns" : 3
+							},
+							"noAttack" : {
+								"type" : "ADDITIONAL_ATTACK",
+								"val" : -1,
+								"valueType" : "INDEPENDENT_MIN",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"turns" : 3
+							}
+						}
 					}
 				}
 			},
