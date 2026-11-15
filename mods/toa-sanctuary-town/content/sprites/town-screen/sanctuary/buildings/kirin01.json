@@ -1,10 +1,10 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "kirin01.png"
-        }
-    ],
-    "basepath": "town-screen/sanctuary/buildings/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "kirin01.png"
+		}
+	],
+	"basepath" : "town-screen/sanctuary/buildings/"
 }

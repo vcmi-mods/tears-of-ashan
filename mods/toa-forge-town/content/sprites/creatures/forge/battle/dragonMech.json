@@ -440,7 +440,7 @@
 			"frame" : 10,
 			"file" : "shootForward07.png"
 		},
-				{
+		{
 			"group" : 16,
 			"frame" : 0,
 			"file" : "shootDiagDown01.png"
@@ -494,7 +494,7 @@
 			"group" : 16,
 			"frame" : 10,
 			"file" : "shootDiagDown07.png"
-		},
+		}
 		//{
 		//	"group" : 20,
 		//	"frame" : 0,

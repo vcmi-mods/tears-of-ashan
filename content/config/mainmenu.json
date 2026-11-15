@@ -26,7 +26,9 @@
 			"y" : 548,
 			"size" : 18,
 			"amount" : 20,
-			"name" : [ "loadprog" ]
+			"name" : [
+				"loadprog"
+			]
 		}
 	},
 

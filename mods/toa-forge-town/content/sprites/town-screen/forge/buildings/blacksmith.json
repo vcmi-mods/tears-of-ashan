@@ -1,80 +1,80 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "blacksmith.png"
-        },
+	"images" : [
 		{
-            "group": 0,
-            "frame": 1,
-            "file": "blacksmith-01.png"
-        },
+			"group" : 0,
+			"frame" : 0,
+			"file" : "blacksmith.png"
+		},
 		{
-            "group": 0,
-            "frame": 2,
-            "file": "blacksmith-02.png"
-        },
+			"group" : 0,
+			"frame" : 1,
+			"file" : "blacksmith-01.png"
+		},
 		{
-            "group": 0,
-            "frame": 3,
-            "file": "blacksmith-03.png"
-        },
+			"group" : 0,
+			"frame" : 2,
+			"file" : "blacksmith-02.png"
+		},
 		{
-            "group": 0,
-            "frame": 4,
-            "file": "blacksmith-04.png"
-        },
+			"group" : 0,
+			"frame" : 3,
+			"file" : "blacksmith-03.png"
+		},
 		{
-            "group": 0,
-            "frame": 5,
-            "file": "blacksmith-05.png"
-        },
+			"group" : 0,
+			"frame" : 4,
+			"file" : "blacksmith-04.png"
+		},
 		{
-            "group": 0,
-            "frame": 6,
-            "file": "blacksmith-06.png"
-        },
+			"group" : 0,
+			"frame" : 5,
+			"file" : "blacksmith-05.png"
+		},
 		{
-            "group": 0,
-            "frame": 7,
-            "file": "blacksmith-07.png"
-        },
+			"group" : 0,
+			"frame" : 6,
+			"file" : "blacksmith-06.png"
+		},
 		{
-            "group": 0,
-            "frame": 8,
-            "file": "blacksmith-08.png"
-        },
+			"group" : 0,
+			"frame" : 7,
+			"file" : "blacksmith-07.png"
+		},
 		{
-            "group": 0,
-            "frame": 9,
-            "file": "blacksmith-09.png"
-        },
-		        {
-            "group": 0,
-            "frame": 10,
-            "file": "blacksmith-10.png"
-        },
+			"group" : 0,
+			"frame" : 8,
+			"file" : "blacksmith-08.png"
+		},
 		{
-            "group": 0,
-            "frame": 11,
-            "file": "blacksmith-11.png"
-        },
+			"group" : 0,
+			"frame" : 9,
+			"file" : "blacksmith-09.png"
+		},
 		{
-            "group": 0,
-            "frame": 12,
-            "file": "blacksmith-12.png"
-        },
+			"group" : 0,
+			"frame" : 10,
+			"file" : "blacksmith-10.png"
+		},
 		{
-            "group": 0,
-            "frame": 13,
-            "file": "blacksmith-13.png"
-        },
+			"group" : 0,
+			"frame" : 11,
+			"file" : "blacksmith-11.png"
+		},
 		{
-            "group": 0,
-            "frame": 14,
-            "file": "blacksmith-14.png"
-        }
-    ],
-    "basepath": "town-screen/forge/buildings/"
+			"group" : 0,
+			"frame" : 12,
+			"file" : "blacksmith-12.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "blacksmith-13.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "blacksmith-14.png"
+		}
+	],
+	"basepath" : "town-screen/forge/buildings/"
 }

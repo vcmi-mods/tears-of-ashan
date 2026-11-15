@@ -48,7 +48,7 @@
 			},
 			"noWallPenalty" : {
 				"type" : "NO_WALL_PENALTY"
-			},	
+			},
 			"castsDisruptingRay" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disruptingRay",

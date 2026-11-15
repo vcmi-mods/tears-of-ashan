@@ -92,7 +92,7 @@
 				"type" : "STACKS_SPEED",
 				"val" : 2,
 				"propagator" : "ARMY",
-				"limiters": [
+				"limiters" : [
 					{
 						"type" : "FACTION_LIMITER",
 						"faction" : "sanctuary"

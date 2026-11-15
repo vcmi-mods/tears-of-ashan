@@ -34,12 +34,16 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "fireball",
 				"val" : 100,
-				"addInfo" : [ 1, 1 ],
+				"addInfo" : [
+					1,
+					1
+				],
 				"duration" : [
 					"UNTIL_ATTACK",
 					"N_TURNS"
 				],
-				"limiters" : [ {
+				"limiters" : [
+					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "INCENDIARY_BONUS"
 					}

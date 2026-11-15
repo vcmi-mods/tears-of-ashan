@@ -22,11 +22,11 @@
 			},
 			"templates" : {
 				"female" : {
-					"animation" : "classes/cyborg/Map.def",
+					"animation" : "classes/cyborg/Map.def"
 					//"editorAnimation" : "classes/cyborg/FemaleEditor.def"
 				},
 				"male" : {
-					"animation" : "classes/cyborg/Map.def",
+					"animation" : "classes/cyborg/Map.def"
 					//"editorAnimation" : "classes/cyborg/MaleEditor.def"
 				}
 			}

@@ -1,10 +1,10 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "castle.png"
-        }
-    ],
-    "basepath": "map/sanctuary/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "castle.png"
+		}
+	],
+	"basepath" : "map/sanctuary/"
 }

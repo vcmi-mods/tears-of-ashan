@@ -1229,5 +1229,9 @@
 	"mod.toa-h5-cursors.name": "Kurzory Heroes V",
 	"mod.toa-h6-cursors.name": "Kurzory Heroes VI",
 	"mod.toa-strong-heroes.name": "Silní hrdinové",
-	"mod.toa-strong-heroes.description": "Povoluje sira Mullicha, Gelua, Dracona a Mutare Drake v náhodných mapách. Zakazuje lorda Haarta kvůli konfliktu se sirem Mullichem."
+	"mod.toa-strong-heroes.description": "Povoluje sira Mullicha, Gelua, Dracona a Mutare Drake v náhodných mapách. Zakazuje lorda Haarta kvůli konfliktu se sirem Mullichem.",
+	"mod.toa-h5-cursors.description": "Sada kurzorů ve stylu Heroes of Might and Magic V.",
+	"mod.toa-h6-cursors.description": "Sada kurzorů ve stylu Heroes of Might and Magic VI.",
+	"mod.toa-sanctuary-town.name": "Svatyně",
+	"mod.toa-sanctuary-town.description": "Frakce Svatyně z Heroes VI, jak ji znáš a máš rád."
 }

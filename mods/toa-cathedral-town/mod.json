@@ -47,7 +47,7 @@
 	"factions" : [
 		"config/town-screen/cathedral.json"
 	],
-	
+
 	"heroClasses" : [
 		"config/classes/inquisitor.json",
 		"config/classes/chaplain.json"
@@ -63,7 +63,7 @@
 		"config/heroes/cathedral/salvatore.json",
 		"config/heroes/cathedral/serguei.json",
 		"config/heroes/cathedral/ymoril.json",
-		
+
 		"config/heroes/cathedral/diane.json",
 		"config/heroes/cathedral/eileen.json",
 		"config/heroes/cathedral/ella.json",
@@ -74,7 +74,7 @@
 		"config/heroes/cathedral/seamus.json",
 		"config/heroes/cathedral/wilhelm.json"
 	],
-	
+
 	"creatures" : [
 		"config/creatures/cathedral/lvl1",
 		"config/creatures/cathedral/lvl1Up",
@@ -91,11 +91,11 @@
 		"config/creatures/cathedral/lvl7",
 		"config/creatures/cathedral/lvl7Up"
 	],
-	
+
 	//"artifacts" : [
 	//	"config/artifacts/"
 	//],
-	
+
 	"objects" : [
 		"config/dwellings.json"
 	]

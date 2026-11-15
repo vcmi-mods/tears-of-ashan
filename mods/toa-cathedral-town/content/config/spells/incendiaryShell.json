@@ -24,12 +24,12 @@
 		"graphics" : {
 			"iconEffect" : "SpellInt.def:0:22"
 		},
-		"sounds": {
-			"cast": "incendiaryShell.wav"
+		"sounds" : {
+			"cast" : "incendiaryShell.wav"
 		},
 		"targetType" : "LOCATION",
 		"levels" : {
-			"base":{
+			"base" : {
 				"description" : "{Incendiary Shell}\nLoads an incendiary rocket that causes splash damage after it lands.\n",
 				"range" : "0",
 				"power" : 1,
@@ -40,7 +40,9 @@
 						"duration" : "N_TURNS"
 					}
 				},
-				"targetModifier":{"smart":true}
+				"targetModifier" : {
+					"smart" : true
+				}
 			},
 			"none" : {},
 			"basic" : {},

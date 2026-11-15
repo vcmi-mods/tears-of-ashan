@@ -46,7 +46,7 @@
 								"val" : 5,
 								"duration" : "N_TURNS",
 								"turns" : 2
-							}               
+							}
 						},
 						{
 							"action" : "bonus",
@@ -56,7 +56,7 @@
 								"val" : 2,
 								"duration" : "N_TURNS",
 								"turns" : 2
-							}               
+							}
 						}
 					]
 				},

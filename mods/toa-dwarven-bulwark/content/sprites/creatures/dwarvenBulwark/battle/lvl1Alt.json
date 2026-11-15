@@ -1,415 +1,415 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "10003.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "10004.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "10005.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "10006.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "10007.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "10008.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "10009.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "10010.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "10011.snx.png"
-        },
-        {
-            "group": 0,
-            "frame": 9,
-            "file": "10012.snx.png"
-        },
-        {
-            "group": 1,
-            "frame": 0,
-            "file": "10055.snx.png"
-        },
-        {
-            "group": 1,
-            "frame": 1,
-            "file": "10056.snx.png"
-        },
-        {
-            "group": 1,
-            "frame": 2,
-            "file": "10057.snx.png"
-        },
-        {
-            "group": 1,
-            "frame": 3,
-            "file": "10058.snx.png"
-        },
-        {
-            "group": 1,
-            "frame": 4,
-            "file": "10059.snx.png"
-        },
-        {
-            "group": 1,
-            "frame": 5,
-            "file": "10060.snx.png"
-        },
-        {
-            "group": 2,
-            "frame": 0,
-            "file": "10055.snx.png"
-        },
-        {
-            "group": 2,
-            "frame": 1,
-            "file": "10056.snx.png"
-        },
-        {
-            "group": 2,
-            "frame": 2,
-            "file": "10057.snx.png"
-        },
-        {
-            "group": 2,
-            "frame": 3,
-            "file": "10058.snx.png"
-        },
-        {
-            "group": 2,
-            "frame": 4,
-            "file": "10059.snx.png"
-        },
-        {
-            "group": 2,
-            "frame": 5,
-            "file": "10060.snx.png"
-        },
-        {
-            "group": 3,
-            "frame": 0,
-            "file": "10017.snx.png"
-        },
-        {
-            "group": 3,
-            "frame": 1,
-            "file": "10018.snx.png"
-        },
-        {
-            "group": 3,
-            "frame": 2,
-            "file": "10019.snx.png"
-        },
-        {
-            "group": 3,
-            "frame": 3,
-            "file": "10020.snx.png"
-        },
-        {
-            "group": 3,
-            "frame": 4,
-            "file": "10021.snx.png"
-        },
-        {
-            "group": 3,
-            "frame": 5,
-            "file": "10022.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 0,
-            "file": "10051.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 1,
-            "file": "10052.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 2,
-            "file": "10053.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 3,
-            "file": "10054.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 4,
-            "file": "10054.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 5,
-            "file": "10054.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 6,
-            "file": "10054.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 7,
-            "file": "10054.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 8,
-            "file": "10053.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 9,
-            "file": "10052.snx.png"
-        },
-        {
-            "group": 4,
-            "frame": 10,
-            "file": "10051.snx.png"
-        },
-        {
-            "group": 5,
-            "frame": 0,
-            "file": "10061.snx.png"
-        },
-        {
-            "group": 5,
-            "frame": 1,
-            "file": "10062.snx.png"
-        },
-        {
-            "group": 5,
-            "frame": 2,
-            "file": "10063.snx.png"
-        },
-        {
-            "group": 5,
-            "frame": 3,
-            "file": "10064.snx.png"
-        },
-        {
-            "group": 5,
-            "frame": 4,
-            "file": "10065.snx.png"
-        },
-        {
-            "group": 5,
-            "frame": 5,
-            "file": "10066.snx.png"
-        },
-        {
-            "group": 5,
-            "frame": 6,
-            "file": "10067.snx.png"
-        },
-        {
-            "group": 7,
-            "frame": 0,
-            "file": "10069.snx.png"
-        },
-        {
-            "group": 7,
-            "frame": 1,
-            "file": "10070.snx.png"
-        },
-        {
-            "group": 8,
-            "frame": 0,
-            "file": "10070.snx.png"
-        },
-        {
-            "group": 8,
-            "frame": 1,
-            "file": "10069.snx.png"
-        },
-        {
-            "group": 9,
-            "frame": 0,
-            "file": "10069.snx.png"
-        },
-        {
-            "group": 9,
-            "frame": 1,
-            "file": "10070.snx.png"
-        },
-        {
-            "group": 10,
-            "frame": 0,
-            "file": "10070.snx.png"
-        },
-        {
-            "group": 10,
-            "frame": 1,
-            "file": "10069.snx.png"
-        },
-        {
-            "group": 11,
-            "frame": 0,
-            "file": "10033.snx.png"
-        },
-        {
-            "group": 11,
-            "frame": 1,
-            "file": "10034.snx.png"
-        },
-        {
-            "group": 11,
-            "frame": 2,
-            "file": "10035.snx.png"
-        },
-        {
-            "group": 11,
-            "frame": 3,
-            "file": "10036.snx.png"
-        },
-        {
-            "group": 11,
-            "frame": 4,
-            "file": "10037.snx.png"
-        },
-        {
-            "group": 11,
-            "frame": 5,
-            "file": "10038.snx.png"
-        },
-        {
-            "group": 11,
-            "frame": 6,
-            "file": "10039.snx.png"
-        },
-        {
-            "group": 11,
-            "frame": 7,
-            "file": "10040.snx.png"
-        },
-        {
-            "group": 12,
-            "frame": 0,
-            "file": "10024.snx.png"
-        },
-        {
-            "group": 12,
-            "frame": 1,
-            "file": "10025.snx.png"
-        },
-        {
-            "group": 12,
-            "frame": 2,
-            "file": "10026.snx.png"
-        },
-        {
-            "group": 12,
-            "frame": 3,
-            "file": "10027.snx.png"
-        },
-        {
-            "group": 12,
-            "frame": 4,
-            "file": "10028.snx.png"
-        },
-        {
-            "group": 12,
-            "frame": 5,
-            "file": "10029.snx.png"
-        },
-        {
-            "group": 12,
-            "frame": 6,
-            "file": "10030.snx.png"
-        },
-        {
-            "group": 12,
-            "frame": 7,
-            "file": "10031.snx.png"
-        },
-        {
-            "group": 13,
-            "frame": 0,
-            "file": "10042.snx.png"
-        },
-        {
-            "group": 13,
-            "frame": 1,
-            "file": "10043.snx.png"
-        },
-        {
-            "group": 13,
-            "frame": 2,
-            "file": "10044.snx.png"
-        },
-        {
-            "group": 13,
-            "frame": 3,
-            "file": "10045.snx.png"
-        },
-        {
-            "group": 13,
-            "frame": 4,
-            "file": "10046.snx.png"
-        },
-        {
-            "group": 13,
-            "frame": 5,
-            "file": "10047.snx.png"
-        },
-        {
-            "group": 13,
-            "frame": 6,
-            "file": "10048.snx.png"
-        },
-        {
-            "group": 13,
-            "frame": 7,
-            "file": "10049.snx.png"
-        },
-        {
-            "group": 20,
-            "frame": 0,
-            "file": "10001.snx.png"
-        },
-        {
-            "group": 20,
-            "frame": 1,
-            "file": "10002.snx.png"
-        },
-        {
-            "group": 21,
-            "frame": 0,
-            "file": "10014.snx.png"
-        },
-        {
-            "group": 21,
-            "frame": 1,
-            "file": "10015.snx.png"
-        }
-    ],
-    "basepath": "creatures/dwarvenBulwark/battle/lvl1Alt/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "10003.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "10004.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "10005.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "10006.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "10007.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "10008.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "10009.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "10010.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "10011.snx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "10012.snx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "10055.snx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "10056.snx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "10057.snx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "10058.snx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "10059.snx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "10060.snx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "10055.snx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "10056.snx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "10057.snx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "10058.snx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "10059.snx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "10060.snx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "10017.snx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "10018.snx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "10019.snx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "10020.snx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "10021.snx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "10022.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "10051.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "10052.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "10053.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "10054.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "10054.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 5,
+			"file" : "10054.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 6,
+			"file" : "10054.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 7,
+			"file" : "10054.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 8,
+			"file" : "10053.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 9,
+			"file" : "10052.snx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 10,
+			"file" : "10051.snx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "10061.snx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "10062.snx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "10063.snx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "10064.snx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "10065.snx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "10066.snx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "10067.snx.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "10069.snx.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "10070.snx.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "10070.snx.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "10069.snx.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "10069.snx.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "10070.snx.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "10070.snx.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "10069.snx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "10033.snx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "10034.snx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "10035.snx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "10036.snx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "10037.snx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "10038.snx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 6,
+			"file" : "10039.snx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 7,
+			"file" : "10040.snx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "10024.snx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "10025.snx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "10026.snx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "10027.snx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "10028.snx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "10029.snx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "10030.snx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 7,
+			"file" : "10031.snx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "10042.snx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "10043.snx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "10044.snx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "10045.snx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "10046.snx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 5,
+			"file" : "10047.snx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 6,
+			"file" : "10048.snx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 7,
+			"file" : "10049.snx.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 0,
+			"file" : "10001.snx.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 1,
+			"file" : "10002.snx.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 0,
+			"file" : "10014.snx.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 1,
+			"file" : "10015.snx.png"
+		}
+	],
+	"basepath" : "creatures/dwarvenBulwark/battle/lvl1Alt/"
 }

@@ -37,7 +37,7 @@
 					//"mapLimit" : 20,
 					"zoneLimit" : 3
 				},
-				
+
 				"onGuardedMessage" : "You stand before the entrance of a Heavenly Forge. Do you dare to enter it, no matter the danger?",
 				"onVisitedMessage" : "The Heavenly Forge was once full of riches. Now, it stands abandoned and empty.",
 				"visitMode" : "once",
@@ -92,7 +92,12 @@
 								"class" : "MAJOR"
 							}
 						],
-						"creatures" : [ { "type" : "dragonMechAU", "amount" : 1 } ]
+						"creatures" : [
+							{
+								"type" : "dragonMechAU",
+								"amount" : 1
+							}
+						]
 					},
 					{
 						"message" : 34,
@@ -142,7 +147,12 @@
 								"class" : "RELIC"
 							}
 						],
-						"creatures" : [ { "type" : "dragonMechAU", "amount" : 2 } ]
+						"creatures" : [
+							{
+								"type" : "dragonMechAU",
+								"amount" : 2
+							}
+						]
 					},
 					{
 						"message" : 34,
@@ -192,7 +202,12 @@
 								"class" : "RELIC"
 							}
 						],
-						"creatures" : [ { "type" : "dragonMechAU", "amount" : 3 } ]
+						"creatures" : [
+							{
+								"type" : "dragonMechAU",
+								"amount" : 3
+							}
+						]
 					}
 				]
 			}

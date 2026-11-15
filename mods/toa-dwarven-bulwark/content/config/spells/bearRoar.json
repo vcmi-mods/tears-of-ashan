@@ -66,7 +66,7 @@
 								"type" : "FEARFUL",
 								"val" : 25,
 								"duration" : "N_TURNS",
-								"turns" : 3,
+								"turns" : 3
 							}
 						}
 					}

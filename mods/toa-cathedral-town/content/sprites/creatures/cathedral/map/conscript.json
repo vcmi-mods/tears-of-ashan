@@ -1,130 +1,130 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "conscriptA001.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "conscriptA002.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "conscriptA003.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "conscriptA004.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "conscriptA003.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "conscriptA004.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "conscriptA003.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "conscriptA002.png"
-        },
-        {
-            "group": 0,
-            "frame": 9,
-            "file": "conscriptA001.png"
-        },
-        {
-            "group": 0,
-            "frame": 10,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 11,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 12,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 13,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 14,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 15,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 16,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 17,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 18,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 19,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 20,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 21,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 22,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 23,
-            "file": "conscriptA000.png"
-        },
-        {
-            "group": 0,
-            "frame": 24,
-            "file": "conscriptA000.png"
-        }
-    ],
-    "basepath": "creatures/cathedral/map/conscript/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "conscriptA001.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "conscriptA002.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "conscriptA003.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "conscriptA004.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "conscriptA003.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "conscriptA004.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "conscriptA003.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "conscriptA002.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "conscriptA001.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "conscriptA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "conscriptA000.png"
+		}
+	],
+	"basepath" : "creatures/cathedral/map/conscript/"
 }

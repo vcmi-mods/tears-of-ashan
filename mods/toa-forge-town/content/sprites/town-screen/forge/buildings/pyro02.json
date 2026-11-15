@@ -1,45 +1,45 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "pyro02.png"
-        },
+	"images" : [
 		{
-            "group": 0,
-            "frame": 1,
-            "file": "pyro02-01.png"
-        },
+			"group" : 0,
+			"frame" : 0,
+			"file" : "pyro02.png"
+		},
 		{
-            "group": 0,
-            "frame": 2,
-            "file": "pyro02-02.png"
-        },
+			"group" : 0,
+			"frame" : 1,
+			"file" : "pyro02-01.png"
+		},
 		{
-            "group": 0,
-            "frame": 3,
-            "file": "pyro02-03.png"
-        },
+			"group" : 0,
+			"frame" : 2,
+			"file" : "pyro02-02.png"
+		},
 		{
-            "group": 0,
-            "frame": 4,
-            "file": "pyro02-04.png"
-        },
+			"group" : 0,
+			"frame" : 3,
+			"file" : "pyro02-03.png"
+		},
 		{
-            "group": 0,
-            "frame": 5,
-            "file": "pyro02-05.png"
-        },
+			"group" : 0,
+			"frame" : 4,
+			"file" : "pyro02-04.png"
+		},
 		{
-            "group": 0,
-            "frame": 6,
-            "file": "pyro02-06.png"
-        },
+			"group" : 0,
+			"frame" : 5,
+			"file" : "pyro02-05.png"
+		},
 		{
-            "group": 0,
-            "frame": 7,
-            "file": "pyro02-07.png"
-        }
-    ],
-    "basepath": "town-screen/forge/buildings/"
+			"group" : 0,
+			"frame" : 6,
+			"file" : "pyro02-06.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "pyro02-07.png"
+		}
+	],
+	"basepath" : "town-screen/forge/buildings/"
 }

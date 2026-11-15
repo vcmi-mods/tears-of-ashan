@@ -22,7 +22,9 @@
 				"agingBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.agingTOA",
-					"addInfo" : [ -10 ],
+					"addInfo" : [
+						-10
+					]
 				},
 				"agingDuration" : {
 					"type" : "SPELL_DURATION",
@@ -36,7 +38,9 @@
 				"curseBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.curse",
-					"addInfo" : [ 0 ],
+					"addInfo" : [
+						0
+					]
 				},
 				"curseDuration" : {
 					"type" : "SPELL_DURATION",
@@ -50,7 +54,9 @@
 				"diseaseBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.diseaseTOA",
-					"addInfo" : [ -1 ],
+					"addInfo" : [
+						-1
+					]
 				},
 				"diseaseDuration" : {
 					"type" : "SPELL_DURATION",
@@ -64,7 +70,9 @@
 				"disruptingRayBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.disruptingRay",
-					"addInfo" : [ -1 ],
+					"addInfo" : [
+						-1
+					]
 				},
 				"disruptingRayDuration" : {
 					"type" : "SPELL_DURATION",
@@ -78,7 +86,9 @@
 				"forgetfulnessBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.forgetfulness",
-					"addInfo" : [ 0 ]
+					"addInfo" : [
+						0
+					]
 				},
 				"forgetfulnessDuration" : {
 					"type" : "SPELL_DURATION",
@@ -92,7 +102,9 @@
 				"misfortuneBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.misfortune",
-					"addInfo" : [ 0 ]
+					"addInfo" : [
+						0
+					]
 				},
 				"misfortuneDuration" : {
 					"type" : "SPELL_DURATION",
@@ -106,7 +118,9 @@
 				"slowBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.slow",
-					"addInfo" : [ -1 ]
+					"addInfo" : [
+						-1
+					]
 				},
 				"slowDuration" : {
 					"type" : "SPELL_DURATION",
@@ -120,7 +134,9 @@
 				"sorrowBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.sorrow",
-					"addInfo" : [ 0 ]
+					"addInfo" : [
+						0
+					]
 				},
 				"sorrowDuration" : {
 					"type" : "SPELL_DURATION",
@@ -134,7 +150,9 @@
 				"weaknessBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.weakness",
-					"addInfo" : [ -1 ]
+					"addInfo" : [
+						-1
+					]
 				},
 				"weaknessDuration" : {
 					"type" : "SPELL_DURATION",
@@ -205,7 +223,9 @@
 				"diseaseBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.diseaseTOA",
-					"addInfo" : [ -2 ]
+					"addInfo" : [
+						-2
+					]
 				},
 				"diseaseDuration" : {
 					"updater" : {
@@ -215,7 +235,9 @@
 				"disruptingRayBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.disruptingRay",
-					"addInfo" : [ -2 ]
+					"addInfo" : [
+						-2
+					]
 				},
 				"disruptingRayDuration" : {
 					"updater" : {
@@ -225,7 +247,9 @@
 				"forgetfulnessBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.forgetfulness",
-					"addInfo" : [ 1 ]
+					"addInfo" : [
+						1
+					]
 				},
 				"forgetfulnessDuration" : {
 					"updater" : {
@@ -235,7 +259,9 @@
 				"misfortuneBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.misfortune",
-					"addInfo" : [ -1 ]
+					"addInfo" : [
+						-1
+					]
 				},
 				"misfortuneDuration" : {
 					"updater" : {
@@ -245,7 +271,9 @@
 				"sorrowBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.sorrow",
-					"addInfo" : [ -1 ]
+					"addInfo" : [
+						-1
+					]
 				},
 				"sorrowDuration" : {
 					"updater" : {
@@ -255,7 +283,9 @@
 				"weaknessBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.weakness",
-					"addInfo" : [ -3 ]
+					"addInfo" : [
+						-3
+					]
 				},
 				"weaknessDuration" : {
 					"updater" : {
@@ -306,7 +336,9 @@
 				"curseBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.curse",
-					"addInfo" : [ 1 ]
+					"addInfo" : [
+						1
+					]
 				},
 				"curseDuration" : {
 					"updater" : {
@@ -316,7 +348,9 @@
 				"diseaseBuff" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.diseaseTOA",
-					"addInfo" : [ -6 ]
+					"addInfo" : [
+						-6
+					]
 				},
 				"diseaseDuration" : {
 					"updater" : {
@@ -324,7 +358,9 @@
 					}
 				},
 				"disruptingRayBuff" : {
-					"addInfo" : [ -6 ]
+					"addInfo" : [
+						-6
+					]
 				},
 				"disruptingRayDuration" : {
 					"updater" : {
@@ -332,7 +368,9 @@
 					}
 				},
 				"forgetfulnessBuff" : {
-					"addInfo" : [ 3 ]
+					"addInfo" : [
+						3
+					]
 				},
 				"forgetfulnessDuration" : {
 					"updater" : {
@@ -340,7 +378,9 @@
 					}
 				},
 				"misfortuneBuff" : {
-					"addInfo" : [ -3 ]
+					"addInfo" : [
+						-3
+					]
 				},
 				"misfortuneDuration" : {
 					"updater" : {
@@ -348,7 +388,9 @@
 					}
 				},
 				"sorrowBuff" : {
-					"addInfo" : [ -3 ]
+					"addInfo" : [
+						-3
+					]
 				},
 				"sorrowDuration" : {
 					"updater" : {
@@ -356,7 +398,9 @@
 					}
 				},
 				"weaknessBuff" : {
-					"addInfo" : [ -6 ]
+					"addInfo" : [
+						-6
+					]
 				},
 				"weaknessDuration" : {
 					"updater" : {

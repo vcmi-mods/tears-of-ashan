@@ -38,7 +38,7 @@
 			"bonuses" : {
 				"deepFreeze" : {
 					"type" : "SPECIAL_SPELL_SCALING",
-					"subtype" : "spell.deepFreeze",					
+					"subtype" : "spell.deepFreeze",
 					"val" : 10
 				}
 			}

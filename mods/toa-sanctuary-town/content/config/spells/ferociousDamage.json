@@ -21,10 +21,10 @@
 		},
 		"targetCondition" : {},
 		"graphics" : {},
-		"sounds": {},
+		"sounds" : {},
 		"targetType" : "CREATURE",
 		"levels" : {
-			"base":{
+			"base" : {
 				"description" : "{Ferocious Wound}\nReduces the target's Speed by 3 for 2 turns. Target will also be dealt 10% of the Wanizame's stack size damage each turn.\n",
 				"range" : "0",
 				"cost" : 0,

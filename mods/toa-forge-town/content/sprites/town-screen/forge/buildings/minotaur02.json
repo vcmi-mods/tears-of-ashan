@@ -1,105 +1,105 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "minotaur02.png"
-        },
+	"images" : [
 		{
-            "group": 0,
-            "frame": 1,
-            "file": "minotaur02-01.png"
-        },
+			"group" : 0,
+			"frame" : 0,
+			"file" : "minotaur02.png"
+		},
 		{
-            "group": 0,
-            "frame": 2,
-            "file": "minotaur02-02.png"
-        },
+			"group" : 0,
+			"frame" : 1,
+			"file" : "minotaur02-01.png"
+		},
 		{
-            "group": 0,
-            "frame": 3,
-            "file": "minotaur02-03.png"
-        },
+			"group" : 0,
+			"frame" : 2,
+			"file" : "minotaur02-02.png"
+		},
 		{
-            "group": 0,
-            "frame": 4,
-            "file": "minotaur02-04.png"
-        },
+			"group" : 0,
+			"frame" : 3,
+			"file" : "minotaur02-03.png"
+		},
 		{
-            "group": 0,
-            "frame": 5,
-            "file": "minotaur02-05.png"
-        },
+			"group" : 0,
+			"frame" : 4,
+			"file" : "minotaur02-04.png"
+		},
 		{
-            "group": 0,
-            "frame": 6,
-            "file": "minotaur02-06.png"
-        },
+			"group" : 0,
+			"frame" : 5,
+			"file" : "minotaur02-05.png"
+		},
 		{
-            "group": 0,
-            "frame": 7,
-            "file": "minotaur02-07.png"
-        },
+			"group" : 0,
+			"frame" : 6,
+			"file" : "minotaur02-06.png"
+		},
 		{
-            "group": 0,
-            "frame": 8,
-            "file": "minotaur02-08.png"
-        },
+			"group" : 0,
+			"frame" : 7,
+			"file" : "minotaur02-07.png"
+		},
 		{
-            "group": 0,
-            "frame": 9,
-            "file": "minotaur02-09.png"
-        },
-		        {
-            "group": 0,
-            "frame": 10,
-            "file": "minotaur02-10.png"
-        },
+			"group" : 0,
+			"frame" : 8,
+			"file" : "minotaur02-08.png"
+		},
 		{
-            "group": 0,
-            "frame": 11,
-            "file": "minotaur02-11.png"
-        },
+			"group" : 0,
+			"frame" : 9,
+			"file" : "minotaur02-09.png"
+		},
 		{
-            "group": 0,
-            "frame": 12,
-            "file": "minotaur02-12.png"
-        },
+			"group" : 0,
+			"frame" : 10,
+			"file" : "minotaur02-10.png"
+		},
 		{
-            "group": 0,
-            "frame": 13,
-            "file": "minotaur02-13.png"
-        },
+			"group" : 0,
+			"frame" : 11,
+			"file" : "minotaur02-11.png"
+		},
 		{
-            "group": 0,
-            "frame": 14,
-            "file": "minotaur02-14.png"
-        },
+			"group" : 0,
+			"frame" : 12,
+			"file" : "minotaur02-12.png"
+		},
 		{
-            "group": 0,
-            "frame": 15,
-            "file": "minotaur02-15.png"
-        },
+			"group" : 0,
+			"frame" : 13,
+			"file" : "minotaur02-13.png"
+		},
 		{
-            "group": 0,
-            "frame": 16,
-            "file": "minotaur02-16.png"
-        },
+			"group" : 0,
+			"frame" : 14,
+			"file" : "minotaur02-14.png"
+		},
 		{
-            "group": 0,
-            "frame": 17,
-            "file": "minotaur02-17.png"
-        },
+			"group" : 0,
+			"frame" : 15,
+			"file" : "minotaur02-15.png"
+		},
 		{
-            "group": 0,
-            "frame": 18,
-            "file": "minotaur02-18.png"
-        },
+			"group" : 0,
+			"frame" : 16,
+			"file" : "minotaur02-16.png"
+		},
 		{
-            "group": 0,
-            "frame": 19,
-            "file": "minotaur02-19.png"
-        }
-    ],
-    "basepath": "town-screen/forge/buildings/"
+			"group" : 0,
+			"frame" : 17,
+			"file" : "minotaur02-17.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "minotaur02-18.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "minotaur02-19.png"
+		}
+	],
+	"basepath" : "town-screen/forge/buildings/"
 }

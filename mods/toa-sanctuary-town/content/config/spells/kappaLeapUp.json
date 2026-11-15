@@ -28,12 +28,12 @@
 		"graphics" : {
 			"iconEffect" : "spells/leapUpEffect.png"
 		},
-		"sounds": {
-			"cast": "creatures/kappa/leap.mp3"
+		"sounds" : {
+			"cast" : "creatures/kappa/leap.mp3"
 		},
 		"targetType" : "LOCATION",
 		"levels" : {
-			"base":{
+			"base" : {
 				"description" : "{Crashing Leap}\nCan leap at an enemy twice per combat.",
 				"range" : "0",
 				"power" : 1,
@@ -60,7 +60,9 @@
 						}
 					}
 				},
-				"targetModifier":{"smart":true}
+				"targetModifier" : {
+					"smart" : true
+				}
 			},
 			"none" : {},
 			"basic" : {},

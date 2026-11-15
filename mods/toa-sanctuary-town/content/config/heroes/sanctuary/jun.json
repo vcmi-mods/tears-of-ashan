@@ -12,7 +12,7 @@
 			"specialty" : {
 				"name" : "Diplomacy",
 				"tooltip" : "Secondary Skill Bonus: Diplomacy",
-				"description" : "Decreases the disposition of wandering creatures by 1 for every 7 hero levels."	
+				"description" : "Decreases the disposition of wandering creatures by 1 for every 7 hero levels."
 			}
 		},
 

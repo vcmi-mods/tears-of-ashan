@@ -10,11 +10,11 @@
 
 	"changelog" : {
 		"1.1.2" : [
-			"Fixed Xenia's specialty scaling (Tanks were erroneously counted as Level 1 units)",
+			"Fixed Xenia's specialty scaling (Tanks were erroneously counted as Level 1 units)"
 		],
 		"1.1.1" : [
 			"Pyro +25% Fire Magic damage resistance",
-			"Pyromaniac +50% Fire Magic damage resistance",
+			"Pyromaniac +50% Fire Magic damage resistance"
 		],
 		"1.1.0" : [
 			"Added a Munitions Cart bonus that shows when the Cart's effect is active",
@@ -65,11 +65,11 @@
 	"factions" : [
 		"config/town-screen/forge.json"
 	],
-	
+
 	"heroClasses" : [
 		"config/classes/cyborg.json",
 		"config/classes/technician.json",
-		"config/classes/ancient.json",
+		"config/classes/ancient.json"
 	],
 
 	"heroes" : [
@@ -81,7 +81,7 @@
 		"config/heroes/forge/tybold.json",
 		"config/heroes/forge/vaathon.json",
 		"config/heroes/forge/xenia.json",
-		
+
 		"config/heroes/forge/charity.json",
 		"config/heroes/forge/codgur.json",
 		"config/heroes/forge/gurvich.json",
@@ -90,10 +90,10 @@
 		"config/heroes/forge/leanne.json",
 		"config/heroes/forge/rialdo.json",
 		"config/heroes/forge/sheikleen.json",
-		
+
 		"config/heroes/forge/escaton.json"
 	],
-	
+
 	"creatures" : [
 		"config/creatures/forge/lvl1",
 		"config/creatures/forge/lvl1Up",
@@ -110,18 +110,18 @@
 		"config/creatures/forge/lvl7",
 		"config/creatures/forge/lvl7Up",
 		"config/creatures/forge/dragonMech",
-		"config/creatures/forge/munitionsCart",
+		"config/creatures/forge/munitionsCart"
 	],
-	
+
 	"artifacts" : [
 		"config/artifacts/munitionsCart"
 	],
-	
+
 	"objects" : [
 		"config/dwellings.json",
 		"config/banks/dragonMechBank.json"
 	],
-	
+
 	"settings" : {
 		"combat" : {
 			"layouts" : {
@@ -141,7 +141,7 @@
 					],
 					"attackerWarMachines" : [
 						52,
-						18, 
+						18,
 						154,
 						120
 					],

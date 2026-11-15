@@ -19,7 +19,7 @@
 			"sanctuaryExperience" : {
 				"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
 				"val" : 20,
-				"limiters": [
+				"limiters" : [
 					{
 						"type" : "FACTION_LIMITER",
 						"faction" : "sanctuary"

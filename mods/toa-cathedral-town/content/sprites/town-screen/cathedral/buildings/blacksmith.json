@@ -1,10 +1,10 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "blacksmith.png"
-        }
-    ],
-    "basepath": "town-screen/cathedral/buildings/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "blacksmith.png"
+		}
+	],
+	"basepath" : "town-screen/cathedral/buildings/"
 }

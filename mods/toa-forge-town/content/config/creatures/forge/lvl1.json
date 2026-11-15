@@ -51,7 +51,7 @@
 				"walk" : 1.0,
 				"idle" : 10.0,
 				"attack" : 1.0
-			}, 
+			},
 			"missile" : {
 				"projectile" : "creatures/forge/battle/projectile/SHOT197.DEF",
 				"offset" : {

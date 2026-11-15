@@ -48,12 +48,12 @@
 						"attacker" : {
 							"animation" : "spells/liquidFlameBreath/flameObstacle",
 							"appearAnimation" : "spells/liquidFlameBreath/flameAppear",
-							"removalAnimation"  : "spells/liquidFlameBreath/flameDisappear"
+							"removalAnimation" : "spells/liquidFlameBreath/flameDisappear"
 						},
 						"defender" : {
 							"animation" : "spells/liquidFlameBreath/flameObstacle",
 							"appearAnimation" : "spells/liquidFlameBreath/flameAppear",
-							"removalAnimation"  : "spells/liquidFlameBreath/flameDisappear"
+							"removalAnimation" : "spells/liquidFlameBreath/flameDisappear"
 						}
 					}
 				}

@@ -37,13 +37,17 @@
 					"type" : "HUNT_LEVEL_COUNTER",
 					"val" : 3,
 					"valueType" : "INDEPENDENT_MIN",
-					"limiters" : [ "CREATURES_ONLY" ]
+					"limiters" : [
+						"CREATURES_ONLY"
+					]
 				},
 				"huntBase" : {
 					"type" : "HUNT_LEVEL_COUNTER",
 					"val" : 0,
 					"valueType" : "BASE_NUMBER",
-					"limiters" : [ "CREATURES_ONLY" ]
+					"limiters" : [
+						"CREATURES_ONLY"
+					]
 				},
 				"huntBonus01" : {
 					"type" : "PRIMARY_SKILL",

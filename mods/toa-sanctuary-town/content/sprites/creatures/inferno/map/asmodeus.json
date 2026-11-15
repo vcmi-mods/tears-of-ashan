@@ -1,140 +1,140 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "m88sm201.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "m88sm202.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "m88sm203.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "m88sm204.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "m88sm205.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 9,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 10,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 11,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 12,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 13,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 14,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 15,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 16,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 17,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 18,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 19,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 20,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 21,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 22,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 23,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 24,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 25,
-            "file": "m88sm200.muo.png"
-        },
-        {
-            "group": 0,
-            "frame": 26,
-            "file": "m88sm200.muo.png"
-        }
-    ],
-    "basepath": "creatures/inferno/map/asmodeus/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "m88sm201.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "m88sm202.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "m88sm203.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "m88sm204.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "m88sm205.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "m88sm200.muo.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "m88sm200.muo.png"
+		}
+	],
+	"basepath" : "creatures/inferno/map/asmodeus/"
 }

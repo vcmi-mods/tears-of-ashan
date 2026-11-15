@@ -968,7 +968,7 @@
 				"skill" : "avenger",
 				"level" : "basic"
 			}
-		],
+		]
 	},
 	"core:elleshar" : {
 		"army#override" : [
@@ -4813,7 +4813,7 @@
 			"bonuses" : {
 				"magicArrow" : {
 					"type" : "SPECIAL_SPELL_SCALING",
-					"subtype" : "spell.magicArrow",					
+					"subtype" : "spell.magicArrow",
 					"val" : 20
 				}
 			}

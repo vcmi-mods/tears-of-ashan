@@ -1,10 +1,10 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "frozenChrysanthemum.png"
-        }
-    ],
-    "basepath": "artifacts/map/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "frozenChrysanthemum.png"
+		}
+	],
+	"basepath" : "artifacts/map/"
 }

@@ -3,11 +3,11 @@
 		"name" : "Crownwork",
 		"town" : {
 			"primaryResource" : "crystal",
-			
+
 			"musicTheme" : [
 				"music/fortressHeroesV.mp3"
 			],
-			
+
 			"creatures" : [
 				[
 					"defenderAU",
@@ -45,7 +45,7 @@
 					"lavaDragonAU"
 				]
 			],
-			
+
 			"structures" : {
 				"dwellingUp2Lvl1" : {
 					"animation" : "town-screen/cyan",
@@ -140,7 +140,7 @@
 					"z" : 1
 				}
 			},
-			
+
 			"buildings" : {
 				"dwellingLvl1" : {
 					"name" : "Delvers' Mine",

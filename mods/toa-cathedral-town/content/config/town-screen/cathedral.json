@@ -1,98 +1,339 @@
 {
 	"cathedralTOA" : {
 		"name" : "Cathedral",
-		
-		"nativeTerrain" : [ "dirt" ],
-		
+
+		"nativeTerrain" : [
+			"dirt"
+		],
+
 		"alignment" : "evil",
-		
+
 		"creatureBackground" : {
 			"120px" : "cathedral/120px",
 			"130px" : "cathedral/130px"
 		},
-		
+
 		"boat" : "boatNecropolis",
-		
+
 		"puzzleMap" : {
 			"prefix" : "PUZELE",
 			"pieces" : [
-				{ "x": 7, "y": 8, "index": 1 },
-				{ "x": 7, "y": 54, "index": 6 },
-				{ "x": 7, "y": 227, "index": 16 },
-				{ "x": 7, "y": 426, "index": 9 },
-				{ "x": 15, "y": 48, "index": 22 },
-				{ "x": 45, "y": 375, "index": 32 },
-				{ "x": 48, "y": 249, "index": 28 },
-				{ "x": 86, "y": 500, "index": 15 },
-				{ "x": 93, "y": 55, "index": 37 },
-				{ "x": 99, "y": 245, "index": 7 },
-				{ "x": 101, "y": 354, "index": 27 },
-				{ "x": 104, "y": 175, "index": 35 },
-				{ "x": 107, "y": 14, "index": 21 },
-				{ "x": 124, "y": 296, "index": 38 },
-				{ "x": 134, "y": 8, "index": 4 },
-				{ "x": 181, "y": 466, "index": 26 },
-				{ "x": 182, "y": 200, "index": 40 },
-				{ "x": 189, "y": 381, "index": 33 },
-				{ "x": 192, "y": 40, "index": 8 },
-				{ "x": 192, "y": 364, "index": 11 },
-				{ "x": 201, "y": 124, "index": 48 },
-				{ "x": 203, "y": 330, "index": 42 },
-				{ "x": 228, "y": 293, "index": 45 },
-				{ "x": 235, "y": 39, "index": 25 },
-				{ "x": 242, "y": 335, "index": 44 },
-				{ "x": 275, "y": 488, "index": 5 },
-				{ "x": 278, "y": 202, "index": 46 },
-				{ "x": 290, "y": 80, "index": 13 },
-				{ "x": 291, "y": 115, "index": 20 },
-				{ "x": 308, "y": 225, "index": 43 },
-				{ "x": 310, "y": 158, "index": 39 },
-				{ "x": 312, "y": 24, "index": 12 },
-				{ "x": 317, "y": 8, "index": 2 },
-				{ "x": 323, "y": 443, "index": 10 },
-				{ "x": 327, "y": 253, "index": 41 },
-				{ "x": 330, "y": 36, "index": 36 },
-				{ "x": 349, "y": 330, "index": 34 },
-				{ "x": 349, "y": 426, "index": 17 },
-				{ "x": 407, "y": 191, "index": 47 },
-				{ "x": 421, "y": 430, "index": 31 },
-				{ "x": 428, "y": 246, "index": 23 },
-				{ "x": 467, "y": 90, "index": 29 },
-				{ "x": 481, "y": 13, "index": 30 },
-				{ "x": 489, "y": 346, "index": 18 },
-				{ "x": 504, "y": 113, "index": 19 },
-				{ "x": 504, "y": 190, "index": 24 },
-				{ "x": 507, "y": 8, "index": 14 },
-				{ "x": 542, "y": 436, "index": 3 }
+				{
+					"x" : 7,
+					"y" : 8,
+					"index" : 1
+				},
+				{
+					"x" : 7,
+					"y" : 54,
+					"index" : 6
+				},
+				{
+					"x" : 7,
+					"y" : 227,
+					"index" : 16
+				},
+				{
+					"x" : 7,
+					"y" : 426,
+					"index" : 9
+				},
+				{
+					"x" : 15,
+					"y" : 48,
+					"index" : 22
+				},
+				{
+					"x" : 45,
+					"y" : 375,
+					"index" : 32
+				},
+				{
+					"x" : 48,
+					"y" : 249,
+					"index" : 28
+				},
+				{
+					"x" : 86,
+					"y" : 500,
+					"index" : 15
+				},
+				{
+					"x" : 93,
+					"y" : 55,
+					"index" : 37
+				},
+				{
+					"x" : 99,
+					"y" : 245,
+					"index" : 7
+				},
+				{
+					"x" : 101,
+					"y" : 354,
+					"index" : 27
+				},
+				{
+					"x" : 104,
+					"y" : 175,
+					"index" : 35
+				},
+				{
+					"x" : 107,
+					"y" : 14,
+					"index" : 21
+				},
+				{
+					"x" : 124,
+					"y" : 296,
+					"index" : 38
+				},
+				{
+					"x" : 134,
+					"y" : 8,
+					"index" : 4
+				},
+				{
+					"x" : 181,
+					"y" : 466,
+					"index" : 26
+				},
+				{
+					"x" : 182,
+					"y" : 200,
+					"index" : 40
+				},
+				{
+					"x" : 189,
+					"y" : 381,
+					"index" : 33
+				},
+				{
+					"x" : 192,
+					"y" : 40,
+					"index" : 8
+				},
+				{
+					"x" : 192,
+					"y" : 364,
+					"index" : 11
+				},
+				{
+					"x" : 201,
+					"y" : 124,
+					"index" : 48
+				},
+				{
+					"x" : 203,
+					"y" : 330,
+					"index" : 42
+				},
+				{
+					"x" : 228,
+					"y" : 293,
+					"index" : 45
+				},
+				{
+					"x" : 235,
+					"y" : 39,
+					"index" : 25
+				},
+				{
+					"x" : 242,
+					"y" : 335,
+					"index" : 44
+				},
+				{
+					"x" : 275,
+					"y" : 488,
+					"index" : 5
+				},
+				{
+					"x" : 278,
+					"y" : 202,
+					"index" : 46
+				},
+				{
+					"x" : 290,
+					"y" : 80,
+					"index" : 13
+				},
+				{
+					"x" : 291,
+					"y" : 115,
+					"index" : 20
+				},
+				{
+					"x" : 308,
+					"y" : 225,
+					"index" : 43
+				},
+				{
+					"x" : 310,
+					"y" : 158,
+					"index" : 39
+				},
+				{
+					"x" : 312,
+					"y" : 24,
+					"index" : 12
+				},
+				{
+					"x" : 317,
+					"y" : 8,
+					"index" : 2
+				},
+				{
+					"x" : 323,
+					"y" : 443,
+					"index" : 10
+				},
+				{
+					"x" : 327,
+					"y" : 253,
+					"index" : 41
+				},
+				{
+					"x" : 330,
+					"y" : 36,
+					"index" : 36
+				},
+				{
+					"x" : 349,
+					"y" : 330,
+					"index" : 34
+				},
+				{
+					"x" : 349,
+					"y" : 426,
+					"index" : 17
+				},
+				{
+					"x" : 407,
+					"y" : 191,
+					"index" : 47
+				},
+				{
+					"x" : 421,
+					"y" : 430,
+					"index" : 31
+				},
+				{
+					"x" : 428,
+					"y" : 246,
+					"index" : 23
+				},
+				{
+					"x" : 467,
+					"y" : 90,
+					"index" : 29
+				},
+				{
+					"x" : 481,
+					"y" : 13,
+					"index" : 30
+				},
+				{
+					"x" : 489,
+					"y" : 346,
+					"index" : 18
+				},
+				{
+					"x" : 504,
+					"y" : 113,
+					"index" : 19
+				},
+				{
+					"x" : 504,
+					"y" : 190,
+					"index" : 24
+				},
+				{
+					"x" : 507,
+					"y" : 8,
+					"index" : 14
+				},
+				{
+					"x" : 542,
+					"y" : 436,
+					"index" : 3
+				}
 			]
 		},
-		
+
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
 				},
 				"templates" : {
-					"capitol" : { "animation" : "map/cathedral/fort04.def" },
-					"castle" :  { "animation" : "map/cathedral/fort03.def" },
-					"citadel" : { "animation" : "map/cathedral/fort02.def" },
-					"fort"    : { "animation" : "map/cathedral/fort01.def" },
-					"village" : { "animation" : "map/cathedral/fort00.def" }
+					"capitol" : {
+						"animation" : "map/cathedral/fort04.def"
+					},
+					"castle" : {
+						"animation" : "map/cathedral/fort03.def"
+					},
+					"citadel" : {
+						"animation" : "map/cathedral/fort02.def"
+					},
+					"fort" : {
+						"animation" : "map/cathedral/fort01.def"
+					},
+					"village" : {
+						"animation" : "map/cathedral/fort00.def"
+					}
 				}
 			},
-			
+
 			"structures" : {
 				//EXTRA
 				"extraAnimation01" : {
 					"animation" : "town-screen/cathedral/buildings/gallowsExtra",
-					"x" : 402, "y" : 174, "z" : 4,
+					"x" : 402,
+					"y" : 174,
+					"z" : 4,
 					"builds" : "dwellingLvl2"
 				},
 				"extraAnimation02" : {
 					"animation" : "town-screen/cathedral/buildings/gallowsHordeExtra",
-					"x" : 402, "y" : 174, "z" : 4,
+					"x" : 402,
+					"y" : 174,
+					"z" : 4,
 					"builds" : "horde1"
 				},
 				//"extraAnimation03" : {
@@ -107,131 +348,165 @@
 				//	"builds" : "horde1Upgr",
 				//	"hidden" : true
 				//},
-				
+
 				//GRAIL
 				"grail" : {
 					"animation" : "town-screen/cathedral/buildings/grail",
-					"x" : 616, "y" : 15, "z" : 1,
+					"x" : 616,
+					"y" : 15,
+					"z" : 1,
 					"campaignBonus" : "BoEgrail.pcx",
 					"border" : "town-screen/cathedral/borders/grail",
 					"area" : "town-screen/cathedral/areas/grail"
 				},
-				
+
 				//COMMON BUILDINGS
 				"tavern" : {
 					"animation" : "town-screen/cathedral/buildings/tavern",
-					"x" : 290, "y" : 227, "z" : 5,
-					"campaignBonus" : "BoEtav.pcx", 
+					"x" : 290,
+					"y" : 227,
+					"z" : 5,
+					"campaignBonus" : "BoEtav.pcx",
 					"border" : "town-screen/cathedral/borders/tavern",
 					"area" : "town-screen/cathedral/areas/tavern"
 				},
 				"blacksmith" : {
 					"animation" : "town-screen/cathedral/buildings/blacksmith",
-					"x" : 0, "y" : 291, "z" : 4,
+					"x" : 0,
+					"y" : 291,
+					"z" : 4,
 					"campaignBonus" : "BoEblack.pcx",
 					"border" : "town-screen/cathedral/borders/blacksmith",
 					"area" : "town-screen/cathedral/areas/blacksmith"
 				},
 				"marketplace" : {
 					"animation" : "town-screen/cathedral/buildings/market01",
-					"x" : 134, "y" : 291, "z" : 5,
-					"campaignBonus" : "BoEMark.pcx", 
+					"x" : 134,
+					"y" : 291,
+					"z" : 5,
+					"campaignBonus" : "BoEMark.pcx",
 					"border" : "town-screen/cathedral/borders/market01",
 					"area" : "town-screen/cathedral/areas/market01"
 				},
 				"resourceSilo" : {
 					"animation" : "town-screen/cathedral/buildings/market02",
-					"x" : 116, "y" : 313, "z" : 6,
+					"x" : 116,
+					"y" : 313,
+					"z" : 6,
 					"campaignBonus" : "BoEMarkS.pcx",
 					"border" : "town-screen/cathedral/borders/market02",
 					"area" : "town-screen/cathedral/areas/market02"
 				},
-				
+
 				//MAGE GUILD
 				"mageGuild1" : {
 					"animation" : "town-screen/cathedral/buildings/mage01",
-					"x" : 14, "y" : 109, "z" : 2,
+					"x" : 14,
+					"y" : 109,
+					"z" : 2,
 					"campaignBonus" : "BoEgld1.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
 				},
 				"mageGuild2" : {
 					"animation" : "town-screen/cathedral/buildings/mage02",
-					"x" : 14, "y" : 109, "z" : 2,
+					"x" : 14,
+					"y" : 109,
+					"z" : 2,
 					"campaignBonus" : "BoEgld2.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
 				},
 				"mageGuild3" : {
 					"animation" : "town-screen/cathedral/buildings/mage03",
-					"x" : 14, "y" : 109, "z" : 2,
+					"x" : 14,
+					"y" : 109,
+					"z" : 2,
 					"campaignBonus" : "BoEgld3.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
 				},
 				"mageGuild4" : {
 					"animation" : "town-screen/cathedral/buildings/mage04",
-					"x" : 14, "y" : 109, "z" : 2,
+					"x" : 14,
+					"y" : 109,
+					"z" : 2,
 					"campaignBonus" : "BoEgld4.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
 				},
 				"mageGuild5" : {
 					"animation" : "town-screen/cathedral/buildings/mage05",
-					"x" : 14, "y" : 109, "z" : 2,
+					"x" : 14,
+					"y" : 109,
+					"z" : 2,
 					"campaignBonus" : "BoEgld5.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
 				},
-				
+
 				//HALLS
 				"villageHall" : {
 					"animation" : "town-screen/cathedral/buildings/hall01",
-					"x" : 583,  "y" : 117, "z" : 2,
+					"x" : 583,
+					"y" : 117,
+					"z" : 2,
 					"campaignBonus" : "BoEhall1.pcx",
 					"border" : "town-screen/cathedral/borders/hall01",
 					"area" : "town-screen/cathedral/areas/hall01"
 				},
 				"townHall" : {
 					"animation" : "town-screen/cathedral/buildings/hall01",
-					"x" : 583,  "y" : 117, "z" : 2,
+					"x" : 583,
+					"y" : 117,
+					"z" : 2,
 					"campaignBonus" : "BoEhall2.pcx",
 					"border" : "town-screen/cathedral/borders/hall01",
 					"area" : "town-screen/cathedral/areas/hall01"
 				},
 				"cityHall" : {
 					"animation" : "town-screen/cathedral/buildings/hall02",
-					"x" : 583,  "y" : 117, "z" : 2,
+					"x" : 583,
+					"y" : 117,
+					"z" : 2,
 					"campaignBonus" : "BoEhall3.pcx",
 					"border" : "town-screen/cathedral/borders/hall02",
 					"area" : "town-screen/cathedral/areas/hall02"
 				},
 				"capitol" : {
 					"animation" : "town-screen/cathedral/buildings/hall03",
-					"x" : 583,  "y" : 117, "z" : 2,
+					"x" : 583,
+					"y" : 117,
+					"z" : 2,
 					"campaignBonus" : "BoEhall4.pcx",
 					"border" : "town-screen/cathedral/borders/hall02",
 					"area" : "town-screen/cathedral/areas/hall02"
 				},
-				
+
 				//FORTIFICATIONS
 				"fort" : {
 					"animation" : "town-screen/cathedral/buildings/fort01",
-					"x" : 167, "y" : 52, "z" : 1,
+					"x" : 167,
+					"y" : 52,
+					"z" : 1,
 					"campaignBonus" : "BoEcast1.pcx",
 					"border" : "town-screen/cathedral/borders/fort01",
 					"area" : "town-screen/cathedral/areas/fort01"
 				},
 				"citadel" : {
 					"animation" : "town-screen/cathedral/buildings/fort02",
-					"x" : 161, "y" : 52, "z" : 1,
+					"x" : 161,
+					"y" : 52,
+					"z" : 1,
 					"campaignBonus" : "BoEcast2.pcx",
 					"border" : "town-screen/cathedral/borders/fort02",
 					"area" : "town-screen/cathedral/areas/fort02"
 				},
 				"castle" : {
 					"animation" : "town-screen/cathedral/buildings/fort03",
-					"x" : 162, "y" : 42, "z" : 1,
+					"x" : 162,
+					"y" : 42,
+					"z" : 1,
 					"campaignBonus" : "BoEcast3.pcx",
 					"border" : "town-screen/cathedral/borders/fort03",
 					"area" : "town-screen/cathedral/areas/fort03"
@@ -240,42 +515,54 @@
 				//DWELLINGS
 				"dwellingLvl1" : {
 					"animation" : "town-screen/cathedral/buildings/lodgings01",
-					"x" : 104, "y" : 217, "z" : 4,
+					"x" : 104,
+					"y" : 217,
+					"z" : 4,
 					"campaignBonus" : "BoEdn_0.pcx",
 					"border" : "town-screen/cathedral/borders/lodgings01",
 					"area" : "town-screen/cathedral/areas/lodgings01"
 				},
 				"dwellingUpLvl1" : {
 					"animation" : "town-screen/cathedral/buildings/lodgings02",
-					"x" : 104, "y" : 217, "z" : 4,
+					"x" : 104,
+					"y" : 217,
+					"z" : 4,
 					"campaignBonus" : "BoEup_0.pcx",
 					"border" : "town-screen/cathedral/borders/lodgings02",
 					"area" : "town-screen/cathedral/areas/lodgings02"
 				},
 				"dwellingLvl2" : {
 					"animation" : "town-screen/cathedral/buildings/gallows01",
-					"x" : 402, "y" : 174, "z" : 5,
+					"x" : 402,
+					"y" : 174,
+					"z" : 5,
 					"campaignBonus" : "BoEdn_1.pcx",
 					"border" : "town-screen/cathedral/borders/gallows01",
 					"area" : "town-screen/cathedral/areas/gallows01"
 				},
 				"dwellingUpLvl2" : {
 					"animation" : "town-screen/cathedral/buildings/gallows02",
-					"x" : 402, "y" : 174, "z" : 5,
+					"x" : 402,
+					"y" : 174,
+					"z" : 5,
 					"campaignBonus" : "BoEup_1.pcx",
 					"border" : "town-screen/cathedral/borders/gallows02",
 					"area" : "town-screen/cathedral/areas/gallows02"
 				},
 				"horde1" : {
 					"animation" : "town-screen/cathedral/buildings/gallows03",
-					"x" : 402, "y" : 174, "z" : 4,
+					"x" : 402,
+					"y" : 174,
+					"z" : 4,
 					"campaignBonus" : "BoEHrd1.pcx",
 					"border" : "town-screen/cathedral/borders/gallows03",
 					"area" : "town-screen/cathedral/areas/gallows03"
 				},
 				"horde1Upgr" : {
 					"animation" : "town-screen/cathedral/buildings/gallows03",
-					"x" : 402, "y" : 174, "z" : 4,
+					"x" : 402,
+					"y" : 174,
+					"z" : 4,
 					"campaignBonus" : "BoEHrd2.pcx",
 					"border" : "town-screen/cathedral/borders/gallows03",
 					"area" : "town-screen/cathedral/areas/gallows03",
@@ -283,75 +570,95 @@
 				},
 				"dwellingLvl3" : {
 					"animation" : "town-screen/cathedral/buildings/range01",
-					"x" : 616, "y" : 295, "z" : 2,
+					"x" : 616,
+					"y" : 295,
+					"z" : 2,
 					"campaignBonus" : "BoEdn_2.pcx",
 					"border" : "town-screen/cathedral/borders/range01",
 					"area" : "town-screen/cathedral/areas/range01"
 				},
 				"dwellingUpLvl3" : {
 					"animation" : "town-screen/cathedral/buildings/range02",
-					"x" : 616, "y" : 295, "z" : 2,
+					"x" : 616,
+					"y" : 295,
+					"z" : 2,
 					"campaignBonus" : "BoEup_2.pcx",
 					"border" : "town-screen/cathedral/borders/range02",
 					"area" : "town-screen/cathedral/areas/range02"
 				},
 				"dwellingLvl4" : {
 					"animation" : "town-screen/cathedral/buildings/graveyard01",
-					"x" : 271, "y" : 136, "z" : 3,
+					"x" : 271,
+					"y" : 136,
+					"z" : 3,
 					"campaignBonus" : "BoEdn_3.pcx",
 					"border" : "town-screen/cathedral/borders/graveyard01",
 					"area" : "town-screen/cathedral/areas/graveyard01"
 				},
 				"dwellingUpLvl4" : {
 					"animation" : "town-screen/cathedral/buildings/graveyard02",
-					"x" : 271, "y" : 136, "z" : 3,
+					"x" : 271,
+					"y" : 136,
+					"z" : 3,
 					"campaignBonus" : "BoEup_3.pcx",
 					"border" : "town-screen/cathedral/borders/graveyard02",
 					"area" : "town-screen/cathedral/areas/graveyard02"
 				},
 				"dwellingLvl5" : {
 					"animation" : "town-screen/cathedral/buildings/chapel01",
-					"x" : 0, "y" : 148, "z" : 3,
+					"x" : 0,
+					"y" : 148,
+					"z" : 3,
 					"campaignBonus" : "BoEdn_4.pcx",
 					"border" : "town-screen/cathedral/borders/chapel01",
 					"area" : "town-screen/cathedral/areas/chapel01"
 				},
 				"dwellingUpLvl5" : {
 					"animation" : "town-screen/cathedral/buildings/chapel02",
-					"x" : 0, "y" : 148, "z" : 3,
+					"x" : 0,
+					"y" : 148,
+					"z" : 3,
 					"campaignBonus" : "BoEup_4.pcx",
 					"border" : "town-screen/cathedral/borders/chapel02",
 					"area" : "town-screen/cathedral/areas/chapel02"
 				},
 				"dwellingLvl6" : {
 					"animation" : "town-screen/cathedral/buildings/swordstone01",
-					"x" : 513, "y" : 154, "z" : 1,
+					"x" : 513,
+					"y" : 154,
+					"z" : 1,
 					"campaignBonus" : "BoEdn_5.pcx",
 					"border" : "town-screen/cathedral/borders/swordstone01",
 					"area" : "town-screen/cathedral/areas/swordstone01"
 				},
 				"dwellingUpLvl6" : {
 					"animation" : "town-screen/cathedral/buildings/swordstone02",
-					"x" : 513, "y" : 154, "z" : 1,
+					"x" : 513,
+					"y" : 154,
+					"z" : 1,
 					"campaignBonus" : "BoEup_5.pcx",
 					"border" : "town-screen/cathedral/borders/swordstone02",
 					"area" : "town-screen/cathedral/areas/swordstone02"
 				},
 				"dwellingLvl7" : {
 					"animation" : "town-screen/cathedral/buildings/bronzeAltar01",
-					"x" : 475, "y" : 228, "z" : 5,
+					"x" : 475,
+					"y" : 228,
+					"z" : 5,
 					"campaignBonus" : "BoEdn_6.pcx",
 					"border" : "town-screen/cathedral/borders/bronzeAltar01",
 					"area" : "town-screen/cathedral/areas/bronzeAltar01"
 				},
 				"dwellingUpLvl7" : {
 					"animation" : "town-screen/cathedral/buildings/bronzeAltar02",
-					"x" : 449, "y" : 227, "z" : 5,
+					"x" : 449,
+					"y" : 227,
+					"z" : 5,
 					"campaignBonus" : "BoEup_6.pcx",
 					"border" : "town-screen/cathedral/borders/bronzeAltar02",
 					"area" : "town-screen/cathedral/areas/bronzeAltar02"
-				},
-				
+				}
+
 				//SPECIAL
 				//"special1" : {
 				//	"animation" : "town-screen/cathedral/buildings/blacksmith",
@@ -368,7 +675,7 @@
 					"name" : "Garden of Paradise",
 					"description" : "The presence of the Garden of Paradise increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day."
 				},
-				
+
 				//COMMON BUILDINGS
 				"tavern" : {
 					"cost" : {
@@ -406,7 +713,7 @@
 						"gems" : 1
 					}
 				},
-				
+
 				//MAGE GUILD
 				"mageGuild1" : {
 					"cost" : {
@@ -469,7 +776,7 @@
 					"name" : "Mage Guild Level 5",
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within."
 				},
-				
+
 				//HALLS
 				"villageHall" : {
 					"name" : "Village Hall",
@@ -496,7 +803,7 @@
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day."
 				},
-				
+
 				//FORTIFICATIONS
 				"fort" : {
 					"cost" : {
@@ -524,7 +831,7 @@
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
 				},
-				
+
 				//DWELLINGS
 				"dwellingLvl1" : {
 					"cost" : {
@@ -533,7 +840,9 @@
 					},
 					"name" : "Lodgings",
 					"description" : "The Lodgings allow you to recruit Peasants.",
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
 				"dwellingUpLvl1" : {
 					"cost" : {
@@ -551,12 +860,14 @@
 					},
 					"name" : "Gallows",
 					"description" : "The Gallows allow you to recruit Torturers.",
-					"requires" : [ "dwellingLvl1" ]
+					"requires" : [
+						"dwellingLvl1"
+					]
 				},
 				"dwellingUpLvl2" : {
 					"cost" : {
 						"gold" : 1000,
-						"wood" : 5,
+						"wood" : 5
 					},
 					"name" : "Upg. Gallows",
 					"description" : "The Gallows allow you to recruit Executioners.",
@@ -579,7 +890,9 @@
 					},
 					"name" : "Incinerator",
 					"description" : "The Incinerator increases Executioner production by 4 per week.",
-					"requires" : [ "horde1" ]
+					"requires" : [
+						"horde1"
+					]
 				},
 				"dwellingLvl3" : {
 					"cost" : {
@@ -589,7 +902,9 @@
 					},
 					"name" : "Archery Range",
 					"description" : "The Archery Range allows you to recruit Witch Hunters.",
-					"requires" : [ "dwellingLvl1" ]
+					"requires" : [
+						"dwellingLvl1"
+					]
 				},
 				"dwellingUpLvl3" : {
 					"cost" : {
@@ -607,7 +922,9 @@
 					},
 					"name" : "Cemetery",
 					"description" : "The Cemetery allows you to recruit Earthen Chimeras.",
-					"requires" : [ "dwellingLvl2" ]
+					"requires" : [
+						"dwellingLvl2"
+					]
 				},
 				"dwellingUpLvl4" : {
 					"cost" : {
@@ -627,7 +944,15 @@
 					},
 					"name" : "Chapel",
 					"description" : "The Chapel allows you to recruit Acolytes.",
-					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "mageGuild1" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						]
+					]
 				},
 				"dwellingUpLvl5" : {
 					"cost" : {
@@ -647,7 +972,9 @@
 					},
 					"name" : "Sword in the Stone",
 					"description" : "The Sword in the Stone allows you to recruit Dark Paladins.",
-					"requires" : [ "dwellingLvl5" ]
+					"requires" : [
+						"dwellingLvl5"
+					]
 				},
 				"dwellingUpLvl6" : {
 					"cost" : {
@@ -666,7 +993,9 @@
 					},
 					"name" : "Forgotten Shrine",
 					"description" : "The Forgotten Shrine allows you to recruit Avengers.",
-					"requires" : [ "dwellingLvl5" ]
+					"requires" : [
+						"dwellingLvl5"
+					]
 				},
 				"dwellingUpLvl7" : {
 					"cost" : {
@@ -677,9 +1006,11 @@
 					"name" : "Upg. Forgotten Shrine",
 					"description" : "The Forgotten Shrine allows you to recruit Punishers.",
 					"upgrades" : "dwellingLvl7",
-					"requires" : [ "mageGuild2" ]
+					"requires" : [
+						"mageGuild2"
+					]
 				},
-				
+
 				//SPECIAL
 				"special1" : null,
 				"special2" : null,
@@ -712,14 +1043,18 @@
 				}
 			},
 
-			"musicTheme" : [ "music/AsylumHeroesIV" ],
-			
+			"musicTheme" : [
+				"music/AsylumHeroesIV"
+			],
+
 			"defaultTavern" : 5,
-			
+
 			"tavernVideo" : "TAVERN.BIK",
-			
-			"guildBackground" : [ "TPMAGE.bmp" ],
-			
+
+			"guildBackground" : [
+				"TPMAGE.bmp"
+			],
+
 			"guildSpells" : {
 				// Level 1
 				"bless" : 40,
@@ -793,7 +1128,7 @@
 				"waterWalk" : 10,
 				"new-old-spells-plus:vigour" : 10,
 				"holyWord" : 30,
-				
+
 				//Level 5
 				"implosion" : 40,
 				"magicMirror" : 10,
@@ -806,51 +1141,230 @@
 				"new-old-spells-plus:dragonStrength" : 20,
 				"new-old-spells-plus:oh3Fear" : 20,
 				"new-old-spells-plus:puppetMaster" : 20,
-				"new-old-spells-plus:vampirism" : 20,
+				"new-old-spells-plus:vampirism" : 20
 			},
-			
-			"townBackground": "town-screen/cathedral/background",
-			
-			"guildWindow": [ "town-screen/cathedral/window" ],
-			
-			"buildingsIcons": "town-screen/cathedral/townFrames/HALLCDRL",
-			
-			"hallBackground": "town-screen/cathedral/buildmenu",
-			
-			"hallSlots": [
-				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
-				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ] ],
-				[ [ "horde1", "horde1Upgr" ] ],
-				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
-				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+
+			"townBackground" : "town-screen/cathedral/background",
+
+			"guildWindow" : [
+				"town-screen/cathedral/window"
 			],
-			
+
+			"buildingsIcons" : "town-screen/cathedral/townFrames/HALLCDRL",
+
+			"hallBackground" : "town-screen/cathedral/buildmenu",
+
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					]
+				],
+				[
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+
 			"creatures" : [
-				["core:peasant", "conscriptAU"],
-				["torturerAU", "executionerAU"],
-				["witchHunterAU", "undeadSlayerAU"],
-				["earthenChimeraAU", "fierceChimeraAU"],
-				["acolyteAU", "adeptAU"],
-				["darkPaladinAU", "darkTemplarAU"],
-				["avengerAU", "punisherAU"]
+				[
+					"core:peasant",
+					"conscriptAU"
+				],
+				[
+					"torturerAU",
+					"executionerAU"
+				],
+				[
+					"witchHunterAU",
+					"undeadSlayerAU"
+				],
+				[
+					"earthenChimeraAU",
+					"fierceChimeraAU"
+				],
+				[
+					"acolyteAU",
+					"adeptAU"
+				],
+				[
+					"darkPaladinAU",
+					"darkTemplarAU"
+				],
+				[
+					"avengerAU",
+					"punisherAU"
+				]
 			],
-			
-			"horde" : [1,6],
-			
+
+			"horde" : [
+				1,
+				6
+			],
+
 			"mageGuild" : 5,
-			
+
 			"guildSpellPositions" : [
-				[ { "x": 222, "y": 445 }, { "x": 312, "y": 445 }, { "x": 402, "y": 445 }, { "x": 520, "y": 445 }, { "x": 610, "y": 445 }, { "x": 700, "y": 445 } ],
-				[ { "x":  48, "y":  53 }, { "x":  48, "y": 147 }, { "x":  48, "y": 241 }, { "x":  48, "y": 335 }, { "x":  48, "y": 429 } ],
-				[ { "x": 570, "y":  82 }, { "x": 672, "y":  82 }, { "x": 570, "y": 157 }, { "x": 672, "y": 157 } ],
-				[ { "x": 183, "y":  42 }, { "x": 183, "y": 148 }, { "x": 183, "y": 253 } ],
-				[ { "x": 491, "y": 325 }, { "x": 591, "y": 325 } ]
+				[
+					{
+						"x" : 222,
+						"y" : 445
+					},
+					{
+						"x" : 312,
+						"y" : 445
+					},
+					{
+						"x" : 402,
+						"y" : 445
+					},
+					{
+						"x" : 520,
+						"y" : 445
+					},
+					{
+						"x" : 610,
+						"y" : 445
+					},
+					{
+						"x" : 700,
+						"y" : 445
+					}
+				],
+				[
+					{
+						"x" : 48,
+						"y" : 53
+					},
+					{
+						"x" : 48,
+						"y" : 147
+					},
+					{
+						"x" : 48,
+						"y" : 241
+					},
+					{
+						"x" : 48,
+						"y" : 335
+					},
+					{
+						"x" : 48,
+						"y" : 429
+					}
+				],
+				[
+					{
+						"x" : 570,
+						"y" : 82
+					},
+					{
+						"x" : 672,
+						"y" : 82
+					},
+					{
+						"x" : 570,
+						"y" : 157
+					},
+					{
+						"x" : 672,
+						"y" : 157
+					}
+				],
+				[
+					{
+						"x" : 183,
+						"y" : 42
+					},
+					{
+						"x" : 183,
+						"y" : 148
+					},
+					{
+						"x" : 183,
+						"y" : 253
+					}
+				],
+				[
+					{
+						"x" : 491,
+						"y" : 325
+					},
+					{
+						"x" : 591,
+						"y" : 325
+					}
+				]
 			],
-			
-			"guildWindowPosition": { "x": 332, "y": 76 },
-			
+
+			"guildWindowPosition" : {
+				"x" : 332,
+				"y" : 76
+			},
+
 			"primaryResource" : "gems",
-			
+
 			"moatAbility" : "castleMoat",
 
 			"names" : [
@@ -869,7 +1383,7 @@
 				"Solitude",
 				"Sunset Grove",
 				"Tyrant's Rest",
-				"Whitechapel",
+				"Whitechapel"
 			],
 
 			"siege" : {

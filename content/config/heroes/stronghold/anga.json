@@ -38,7 +38,7 @@
 			"bonuses" : {
 				"lightningBolt" : {
 					"type" : "SPECIAL_SPELL_SCALING",
-					"subtype" : "spell.lightningBolt",					
+					"subtype" : "spell.lightningBolt",
 					"val" : 10
 				}
 			}

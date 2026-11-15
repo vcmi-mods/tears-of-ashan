@@ -22,11 +22,11 @@
 			},
 			"templates" : {
 				"female" : {
-					"animation" : "classes/technician/Map.def",
+					"animation" : "classes/technician/Map.def"
 					//"editorAnimation" : "classes/technician/FemaleEditor.def"
 				},
 				"male" : {
-					"animation" : "classes/technician/Map.def",
+					"animation" : "classes/technician/Map.def"
 					//"editorAnimation" : "classes/technician/MaleEditor.def"
 				}
 			}

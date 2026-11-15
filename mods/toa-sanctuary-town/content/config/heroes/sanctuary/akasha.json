@@ -36,7 +36,7 @@
 			"creatureLevel" : 6,
 			"stepSize" : 20
 		},
-		
+
 		"army" : [
 			{
 				"creature" : "sharkGuardAU",

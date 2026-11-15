@@ -129,7 +129,7 @@
 			"group" : 0,
 			"frame" : 25,
 			"file" : "frame01.png"
-		},
+		}
 	],
 	"basepath" : "creatures/forge/map/dragonMech/"
 }
