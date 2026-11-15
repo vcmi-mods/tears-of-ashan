@@ -374,11 +374,11 @@
 				"description" : "{Basic Magic Mirror}\n\nProtects the target allied unit with a magical reflective barrier. The affected unit has a 20% chance to reflect hostile, single-target spells that would usually affect it, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area."
 			},
 			"advanced" : {
-				"description" : "{Advanced Magic Mirror}\n\nProtects the target allied unit and any allied units adjacent to the target with a magical reflective barrier. The affected units have a 30% chance to reflect hostile, single-target spells that would usually affect them, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area."
+				"description" : "{Advanced Magic Mirror}\n\nProtects the target allied unit and any allied units adjacent to the target with a magical reflective barrier. The affected units have a 30% chance to reflect hostile, single-target spells that would usually affect them, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area.",
 				"range" : "0,1"
 			},
 			"expert" : {
-				"description" : "{Expert Magic Mirror}\n\nProtects the target allied unit and any allied units within 2 hexes of the target with a magical reflective barrier. The affected units have a 40% chance to reflect hostile, single-target spells that would usually affect them, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area."
+				"description" : "{Expert Magic Mirror}\n\nProtects the target allied unit and any allied units within 2 hexes of the target with a magical reflective barrier. The affected units have a 40% chance to reflect hostile, single-target spells that would usually affect them, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area.",
 				"range" : "0,1,2"
 			}
 		}
