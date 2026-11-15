@@ -13,7 +13,7 @@
 			"rampart" : 0,
 			"tower" : 0,
 			"inferno" : 12,
-			"dungeon" : 15
+			"dungeon" : 15,
 			"necropolis" : 25
 		},
 
@@ -53,6 +53,11 @@
 
 		"levels" : {
 			"base" : {
+				"range" : "0",
+				"power" : 1
+				"targetModifier" : {
+					"smart" : true
+				},
 				"battleEffects" : {
 					"timed" : {
 						"type" : "core:timed",
