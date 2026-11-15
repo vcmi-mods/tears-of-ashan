@@ -54,7 +54,7 @@
 		"levels" : {
 			"base" : {
 				"range" : "0",
-				"power" : 1
+				"power" : 1,
 				"targetModifier" : {
 					"smart" : true
 				},
