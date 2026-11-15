@@ -4803,8 +4803,7 @@
 			"bonuses" : {
 				"magicArrow" : {
 					"subtype" : "spell.magicArrow",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
+					"type" : "SPECIAL_SPELL_SCALING",
 					"val" : 20
 				}
 			}

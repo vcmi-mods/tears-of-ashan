@@ -37,9 +37,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"disruptingRay" : {
-					"addInfo" : -10,
+					"addInfo" : [ -10 ],
 					"subtype" : "spell.disruptingRay",
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
 		},
