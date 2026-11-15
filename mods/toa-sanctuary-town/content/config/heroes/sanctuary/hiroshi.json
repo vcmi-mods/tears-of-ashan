@@ -1,0 +1,58 @@
+{
+	"08hiroshi" : {
+		"class" : "samuraiClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Hiroshi",
+			"biography" : "Lord Hiroshi, a daimyo of the Eternal Empress, is a powerful member of the Naga ruling class. A devoted agent of Shalassa's will, he has nevertheless become somewhat jaded over time, and no longer feels the surge of adrenaline any challenges to his honor would have provoked. His calm, unruffled demeanor is often mistaken for apathy, but Hiroshi's warrior spirit, now tainted with bitterness, is still to be found in his barbed words. He enjoys mocking all and sundry, but reserves his most cutting remarks for those who pose a threat to his authority.",
+			"specialty" : {
+				"name" : "Tactics",
+				"tooltip" : "Secondary Skill Bonus: Tactics",
+				"description" : "Increases Tactics placement area by 2."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/hiroshi/portraitSmall.png",
+			"large" : "heroes/sanctuary/hiroshi/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Expert Tactics.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Tactics.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "tactics",
+				"level" : "advanced"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"tactics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "BEFORE_BATTLE_REPOSITION",
+					"val" : 2
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

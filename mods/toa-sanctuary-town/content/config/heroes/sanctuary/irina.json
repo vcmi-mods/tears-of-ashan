@@ -1,0 +1,72 @@
+{
+	"60irina" : {
+		"class" : "monkClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"bless"
+		],
+		"texts" : {
+			"name" : "Irina",
+			"biography" : "Sewing, music, poetry. Irina, the eldest daughter of Duke Slava and Duchess Cate of Griffin, couldn’t care less about these traditional female pursuits. Instead, together with her rough-and-tumble half-brother, Sandor, Irina enjoyed the broadest of possible educations, even convincing the Orc Kraal, master-of-arms of House Griffin, to teach her the ways of the wild and the art of warfare. Feisty and headstrong, Irina’s already limited tolerance for her assigned role in Imperial society was broken the day she was forcibly betrothed to Gerhart, the odious Duke of Wolf. On her wedding night, he attacked her violently and she in turn wounded him grievously. Imprisoned in the Wolf’s fetid dungeons, Irina was determined to die rather than apologize to the tyrant. But she was freed by Sandor, and they both escaped to the south-eastern islands of the Jade Ocean. Stranded in the heart of Naga territory, Irina finds herself a stranger in a strange land, but with the means to get her revenge on Gerhart and the Holy Emperor himself.",
+			"specialty" : {
+				"name" : "Fearless Leader",
+				"tooltip" : "Creature Bonus: Fearless Leader",
+				"description" : "Creatures in the hero's army always have +1 minimum Morale and are immune to Fear."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/irina/portraitSmall.png",
+			"large" : "heroes/sanctuary/irina/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Morale 01.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Morale 01.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "lightMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "waterMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"morale" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"valueType" : "INDEPENDENT_MAX",
+					"propagator" : "HERO"
+				},
+				"fearless" : {
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 0,
+					"propagator" : "HERO"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

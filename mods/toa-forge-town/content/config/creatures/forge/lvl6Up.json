@@ -1,0 +1,74 @@
+{
+	"heavyTankAU" : {
+		"name" : {
+			"singular" : "Heavy Tank",
+			"plural" : "Heavy Tanks"
+		},
+		"faction" : "forgeTOA",
+		"level" : 6,
+		"attack" : 20,
+		"defense" : 18,
+		"damage" : {
+			"min" : 35,
+			"max" : 35
+		},
+		"hitPoints" : 150,
+		"speed" : 11,
+		"growth" : 1,
+		"aiValue" : 3750,
+		"fightValue" : 3750,
+		"cost" : {
+			"gold" : 2200,
+			"sulfur" : 1
+		},
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 8
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"landMineImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "landMine",
+				"addInfo" : 0
+			},
+			"thunderOnAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "thunderbolt",
+				"val" : 40,
+				"description" : "{Cast After Attack}\nHas a 40% chance to cast Thunderbolt after attacking (20 Damage per Heavy Tank).",
+				"icon" : "zvs/Lib1.res/thunderbird.png"
+			},
+			"thunderStrength" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "thunderbolt",
+				"val" : 20
+			},
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl6Up.def",
+			"map" : "creatures/forge/map/lvl6Up.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl6Up.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl6Up.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/tank/attack.mp3",
+			"defend" : "creatures/tank/defend.mp3",
+			"killed" : "creatures/tank/death.mp3",
+			"move" : "creatures/tank/move.mp3",
+			"wince" : "creatures/tank/hit.mp3"
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"core:peasant" : {
+		"faction" : "cathedralTOA",
+		"level" : 1,
+		"attack" : 3,
+		"defense" : 2,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
+		"hitPoints" : 4,
+		"speed" : 5,
+		"growth" : 25,
+		"aiValue" : 45,
+		"fightValue" : 45,
+		"cost" : {
+			"gold" : 30
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"upgrades" : [
+			"conscriptAU"
+		],
+		"abilities" : {
+			"generateGold" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 2,
+				"propagator" : "ARMY",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "core:peasant"
+				},
+				"stacking" : "peasant",
+				"icon" : "zvs/Lib1.res/gold.png",
+				"description" : "{Generates Gold}\nPeasants produce 2 Gold per unit per day."
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/cathedral/iconsbig/peasant"
+		}
+	}
+}

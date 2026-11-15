@@ -1,0 +1,88 @@
+{
+	"fireDragonAU" : {
+		"name" : {
+			"singular" : "Fire Dragon",
+			"plural" : "Fire Dragons"
+		},
+		"faction" : "bulwark",
+		"level" : 7,
+		"attack" : 16,
+		"defense" : 22,
+		"damage" : {
+			"min" : 40,
+			"max" : 50
+		},
+		"hitPoints" : 175,
+		"speed" : 9,
+		"growth" : 1,
+		"aiValue" : 4900,
+		"fightValue" : 3700,
+		"cost" : {
+			"gold" : 2500,
+			"crystal" : 1
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 10
+		},
+		"upgrades" : [
+			"magmaDragonAU",
+			"lavaDragonAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"twoHexAttackBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"fireShield" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
+				"val" : 20
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl7.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl7.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl7.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl7.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/fireDragon/attack",
+			"defend" : "creatures/fireDragon/defend",
+			"killed" : "creatures/fireDragon/death",
+			"move" : "creatures/fireDragon/move",
+			"wince" : "creatures/fireDragon/hit"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"BLOOD_FRENZY" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Wounded}\nSuffers -3 Speed and 30% more damage from attacking Wanizame",
+
+		"graphics" : {
+			"icon" : "bonuses/bloodFrenzy.png"
+		}
+	}
+}

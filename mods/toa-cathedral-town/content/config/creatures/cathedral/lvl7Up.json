@@ -1,0 +1,153 @@
+{
+	"punisherAU" : {
+		"name" : {
+			"singular" : "Punisher",
+			"plural" : "Punishers"
+		},
+		"faction" : "cathedralTOA",
+		"level" : 7,
+		"attack" : 28,
+		"defense" : 28,
+		"damage" : {
+			"min" : 40,
+			"max" : 55
+		},
+		"hitPoints" : 250,
+		"speed" : 18,
+		"growth" : 1,
+		"aiValue" : 8550,
+		"fightValue" : 5685,
+		"cost" : {
+			"gold" : 4500,
+			"gems" : 3
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"king3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"revenge" : {
+				"type" : "REVENGE"
+			},
+			"castsBlind" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 15,
+				"addInfo" : [
+					3,
+					0,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 15% chance to cast Expert Blind after attacking (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/blind3"
+			},
+			"castsCurse" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 15,
+				"addInfo" : [
+					2,
+					0,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 15% chance to cast Advanced Curse after attacking (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/curse2"
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 15,
+				"addInfo" : [
+					3,
+					0,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 15% chance to cast Expert Disrupting Ray after attacking (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray3"
+			},
+			"castsMisfortune" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.misfortune",
+				"val" : 15,
+				"addInfo" : [
+					2,
+					0,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 15% chance to cast Advanced Misfortune after attacking (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/misfortune2"
+			},
+			"castsSlow" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.slow",
+				"val" : 15,
+				"addInfo" : [
+					2,
+					0,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 15% chance to cast Advanced Slow after attacking (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/slow2"
+			},
+			"castsSorrow" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.sorrow",
+				"val" : 15,
+				"addInfo" : [
+					2,
+					0,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 15% chance to cast Advanced Sorrow after attacking (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/sorrow2"
+			},
+			"castsWeakness" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 15,
+				"addInfo" : [
+					2,
+					0,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 15% chance to cast Advanced Weakness after attacking (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/weakness2"
+			},
+			"spellPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cathedral/battle/lvl7Up.def",
+			"map" : "creatures/cathedral/map/lvl7Up.def",
+			"iconSmall" : "creatures/cathedral/iconsSmall/lvl7Up.png",
+			"iconLarge" : "creatures/cathedral/iconsBig/lvl7Up.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "AAGLATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move" : "AAGLMOVE.wav",
+			"wince" : "AAGLWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "spirit02.png"
+        }
+    ],
+    "basepath": "town-screen/sanctuary/buildings/"
+}

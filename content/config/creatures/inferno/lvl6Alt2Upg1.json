@@ -15,8 +15,8 @@
 		"hitPoints" : 110,
 		"speed" : 9,
 		"growth" : 2,
-		"aiValue" : 2650,
-		"fightValue" : 2500,
+		"aiValue" : 2950,
+		"fightValue" : 2675,
 		"cost" : {
 			"gold" : 1500
 		},
@@ -62,20 +62,19 @@
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LIVING"
 					}
-				]
-			},
-			"fearless" : {
-				"type" : "FEARFUL",
-				"valueType" : "INDEPENDENT_MIN",
-				"val" : 0
+				],
+				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear.",
+				"icon" : "zvs/Lib1.res/e_fear.png"
 			},
 			"fearsomeBonus" : {
 				"type" : "NONE",
 				"description" : "{Fearsome}\nHas a 10% chance to inflict enemies with Fear.",
 				"icon" : "zvs/Lib1.res/e_fear.png"
 			},
-			"fearlessBonus" : {
-				"type" : "NONE",
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "AT_MOST",
+				"description" : "PLACEHOLDER",
 				"val" : 0,
 				"description" : "{Fearless}\nUnaffected by Fear.",
 				"icon" : "zvs/Lib1.res/e_fearl.png"

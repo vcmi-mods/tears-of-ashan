@@ -1,0 +1,86 @@
+{
+	"ferociousWound" : {
+		"type" : "ability",
+		"name" : "Ferocious Wound",
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"animation" : {
+			"affect" : [
+				"NewOldSpells/disinegrate.def"
+			]
+		},
+		"flags" : {
+			"special" : true,
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true
+		},
+		"targetCondition" : {},
+		"graphics" : {
+			"iconEffect" : "NewOldSpells/disinegrateEffect.png"
+		},
+		"sounds": {
+			"cast": "NewOldSpells/sound.spell.disintegrate.wav"
+		},
+		"targetType" : "CREATURE",
+		"levels" : {
+			"base":{
+				"description" : "{Ferocious Wound}\nReduces the target's Speed by 3 for 2 turns. Target will also be dealt the Wanizame's stack size as damage each turn.\n",
+				"range" : "0",
+				"cost" : 0,
+				"power" : 1,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					},
+					"slowing" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"slow" : {
+								"type" : "STACKS_SPEED",
+								"val" : -3,
+								"duration" : "N_TURNS"
+							}
+						}
+					},
+					"bloodFrenzyEffect" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"bloodFrenzyBonus" : {
+								"type" : "BLOOD_FRENZY",
+								"effectRange" : "ONLY_MELEE_FIGHT",
+								"duration" : "N_TURNS",
+								"hidden" : false
+							}
+						}
+					}
+				}
+			},
+			"none" : {
+				"power" : 1
+			},
+			"basic" : {
+				"power" : 1
+			},
+			"advanced" : {
+				"power" : 1
+			},
+			"expert" : {
+				"power" : 1
+			}
+		}
+	}
+}

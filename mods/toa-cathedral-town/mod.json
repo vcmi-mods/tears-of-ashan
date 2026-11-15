@@ -1,0 +1,102 @@
+{
+	"name" : "Faction: Cathedral (Heroes III)",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "The Cathedral faction from Horn of the Abyss, filled with familiar faces from Heroes VI and Heroes VII!<p>This mod's state is <b>WORK IN PROGRESS</b> as it lacks assets for the grail.</p>",
+	"version" : "1.0.0",
+	"modType" : "Town",
+
+	"keepDisabled" : true,
+
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"conflicts" : [
+		"cathedral-town"
+	],
+
+	"depends" : [
+		"hota.bulwark",
+		"hota.cove",
+		"hota.factory",
+		"hota.factory.bonuses icons",
+		"hota.gamebalance.heroes",
+		"hota.gamebalance.skills.firstaid",
+		"hota.heroes3datapatch",
+		"hota.interference",
+		"market-of-time",
+		"new-old-spells-plus",
+		"vcmi-extras.bonusicons.bonus icons"
+	],
+
+	//"skills" : [
+	//	"config/skills/.json"
+	//],
+
+	//"bonuses" : [
+	//	"config/bonuses/.json"
+	//],
+
+	//"spells" : [
+	//	"config/spells/.json"
+	//],
+
+	"factions" : [
+		"config/town-screen/cathedral.json"
+	],
+	
+	"heroClasses" : [
+		"config/classes/inquisitor.json",
+		"config/classes/chaplain.json"
+	],
+
+	"heroes" : [
+		"config/heroes/cathedral/amilcar.json",
+		"config/heroes/cathedral/cordelia.json",
+		"config/heroes/cathedral/elisabeth.json",
+		"config/heroes/cathedral/mateusz.json",
+		"config/heroes/cathedral/melisande.json",
+		"config/heroes/cathedral/rosalie.json",
+		"config/heroes/cathedral/salvatore.json",
+		"config/heroes/cathedral/serguei.json",
+		"config/heroes/cathedral/ymoril.json",
+		
+		"config/heroes/cathedral/diane.json",
+		"config/heroes/cathedral/eileen.json",
+		"config/heroes/cathedral/ella.json",
+		"config/heroes/cathedral/konrad.json",
+		"config/heroes/cathedral/krysztoff.json",
+		"config/heroes/cathedral/laurielle.json",
+		"config/heroes/cathedral/michael.json",
+		"config/heroes/cathedral/seamus.json",
+		"config/heroes/cathedral/wilhelm.json"
+	],
+	
+	"creatures" : [
+		"config/creatures/cathedral/lvl1",
+		"config/creatures/cathedral/lvl1Up",
+		"config/creatures/cathedral/lvl2",
+		"config/creatures/cathedral/lvl2Up",
+		"config/creatures/cathedral/lvl3",
+		"config/creatures/cathedral/lvl3Up",
+		"config/creatures/cathedral/lvl4",
+		"config/creatures/cathedral/lvl4Up",
+		"config/creatures/cathedral/lvl5",
+		"config/creatures/cathedral/lvl5Up",
+		"config/creatures/cathedral/lvl6",
+		"config/creatures/cathedral/lvl6Up",
+		"config/creatures/cathedral/lvl7",
+		"config/creatures/cathedral/lvl7Up"
+	],
+	
+	//"artifacts" : [
+	//	"config/artifacts/"
+	//],
+	
+	"objects" : [
+		"config/dwellings.json"
+	]
+}

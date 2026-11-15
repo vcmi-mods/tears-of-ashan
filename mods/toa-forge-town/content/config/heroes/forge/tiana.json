@@ -1,0 +1,58 @@
+{
+	"03Tiana" : {
+		"class" : "cyborgClass",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Tiana",
+			"biography" : "Tiana always stood out among other goblins. She was taller, more athletic, and more daring than any other in her tribe, so it came as no surprise to her parents when she eventually decided to leave her village for a life of adventure. Upon discovering one of the towns of the Heavenly Forges, she marvelled at the wonders of technology beyond her wildest dreams, and quickly found herself calling one such settlement her home.",
+			"specialty" : {
+				"name" : "Grunts",
+				"tooltip" : "Creature Bonus: Grunts",
+				"description" : "Increases the Speed of allied Grunts and Foot Soldiers by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/tiana/portraitSmall.png",
+			"large" : "heroes/forge/tiana/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Grunts.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Grunts.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "gruntAU",
+			"creatureLevel" : 1,
+			"stepSize" : 10
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			}
+		]
+	}
+}

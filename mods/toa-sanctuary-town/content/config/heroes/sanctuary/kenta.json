@@ -1,0 +1,68 @@
+{
+	"09kenta" : {
+		"class" : "samuraiClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Kenta",
+			"biography" : "Kenta is a shark guard who is well known to offer guidance in times of need. Sometimes, he also needs help from others.",
+			"specialty" : {
+				"name" : "Shark Guards",
+				"tooltip" : "Creature Bonus: Shark Guards",
+				"description" : "Allied Shark Guards and Wanizame's Ferocious Wound inflicts double damage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/kenta/portraitSmall.png",
+			"large" : "heroes/sanctuary/kenta/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Shark Guards.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Shark Guards.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"ferociousWound" : {
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "spell.ferociousWound",
+					"val" : 1,
+					"propagator" : "HERO",
+					"limiters" : {
+						"type" : "CREATURE_TYPE_LIMITER", 
+						"creature" : "sharkGuardAU",
+						"includeUpgrades" : true
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			}
+		]
+	}
+}

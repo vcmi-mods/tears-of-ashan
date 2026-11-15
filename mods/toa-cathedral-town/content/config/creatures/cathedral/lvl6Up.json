@@ -1,0 +1,83 @@
+{
+	"darkTemplarAU" : {
+		"name" : {
+			"singular" : "Dark Templar",
+			"plural" : "Dark Templars"
+		},
+		"faction" : "cathedralTOA",
+		"level" : 6,
+		"attack" : 18,
+		"defense" : 16,
+		"damage" : {
+			"min" : 16,
+			"max" : 24
+		},
+		"hitPoints" : 100,
+		"speed" : 9,
+		"growth" : 2,
+		"aiValue" : 2275,
+		"fightValue" : 1975,
+		"cost" : {
+			"gold" : 1250
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"hatesUndead" : {
+				"type" : "HATES_TRAIT",
+				"subtype" : "UNDEAD",
+				"val" : 50,
+				"description" : "{Hates Undead}\nDeals 50% increased damage to Undead units.",
+				"icon" : "zvs/Lib1.res/e_undead.png"
+			},
+			"castBless" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "bless",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Bless (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/bless3.png"
+			},
+			"blessPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"castHolyWord" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "holyWord",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Holy Word (40% Power).",
+				"icon" : "bonuses/holyWord.png"
+			},
+			"spellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 40
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cathedral/battle/lvl6Up.def",
+			"map" : "creatures/cathedral/map/lvl6Up.def",
+			"iconSmall" : "creatures/cathedral/iconsSmall/lvl6Up.png",
+			"iconLarge" : "creatures/cathedral/iconsBig/lvl6Up.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "CRUSATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "CRUSKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "CRUSWNCE.wav"
+		}
+	}
+}

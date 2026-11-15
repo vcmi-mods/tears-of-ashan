@@ -1,0 +1,95 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "grail.png"
+        },
+		{
+            "group": 0,
+            "frame": 1,
+            "file": "grail-01.png"
+        },
+		{
+            "group": 0,
+            "frame": 2,
+            "file": "grail-02.png"
+        },
+		{
+            "group": 0,
+            "frame": 3,
+            "file": "grail-03.png"
+        },
+		{
+            "group": 0,
+            "frame": 4,
+            "file": "grail-04.png"
+        },
+		{
+            "group": 0,
+            "frame": 5,
+            "file": "grail-05.png"
+        },
+		{
+            "group": 0,
+            "frame": 6,
+            "file": "grail-06.png"
+        },
+		{
+            "group": 0,
+            "frame": 7,
+            "file": "grail-07.png"
+        },
+		{
+            "group": 0,
+            "frame": 8,
+            "file": "grail-08.png"
+        },
+		{
+            "group": 0,
+            "frame": 9,
+            "file": "grail-09.png"
+        },
+		        {
+            "group": 0,
+            "frame": 10,
+            "file": "grail-10.png"
+        },
+		{
+            "group": 0,
+            "frame": 11,
+            "file": "grail-11.png"
+        },
+		{
+            "group": 0,
+            "frame": 12,
+            "file": "grail-12.png"
+        },
+		{
+            "group": 0,
+            "frame": 13,
+            "file": "grail-13.png"
+        },
+		{
+            "group": 0,
+            "frame": 14,
+            "file": "grail-14.png"
+        },
+		{
+            "group": 0,
+            "frame": 15,
+            "file": "grail-15.png"
+        },
+		{
+            "group": 0,
+            "frame": 16,
+            "file": "grail-16.png"
+        },
+		{
+            "group": 0,
+            "frame": 17,
+            "file": "grail-17.png"
+        }
+    ],
+    "basepath": "town-screen/forge/buildings/"
+}

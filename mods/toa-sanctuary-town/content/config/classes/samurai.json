@@ -1,0 +1,103 @@
+{
+	"samuraiClass" : {
+		"name" : "Samurai",
+		"faction" : "sanctuary",
+		"affinity" : "might",
+		"defaultTavern" : 5,
+		"commander" : "snowMaidenAU",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/samurai/MaleCombat.def",
+				"male" : "classes/samurai/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/samurai/FemaleMap.def",
+					"editorAnimation" : "classes/samurai/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/samurai/MaleMap.def",
+					"editorAnimation" : "classes/samurai/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 2,
+			"spellpower" : 1,
+			"knowledge" : 1
+		},
+		"lowLevelChance" : {
+			"attack" : 50,
+			"defence" : 25,
+			"spellpower" : 10,
+			"knowledge" : 15
+		},
+		"highLevelChance" : {
+			"attack" : 35,
+			"defence" : 20,
+			"spellpower" : 25,
+			"knowledge" : 20
+		},
+		"secondarySkills" : {
+			"archery" : 7,
+			"armorer" : 8,
+			"artillery" : 4,
+			"ballistics" : 3,
+			"firstAid" : 3,
+			"interference" : 4,
+			"leadership" : 7,
+			"luck" : 6,
+			"offence" : 10,
+			"resistance" : 4,
+			"tactics" : 7,
+
+			"airMagic" : 2,
+			"earthMagic" : 3,
+			"fireMagic" : 1,
+			"waterMagic" : 3,
+			"lightMagic" : 4,
+			"darkMagic" : 4,
+			"eagleEye" : 1,
+			"intelligence" : 3,
+			"mysticism" : 1,
+			"necromancy" : 0,
+			"scholar" : 2,
+			"sorcery" : 3,
+			"wisdom" : 6,
+
+			"diplomacy" : 4,
+			"estates" : 2,
+			"learning" : 3,
+			"logistics" : 7,
+			"navigation" : 8,
+			"pathfinding" : 6,
+			"scouting" : 6
+		},
+		"tavern" : {
+			"castle" : 5,
+			"rampart" : 6,
+			"tower" : 5,
+			"inferno" : 2,
+			"necropolis" : 1,
+			"dungeon" : 2,
+			"stronghold" : 5,
+			"fortress" : 4,
+			"conflux" : 6,
+			"cove" : 6,
+			"factory" : 3,
+			"bulwark" : 5,
+			"sanctuary" : 10
+		}
+	}
+}

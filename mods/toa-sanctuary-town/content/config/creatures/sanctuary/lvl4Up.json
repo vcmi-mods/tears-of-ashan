@@ -1,0 +1,147 @@
+{
+	"mizuKamiAU" : {
+		"name" : {
+			"singular" : "Mizu-kami",
+			"plural" : "Mizu-kamis"
+		},
+		"faction" : "sanctuary",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 8,
+		"damage" : {
+			"min" : 10,
+			"max" : 14
+		},
+		"hitPoints" : 40,
+		"speed" : 11,
+		"growth" : 4,
+		"aiValue" : 650,
+		"fightValue" : 550,
+		"cost" : {
+			"gold" : 400
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 65,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 10,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 10,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 10,
+				"hidden" : true
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"painMirror" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
+				"val" : 20,
+				"description" : "{Pain Mirror}\nReflects 20% of incoming melee damage back to the attacker.",
+				"icon" : "bonuses/painMirror.png"
+			},
+			"lifeguardMembrane" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 15,
+				"description" : "{Lifeguard Membrane}\nReduces all incoming damage by 15% (racial bonus becomes -65% Water/+10% Air damage).",
+				"icon" : "bonuses/lifeguardMembrane.png"
+			},
+			"lifeguardEarth" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "earth",
+				"val" : 15,
+				"hidden" : true
+			},
+			"lifeguardFire" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 15,
+				"hidden" : true
+			},
+			"lifeguardLight" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "01lightSchool",
+				"val" : 15,
+				"hidden" : true
+			},
+			"lifeguardDark" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "02darkSchool",
+				"val" : 15,
+				"hidden" : true
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl4Up.def",
+			"map" : "creatures/sanctuary/map/lvl4Up.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl4Up.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl4Up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"projectile" : "PICEE.DEF",
+				"attackClimaxFrame" : 4,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 18,
+					"lowerY" : -92,
+					"middleX" : 43,
+					"middleY" : -99,
+					"upperX" : 28,
+					"upperY" : -107
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/springSpirit/attack.mp3",
+			"defend" : "creatures/springSpirit/defend.mp3",
+			"killed" : "creatures/springSpirit/death.mp3",
+			"move" : "creatures/springSpirit/move.mp3",
+			"wince" : "creatures/springSpirit/hit.mp3"
+		}
+	}
+}

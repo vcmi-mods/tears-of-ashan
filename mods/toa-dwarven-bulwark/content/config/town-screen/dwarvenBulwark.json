@@ -1,0 +1,303 @@
+{
+	"hota.bulwark:bulwark" : {
+		"name" : "Crownwork",
+		"town" : {
+			"primaryResource" : "crystal",
+			
+			"musicTheme" : [
+				"music/fortressHeroesV.mp3"
+			],
+			
+			"creatures" : [
+				[
+					"defenderAU",
+					"shieldguardAU",
+					"mountainGuardAU"
+				],
+				[
+					"spearwielderAU",
+					"skirmisherAU",
+					"harpoonerAU"
+				],
+				[
+					"bearRiderAU",
+					"blackbearRiderAU",
+					"whitebearRiderAU"
+				],
+				[
+					"brawlerAU",
+					"berserkerAU",
+					"battleragerAU"
+				],
+				[
+					"runePriestAU",
+					"runePatriarchAU",
+					"runeKeeperAU"
+				],
+				[
+					"thaneAU",
+					"flameLordAU",
+					"thunderThaneAU"
+				],
+				[
+					"fireDragonAU",
+					"magmaDragonAU",
+					"lavaDragonAU"
+				]
+			],
+			
+			"structures" : {
+				"dwellingUp2Lvl1" : {
+					"animation" : "town-screen/cyan",
+					"area" : "town-screen/cyan",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl1",
+					"x" : 0,
+					"y" : 94,
+					"z" : 2
+				},
+				"dwellingLvl2" : {
+					"animation" : "hota/bulwark/town/buildings/TBBuD201",
+					"area" : "hota/bulwark/town/area/dwellingLvl3",
+					"border" : "hota/bulwark/town/border/dwellingLvl3",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl3",
+					"x" : 581,
+					"y" : 242,
+					"z" : 1
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "hota/bulwark/town/buildings/TBBuU201",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl3",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl3",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl3",
+					"x" : 581,
+					"y" : 220,
+					"z" : 1
+				},
+				"dwellingUp2Lvl2" : {
+					"animation" : "town-screen/cyan",
+					"area" : "town-screen/cyan",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl3",
+					"x" : 581,
+					"y" : 220,
+					"z" : 1
+				},
+				"dwellingLvl3" : {
+					"animation" : "hota/bulwark/town/buildings/TBBuDw_1",
+					"area" : "hota/bulwark/town/area/dwellingLvl2",
+					"border" : "hota/bulwark/town/border/dwellingLvl2",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl2",
+					"x" : 301,
+					"y" : 74,
+					"z" : 1
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "hota/bulwark/town/buildings/TBBuU101",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl2",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl2",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl2",
+					"x" : 301,
+					"y" : 44,
+					"z" : 1
+				},
+				"dwellingUp2Lvl3" : {
+					"animation" : "town-screen/cyan",
+					"area" : "town-screen/cyan",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl2",
+					"x" : 301,
+					"y" : 44,
+					"z" : 1
+				},
+				"dwellingUp2Lvl4" : {
+					"animation" : "town-screen/cyan",
+					"area" : "town-screen/cyan",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl4",
+					"x" : 239,
+					"y" : 153,
+					"z" : 0
+				},
+				"dwellingUp2Lvl5" : {
+					"animation" : "town-screen/cyan",
+					"area" : "town-screen/cyan",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl5",
+					"x" : 444,
+					"y" : 163,
+					"z" : 1
+				},
+				"dwellingUp2Lvl6" : {
+					"animation" : "town-screen/cyan",
+					"area" : "town-screen/cyan",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl6",
+					"x" : 160,
+					"y" : 190,
+					"z" : -1
+				},
+				"dwellingUp2Lvl7" : {
+					"animation" : "town-screen/cyan",
+					"area" : "town-screen/cyan",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl7",
+					"x" : 380,
+					"y" : 13,
+					"z" : 1
+				}
+			},
+			
+			"buildings" : {
+				"dwellingLvl1" : {
+					"name" : "Delvers' Mine",
+					"description" : "The Delvers' Mine allows you to recruit Defenders."
+				},
+				"dwellingUpLvl1" : {
+					"name" : "Upg. Delvers' Mine",
+					"description" : "The Delvers' Mine allows you to recruit Shieldguards and Mountain Guards."
+				},
+				"dwellingUp2Lvl1" : {
+					"name" : "Upg. Delvers' Mine",
+					"description" : "The Delvers' Mine allows you to recruit Shieldguards and Mountain Guards.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl1"
+						]
+					]
+				},
+				"dwellingLvl2" : {
+					"name" : "Hall of the Bold",
+					"description" : "The Hall of the Bold allow you to recruit Spearwielders."
+				},
+				"dwellingUpLvl2" : {
+					"name" : "Upg. Hall of the Bold",
+					"description" : "The Hall of the Bold allow you to recruit Skirmishers and Harpooners."
+				},
+				"dwellingUp2Lvl2" : {
+					"name" : "Upg. Hall of the Bold",
+					"description" : "The Hall of the Bold allow you to recruit Skirmishers and Harpooners.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl2"
+						]
+					]
+				},
+				"dwellingLvl3" : {
+					"name" : "Frigid Spur",
+					"description" : "The Frigid Spur allows you to recruit Bear Riders."
+				},
+				"dwellingUpLvl3" : {
+					"name" : "Upg. Frigid Spur",
+					"description" : "The Frigid Spur allows you to recruit Blackbear Riders and Whitebear Riders."
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Upg. Frigid Spur",
+					"description" : "The Frigid Spur allows you to recruit Blackbear Riders and Whitebear Riders.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl3"
+						]
+					]
+				},
+				"dwellingLvl4" : {
+					"name" : "Fighters' Guild",
+					"description" : "The Fighters' Guild allows you to recruit Brawlers."
+				},
+				"dwellingUpLvl4" : {
+					"name" : "Upg. Fighters' Guild",
+					"description" : "The Fighters' Guild allows you to recruit Berserkers and Battleragers."
+				},
+				"dwellingUp2Lvl4" : {
+					"name" : "Upg. Fighters' Guild",
+					"description" : "The Fighters' Guild allows you to recruit Berserkers and Battleragers.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl4"
+						]
+					]
+				},
+				"dwellingLvl5" : {
+					"name" : "Rune Henge",
+					"description" : "The Rune Henge allows you to recruit Rune Priests."
+				},
+				"dwellingUpLvl5" : {
+					"name" : "Upg. Rune Henge",
+					"description" : "The Rune Henge allows you to recruit Rune Patriarchs and Rune Keepers."
+				},
+				"dwellingUp2Lvl5" : {
+					"name" : "Upg. Rune Henge",
+					"description" : "The Rune Henge allows you to recruit Rune Patriarchs and Rune Keepers.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl5"
+						]
+					]
+				},
+				"dwellingLvl6" : {
+					"name" : "Meeting Halls",
+					"description" : "The Meeting Halls allow you to recruit Thanes."
+				},
+				"dwellingUpLvl6" : {
+					"name" : "Upg. Meeting Halls",
+					"description" : "The Meeting Halls allow you to recruit Flame Lords and Thunder Thanes."
+				},
+				"dwellingUp2Lvl6" : {
+					"name" : "Upg. Meeting Halls",
+					"description" : "The Meeting Halls allow you to recruit Flame Lords and Thunder Thanes.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl6"
+						]
+					]
+				},
+				"horde1" : {
+					"name" : "Donation Trough",
+					"description" : "The Donation Trough increases Thane production by 1 per week."
+				},
+				"horde1Upgr" : {
+					"name" : "Donation Trough",
+					"description" : "The Donation Trough increases Flame Lord and Thunder Thane production by 1 per week."
+				},
+				"dwellingLvl7" : {
+					"name" : "Dragon Palace",
+					"description" : "The Dragon Palace allows you to recruit Fire Dragons.",
+					"cost" : {
+						"gold" : 10000,
+						"wood" : 10,
+						"ore" : 10,
+						"gems" : 0,
+						"crystal" : 10
+					}
+				},
+				"dwellingUpLvl7" : {
+					"name" : "Upg. Dragon Palace",
+					"description" : "The Dragon Palace allows you to recruit Magma Dragons and Lava Dragons.",
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 10,
+						"ore" : 10,
+						"gems" : 0,
+						"crystal" : 10
+					}
+				},
+				"dwellingUp2Lvl7" : {
+					"name" : "Upg. Dragon Palace",
+					"description" : "The Dragon Palace allows you to recruit Magma Dragons and Lava Dragons.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl7"
+						]
+					]
+				}
+			}
+		}
+	}
+}

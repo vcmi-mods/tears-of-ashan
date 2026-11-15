@@ -1,0 +1,96 @@
+{
+	"kenshiAU" : {
+		"name" : {
+			"singular" : "Kenshi",
+			"plural" : "Kenshis"
+		},
+		"faction" : "sanctuary",
+		"level" : 6,
+		"attack" : 14,
+		"defense" : 14,
+		"damage" : {
+			"min" : 18,
+			"max" : 22
+		},
+		"hitPoints" : 90,
+		"speed" : 7,
+		"growth" : 2,
+		"aiValue" : 1800,
+		"fightValue" : 1800,
+		"cost" : {
+			"gold" : 1000
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
+		},
+		"upgrades" : [
+			"kenseiAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"attackReduction" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 20
+			},
+			"extraRetaliation" : {
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			},
+			"threeHeads" : {
+				"type" : "THREE_HEADED_ATTACK",
+				"icon" : "zvs/Lib1.res/hydra0.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl6.def",
+			"map" : "creatures/sanctuary/map/lvl6.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl6.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl6.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/kenshi/attack.mp3",
+			"defend" : "creatures/kenshi/defend.mp3",
+			"killed" : "creatures/kenshi/death.mp3",
+			"move" : "creatures/kenshi/move.mp3",
+			"wince" : "creatures/kenshi/hit.mp3"
+		}
+	}
+}

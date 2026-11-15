@@ -1,0 +1,58 @@
+{
+	"03akasha" : {
+		"class" : "samuraiClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Akasha",
+			"biography" : "Akasha is the Commander of the sacred isle where the Mother Namtaru is held captive. He is married to Yume, high-priestess of Shalassa, the Dragon of Water. She is the feather to his steel – a woman whose heart he won in a formal way, and whom he has since given himself to completely. Deeply bound to his duties, Akasha is responsible and courageous, but he became corrupted by the spiritual poison seeping though the Mother Namtaru's prison. His sanity gave way completely when Yume gave birth to a stillborn child. In spite of his wife's attempts to bring him back to reason, he remains possessed by the Mother Namtaru, who drives him to sacrifice his own people to her insatiable hunger...",
+			"specialty" : {
+				"name" : "Kenshis",
+				"tooltip" : "Creature Bonus: Kenshis",
+				"description" : "Increases the Speed of allied Kenshis and Kenseis by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/akasha/portraitSmall.png",
+			"large" : "heroes/sanctuary/akasha/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Kenshis.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Kenshis.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "kenshiAU",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+		
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "kenshiAU",
+				"min" : 1,
+				"max" : 1
+			}
+		]
+	}
+}

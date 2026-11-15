@@ -1,0 +1,71 @@
+{
+	"jumpTrooperAU" : {
+		"name" : {
+			"singular" : "Jump Trooper",
+			"plural" : "Jump Troopers"
+		},
+		"faction" : "forgeTOA",
+		"level" : 5,
+		"attack" : 16,
+		"defense" : 12,
+		"damage" : {
+			"min" : 14,
+			"max" : 22
+		},
+		"hitPoints" : 65,
+		"speed" : 8,
+		"growth" : 2,
+		"aiValue" : 1625,
+		"fightValue" : 1240,
+		"cost" : {
+			"gold" : 800
+		},
+		"advMapAmount" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"upgrades" : [
+			"jumpSoldierAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"minimumMorale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"raisesMorale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"propagator" : "HERO",
+				"stacking" : "Jump Minotaurs",
+				"description" : "{Raises Morale}\nJump Troopers raise allied units' Morale by +1.",
+				"icon" : "zvs/Lib1.res/bonusmoraleangel"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl5.def",
+			"map" : "creatures/forge/map/lvl5.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl5.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl5.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/jumpTrooper/attack.wav",
+			"defend" : "creatures/jumpTrooper/defend.wav",
+			"killed" : "creatures/jumpTrooper/death.wav",
+			"move" : "creatures/jumpTrooper/move.wav",
+			"startMoving" : "creatures/jumpTrooper/movestart.wav",
+			"endMoving" : "creatures/jumpTrooper/moveend.wav",
+			"wince" : "creatures/jumpTrooper/hit.wav"
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"kappaLeapUp" : {
+		"type" : "ability",
+		"name" : "Crashing Leap",
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"animation" : {
+			"affect" : [
+				"NewOldSpells/levitationSpell.def"
+			]
+		},
+		"flags" : {
+			"special" : true,
+			"positive" : true,
+			"nonMagical" : true
+		},
+		"targetCondition" : {},
+		"canCastWithoutSkip" : true,
+		"canCastOnlyOnSelf" : true,
+		"graphics" : {
+			"iconEffect" : "spells/leapUpEffect.png"
+		},
+		"sounds": {
+			"cast": "creatures/kappa/leap.mp3"
+		},
+		"targetType" : "LOCATION",
+		"levels" : {
+			"base":{
+				"description" : "{Crashing Leap}\nCan leap at an enemy twice per combat.",
+				"range" : "0",
+				"power" : 1,
+				"cost" : 0,
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"flying" : {
+								"type" : "FLYING",
+								"duration" : [
+									"UNTIL_ATTACK",
+									"N_TURNS"
+								]
+							},
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 4,
+								"duration" : [
+									"UNTIL_ATTACK",
+									"N_TURNS"
+								]
+							}
+						}
+					}
+				},
+				"targetModifier":{"smart":true}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}

@@ -1,0 +1,182 @@
+{
+	"07gerhart" : {
+		"class" : "knight",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Gerhart",
+			"biography" : "Paranoid and merciless to his detractors, observant and uncompromising to his supporters, Gerhart is a hard, pragmatic man who runs the House of Wolf with ruthless efficiency. Not that many would call themselves supporters. Parties with mutually-aligned interests might be a better label for those who dance with this stone cold duke. Gerhart has love for nothing save his own empowerment, the ruin of his enemies, and maybe, just maybe, his bloodthirsty Dire-Wolves.",
+			"specialty" : {
+				"name" : "We Hunt!",
+				"tooltip" : "Creature Bonus: We Hunt!",
+				"description" : "Allied units gain +3 Attack, +3 Defense, and +1 Speed after being attacked until their next attack. This effect can stack up to 3 times per unit."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/gerhart/portraitSmall.png",
+			"large" : "heroes/castle/gerhart/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/We Hunt.png",
+			"specialtyLarge" : "heroes/specialtyLarge/We Hunt.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"huntCap" : {
+					"type" : "HUNT_LEVEL_COUNTER",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MIN",
+					"limiters" : [ "CREATURES_ONLY" ]
+				},
+				"huntBase" : {
+					"type" : "HUNT_LEVEL_COUNTER",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [ "CREATURES_ONLY" ]
+				},
+				"huntBonus01" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 1,
+						"bonusMaxValue" : 4
+					}
+				},
+				"huntBonus02" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 1,
+						"bonusMaxValue" : 4
+					}
+				},
+				"huntBonus03" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 1,
+						"bonusMaxValue" : 4
+					}
+				},
+				"huntBonus04" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 2,
+						"bonusMaxValue" : 4
+					}
+				},
+				"huntBonus05" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 2,
+						"bonusMaxValue" : 4
+					}
+				},
+				"huntBonus06" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 2,
+						"bonusMaxValue" : 4
+					}
+				},
+				"huntBonus07" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 3,
+						"bonusMaxValue" : 4
+					}
+				},
+				"huntBonus08" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 3,
+						"bonusMaxValue" : 4
+					}
+				},
+				"huntBonus09" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "HUNT_LEVEL_COUNTER",
+						"bonusMinValue" : 3,
+						"bonusMaxValue" : 4
+					}
+				},
+				"combatAttackedHuntLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventAfterAttacked",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "HUNT_LEVEL_COUNTER",
+									"val" : 1,
+									"duration" : "UNTIL_OWN_ATTACK"
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

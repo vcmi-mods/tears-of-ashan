@@ -59,7 +59,7 @@
 			},
 			"castHornSpell" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "hornSpell",
+				"subtype" : "tears-of-ashan:raiseFangarm",
 				"val" : 2,
 				"description" : "{Spellcaster}\nCan cast Raise Fangarms (50% Power)."
 			},

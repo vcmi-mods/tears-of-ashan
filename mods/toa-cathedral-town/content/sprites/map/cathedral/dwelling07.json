@@ -1,0 +1,40 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "CATH7.6dk.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "CATH7b.6dk.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "CATH7c.6dk.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "CATH7d.6dk.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "CATH7e.6dk.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "CATH7f.6dk.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "CATH7g.6dk.png"
+        }
+    ],
+    "basepath": "map/cathedral/dwelling07/"
+}

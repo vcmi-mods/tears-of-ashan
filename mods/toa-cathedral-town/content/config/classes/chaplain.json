@@ -1,0 +1,103 @@
+{
+	"chaplainClass" : {
+		"name" : "Chaplain",
+		"faction" : "cathedralTOA",
+		"affinity" : "magic",
+		"defaultTavern" : 5,
+		"commander" : "undeadSlayerAU",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/inquisitor/FemaleCombat.def",
+				"male" : "classes/inquisitor/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/inquisitor/FemaleMap.def"
+					//"editorAnimation": "inquisitor/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/inquisitor/MaleMap.def"
+					//"editorAnimation": "inquisitor/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
+			"spellpower" : 2,
+			"knowledge" : 3
+		},
+		"lowLevelChance" : {
+			"attack" : 20,
+			"defence" : 30,
+			"spellpower" : 20,
+			"knowledge" : 30
+		},
+		"highLevelChance" : {
+			"attack" : 25,
+			"defence" : 25,
+			"spellpower" : 25,
+			"knowledge" : 25
+		},
+		"secondarySkills" : {
+			"archery" : 5,
+			"armorer" : 8,
+			"artillery" : 3,
+			"ballistics" : 3,
+			"firstAid" : 8,
+			"interference" : 5,
+			"leadership" : 8,
+			"luck" : 7,
+			"offence" : 4,
+			"resistance" : 5,
+			"tactics" : 3,
+
+			"airMagic" : 4,
+			"earthMagic" : 5,
+			"fireMagic" : 4,
+			"waterMagic" : 5,
+			"lightMagic" : 8,
+			"darkMagic" : 6,
+			"eagleEye" : 5,
+			"intelligence" : 7,
+			"mysticism" : 5,
+			"necromancy" : 0,
+			"scholar" : 5,
+			"sorcery" : 6,
+			"wisdom" : 10,
+
+			"diplomacy" : 6,
+			"estates" : 4,
+			"learning" : 6,
+			"logistics" : 6,
+			"navigation" : 6,
+			"pathfinding" : 5,
+			"scouting" : 5
+		},
+		"tavern" : {
+			"castle" : 1,
+			"rampart" : 1,
+			"tower" : 1,
+			"inferno" : 6,
+			"necropolis" : 7,
+			"dungeon" : 6,
+			"stronghold" : 4,
+			"fortress" : 4,
+			"conflux" : 0,
+			"cove" : 3,
+			"factory" : 7,
+			"bulwark" : 1,
+			"cathedralTOA" : 10
+		}
+	}
+}

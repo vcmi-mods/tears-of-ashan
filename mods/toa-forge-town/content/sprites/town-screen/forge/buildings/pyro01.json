@@ -1,0 +1,45 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "pyro01.png"
+        },
+		{
+            "group": 0,
+            "frame": 1,
+            "file": "pyro01-01.png"
+        },
+		{
+            "group": 0,
+            "frame": 2,
+            "file": "pyro01-02.png"
+        },
+		{
+            "group": 0,
+            "frame": 3,
+            "file": "pyro01-03.png"
+        },
+		{
+            "group": 0,
+            "frame": 4,
+            "file": "pyro01-04.png"
+        },
+		{
+            "group": 0,
+            "frame": 5,
+            "file": "pyro01-05.png"
+        },
+		{
+            "group": 0,
+            "frame": 6,
+            "file": "pyro01-06.png"
+        },
+		{
+            "group": 0,
+            "frame": 7,
+            "file": "pyro01-07.png"
+        }
+    ],
+    "basepath": "town-screen/forge/buildings/"
+}

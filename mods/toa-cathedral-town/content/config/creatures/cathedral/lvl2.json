@@ -1,0 +1,64 @@
+{
+	"torturerAU" : {
+		"name" : {
+			"singular" : "Torturer",
+			"plural" : "Torturers"
+		},
+		"faction" : "cathedralTOA",
+		"level" : 2,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"hitPoints" : 15,
+		"speed" : 5,
+		"growth" : 8,
+		"horde" : 4,
+		"aiValue" : 165,
+		"fightValue" : 165,
+		"cost" : {
+			"gold" : 110
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 30
+		},
+		"upgrades" : [
+			"executionerAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"bloodlust" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "bloodlust"
+				},
+				"val" : 1,
+				"description" : "{Enchanted}\nPermanently affected by Advanced Bloodlust.",
+				"icon" : "zvs/Lib1.res/spellsSOD/bloodlust1.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cathedral/battle/lvl2.def",
+			"map" : "creatures/cathedral/map/lvl2.def",
+			"iconSmall" : "creatures/cathedral/iconsSmall/lvl2.png",
+			"iconLarge" : "creatures/cathedral/iconsBig/lvl2.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "HALBATTK.wav",
+			"defend" : "HALBDFND.wav",
+			"killed" : "HALBKILL.wav",
+			"move" : "HALBMOVE.wav",
+			"wince" : "HALBWNCE.wav"
+		}
+	}
+}

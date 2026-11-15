@@ -1,0 +1,61 @@
+{
+	"57ella" : {
+		"class" : "chaplainClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"holyWord"
+		],
+		"texts" : {
+			"name" : "Ella",
+			"biography" : "The mysterious Ella is one of the last Master Bloodsmiths of Hammer Fall. When Konrad Wolf became governor, Ella and her friend Ryan Redshield originally planned to manipulate to young and energetic knight. She however changed her mind after fighting at Konrad's side during a demon attack against Redshield's Bloodforge. From this moment, Ella decided that Konrad was worthy of her honesty, and initiated him to the secrets of the Bloodsmith order. She revealed herself to be a woman of immense knowledge and wisdom, and somehow she doesn't seem to age.",
+			"specialty" : {
+				"name" : "Witch Hunters",
+				"tooltip" : "Creature Bonus: Witch Hunters",
+				"description" : "Increases the Speed of allied Witch Hunters and Undead Slayers by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/ella/portraitSmall.png",
+			"large" : "heroes/cathedral/ella/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Witch Hunters.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Witch Hunters.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "witchHunterAU",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

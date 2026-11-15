@@ -1,0 +1,39 @@
+{
+	"spauldersOfTheProphet" : {
+		"text" : {
+			"name" : "Spaulders of the Prophet",
+			"description" : "{Spaulders of the Prophet}\n\nWorn about the shoulders, this item increases your Defense and Knowledge skills by +2, and helps you recover 10% of your maximum spell points per day.",
+			"event" : "Spaulders of the Prophet pickup text."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "SHOULDERS",
+		"class" : "MINOR",
+		"value" : 4500,
+		"bonuses" : {
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			},
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			},
+			"mana" : {
+				"type" : "MANA_PERCENTAGE_REGENERATION",
+				"val" : 10,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/spauldersOfTheProphet.png",
+			"map" : "artifacts/map/spauldersOfTheProphet.json",
+			"scenarioBonus" : "artifacts/bonus/spauldersOfTheProphet.png"
+		}
+	}
+}

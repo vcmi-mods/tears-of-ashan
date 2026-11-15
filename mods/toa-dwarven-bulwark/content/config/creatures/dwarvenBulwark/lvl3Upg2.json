@@ -1,0 +1,68 @@
+{
+	"whitebearRiderAU" : {
+		"name" : {
+			"singular" : "Whitebear Rider",
+			"plural" : "Whitebear Riders"
+		},
+		"faction" : "bulwark",
+		"level" : 3,
+		"attack" : 9,
+		"defense" : 8,
+		"damage" : {
+			"min" : 3,
+			"max" : 6
+		},
+		"hitPoints" : 30,
+		"speed" : 8,
+		"growth" : 7,
+		"aiValue" : 435,
+		"fightValue" : 340,
+		"cost" : {
+			"gold" : 275
+		},
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"upgrades" : [
+			"blackbearRiderAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"ferocity" : {
+				"type" : "FEROCITY",
+				"val" : 1
+			},
+			"bearRoar" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "bearRoar",
+				"val" : 100,
+				"addInfo" : [
+					0,
+					0
+				],
+				"description" : "{Bear Roar}\nBellows a Bear Roar after attacking, inflicting the enemy with Fear (25%) for 3 turns.",
+				"icon" : "bonuses/bearRoar.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl3Up.def",
+			"map" : "creatures/rampart/map/lvl2Alt.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl3Alt.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl3Alt.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/whiteBearRider/attack",
+			"defend" : "creatures/whiteBearRider/defend",
+			"killed" : "creatures/whiteBearRider/death",
+			"move" : "creatures/whiteBearRider/move",
+			"wince" : "creatures/whiteBearRider/hit"
+		}
+	}
+}

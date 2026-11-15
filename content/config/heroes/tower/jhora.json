@@ -37,8 +37,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"magicArrow" : {
-					"subtype" : "spell.magicArrow",
 					"type" : "SPECIAL_SPELL_SCALING",
+					"subtype" : "spell.magicArrow",
 					"val" : 20
 				}
 			}

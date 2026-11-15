@@ -1,0 +1,33 @@
+{
+	"sandalsOfTheProphet" : {
+		"text" : {
+			"name" : "Sandals of the Prophet",
+			"description" : "{Sandals of the Prophet}\n\nWorn on the feet, this item increases your hero's movement rate over land by 300 points, and increases the health of all your units by +1.",
+			"event" : "Sandals of the Prophet pickup text."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "FEET",
+		"class" : "MAJOR",
+		"value" : 6000,
+		"bonuses" : {
+			"movement" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 300,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/sandalsOfTheProphet.png",
+			"map" : "artifacts/map/sandalsOfTheProphet.json",
+			"scenarioBonus" : "artifacts/bonus/sandalsOfTheProphet.png"
+		}
+	}
+}

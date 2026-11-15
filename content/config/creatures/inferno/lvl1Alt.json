@@ -7,13 +7,13 @@
 		"faction" : "inferno",
 		"level" : 1,
 		"attack" : 3,
-		"defense" : 3,
+		"defense" : 5,
 		"damage" : {
 			"min" : 1,
 			"max" : 2
 		},
 		"hitPoints" : 4,
-		"speed" : 7,
+		"speed" : 6,
 		"growth" : 15,
 		"horde" : 8,
 		"fightValue" : 75,

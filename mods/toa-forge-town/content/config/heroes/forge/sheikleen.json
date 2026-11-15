@@ -1,0 +1,70 @@
+{
+	"57Sheikleen" : {
+		"class" : "technicianClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"earthquake"
+		],
+		"texts" : {
+			"name" : "Sheikleen",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Munitions Cart",
+				"tooltip" : "War Machine Bonus: Munitions Cart",
+				"description" : "Doubles the damage boost provided by the Munitions Cart (now provides a 40% damage boost to all shooters in the army)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/sheikleen/portraitSmall.png",
+			"large" : "heroes/forge/sheikleen/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Munitions Cart.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Munitions Cart.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "ballistics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"creatureDamage" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 20,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "MUNITIONS_BONUS"
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "munitionsCartAU",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

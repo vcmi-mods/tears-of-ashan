@@ -1,0 +1,10 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "douliOfTheProphet.png"
+        }
+    ],
+    "basepath": "artifacts/map/"
+}

@@ -1,0 +1,65 @@
+{
+	"55Codgur" : {
+		"class" : "technicianClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"implosion"
+		],
+		"texts" : {
+			"name" : "Codgur",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Implosion",
+				"tooltip" : "Spell Bonus: Implosion",
+				"description" : "Casts Implosion with damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/codgur/portraitSmall.png",
+			"large" : "heroes/forge/codgur/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Implosion.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Implosion.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"inferno" : {
+					"type" : "SPECIAL_SPELL_SCALING",
+					"subtype" : "spell.implosion",					
+					"val" : 10
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

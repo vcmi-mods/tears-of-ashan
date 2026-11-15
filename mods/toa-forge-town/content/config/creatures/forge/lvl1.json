@@ -1,0 +1,91 @@
+{
+	"gruntAU" : {
+		"name" : {
+			"singular" : "Grunt",
+			"plural" : "Grunts"
+		},
+		"faction" : "forgeTOA",
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 2,
+		"shots" : 12,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
+		"hitPoints" : 8,
+		"speed" : 5,
+		"growth" : 10,
+		"horde" : 5,
+		"aiValue" : 80,
+		"fightValue" : 70,
+		"cost" : {
+			"gold" : 75
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"upgrades" : [
+			"footSoldierAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl1.def",
+			"map" : "creatures/forge/map/lvl1.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl1.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl1.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}, 
+			"missile" : {
+				"projectile" : "creatures/forge/battle/projectile/SHOT197.DEF",
+				"offset" : {
+					"upperX" : 34,
+					"upperY" : -96,
+					"middleX" : 50,
+					"middleY" : -62,
+					"lowerX" : 4,
+					"lowerY" : 0
+				},
+				"attackClimaxFrame" : 4,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/grunt/attack.wav",
+			"shoot" : "creatures/grunt/shoot.wav",
+			"defend" : "creatures/grunt/defend.wav",
+			"killed" : "creatures/grunt/death.wav",
+			"move" : "creatures/grunt/move.wav",
+			"wince" : "creatures/grunt/hit.wav"
+		}
+	}
+}

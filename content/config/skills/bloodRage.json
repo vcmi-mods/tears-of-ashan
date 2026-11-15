@@ -278,7 +278,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Blood Rage}\n\nBasic Blood Rage allows the hero's units to accumulate up to 5 Rage Levels in combat. Each Rage Level gives bonuses to the creature stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
+			"description" : "{Basic Blood Rage}\n\nBasic Blood Rage allows the hero's Stronghold units to accumulate up to 5 Rage Levels in combat. Each Rage Level gives bonuses to the unit's stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
 			"effects" : {
 				"rageCap" : {
 					"val" : 5
@@ -292,7 +292,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Blood Rage}\n\nAdvanced Blood Rage allows the hero's units to accumulate up to 10 Rage Levels in combat. Each Rage Level gives bonuses to the creature stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\n{6}: +2 Damage, {7}: +2 Attack, {8}: +2 Health, {9}: +2 Defense, {10}: +2 Speed\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
+			"description" : "{Advanced Blood Rage}\n\nAdvanced Blood Rage allows the hero's Stronghold units to accumulate up to 10 Rage Levels in combat. Each Rage Level gives bonuses to the unit's stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\n{6}: +2 Damage, {7}: +2 Attack, {8}: +2 Health, {9}: +2 Defense, {10}: +2 Speed\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
 			"effects" : {
 				"rageCap" : {
 					"val" : 10
@@ -306,7 +306,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Blood Rage}\n\nExpert Blood Rage allows the hero's units to accumulate up to 15 Rage Levels in combat. Each Rage Level gives bonuses to the creature stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\n{6}: +2 Damage, {7}: +2 Attack, {8}: +2 Health, {9}: +2 Defense, {10}: +2 Speed\n\n{11}: +3 Damage, {12}: +3 Attack, {13}: +3 Health, {14}: +3 Defense, {15}: No enemy retaliation\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
+			"description" : "{Expert Blood Rage}\n\nExpert Blood Rage allows the hero's Stronghold units to accumulate up to 15 Rage Levels in combat. Each Rage Level gives bonuses to the unit's stats:\n\n{1}: +1 Damage, {2}: +1 Attack, {3}: +1 Health, {4}: +1 Defense, {5}: +1 Speed\n\n{6}: +2 Damage, {7}: +2 Attack, {8}: +2 Health, {9}: +2 Defense, {10}: +2 Speed\n\n{11}: +3 Damage, {12}: +3 Attack, {13}: +3 Health, {14}: +3 Defense, {15}: No enemy retaliation\n\nThe bonuses of all achieved Rage Levels are cumulative. Units gain +3 Rage Levels when a buffing Warcry is cast; +2 Rage Levels when they attack; +1 Rage Levels when they take damage; -1 Rage levels when they move, and -2 Rage Levels when they take a defensive stance.",
 			"effects" : {
 				"rageCap" : {
 					"val" : 15

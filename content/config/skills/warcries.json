@@ -43,7 +43,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Warcries}\n\nGrants the ability to shout Rallying Cry and Call of Blood.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
+			"description" : "{Basic Warcries}\n\nBasic Warcries grants the ability to shout Rallying Cry and Call of Blood.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
 			"effects" : {
 				"warcriesSchool" : {
 					"val" : 1
@@ -67,7 +67,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Warcries}\n\nGrants the ability to shout Fear My Roar and Word of the Chief in addition to previous shouts.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
+			"description" : "{Advanced Warcries}\n\nAdvanced Warcries grants the ability to shout Fear My Roar and Word of the Chief in addition to previous shouts.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
 			"effects" : {
 				"warcriesSchool" : {
 					"val" : 2
@@ -91,7 +91,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Warcries}\n\nGrants the ability to shout Horde's Anger and Battlecry in addition to previous shouts.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
+			"description" : "{Expert Warcries}\n\nExpert Warcries grants the ability to shout Horde's Anger and Battlecry in addition to previous shouts.\n\n{Warcries are non-magical, meaning they are unaffected by Sorcery or any form of magic resistance.}",
 			"effects" : {
 				"warcriesSchool" : {
 					"val" : 3

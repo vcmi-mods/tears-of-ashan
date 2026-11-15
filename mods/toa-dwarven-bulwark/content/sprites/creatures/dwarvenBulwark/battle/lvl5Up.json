@@ -1,0 +1,1605 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "fxdrh118.t5n.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "fxdrh122.t5n.png"
+        },
+		{
+            "group": 0,
+            "frame": 2,
+            "file": "fxdrh126.t5n.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "fxdrh130.t5n.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "fxdrh134.t5n.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "fxdrh138.t5n.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "fxdrh142.t5n.png"
+        },
+		{
+            "group": 0,
+            "frame": 7,
+            "file": "fxdrh146.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "fxdrh254.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "fxdrh257.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "fxdrh260.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "fxdrh263.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "fxdrh267.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "fxdrh272.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "fxdrh277.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "fxdrh282.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "fxdrh287.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 9,
+            "file": "fxdrh291.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 10,
+            "file": "fxdrh295.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 11,
+            "file": "fxdrh298.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 12,
+            "file": "fxdrh301.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 13,
+            "file": "fxdrh303.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 14,
+            "file": "fxdrh306.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 15,
+            "file": "fxdrh310.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 16,
+            "file": "fxdrh313.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 17,
+            "file": "fxdrh316.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 18,
+            "file": "fxdrh320.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 19,
+            "file": "fxdrh323.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 20,
+            "file": "fxdrh326.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 21,
+            "file": "fxdrh329.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 22,
+            "file": "fxdrh332.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 23,
+            "file": "fxdrh335.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 24,
+            "file": "fxdrh338.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 25,
+            "file": "fxdrh342.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 26,
+            "file": "fxdrh345.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 27,
+            "file": "fxdrh348.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 28,
+            "file": "fxdrh351.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 29,
+            "file": "fxdrh353.t5n.png"
+        },
+        {
+            "group": 1,
+            "frame": 30,
+            "file": "fxdrh355.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "fxdrh159.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "fxdrh163.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "fxdrh167.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "fxdrh171.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "fxdrh175.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "fxdrh179.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "fxdrh183.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "fxdrh187.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 8,
+            "file": "fxdrh191.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 9,
+            "file": "fxdrh195.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 10,
+            "file": "fxdrh199.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 11,
+            "file": "fxdrh203.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 12,
+            "file": "fxdrh207.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 13,
+            "file": "fxdrh211.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 14,
+            "file": "fxdrh215.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 15,
+            "file": "fxdrh219.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 16,
+            "file": "fxdrh223.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 17,
+            "file": "fxdrh227.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 18,
+            "file": "fxdrh231.t5n.png"
+        },
+        {
+            "group": 2,
+            "frame": 19,
+            "file": "fxdrh234.t5n.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "fxdrh554.t5n.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "fxdrh556.t5n.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "fxdrh558.t5n.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "fxdrh559.t5n.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "fxdrh561.t5n.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "fxdrh563.t5n.png"
+        },
+        {
+            "group": 3,
+            "frame": 6,
+            "file": "fxdrh565.t5n.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "fxdrh431.t5n.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "fxdrh433.t5n.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "fxdrh435.t5n.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "fxdrh437.t5n.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "fxdrh439.t5n.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "fxdrh441.t5n.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "fxdrh443.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "fxdrh358.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "fxdrh360.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "fxdrh362.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "fxdrh364.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "fxdrh366.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "fxdrh368.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 6,
+            "file": "fxdrh370.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 7,
+            "file": "fxdrh372.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 8,
+            "file": "fxdrh375.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 9,
+            "file": "fxdrh378.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 10,
+            "file": "fxdrh381.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 11,
+            "file": "fxdrh383.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 12,
+            "file": "fxdrh385.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 13,
+            "file": "fxdrh387.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 14,
+            "file": "fxdrh389.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 15,
+            "file": "fxdrh391.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 16,
+            "file": "fxdrh393.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 17,
+            "file": "fxdrh395.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 18,
+            "file": "fxdrh398.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 19,
+            "file": "fxdrh402.t5n.png"
+        },
+        {
+            "group": 5,
+            "frame": 20,
+            "file": "fxdrh405.t5n.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "fxdrh698.t5n.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "fxdrh699.t5n.png"
+        },
+        {
+            "group": 7,
+            "frame": 2,
+            "file": "fxdrh700.t5n.png"
+        },
+        {
+            "group": 7,
+            "frame": 3,
+            "file": "fxdrh702.t5n.png"
+        },
+        {
+            "group": 7,
+            "frame": 4,
+            "file": "fxdrh704.t5n.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "fxdrh704.t5n.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "fxdrh702.t5n.png"
+        },
+        {
+            "group": 8,
+            "frame": 2,
+            "file": "fxdrh700.t5n.png"
+        },
+        {
+            "group": 8,
+            "frame": 3,
+            "file": "fxdrh699.t5n.png"
+        },
+        {
+            "group": 8,
+            "frame": 4,
+            "file": "fxdrh698.t5n.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "fxdrh698.t5n.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "fxdrh699.t5n.png"
+        },
+        {
+            "group": 9,
+            "frame": 2,
+            "file": "fxdrh700.t5n.png"
+        },
+        {
+            "group": 9,
+            "frame": 3,
+            "file": "fxdrh702.t5n.png"
+        },
+        {
+            "group": 9,
+            "frame": 4,
+            "file": "fxdrh704.t5n.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "fxdrh704.t5n.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "fxdrh702.t5n.png"
+        },
+        {
+            "group": 10,
+            "frame": 2,
+            "file": "fxdrh700.t5n.png"
+        },
+        {
+            "group": 10,
+            "frame": 3,
+            "file": "fxdrh699.t5n.png"
+        },
+        {
+            "group": 10,
+            "frame": 4,
+            "file": "fxdrh698.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "fxdrh655.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "fxdrh657.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "fxdrh659.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "fxdrh662.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "fxdrh665.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "fxdrh671.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "fxdrh673.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "fxdrh675.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 8,
+            "file": "fxdrh676.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 9,
+            "file": "fxdrh679.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 10,
+            "file": "fxdrh683.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 11,
+            "file": "fxdrh686.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 12,
+            "file": "fxdrh689.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 13,
+            "file": "fxdrh692.t5n.png"
+        },
+        {
+            "group": 11,
+            "frame": 14,
+            "file": "fxdrh694.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "fxdrh568.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "fxdrh571.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "fxdrh576.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "fxdrh584.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "fxdrh587.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "fxdrh588.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "fxdrh589.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "fxdrh591.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 8,
+            "file": "fxdrh594.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 9,
+            "file": "fxdrh597.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 10,
+            "file": "fxdrh603.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 11,
+            "file": "fxdrh606.t5n.png"
+        },
+        {
+            "group": 12,
+            "frame": 12,
+            "file": "fxdrh608.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "fxdrh611.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "fxdrh613.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "fxdrh615.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "fxdrh620.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "fxdrh627.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "fxdrh630.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "fxdrh631.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "fxdrh632.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 8,
+            "file": "fxdrh634.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 9,
+            "file": "fxdrh638.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 10,
+            "file": "fxdrh644.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 11,
+            "file": "fxdrh647.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 12,
+            "file": "fxdrh650.t5n.png"
+        },
+        {
+            "group": 13,
+            "frame": 13,
+            "file": "fxdrh652.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 0,
+            "file": "fxdrh514.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 1,
+            "file": "fxdrh516.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 2,
+            "file": "fxdrh518.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 3,
+            "file": "fxdrh520.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 4,
+            "file": "fxdrh522.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 5,
+            "file": "fxdrh525.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 6,
+            "file": "fxdrh527.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 7,
+            "file": "fxdrh529.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 8,
+            "file": "fxdrh532.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 9,
+            "file": "fxdrh535.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 10,
+            "file": "fxdrh538.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 11,
+            "file": "fxdrh540.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 12,
+            "file": "fxdrh542.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 13,
+            "file": "fxdrh544.t5n.png"
+        },
+        {
+            "group": 14,
+            "frame": 14,
+            "file": "fxdrh546.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 0,
+            "file": "fxdrh445.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 1,
+            "file": "fxdrh447.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 2,
+            "file": "fxdrh449.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 3,
+            "file": "fxdrh452.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 4,
+            "file": "fxdrh455.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 5,
+            "file": "fxdrh457.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 6,
+            "file": "fxdrh459.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 7,
+            "file": "fxdrh462.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 8,
+            "file": "fxdrh465.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 9,
+            "file": "fxdrh468.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 10,
+            "file": "fxdrh470.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 11,
+            "file": "fxdrh472.t5n.png"
+        },
+        {
+            "group": 15,
+            "frame": 12,
+            "file": "fxdrh475.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 0,
+            "file": "fxdrh479.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 1,
+            "file": "fxdrh481.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 2,
+            "file": "fxdrh483.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 3,
+            "file": "fxdrh486.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 4,
+            "file": "fxdrh489.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 5,
+            "file": "fxdrh491.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 6,
+            "file": "fxdrh493.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 7,
+            "file": "fxdrh495.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 8,
+            "file": "fxdrh498.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 9,
+            "file": "fxdrh501.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 10,
+            "file": "fxdrh504.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 11,
+            "file": "fxdrh506.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 12,
+            "file": "fxdrh509.t5n.png"
+        },
+        {
+            "group": 16,
+            "frame": 13,
+            "file": "fxdrh511.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 0,
+            "file": "fxdrh007.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 1,
+            "file": "fxdrh009.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 2,
+            "file": "fxdrh011.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 3,
+            "file": "fxdrh013.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 4,
+            "file": "fxdrh014.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 5,
+            "file": "fxdrh015.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 6,
+            "file": "fxdrh016.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 7,
+            "file": "fxdrh017.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 8,
+            "file": "fxdrh020.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 9,
+            "file": "fxdrh022.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 10,
+            "file": "fxdrh025.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 11,
+            "file": "fxdrh026.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 12,
+            "file": "fxdrh028.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 13,
+            "file": "fxdrh030.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 14,
+            "file": "fxdrh032.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 15,
+            "file": "fxdrh034.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 16,
+            "file": "fxdrh036.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 17,
+            "file": "fxdrh038.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 18,
+            "file": "fxdrh040.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 19,
+            "file": "fxdrh042.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 20,
+            "file": "fxdrh044.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 21,
+            "file": "fxdrh046.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 22,
+            "file": "fxdrh048.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 23,
+            "file": "fxdrh050.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 24,
+            "file": "fxdrh052.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 25,
+            "file": "fxdrh054.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 26,
+            "file": "fxdrh056.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 27,
+            "file": "fxdrh058.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 28,
+            "file": "fxdrh060.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 29,
+            "file": "fxdrh062.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 30,
+            "file": "fxdrh064.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 31,
+            "file": "fxdrh066.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 32,
+            "file": "fxdrh068.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 33,
+            "file": "fxdrh070.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 34,
+            "file": "fxdrh072.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 35,
+            "file": "fxdrh076.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 36,
+            "file": "fxdrh078.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 37,
+            "file": "fxdrh079.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 38,
+            "file": "fxdrh080.t5n.png"
+        },
+        {
+            "group": 17,
+            "frame": 39,
+            "file": "fxdrh081.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 0,
+            "file": "fxdrh007.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 1,
+            "file": "fxdrh009.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 2,
+            "file": "fxdrh011.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 3,
+            "file": "fxdrh013.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 4,
+            "file": "fxdrh014.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 5,
+            "file": "fxdrh015.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 6,
+            "file": "fxdrh016.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 7,
+            "file": "fxdrh017.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 8,
+            "file": "fxdrh020.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 9,
+            "file": "fxdrh022.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 10,
+            "file": "fxdrh025.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 11,
+            "file": "fxdrh026.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 12,
+            "file": "fxdrh028.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 13,
+            "file": "fxdrh030.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 14,
+            "file": "fxdrh032.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 15,
+            "file": "fxdrh034.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 16,
+            "file": "fxdrh036.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 17,
+            "file": "fxdrh038.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 18,
+            "file": "fxdrh040.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 19,
+            "file": "fxdrh042.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 20,
+            "file": "fxdrh044.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 21,
+            "file": "fxdrh046.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 22,
+            "file": "fxdrh048.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 23,
+            "file": "fxdrh050.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 24,
+            "file": "fxdrh052.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 25,
+            "file": "fxdrh054.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 26,
+            "file": "fxdrh056.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 27,
+            "file": "fxdrh058.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 28,
+            "file": "fxdrh060.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 29,
+            "file": "fxdrh062.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 30,
+            "file": "fxdrh064.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 31,
+            "file": "fxdrh066.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 32,
+            "file": "fxdrh068.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 33,
+            "file": "fxdrh070.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 34,
+            "file": "fxdrh072.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 35,
+            "file": "fxdrh076.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 36,
+            "file": "fxdrh078.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 37,
+            "file": "fxdrh079.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 38,
+            "file": "fxdrh080.t5n.png"
+        },
+        {
+            "group": 18,
+            "frame": 39,
+            "file": "fxdrh081.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 0,
+            "file": "fxdrh007.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 1,
+            "file": "fxdrh009.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 2,
+            "file": "fxdrh011.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 3,
+            "file": "fxdrh013.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 4,
+            "file": "fxdrh014.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 5,
+            "file": "fxdrh015.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 6,
+            "file": "fxdrh016.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 7,
+            "file": "fxdrh017.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 8,
+            "file": "fxdrh020.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 9,
+            "file": "fxdrh022.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 10,
+            "file": "fxdrh025.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 11,
+            "file": "fxdrh026.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 12,
+            "file": "fxdrh028.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 13,
+            "file": "fxdrh030.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 14,
+            "file": "fxdrh032.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 15,
+            "file": "fxdrh034.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 16,
+            "file": "fxdrh036.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 17,
+            "file": "fxdrh038.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 18,
+            "file": "fxdrh040.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 19,
+            "file": "fxdrh042.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 20,
+            "file": "fxdrh044.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 21,
+            "file": "fxdrh046.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 22,
+            "file": "fxdrh048.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 23,
+            "file": "fxdrh050.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 24,
+            "file": "fxdrh052.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 25,
+            "file": "fxdrh054.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 26,
+            "file": "fxdrh056.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 27,
+            "file": "fxdrh058.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 28,
+            "file": "fxdrh060.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 29,
+            "file": "fxdrh062.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 30,
+            "file": "fxdrh064.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 31,
+            "file": "fxdrh066.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 32,
+            "file": "fxdrh068.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 33,
+            "file": "fxdrh070.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 34,
+            "file": "fxdrh072.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 35,
+            "file": "fxdrh076.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 36,
+            "file": "fxdrh078.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 37,
+            "file": "fxdrh079.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 38,
+            "file": "fxdrh080.t5n.png"
+        },
+        {
+            "group": 19,
+            "frame": 39,
+            "file": "fxdrh081.t5n.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "fxdrh110.t5n.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "fxdrh155.t5n.png"
+        }
+    ],
+    "basepath": "creatures/dwarvenBulwark/battle/lvl5Up/"
+}

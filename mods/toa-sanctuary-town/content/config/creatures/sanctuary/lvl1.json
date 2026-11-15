@@ -1,0 +1,101 @@
+{
+	"sharkGuardAU" : {
+		"name" : {
+			"singular" : "Shark Guard",
+			"plural" : "Shark Guards"
+		},
+		"faction" : "sanctuary",
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 4,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"hitPoints" : 8,
+		"speed" : 5,
+		"growth" : 14,
+		"aiValue" : 80,
+		"fightValue" : 70,
+		"cost" : {
+			"gold" : 60
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"upgrades" : [
+			"wanizameAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"ferociousWound" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.ferociousWound",
+				"val" : 100,
+				"icon" : "bonuses/ferociousWound.png",
+				"description" : "{Ferocious Wound}\nAttacks inflict Ferocious Wound for 2 turns."
+			},
+			"damageMultiplier" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.ferociousWound",
+				"val" : 1
+			},
+			"damageDuration" : {
+				"type" : "SPELL_DURATION",
+				"subtype" : "spell.ferociousWound",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl1.def",
+			"map" : "creatures/sanctuary/map/lvl1.def",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl1.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl1.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/shark/attack.mp3",
+			"defend" : "creatures/shark/defend.mp3",
+			"killed" : "creatures/shark/death.mp3",
+			"move" : "creatures/shark/move.mp3",
+			"wince" : "creatures/shark/hit.mp3"
+		}
+	}
+}

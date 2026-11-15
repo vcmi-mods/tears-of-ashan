@@ -1,0 +1,25 @@
+{
+	"HUNT_LEVEL_COUNTER" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{We Hunt!}\nGains +3 Attack, +3 Defense, and +1 Speed when it is attacked until its next attack.",
+
+		"graphics" : {
+			"valueIcons" : {
+				"0" : "bonuses/weHunt",
+				"1" : "bonuses/weHunt",
+				"2" : "bonuses/weHunt",
+				"3" : "bonuses/weHunt"
+			}
+		},
+
+		"valueDescriptions" : {
+			"0" : "{We Hunt!}\nGains +3 Attack, +3 Defense, and +1 Speed when it is attacked until its next attack.",
+			"1" : "Hunt Level 1:\n+3 Attack, +3 Defense\n+1 Speed",
+			"2" : "Hunt Level 2:\n+6 Attack, +6 Defense\n+2 Speed",
+			"3" : "Hunt Level 3:\n+9 Attack, +9 Defense\n+3 Speed"
+		}
+	}
+}

@@ -1,0 +1,147 @@
+{
+	"asmodeusAU" : {
+		"name" : {
+			"singular" : "Asmodeus",
+			"plural" : "Asmodeus"
+		},
+		"faction" : "inferno",
+		"level" : 10,
+		"attack" : 99,
+		"defense" : 66,
+		"damage" : {
+			"min" : 666,
+			"max" : 1666
+		},
+		"hitPoints" : 66666,
+		"speed" : 18,
+		"growth" : 1,
+		"aiValue" : 1000000,
+		"fightValue" : 1000000,
+		"cost" : {
+			"gold" : 1000000,
+			"mercury" : 100
+		},
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 1
+		},
+		"special" : true,
+		"excludeFromRandomization" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			"KING_2" : {
+				"type" : "KING",
+				"val" : 2
+			},
+			"demonic" : {
+				"type" : "DEMONIC"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 25,
+				"hidden" : true
+			},
+			"holyWordVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "holyWord",
+				"val" : 25,
+				"hidden" : true
+			},
+			"fearless" : {
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0
+			},
+			"fearlessBonus" : {
+				"type" : "NONE",
+				"val" : 0,
+				"description" : "{Fearless}\nUnaffected by Fear",
+				"icon" : "zvs/Lib1.res/e_fearl.png"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"immuneToDeathStare" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deathStare"				
+			},
+			"immuneToAccurateShot" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "accurateShot"				
+			},
+			"sweepingAttack" : {
+				"type" : "THREE_HEADED_ATTACK",
+				"description" : "{Sweeping Attack}\nAttacks three adjacent units."
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"decreaseLuck" : {
+				"type" : "LUCK",
+				"val" : -3,
+				"stacking" : "Asmodeus",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "{Decreases Luck}\nAsmodeus decreases enemy units' Luck by -3.",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			},
+			"yetiCure" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "yetiCure"
+				},
+				"val" : 0,
+				"icon" : "hota/bulwark/bonuses/yetiCure",
+				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
+			},
+			"gatingDemons" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "gate71Devil",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Gate Devils (6600% Power).",
+				"icon" : "zvs/Lib1.res/E_SUMMON.png"
+			},
+			"spellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 6600
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/inferno/battle/asmodeus.def",
+			"map" : "creatures/inferno/map/asmodeus.json",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/inferno/iconsSmall/asmodeus.png",
+			"iconLarge" : "creatures/inferno/iconsBig/asmodeus.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/pitLord/Balor_attack",
+			"defend" : "creatures/pitLord/Balor_hit",
+			"killed" : "creatures/pitLord/Balor_death",
+			"move" : "creatures/pitFiend/PitFiend_move",
+			"wince" : "creatures/pitLord/Balor_hit"
+		}
+	}
+}

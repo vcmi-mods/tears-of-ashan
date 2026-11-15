@@ -1,0 +1,10 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "robeOfTheProphet.png"
+        }
+    ],
+    "basepath": "artifacts/map/"
+}

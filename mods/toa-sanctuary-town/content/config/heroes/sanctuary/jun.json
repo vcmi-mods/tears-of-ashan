@@ -1,0 +1,69 @@
+{
+	"58jun" : {
+		"class" : "monkClass",
+		"female" : false,
+		"special" : true,
+		"spellbook" : [
+			"fortune"
+		],
+		"texts" : {
+			"name" : "Jun",
+			"biography" : "The Matsuno tribe of fishermen and pearl divers holds the belief that when good men and women die, they return as Nagas. Every seven years, they organize a diving and swimming competition, and the winner is awarded a great honor: they are offered to the Nagas as tribute, to serve in the land temples dedicated to the Dragon Goddess of Water, Shalassa. Jun was born a Matsuno and he won this adulation. In spite of Jun's quiet manner and sparse use of words, he was found to be an exceptionally potent diplomat, and is utilised by the Nagas for affairs concerning Human and Orc populations in the island realms of the Jade Ocean. As a man of few words, it is said that he can intimate a man's desires simply by peering into the water in his eyes. He is also an expert on determining the value of gems, pearls, and magical items, though he is suspected of divining this information from behind the eyes of those with whom he negotiates.",
+			"specialty" : {
+				"name" : "Diplomacy",
+				"tooltip" : "Secondary Skill Bonus: Diplomacy",
+				"description" : "Decreases the disposition of wandering creatures by 1 for every 7 hero levels."	
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/jun/portraitSmall.png",
+			"large" : "heroes/sanctuary/jun/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Diplomacy.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Diplomacy.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

@@ -1,0 +1,55 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "hall04.png"
+        },
+		{
+            "group": 0,
+            "frame": 1,
+            "file": "hall04-01.png"
+        },
+		{
+            "group": 0,
+            "frame": 2,
+            "file": "hall04-02.png"
+        },
+		{
+            "group": 0,
+            "frame": 3,
+            "file": "hall04-03.png"
+        },
+		{
+            "group": 0,
+            "frame": 4,
+            "file": "hall04-04.png"
+        },
+		{
+            "group": 0,
+            "frame": 5,
+            "file": "hall04-05.png"
+        },
+		{
+            "group": 0,
+            "frame": 6,
+            "file": "hall04-06.png"
+        },
+		{
+            "group": 0,
+            "frame": 7,
+            "file": "hall04-07.png"
+        },
+		{
+            "group": 0,
+            "frame": 8,
+            "file": "hall04-08.png"
+        },
+		{
+            "group": 0,
+            "frame": 9,
+            "file": "hall04-09.png"
+        }
+    ],
+    "basepath": "town-screen/forge/buildings/"
+}

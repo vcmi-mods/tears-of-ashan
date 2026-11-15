@@ -1,0 +1,68 @@
+{
+	"raiseFangarm" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Raise Fangarms",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
+		},
+		"level" : 5,
+		"power" : 30,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				"C13SPF0"
+			]
+		},
+		"sounds" : {
+			"cast" : "ANIMDEAD"
+		},
+		"flags" : {
+			"rising" : true,
+			"special" : true
+		},
+		"graphics" : {
+			"iconBook" : "artifactsCampaignBonuses/fakehornEffect.png",
+			"iconScroll" : "artifactsCampaignBonuses/fakehornScroll.png",
+			"iconScenarioBonus" : "artifactsCampaignBonuses/fakehornScene.png",
+			"iconImmune" : "artifactsCampaignBonuses/fakehornImmune.png",
+			"iconEffect" : "artifactsCampaignBonuses/hornSpellEffect.png"
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.GARGOYLE" : "absolute",
+				"bonus.MECHANICAL" : "absolute"
+			}
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "{Summon Fangarms}\r\n\r\nRaises Fangarms from the corpses of living creatures.",
+				"power" : 40,
+				"cost" : 0,
+				"targetModifier" : {
+					"smart" : false
+				},
+				"range" : "0",
+				"battleEffects" : {
+					"demonSummon" : {
+						"id" : "hota.neutralcreatures:fangarm",
+						"permanent" : true,
+						"type" : "core:demonSummon"
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}

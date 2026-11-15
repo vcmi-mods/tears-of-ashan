@@ -1,0 +1,61 @@
+{
+	"raimentsOfShalassa" : {
+		"text" : {
+			"name" : "Raiments of Shalassa",
+			"description" : "{Raiments of Shalassa}\n\nIn addition to its improved component effects, this item renders your creatures immune to enemy Water Magic spells.\n\nTotal (component + bonus) effects:\n+14 Attack/Defense/Power/Knowledge\n+50% Spell Points regenerated per turn\n+5 Creature Health\n+500 Movement Points\n+100% Water Magic Damage",
+			"event" : "You trip over the Raiments of Shalassa, dust it off, and stick it in your pack."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "TORSO",
+		"class" : "RELIC",
+		"value" : 64000,
+		"components" : [
+			"douliOfTheProphet",
+			"iridescentPearl",
+			"libramOfTheProphet",
+			"robeOfTheProphet",
+			"sandalsOfTheProphet",
+			"spauldersOfTheProphet",
+			"staffOfTheTides"
+		],
+		"fusedComponents" : false,
+		"bonuses" : {
+			"movement" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 200,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"mana" : {
+				"type" : "MANA_PERCENTAGE_REGENERATION",
+				"val" : 10,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"spellDamage" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.water",
+				"val" : 25,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"immuneToWater" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.water"
+			},
+			"waterBuff" : {
+				"type" : "RECEPTIVE"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/raimentsOfShalassa.png",
+			"map" : "artifacts/map/raimentsOfShalassa.json",
+			"scenarioBonus" : "artifacts/bonus/raimentsOfShalassa.png"
+		}
+	}
+}

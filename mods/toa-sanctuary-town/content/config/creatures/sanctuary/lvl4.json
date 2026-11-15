@@ -1,0 +1,120 @@
+{
+	"springSpiritAU" : {
+		"name" : {
+			"singular" : "Spring Spirit",
+			"plural" : "Spring Spirits"
+		},
+		"faction" : "sanctuary",
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 8,
+		"damage" : {
+			"min" : 9,
+			"max" : 12
+		},
+		"hitPoints" : 30,
+		"speed" : 8,
+		"growth" : 4,
+		"aiValue" : 525,
+		"fightValue" : 400,
+		"cost" : {
+			"gold" : 325
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"upgrades" : [
+			"mizuKamiAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"painMirror" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
+				"val" : 10,
+				"description" : "{Pain Mirror}\nReflects 10% of incoming melee damage back to the attacker.",
+				"icon" : "bonuses/painMirror.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl4.def",
+			"map" : "creatures/sanctuary/map/lvl4.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl4.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl4.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"projectile" : "PICEE.DEF",
+				"attackClimaxFrame" : 4,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 18,
+					"lowerY" : -92,
+					"middleX" : 43,
+					"middleY" : -99,
+					"upperX" : 28,
+					"upperY" : -107
+				}
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/springSpirit/attack.mp3",
+			"defend" : "creatures/springSpirit/defend.mp3",
+			"killed" : "creatures/springSpirit/death.mp3",
+			"move" : "creatures/springSpirit/move.mp3",
+			"wince" : "creatures/springSpirit/hit.mp3"
+		}
+	}
+}

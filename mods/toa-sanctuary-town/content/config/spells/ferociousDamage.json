@@ -1,0 +1,55 @@
+{
+	"ferociousDamage" : {
+		"type" : "ability",
+		"name" : "Ferocious Wound",
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"animation" : {},
+		"flags" : {
+			"special" : true,
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true
+		},
+		"targetCondition" : {},
+		"graphics" : {},
+		"sounds": {},
+		"targetType" : "CREATURE",
+		"levels" : {
+			"base":{
+				"description" : "{Ferocious Wound}\nReduces the target's Speed by 3 for 2 turns. Target will also be dealt 10% of the Wanizame's stack size damage each turn.\n",
+				"range" : "0",
+				"cost" : 0,
+				"power" : 1,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				}
+			},
+			"none" : {
+				"power" : 1
+			},
+			"basic" : {
+				"power" : 1
+			},
+			"advanced" : {
+				"power" : 1
+			},
+			"expert" : {
+				"power" : 1
+			}
+		}
+	}
+}

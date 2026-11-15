@@ -1,0 +1,71 @@
+{
+	"teslasWrath2k" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Tesla's Wrath",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 5,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"counters" : {},
+		"graphics" : {
+			"iconBook" : "forge2k/spells/TeslaFrame",
+			"iconScroll" : "forge2k/spells/TeslaScroll"
+		},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "C03SPA0",
+					"verticalPosition" : "bottom"
+				},
+				"C11SPA1"
+			]
+		},
+		"sounds" : {
+			"cast" : "LIGHTBLT"
+		},
+		"levels" : {
+			"base" : {
+				"description" : "{Tesla's Wrath}\r\n\r\nSummons the power of the Heavenly Forge's grail to strike your opponents.\r\n",
+				"cost" : 0,
+				"power" : 200,
+				//				"aiValue": 0,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {
+				"range" : "x"
+			}
+		},
+		"targetCondition" : {
+			"allOf" : {},
+			"noneOf" : {
+				//			"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			},
+			"anyOf" : {}
+		},
+		"flags" : {
+			//"offensive": true,
+			"damage" : true,
+			"negative" : true,
+			"special" : true
+		}
+	}
+}

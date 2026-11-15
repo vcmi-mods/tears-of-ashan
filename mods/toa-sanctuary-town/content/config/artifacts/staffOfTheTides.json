@@ -1,0 +1,40 @@
+{
+	"staffOfTheTides" : {
+		"text" : {
+			"name" : "Staff of the Tides",
+			"description" : "{Staff of the Tides}\n\nThis right-handed item increases your Attack and Power skills by +9, and causes your Water spells to inflict an additional 50% damage.",
+			"event" : "Staff of the Tides pickup text."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "RIGHT_HAND",
+		"class" : "RELIC",
+		"value" : 20000,
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"valueType" : "BASE_NUMBER",
+				"val" : 9
+			},
+			"power" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"valueType" : "BASE_NUMBER",
+				"val" : 9
+			},
+			"spellDamage" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.water",
+				"val" : 50,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/staffOfTheTides.png",
+			"map" : "artifacts/map/staffOfTheTides.json",
+			"scenarioBonus" : "artifacts/bonus/staffOfTheTides.png"
+		}
+	}
+}

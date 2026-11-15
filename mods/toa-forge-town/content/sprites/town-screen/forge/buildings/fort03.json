@@ -1,0 +1,55 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "fort03.png"
+        },
+		{
+            "group": 0,
+            "frame": 1,
+            "file": "fort03-01.png"
+        },
+		{
+            "group": 0,
+            "frame": 2,
+            "file": "fort03-02.png"
+        },
+		{
+            "group": 0,
+            "frame": 3,
+            "file": "fort03-03.png"
+        },
+		{
+            "group": 0,
+            "frame": 4,
+            "file": "fort03-04.png"
+        },
+		{
+            "group": 0,
+            "frame": 5,
+            "file": "fort03-05.png"
+        },
+		{
+            "group": 0,
+            "frame": 6,
+            "file": "fort03-06.png"
+        },
+		{
+            "group": 0,
+            "frame": 7,
+            "file": "fort03-07.png"
+        },
+		{
+            "group": 0,
+            "frame": 8,
+            "file": "fort03-08.png"
+        },
+		{
+            "group": 0,
+            "frame": 9,
+            "file": "fort03-09.png"
+        }
+    ],
+    "basepath": "town-screen/forge/buildings/"
+}

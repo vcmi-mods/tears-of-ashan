@@ -1,0 +1,75 @@
+{
+	"berserkerAU" : {
+		"name" : {
+			"singular" : "Berserker",
+			"plural" : "Berserkers"
+		},
+		"faction" : "bulwark",
+		"level" : 4,
+		"attack" : 16,
+		"defense" : 8,
+		"damage" : {
+			"min" : 10,
+			"max" : 12
+		},
+		"hitPoints" : 40,
+		"speed" : 9,
+		"growth" : 4,
+		"aiValue" : 715,
+		"fightValue" : 675,
+		"cost" : {
+			"gold" : 425
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"upgrades" : [
+			"battleragerAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"berserkerRage" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "berserkerRage",
+				"val" : 0,
+				"description" : "{Berserker Rage}\nCan activate Berserker Rage.",
+				"icon" : "bonuses/berserkerRage.png"
+			},
+			"ragePower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl4Up.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl4Up.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl4Up.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl4Up.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/berserker/attack",
+			"defend" : "creatures/berserker/defend",
+			"killed" : "creatures/berserker/death",
+			"move" : "creatures/berserker/move",
+			"wince" : "creatures/berserker/hit"
+		}
+	}
+}

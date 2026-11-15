@@ -1,5 +1,5 @@
 {
-	"name" : "Enable Diplomacy Specialists",
+	"name" : "Gameplay: Enable Diplomacy Specialists",
 	"author" : "Aphra",
 	"contact" : "",
 	"description" : "Enables Biara, Markal, Melchior, and Oidana. Also enables Diane if Cathedral is installed and Jun if Sanctuary is installed.",

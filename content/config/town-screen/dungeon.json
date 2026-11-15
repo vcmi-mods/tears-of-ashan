@@ -178,8 +178,21 @@
 						]
 					]
 				},
+				"dwellingLvl5" : {
+					"cost" : {
+						"gold" : 4000,
+						"ore" : 10,
+						"gems" : 5
+					}
+				},
 				"dwellingUpLvl5" : {
-					"description" : "The Labyrinth allows you to recruit Minotaur Kings and Minotaur Taskmasters."
+					"description" : "The Labyrinth allows you to recruit Minotaur Kings and Minotaur Taskmasters.",
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"mercury" : 5,
+						"gems" : 5
+					}
 				},
 				"dwellingUp2Lvl5" : {
 					"name" : "Upg. Labyrinth",

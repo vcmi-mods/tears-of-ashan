@@ -1,0 +1,133 @@
+{
+	"runeKeeperAU" : {
+		"name" : {
+			"singular" : "Rune Keeper",
+			"plural" : "Rune Keepers"
+		},
+		"faction" : "bulwark",
+		"level" : 5,
+		"attack" : 10,
+		"defense" : 14,
+		"shots" : 24,
+		"damage" : {
+			"min" : 12,
+			"max" : 16
+		},
+		"hitPoints" : 45,
+		"speed" : 7,
+		"growth" : 3,
+		"aiValue" : 1095,
+		"fightValue" : 925,
+		"cost" : {
+			"gold" : 620
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"upgrades" : [
+			"runePatriarchAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 100
+			},
+			"markOfFire" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "markOfFire",
+				"val" : 40,
+				"addInfo" : [
+					0,
+					0
+				],
+				"description" : "{Mark of Fire}\nHas a 40% chance to damn the target with a Mark of Fire after attacking.",
+				"icon" : "bonuses/markOfFire.png"
+			},
+			"castRuneOfBattleRage" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfBattleRage",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Battle Rage (6 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfBattleRage.png"
+			},
+			"castRuneOfEtherealness" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfEtherealness",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of the Veil (2 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfEtherealness.png"
+			},
+			"castRuneOfElementalImmunity" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfElementalImmunity",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Mitigation (2 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfElementalImmunity.png"
+			},
+			"runePower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl5Up.def",
+			"map" : "creatures/rampart/map/lvl2Alt.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl5Alt.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl5Alt.png",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 6,
+				"offset" : {
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : -3
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/runeKeeper/attack",
+			"defend" : "creatures/runeKeeper/hit",
+			"killed" : "creatures/runeKeeper/death",
+			"move" : "creatures/runeKeeper/move",
+			"wince" : "creatures/runeKeeper/hit",
+			"shoot" : "creatures/runeKeeper/shoot"
+		}
+	}
+}

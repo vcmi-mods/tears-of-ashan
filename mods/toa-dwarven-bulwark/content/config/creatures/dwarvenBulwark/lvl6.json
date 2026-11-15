@@ -1,0 +1,82 @@
+{
+	"thaneAU" : {
+		"name" : {
+			"singular" : "Thane",
+			"plural" : "Thanes"
+		},
+		"faction" : "bulwark",
+		"level" : 6,
+		"attack" : 14,
+		"defense" : 16,
+		"damage" : {
+			"min" : 14,
+			"max" : 20
+		},
+		"hitPoints" : 90,
+		"speed" : 8,
+		"growth" : 2,
+		"aiValue" : 1790,
+		"fightValue" : 1485,
+		"cost" : {
+			"gold" : 950
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
+		},
+		"upgrades" : [
+			"flameLordAU",
+			"thunderThaneAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting",
+				"icon" : "zvs/Lib1.res/e_teleport"
+			},
+			"thunderOnAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "lightningBolt",
+				"val" : 100,
+				"addInfo" : [
+					2,
+					0,
+					1
+				],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Advanced Lightning Bolt after attacking (8 Damage per Thane).",
+				"icon" : "zvs/Lib1.res/spellsSOD/lightningbolt2.png"
+			},
+			"thunderPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "lightningBolt",
+				"val" : 8
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl6.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl6.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl6.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl6.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/thane/attack",
+			"defend" : "creatures/thane/defend",
+			"killed" : "creatures/thane/death",
+			"startMoving" : "creatures/thane/moveStart",
+			"endMoving" : "creatures/thane/moveEnd",
+			"wince" : "creatures/thane/hit",
+			"shoot" : "creatures/thane/shoot"
+		}
+	}
+}

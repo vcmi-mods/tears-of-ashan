@@ -1,0 +1,450 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "conscript45.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "conscript46.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "conscript47.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "conscript48.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "conscript49.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "conscript50.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "conscript51.PCX.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "conscript52.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 0,
+            "file": "conscript35.pcx.png"
+        },
+        {
+            "group": 1,
+            "frame": 1,
+            "file": "conscript36.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 2,
+            "file": "conscript37.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 3,
+            "file": "conscript38.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 4,
+            "file": "conscript38.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 5,
+            "file": "conscript37.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 6,
+            "file": "conscript37.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 7,
+            "file": "conscript38.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 8,
+            "file": "conscript38.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 9,
+            "file": "conscript37.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 10,
+            "file": "conscript37.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 11,
+            "file": "conscript38.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 12,
+            "file": "conscript38.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 13,
+            "file": "conscript37.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 14,
+            "file": "conscript36.PCX.png"
+        },
+        {
+            "group": 1,
+            "frame": 15,
+            "file": "conscript35.pcx.png"
+        },
+        {
+            "group": 2,
+            "frame": 0,
+            "file": "conscript63.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 1,
+            "file": "conscript39.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 2,
+            "file": "conscript40.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 3,
+            "file": "conscript41.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 4,
+            "file": "conscript42.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 5,
+            "file": "conscript41.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 6,
+            "file": "conscript40.PCX.png"
+        },
+        {
+            "group": 2,
+            "frame": 7,
+            "file": "conscript39.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 0,
+            "file": "conscript55.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 1,
+            "file": "conscript56.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 2,
+            "file": "conscript57.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 3,
+            "file": "conscript58.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 4,
+            "file": "conscript59.PCX.png"
+        },
+        {
+            "group": 3,
+            "frame": 5,
+            "file": "conscript60.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 0,
+            "file": "conscript31.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 1,
+            "file": "conscript32.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 2,
+            "file": "conscript33.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 3,
+            "file": "conscript34.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 4,
+            "file": "conscript34.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 5,
+            "file": "conscript34.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 6,
+            "file": "conscript33.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 7,
+            "file": "conscript32.PCX.png"
+        },
+        {
+            "group": 4,
+            "frame": 8,
+            "file": "conscript31.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 0,
+            "file": "conscript25.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 1,
+            "file": "conscript26.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 2,
+            "file": "conscript27.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 3,
+            "file": "conscript28.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 4,
+            "file": "conscript29.PCX.png"
+        },
+        {
+            "group": 5,
+            "frame": 5,
+            "file": "conscript30.PCX.png"
+        },
+        {
+            "group": 7,
+            "frame": 0,
+            "file": "conscript61.PCX.png"
+        },
+        {
+            "group": 7,
+            "frame": 1,
+            "file": "conscript62.PCX.png"
+        },
+        {
+            "group": 8,
+            "frame": 0,
+            "file": "conscript62.PCX.png"
+        },
+        {
+            "group": 8,
+            "frame": 1,
+            "file": "conscript61.PCX.png"
+        },
+        {
+            "group": 9,
+            "frame": 0,
+            "file": "conscript61.PCX.png"
+        },
+        {
+            "group": 9,
+            "frame": 1,
+            "file": "conscript62.PCX.png"
+        },
+        {
+            "group": 10,
+            "frame": 0,
+            "file": "conscript62.PCX.png"
+        },
+        {
+            "group": 10,
+            "frame": 1,
+            "file": "conscript61.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 0,
+            "file": "conscript09.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 1,
+            "file": "conscript10.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 2,
+            "file": "conscript11.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 3,
+            "file": "conscript12.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 4,
+            "file": "conscript13.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 5,
+            "file": "conscript14.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 6,
+            "file": "conscript15.PCX.png"
+        },
+        {
+            "group": 11,
+            "frame": 7,
+            "file": "conscript16.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 0,
+            "file": "conscript01.pcx.png"
+        },
+        {
+            "group": 12,
+            "frame": 1,
+            "file": "conscript02.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 2,
+            "file": "conscript03.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 3,
+            "file": "conscript04.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 4,
+            "file": "conscript05.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 5,
+            "file": "conscript06.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 6,
+            "file": "conscript07.PCX.png"
+        },
+        {
+            "group": 12,
+            "frame": 7,
+            "file": "conscript08.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 0,
+            "file": "conscript17.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 1,
+            "file": "conscript18.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 2,
+            "file": "conscript19.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 3,
+            "file": "conscript20.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 4,
+            "file": "conscript21.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 5,
+            "file": "conscript22.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 6,
+            "file": "conscript23.PCX.png"
+        },
+        {
+            "group": 13,
+            "frame": 7,
+            "file": "conscript24.PCX.png"
+        },
+        {
+            "group": 20,
+            "frame": 0,
+            "file": "conscript43.PCX.png"
+        },
+        {
+            "group": 20,
+            "frame": 1,
+            "file": "conscript44.PCX.png"
+        },
+        {
+            "group": 21,
+            "frame": 0,
+            "file": "conscript53.PCX.png"
+        },
+        {
+            "group": 21,
+            "frame": 1,
+            "file": "conscript54.PCX.png"
+        }
+    ],
+    "basepath": "creatures/cathedral/battle/conscript/"
+}

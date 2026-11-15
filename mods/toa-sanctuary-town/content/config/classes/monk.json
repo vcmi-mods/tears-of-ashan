@@ -1,0 +1,103 @@
+{
+	"monkClass" : {
+		"name" : "Monk",
+		"faction" : "sanctuary",
+		"affinity" : "magic",
+		"defaultTavern" : 5,
+		"commander" : "snowMaidenAU",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/monk/MaleCombat.def",
+				"male" : "classes/monk/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/monk/FemaleMap.def",
+					"editorAnimation" : "classes/monk/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/monk/MaleMap.def",
+					"editorAnimation" : "classes/monk/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 2,
+			"spellpower" : 1,
+			"knowledge" : 2
+		},
+		"lowLevelChance" : {
+			"attack" : 15,
+			"defence" : 30,
+			"spellpower" : 20,
+			"knowledge" : 35
+		},
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 25,
+			"spellpower" : 25,
+			"knowledge" : 30
+		},
+		"secondarySkills" : {
+			"archery" : 5,
+			"armorer" : 8,
+			"artillery" : 2,
+			"ballistics" : 3,
+			"firstAid" : 5,
+			"interference" : 6,
+			"leadership" : 8,
+			"luck" : 8,
+			"offence" : 5,
+			"resistance" : 6,
+			"tactics" : 3,
+
+			"airMagic" : 4,
+			"earthMagic" : 6,
+			"fireMagic" : 2,
+			"waterMagic" : 10,
+			"lightMagic" : 10,
+			"darkMagic" : 2,
+			"eagleEye" : 4,
+			"intelligence" : 7,
+			"mysticism" : 6,
+			"necromancy" : 0,
+			"scholar" : 7,
+			"sorcery" : 3,
+			"wisdom" : 6,
+
+			"diplomacy" : 10,
+			"estates" : 3,
+			"learning" : 6,
+			"logistics" : 4,
+			"navigation" : 6,
+			"pathfinding" : 4,
+			"scouting" : 4
+		},
+		"tavern" : {
+			"castle" : 5,
+			"rampart" : 7,
+			"tower" : 6,
+			"inferno" : 1,
+			"necropolis" : 1,
+			"dungeon" : 1,
+			"stronghold" : 3,
+			"fortress" : 4,
+			"conflux" : 7,
+			"cove" : 3,
+			"factory" : 2,
+			"bulwark" : 5,
+			"sanctuary" : 10
+		}
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"bruiserAU" : {
+		"name" : {
+			"singular" : "Bruiser",
+			"plural" : "Bruisers"
+		},
+		"faction" : "forgeTOA",
+		"level" : 4,
+		"attack" : 14,
+		"defense" : 10,
+		"shots" : 24,
+		"damage" : {
+			"min" : 12,
+			"max" : 16
+		},
+		"hitPoints" : 60,
+		"speed" : 7,
+		"growth" : 3,
+		"aiValue" : 1235,
+		"fightValue" : 960,
+		"cost" : {
+			"gold" : 725
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"incendiaryBonus" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "fireball",
+				"val" : 100,
+				"addInfo" : [ 1, 1 ],
+				"duration" : [
+					"UNTIL_ATTACK",
+					"N_TURNS"
+				],
+				"limiters" : [ {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "INCENDIARY_BONUS"
+					}
+				],
+				"stacking" : "incendiaryShell",
+				"hidden" : true
+			},
+			"incendiaryShell" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "incendiaryShell",
+				"val" : 1,
+				"description" : "{Incendiary Shell}\nCan fire an incendiary rocket thrice per combat (Expert Fireball (50%) after shooting).",
+				"icon" : "zvs/Lib1.res/spellsSOD/fireball3.png"
+			},
+			"incendiaryShellDuration" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 50
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl4Up.def",
+			"map" : "creatures/forge/map/lvl4Up.def",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"iconSmall" : "creatures/forge/iconsSmall/lvl4Up.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl4Up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"projectile" : "creatures/forge/battle/projectile/lvl5shot.def",
+				"attackClimaxFrame" : 9,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "OGRMATTK.wav",
+			"shoot" : "creatures/stinger/shoot.wav",
+			"defend" : "OGRMDFND.wav",
+			"killed" : "OGRMKILL.wav",
+			"move" : "OGRMMOVE.wav",
+			"wince" : "OGRMWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"08markus" : {
+		"class" : "knight",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Markus",
+			"biography" : "The nephew of the childless Duke Gerhart, Markus knows that he is next in line to become Duke of Wolf. After all, the youth has become Gerhart's son in every regard save blood since his parents died and he was raised by his uncle. The trouble is, Gerhart is now married to Irina of the House of Griffin. Why shouldn't he inherit the Duchy? Perhaps if Gerhart had spared him a little love he would be happy to hear the joy of a true heir, but that didn't happen, did it?",
+			"specialty" : {
+				"name" : "Revenge",
+				"tooltip" : "Creature Bonus: Revenge",
+				"description" : "Allied units gain Revenge."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/markus/portraitSmall.png",
+			"large" : "heroes/castle/markus/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Revenge.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Revenge.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "interference",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"revenge" : {
+					"type" : "REVENGE",
+					"propagator" : "HERO"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

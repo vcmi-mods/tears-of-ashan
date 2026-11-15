@@ -1,0 +1,66 @@
+{
+	"56seamus" : {
+		"class" : "chaplainClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"fireball"
+		],
+		"texts" : {
+			"name" : "Seamus",
+			"biography" : "Seamus na Feidh is the Duke of Stag, but not a direct descendant of the legendary founder of the Duchy, Ronan the Great's own brother, Oisin. The original Stag line disappeared around the Second Eclipse, with the death of Duke Connell. Seamus actually descends from one of Connell's cousins-by-marriage, who inherited the Duchy after Connell's death. Seamus played no part in Empress Maeve's death, but he quickly saw it as a one-in-a-lifetime opportunity to rise higher than his birth would have normally allowed. It is now clear that he is the one who has, through a network of middle-men, hired the services of the Dark Elf assassin clan called the Blades of Erebos. Seamus tried to have the Blades fake the murder of his own daughter Nolwenn, framing Ivan for the foul deed. The plan has failed, but there's no turning back now. Seamus knows he can win the war. He's patient, and cunning. He will be Emperor, whatever the cost.",
+			"specialty" : {
+				"name" : "Fireball",
+				"tooltip" : "Spell Bonus: Fireball",
+				"description" : "Casts Fireball with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/seamus/portraitSmall.png",
+			"large" : "heroes/cathedral/seamus/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Fireball (HotA).png",
+			"specialtyLarge" : "heroes/specialtyLarge/Fireball (HotA).png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"fireball" : {
+					"type" : "SPECIAL_SPELL_SCALING",
+					"subtype" : "spell.fireball",
+					"val" : 10,
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

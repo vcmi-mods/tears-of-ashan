@@ -1,0 +1,58 @@
+{
+	"05Cistrict" : {
+		"class" : "cyborgClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Cistrict",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Jump Troopers",
+				"tooltip" : "Creature Bonus: Jump Troopers",
+				"description" : "Increases the Speed of allied Jump Troopers and Jump Soldiers by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/cistrict/portraitSmall.png",
+			"large" : "heroes/forge/cistrict/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Jump Troopers.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Jump Troopers.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "jumpTrooperAU",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "jumpTrooperAU",
+				"min" : 1,
+				"max" : 2
+			}
+		]
+	}
+}

@@ -59,7 +59,7 @@
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 20
 			},
-			"spellpoints" : {
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			}

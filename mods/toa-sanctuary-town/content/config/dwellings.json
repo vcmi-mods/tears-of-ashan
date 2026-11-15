@@ -1,0 +1,195 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"reefBarrierAU" : {
+				"name" : "Reef Barrier",
+				"creatures" : [
+					[
+						"sharkGuardAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFALL"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/Sanctuary/coralSanctuary",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAV"
+						]
+					}
+				}
+			},
+			"enchantedPondAU" : {
+				"name" : "Enchanted Pond",
+				"creatures" : [
+					[
+						"kappaAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFALL"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/Sanctuary/coralSanctuary",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAV"
+						]
+					}
+				}
+			},
+			"coralSanctuaryAU" : {
+				"name" : "Coral Sanctuary",
+				"creatures" : [
+					[
+						"coralPriestessAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFALL"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/Sanctuary/coralSanctuary",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAV"
+						]
+					}
+				}
+			},
+			"sacredSourceAU" : {
+				"name" : "Sacred Source",
+				"creatures" : [
+					[
+						"springSpiritAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFALL"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/Sanctuary/coralSanctuary",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAV"
+						]
+					}
+				}
+			},
+			"frostShrineAU" : {
+				"name" : "Frost Shrine",
+				"creatures" : [
+					[
+						"snowMaidenAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFALL"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/Sanctuary/coralSanctuaryUp",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAV"
+						]
+					}
+				}
+			},
+			"sunkenArenaAU" : {
+				"name" : "Sunken Arena",
+				"creatures" : [
+					[
+						"kenshiAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFALL"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/Sanctuary/coralSanctuaryUp",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAV"
+						]
+					}
+				}
+			},
+			"mistyMountainAU" : {
+				"name" : "Misty Mountain",
+				"creatures" : [
+					[
+						"kirinAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFALL"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/Sanctuary/coralSanctuaryUp",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAV"
+						]
+					}
+				}
+			}
+		}
+	}
+}

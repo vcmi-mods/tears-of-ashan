@@ -1,0 +1,61 @@
+{
+	"56oshiro" : {
+		"class" : "monkClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"berserk"
+		],
+		"texts" : {
+			"name" : "Oshiro",
+			"biography" : "Once, Oshiro was a powerful daimyo of the Naga Empire. During the imperial expeditions of the \"Autumn Wind\", Oshiro was charged with recovering a Tear of Asha. After discovering the precious relic, he decided to use it himself to overthrow the Eternal Empress and become the new Emperor. But he failed and was forced into hiding. In order to get his people to safety, he made a pact with a Kirin. As Oshiro rode the Kirin, a mystical mist shrouded his people, hiding them from the Empress' wrath and allowing them to leave Hashima unscathed. As per the custom, the Kirin, having fulfilled his part of the deal, requested Oshiro's life. But the daimyo, fearful of death, refused. Instead, he used the power of Tear of Asha to shield himself from the Kirin's wrath. The magical enchantment of the Tear of Asha set a precarious equilibrium between the Kirin and Oshiro. But as Oshiro was able to use this borrowed time to meditate on his fate, the choices he made and the meaning of life, the Kirin has descended into a vengeful madness.",
+			"specialty" : {
+				"name" : "Kirins",
+				"tooltip" : "Creature Bonus: Kirins",
+				"description" : "Increases the Speed of allied Kirins, Sacred Kirins, and Enraged Kirins by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/oshiro/portraitSmall.png",
+			"large" : "heroes/sanctuary/oshiro/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Kirins.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Kirins.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "kirinAU",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}
