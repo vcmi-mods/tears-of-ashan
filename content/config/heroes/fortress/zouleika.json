@@ -39,7 +39,15 @@
 				"curse" : {
 					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.curse",
-					"addInfo" : [ 0, 0, 1, 2, 3, 4, 8 ]
+					"addInfo" : [
+						0,
+						0,
+						1,
+						2,
+						3,
+						4,
+						8
+					]
 				}
 			}
 		},
