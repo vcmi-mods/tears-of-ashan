@@ -80,7 +80,7 @@
 			}
 		},
 		"graphics" : {
-			"animation" : "creatures/dwarvenBulwark/battle/lvl5Up.def",
+			"animation" : "creatures/dwarvenBulwark/battle/lvl5Alt.json",
 			"map" : "creatures/rampart/map/lvl2Alt.def",
 			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl5Alt.png",
 			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl5Alt.png",

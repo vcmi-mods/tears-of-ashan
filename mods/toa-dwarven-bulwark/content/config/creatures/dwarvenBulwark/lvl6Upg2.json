@@ -56,7 +56,7 @@
 			}
 		},
 		"graphics" : {
-			"animation" : "creatures/dwarvenBulwark/battle/lvl6Up.def",
+			"animation" : "creatures/dwarvenBulwark/battle/lvl6Alt.json",
 			"map" : "creatures/dwarvenBulwark/map/lvl6Up.def",
 			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl6Alt.png",
 			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl6Alt.png",

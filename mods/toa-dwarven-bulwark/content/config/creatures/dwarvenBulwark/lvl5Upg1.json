@@ -67,10 +67,13 @@
 			"fireballAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "spell.fireballAbility"
+				"val" : 0,
+				"description" : "{Fireball Attack}\nThis unit attacks with Fireball.",
+				"icon" : "zvs/lib1.res/fireballattack.png"
 			}
 		},
 		"graphics" : {
-			"animation" : "creatures/dwarvenBulwark/battle/lvl5Up.def",
+			"animation" : "creatures/dwarvenBulwark/battle/lvl5Up.json",
 			"map" : "creatures/rampart/map/lvl2Alt.def",
 			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl5Up.png",
 			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl5Up.png",

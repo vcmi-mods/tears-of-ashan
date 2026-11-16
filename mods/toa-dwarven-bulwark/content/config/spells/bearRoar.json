@@ -50,7 +50,7 @@
 
 		"levels" : {
 			"base" : {
-				"description" : "{Bear Roar}\n\nSubjects the target to a fearsome bellow, giving them a 25% chance to skip their turn for the next 3 turns. Does not affect undead or non-living units.",
+				"description" : "{Bear Roar}\n\nSubjects the target to a fearsome bellow, giving them a 15% chance to skip their turn for the next 3 turns. Does not affect undead or non-living units.",
 				"cost" : 0,
 				"range" : "0",
 				"power" : 0,
@@ -64,7 +64,7 @@
 						"bonus" : {
 							"retaliationBonus" : {
 								"type" : "FEARFUL",
-								"val" : 25,
+								"val" : 15,
 								"duration" : "N_TURNS",
 								"turns" : 3
 							}

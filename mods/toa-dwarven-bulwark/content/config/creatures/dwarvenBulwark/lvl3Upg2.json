@@ -41,7 +41,7 @@
 					0,
 					0
 				],
-				"description" : "{Bear Roar}\nBellows a Bear Roar after attacking, inflicting the enemy with Fear (25%) for 3 turns.",
+				"description" : "{Bear Roar}\nBellows a Bear Roar after attacking, inflicting the enemy with Fear (15%) for 3 turns.",
 				"icon" : "bonuses/bearRoar.png"
 			}
 		},
