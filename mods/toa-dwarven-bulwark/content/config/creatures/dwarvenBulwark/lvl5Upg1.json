@@ -66,7 +66,7 @@
 			},
 			"fireballAttack" : {
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.fireballAbility"
+				"subtype" : "spell.fireballAbility",
 				"val" : 0,
 				"description" : "{Fireball Attack}\nThis unit attacks with Fireball.",
 				"icon" : "zvs/lib1.res/fireballattack.png"
