@@ -326,35 +326,23 @@
 					"animation" : "town-screen/cathedral/buildings/gallowsExtra",
 					"x" : 402,
 					"y" : 174,
-					"z" : 4,
+					"z" : 9,
 					"builds" : "dwellingLvl2"
 				},
 				"extraAnimation02" : {
 					"animation" : "town-screen/cathedral/buildings/gallowsHordeExtra",
 					"x" : 402,
 					"y" : 174,
-					"z" : 4,
+					"z" : 9,
 					"builds" : "horde1"
 				},
-				//"extraAnimation03" : {
-				//	"animation" : "town-screen/cathedral/buildings/gallows01h",
-				//	"x" : 402, "y" : 174, "z" : 3,
-				//	"builds" : "horde1",
-				//	"hidden" : true
-				//},
-				//"extraAnimation04" : {
-				//	"animation" : "town-screen/cathedral/buildings/gallows02h",
-				//	"x" : 402, "y" : 174, "z" : 3,
-				//	"builds" : "horde1Upgr",
-				//	"hidden" : true
-				//},
 
 				//GRAIL
 				"grail" : {
 					"animation" : "town-screen/cathedral/buildings/grail",
 					"x" : 616,
 					"y" : 15,
-					"z" : 1,
+					"z" : 16,
 					"campaignBonus" : "BoEgrail.pcx",
 					"border" : "town-screen/cathedral/borders/grail",
 					"area" : "town-screen/cathedral/areas/grail"
@@ -365,7 +353,7 @@
 					"animation" : "town-screen/cathedral/buildings/tavern",
 					"x" : 290,
 					"y" : 227,
-					"z" : 5,
+					"z" : 13,
 					"campaignBonus" : "BoEtav.pcx",
 					"border" : "town-screen/cathedral/borders/tavern",
 					"area" : "town-screen/cathedral/areas/tavern"
@@ -374,7 +362,7 @@
 					"animation" : "town-screen/cathedral/buildings/blacksmith",
 					"x" : 0,
 					"y" : 291,
-					"z" : 4,
+					"z" : 9,
 					"campaignBonus" : "BoEblack.pcx",
 					"border" : "town-screen/cathedral/borders/blacksmith",
 					"area" : "town-screen/cathedral/areas/blacksmith"
@@ -383,7 +371,7 @@
 					"animation" : "town-screen/cathedral/buildings/market01",
 					"x" : 134,
 					"y" : 291,
-					"z" : 5,
+					"z" : 12,
 					"campaignBonus" : "BoEMark.pcx",
 					"border" : "town-screen/cathedral/borders/market01",
 					"area" : "town-screen/cathedral/areas/market01"
@@ -392,7 +380,7 @@
 					"animation" : "town-screen/cathedral/buildings/market02",
 					"x" : 116,
 					"y" : 313,
-					"z" : 6,
+					"z" : 15,
 					"campaignBonus" : "BoEMarkS.pcx",
 					"border" : "town-screen/cathedral/borders/market02",
 					"area" : "town-screen/cathedral/areas/market02"
@@ -403,7 +391,7 @@
 					"animation" : "town-screen/cathedral/buildings/mage01",
 					"x" : 14,
 					"y" : 109,
-					"z" : 2,
+					"z" : 5,
 					"campaignBonus" : "BoEgld1.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
@@ -412,7 +400,7 @@
 					"animation" : "town-screen/cathedral/buildings/mage02",
 					"x" : 14,
 					"y" : 109,
-					"z" : 2,
+					"z" : 5,
 					"campaignBonus" : "BoEgld2.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
@@ -421,7 +409,7 @@
 					"animation" : "town-screen/cathedral/buildings/mage03",
 					"x" : 14,
 					"y" : 109,
-					"z" : 2,
+					"z" : 5,
 					"campaignBonus" : "BoEgld3.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
@@ -430,7 +418,7 @@
 					"animation" : "town-screen/cathedral/buildings/mage04",
 					"x" : 14,
 					"y" : 109,
-					"z" : 2,
+					"z" : 5,
 					"campaignBonus" : "BoEgld4.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
@@ -439,7 +427,7 @@
 					"animation" : "town-screen/cathedral/buildings/mage05",
 					"x" : 14,
 					"y" : 109,
-					"z" : 2,
+					"z" : 5,
 					"campaignBonus" : "BoEgld5.pcx",
 					"border" : "town-screen/cathedral/borders/mage",
 					"area" : "town-screen/cathedral/areas/mage"
@@ -450,7 +438,7 @@
 					"animation" : "town-screen/cathedral/buildings/hall01",
 					"x" : 583,
 					"y" : 117,
-					"z" : 2,
+					"z" : 3,
 					"campaignBonus" : "BoEhall1.pcx",
 					"border" : "town-screen/cathedral/borders/hall01",
 					"area" : "town-screen/cathedral/areas/hall01"
@@ -459,7 +447,7 @@
 					"animation" : "town-screen/cathedral/buildings/hall01",
 					"x" : 583,
 					"y" : 117,
-					"z" : 2,
+					"z" : 3,
 					"campaignBonus" : "BoEhall2.pcx",
 					"border" : "town-screen/cathedral/borders/hall01",
 					"area" : "town-screen/cathedral/areas/hall01"
@@ -468,7 +456,7 @@
 					"animation" : "town-screen/cathedral/buildings/hall02",
 					"x" : 583,
 					"y" : 117,
-					"z" : 2,
+					"z" : 3,
 					"campaignBonus" : "BoEhall3.pcx",
 					"border" : "town-screen/cathedral/borders/hall02",
 					"area" : "town-screen/cathedral/areas/hall02"
@@ -477,7 +465,7 @@
 					"animation" : "town-screen/cathedral/buildings/hall03",
 					"x" : 583,
 					"y" : 117,
-					"z" : 2,
+					"z" : 3,
 					"campaignBonus" : "BoEhall4.pcx",
 					"border" : "town-screen/cathedral/borders/hall02",
 					"area" : "town-screen/cathedral/areas/hall02"
@@ -488,7 +476,7 @@
 					"animation" : "town-screen/cathedral/buildings/fort01",
 					"x" : 167,
 					"y" : 52,
-					"z" : 1,
+					"z" : 2,
 					"campaignBonus" : "BoEcast1.pcx",
 					"border" : "town-screen/cathedral/borders/fort01",
 					"area" : "town-screen/cathedral/areas/fort01"
@@ -497,7 +485,7 @@
 					"animation" : "town-screen/cathedral/buildings/fort02",
 					"x" : 161,
 					"y" : 52,
-					"z" : 1,
+					"z" : 2,
 					"campaignBonus" : "BoEcast2.pcx",
 					"border" : "town-screen/cathedral/borders/fort02",
 					"area" : "town-screen/cathedral/areas/fort02"
@@ -506,7 +494,7 @@
 					"animation" : "town-screen/cathedral/buildings/fort03",
 					"x" : 162,
 					"y" : 42,
-					"z" : 1,
+					"z" : 2,
 					"campaignBonus" : "BoEcast3.pcx",
 					"border" : "town-screen/cathedral/borders/fort03",
 					"area" : "town-screen/cathedral/areas/fort03"
@@ -517,7 +505,7 @@
 					"animation" : "town-screen/cathedral/buildings/lodgings01",
 					"x" : 104,
 					"y" : 217,
-					"z" : 4,
+					"z" : 8,
 					"campaignBonus" : "BoEdn_0.pcx",
 					"border" : "town-screen/cathedral/borders/lodgings01",
 					"area" : "town-screen/cathedral/areas/lodgings01"
@@ -526,7 +514,7 @@
 					"animation" : "town-screen/cathedral/buildings/lodgings02",
 					"x" : 104,
 					"y" : 217,
-					"z" : 4,
+					"z" : 8,
 					"campaignBonus" : "BoEup_0.pcx",
 					"border" : "town-screen/cathedral/borders/lodgings02",
 					"area" : "town-screen/cathedral/areas/lodgings02"
@@ -535,7 +523,7 @@
 					"animation" : "town-screen/cathedral/buildings/gallows01",
 					"x" : 402,
 					"y" : 174,
-					"z" : 5,
+					"z" : 11,
 					"campaignBonus" : "BoEdn_1.pcx",
 					"border" : "town-screen/cathedral/borders/gallows01",
 					"area" : "town-screen/cathedral/areas/gallows01"
@@ -544,7 +532,7 @@
 					"animation" : "town-screen/cathedral/buildings/gallows02",
 					"x" : 402,
 					"y" : 174,
-					"z" : 5,
+					"z" : 11,
 					"campaignBonus" : "BoEup_1.pcx",
 					"border" : "town-screen/cathedral/borders/gallows02",
 					"area" : "town-screen/cathedral/areas/gallows02"
@@ -553,7 +541,7 @@
 					"animation" : "town-screen/cathedral/buildings/gallows03",
 					"x" : 402,
 					"y" : 174,
-					"z" : 4,
+					"z" : 10,
 					"campaignBonus" : "BoEHrd1.pcx",
 					"border" : "town-screen/cathedral/borders/gallows03",
 					"area" : "town-screen/cathedral/areas/gallows03"
@@ -562,7 +550,7 @@
 					"animation" : "town-screen/cathedral/buildings/gallows03",
 					"x" : 402,
 					"y" : 174,
-					"z" : 4,
+					"z" : 10,
 					"campaignBonus" : "BoEHrd2.pcx",
 					"border" : "town-screen/cathedral/borders/gallows03",
 					"area" : "town-screen/cathedral/areas/gallows03",
@@ -572,7 +560,7 @@
 					"animation" : "town-screen/cathedral/buildings/range01",
 					"x" : 616,
 					"y" : 295,
-					"z" : 2,
+					"z" : 4,
 					"campaignBonus" : "BoEdn_2.pcx",
 					"border" : "town-screen/cathedral/borders/range01",
 					"area" : "town-screen/cathedral/areas/range01"
@@ -581,7 +569,7 @@
 					"animation" : "town-screen/cathedral/buildings/range02",
 					"x" : 616,
 					"y" : 295,
-					"z" : 2,
+					"z" : 4,
 					"campaignBonus" : "BoEup_2.pcx",
 					"border" : "town-screen/cathedral/borders/range02",
 					"area" : "town-screen/cathedral/areas/range02"
@@ -590,7 +578,7 @@
 					"animation" : "town-screen/cathedral/buildings/graveyard01",
 					"x" : 271,
 					"y" : 136,
-					"z" : 3,
+					"z" : 7,
 					"campaignBonus" : "BoEdn_3.pcx",
 					"border" : "town-screen/cathedral/borders/graveyard01",
 					"area" : "town-screen/cathedral/areas/graveyard01"
@@ -599,7 +587,7 @@
 					"animation" : "town-screen/cathedral/buildings/graveyard02",
 					"x" : 271,
 					"y" : 136,
-					"z" : 3,
+					"z" : 7,
 					"campaignBonus" : "BoEup_3.pcx",
 					"border" : "town-screen/cathedral/borders/graveyard02",
 					"area" : "town-screen/cathedral/areas/graveyard02"
@@ -608,7 +596,7 @@
 					"animation" : "town-screen/cathedral/buildings/chapel01",
 					"x" : 0,
 					"y" : 148,
-					"z" : 3,
+					"z" : 6,
 					"campaignBonus" : "BoEdn_4.pcx",
 					"border" : "town-screen/cathedral/borders/chapel01",
 					"area" : "town-screen/cathedral/areas/chapel01"
@@ -617,7 +605,7 @@
 					"animation" : "town-screen/cathedral/buildings/chapel02",
 					"x" : 0,
 					"y" : 148,
-					"z" : 3,
+					"z" : 6,
 					"campaignBonus" : "BoEup_4.pcx",
 					"border" : "town-screen/cathedral/borders/chapel02",
 					"area" : "town-screen/cathedral/areas/chapel02"
@@ -644,7 +632,7 @@
 					"animation" : "town-screen/cathedral/buildings/bronzeAltar01",
 					"x" : 475,
 					"y" : 228,
-					"z" : 5,
+					"z" : 14,
 					"campaignBonus" : "BoEdn_6.pcx",
 					"border" : "town-screen/cathedral/borders/bronzeAltar01",
 					"area" : "town-screen/cathedral/areas/bronzeAltar01"
@@ -653,20 +641,11 @@
 					"animation" : "town-screen/cathedral/buildings/bronzeAltar02",
 					"x" : 449,
 					"y" : 227,
-					"z" : 5,
+					"z" : 14,
 					"campaignBonus" : "BoEup_6.pcx",
 					"border" : "town-screen/cathedral/borders/bronzeAltar02",
 					"area" : "town-screen/cathedral/areas/bronzeAltar02"
 				}
-
-				//SPECIAL
-				//"special1" : {
-				//	"animation" : "town-screen/cathedral/buildings/blacksmith",
-				//	"x" : 292, "y" : 74, "z" : 2,
-				//	"campaignBonus" : "BoEblack.pcx",
-				//	"border" : "town-screen/cathedral/borders/blacksmith",
-				//	"area" : "town-screen/cathedral/areas/blacksmith"
-				//}
 			},
 
 			"buildings" : {
