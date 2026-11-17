@@ -81,7 +81,7 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/dwarvenBulwark/battle/lvl5Alt.json",
-			"map" : "creatures/rampart/map/lvl2Alt.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl5Alt.json",
 			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl5Alt.png",
 			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl5Alt.png",
 			"mapMask" : [

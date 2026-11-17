@@ -55,12 +55,12 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/dwarvenBulwark/battle/lvl6.json",
-			"map" : "creatures/dwarvenBulwark/map/lvl6.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl6.json",
 			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl6.png",
 			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl6.png",
 			"mapMask" : [
-				"VV",
-				"VA"
+				"VVV",
+				"VAV"
 			],
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {

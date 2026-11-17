@@ -1,0 +1,155 @@
+{
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "runePriestMap02.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "runePriestMap03.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "runePriestMap04.png"
+        },
+        {
+            "group": 0,
+            "frame": 13,
+            "file": "runePriestMap05.png"
+        },
+        {
+            "group": 0,
+            "frame": 14,
+            "file": "runePriestMap06.png"
+        },
+        {
+            "group": 0,
+            "frame": 15,
+            "file": "runePriestMap06.png"
+        },
+        {
+            "group": 0,
+            "frame": 16,
+            "file": "runePriestMap06.png"
+        },
+        {
+            "group": 0,
+            "frame": 17,
+            "file": "runePriestMap06.png"
+        },
+        {
+            "group": 0,
+            "frame": 18,
+            "file": "runePriestMap05.png"
+        },
+        {
+            "group": 0,
+            "frame": 19,
+            "file": "runePriestMap04.png"
+        },
+        {
+            "group": 0,
+            "frame": 20,
+            "file": "runePriestMap03.png"
+        },
+        {
+            "group": 0,
+            "frame": 21,
+            "file": "runePriestMap02.png"
+        },
+        {
+            "group": 0,
+            "frame": 22,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 23,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 24,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 25,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 26,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 27,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 28,
+            "file": "runePriestMap01.png"
+        },
+        {
+            "group": 0,
+            "frame": 29,
+            "file": "runePriestMap01.png"
+        }
+    ],
+    "basepath": "creatures/dwarvenBulwark/map/lvl5/"
+}

@@ -36,12 +36,12 @@
 		},
 		"graphics" : {
 			"animation" : "creatures/dwarvenBulwark/battle/lvl4.def",
-			"map" : "creatures/dwarvenBulwark/map/lvl4.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl4.json",
 			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl4.png",
 			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl4.png",
 			"mapMask" : [
-				"VV",
-				"VA"
+				"VVV",
+				"VAV"
 			],
 			"timeBetweenFidgets" : 1,
 			"animationTime" : {
