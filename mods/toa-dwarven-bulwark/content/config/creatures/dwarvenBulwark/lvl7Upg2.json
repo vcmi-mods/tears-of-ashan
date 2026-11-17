@@ -60,10 +60,15 @@
 				"subtype" : "spellSchool.fire"
 			},
 			"liquidFlameBreath" : {
-				"type" : "SPELL_AFTER_ATTACK",
+				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "liquidFlameBreath",
 				"val" : 100,
-				"icon" : "zvs/Lib1.res/e_breath.png"
+				"description" : "{Liquid Flame Breath}\nSpews liquid flames over the enemy unit after attacking (25 Damage per Lava Dragon).",
+				"icon" : "zvs/Lib1.res/e_breath.png",
+				"addInfo" : { 
+					"messageSingular" : "The %s spews liquid flames over the battlefield.",
+					"messagePlural" : "The %s spew liquid flames over the battlefield."
+				}
 			},
 			"spellPower" : {
 				"type" : "CREATURE_SPELL_POWER",

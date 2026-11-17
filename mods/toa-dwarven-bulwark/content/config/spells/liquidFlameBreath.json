@@ -2,7 +2,7 @@
 	"liquidFlameBreath" : {
 		"name" : "Liquid Flame Breath",
 		"type" : "ability",
-		"targetType" : "NO_TARGET",
+		"targetType" : "LOCATION",
 		"level" : 5,
 		"power" : 0,
 

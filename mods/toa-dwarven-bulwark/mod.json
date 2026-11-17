@@ -75,5 +75,9 @@
 
 	"objects" : [
 		"config/dwellings.json"
-	]
+	],
+	
+	"scripts" : {
+		"config/crownworkScriptBindings.json"
+	}
 }

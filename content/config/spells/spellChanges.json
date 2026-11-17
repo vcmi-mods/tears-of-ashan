@@ -711,6 +711,9 @@
 					"smart" : true
 				},
 				"battleEffects" : {
+					"directDamage" : {
+						"type":"damage"
+					},
 					"timed" : {
 						"type" : "core:timed",
 						"bonus" : {

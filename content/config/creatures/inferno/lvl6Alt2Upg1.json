@@ -74,7 +74,6 @@
 			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "AT_MOST",
-				"description" : "PLACEHOLDER",
 				"val" : 0,
 				"description" : "{Fearless}\nUnaffected by Fear.",
 				"icon" : "zvs/Lib1.res/e_fearl.png"
