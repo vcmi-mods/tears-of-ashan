@@ -43,6 +43,9 @@
 			],
 
 			"structures" : {
+				"extraAnimation2" : {
+					"z" : 2
+				},
 				"horde1Upgr2" : {
 					"animation" : "town-screen/cyan",
 					"x" : 689,
@@ -115,7 +118,7 @@
 					"area" : "hota/phoenixHordeUpgradedArea.png",
 					"x" : 685,
 					"y" : 105,
-					"z" : 1
+					"z" : 4
 				},
 				"dwellingUpLvl7" : {
 					"x" : 43,

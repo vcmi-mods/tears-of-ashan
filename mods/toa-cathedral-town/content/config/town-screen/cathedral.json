@@ -326,14 +326,14 @@
 					"animation" : "town-screen/cathedral/buildings/gallowsExtra",
 					"x" : 402,
 					"y" : 174,
-					"z" : 9,
+					"z" : 7,
 					"builds" : "dwellingLvl2"
 				},
 				"extraAnimation02" : {
 					"animation" : "town-screen/cathedral/buildings/gallowsHordeExtra",
 					"x" : 402,
 					"y" : 174,
-					"z" : 9,
+					"z" : 8,
 					"builds" : "horde1"
 				},
 
@@ -541,7 +541,7 @@
 					"animation" : "town-screen/cathedral/buildings/gallows03",
 					"x" : 402,
 					"y" : 174,
-					"z" : 10,
+					"z" : 9,
 					"campaignBonus" : "BoEHrd1.pcx",
 					"border" : "town-screen/cathedral/borders/gallows03",
 					"area" : "town-screen/cathedral/areas/gallows03"
@@ -578,7 +578,7 @@
 					"animation" : "town-screen/cathedral/buildings/graveyard01",
 					"x" : 271,
 					"y" : 136,
-					"z" : 7,
+					"z" : 6,
 					"campaignBonus" : "BoEdn_3.pcx",
 					"border" : "town-screen/cathedral/borders/graveyard01",
 					"area" : "town-screen/cathedral/areas/graveyard01"
@@ -587,7 +587,7 @@
 					"animation" : "town-screen/cathedral/buildings/graveyard02",
 					"x" : 271,
 					"y" : 136,
-					"z" : 7,
+					"z" : 6,
 					"campaignBonus" : "BoEup_3.pcx",
 					"border" : "town-screen/cathedral/borders/graveyard02",
 					"area" : "town-screen/cathedral/areas/graveyard02"
