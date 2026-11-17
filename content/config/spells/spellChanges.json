@@ -712,7 +712,7 @@
 				},
 				"battleEffects" : {
 					"directDamage" : {
-						"type":"damage"
+						"type" : "damage"
 					},
 					"timed" : {
 						"type" : "core:timed",
