@@ -37,6 +37,7 @@
 		"config/spells/berserkerRage.json",
 		"config/spells/cripplingWound.json",
 		"config/spells/liquidFlameBreath.json",
+		"config/spells/liquidFlameBreathTrigger.json",
 		"config/spells/markOfFire.json"
 	],
 
@@ -77,7 +78,7 @@
 		"config/dwellings.json"
 	],
 	
-	"scripts" : {
+	"scripts" : [
 		"config/crownworkScriptBindings.json"
-	}
+	]
 }
