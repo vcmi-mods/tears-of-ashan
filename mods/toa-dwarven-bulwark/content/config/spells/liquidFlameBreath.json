@@ -18,7 +18,9 @@
 
 		"flags" : {
 			"damage" : true,
-			"indifferent" : true
+			"indifferent" : true,
+			"nonMagical" : true,
+			"special": true
 		},
 
 		"targetCondition" : {},

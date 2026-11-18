@@ -17,16 +17,15 @@
 		"gainChance" : {},
 
 		"flags" : {
-			"damage" : true,
-			"negative" : true,
-			"special" : true
+			"damage": true,
+			"negative": true,
+			"nonMagical" : true,
+			"special": true
 		},
 
 		"targetCondition" : {},
 
-		"sounds" : {
-			"cast" : "FIREWALL"
-		},
+		"sounds" : {},
 
 		"levels" : {
 			"base" : {
@@ -39,7 +38,7 @@
 				},
 				"battleEffects" : {
 					"directDamage" : {
-						"type" : "damage"
+						"type":"damage"
 					}
 				}
 			},
