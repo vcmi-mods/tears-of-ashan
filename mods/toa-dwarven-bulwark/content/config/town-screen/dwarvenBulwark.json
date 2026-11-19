@@ -142,6 +142,78 @@
 			},
 
 			"buildings" : {
+				"special2" : {
+					"configuration" : {
+						"rewards#override" : [
+							{
+								"limiter" : {
+									"anyOf" : [
+										{
+											"heroClasses" : [
+												"elder",
+												"chieftain",
+												"jarl",
+												"runemage"
+											],
+											"canLearnSkills" : true
+										},
+										{
+											"secondary" : {
+												"scholar" : 1
+											},
+											"canLearnSkills" : true
+										}
+									],
+									"noneOf" : [
+										{
+											"secondary" : {
+												"tears-of-ashan:runeloreIngaSpec" : 1
+											},
+											"canLearnSkills" : false
+										}
+									]
+								},
+								"message" : "Do you want your hero to learn Basic Runelore?",
+								"secondary" : [
+									{
+										"type" : "tears-of-ashan:runelore",
+										"amount" : 1
+									}
+								]
+							}
+						],
+						"onEmpty#override" : [
+							{
+								"limiter" : {
+									"anyOf" : [
+										{
+											"heroClasses" : [
+												"elder",
+												"chieftain",
+												"jarl",
+												"runemage"
+											]
+										},
+										{
+											"secondary" : {
+												"scholar" : 1
+											}
+										},
+										{
+											"secondary" : {
+												"tears-of-ashan:runeloreIngaSpec" : 1
+											}
+										}
+									]
+								},
+								"message" : "Your hero attempts to master Runelore in vain. Already possessing many skills, your hero is unable to learn anything new."
+							},
+							{
+								"message" : "Your hero attempts to master Runelore before realizing they are unable to read the Runes. It is evident that this art is only accessible to locals and competent scholars."
+							}
+						]
+					}
+				},				
 				"dwellingLvl1" : {
 					"name" : "Delvers' Mine",
 					"description" : "The Delvers' Mine allows you to recruit Defenders."
