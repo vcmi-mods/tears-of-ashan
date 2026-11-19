@@ -1,4 +1,6 @@
 {
+	"campaign.the living waters.description" : "Irina Griffin has been forcibly married to Duke Gerhart Wolf as requested by Emperor Liam and the Angel Uriel to avoid further conflict between her father and Gerhart. She has since found him to be odious and repulsive; he is a lecherous and impulsive man who will commit atrocities without remorse. Fleeing the Wolf Duchy, Irina finds an ally in the Naga priestess Katsue. The two ally to recapture the Wolf Duchy while leading the Nagas into a new age of prosperity...",
+	"campaign.the living waters.name" : "The Living Waters",
 	"core.bonus.BLOOD_FRENZY.description" : "{Wounded}\nSuffers -3 Speed and 30% more damage from attacking Wanizame",
 	"core.bonus.SANCTUARY.description" : "{Ashan Naga}\nReceives -50% damage from Water Magic spells and +25% damage from Air Magic spells"
 }
