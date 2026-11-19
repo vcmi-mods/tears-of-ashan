@@ -1,0 +1,64 @@
+{
+	"58Ixia" : {
+		"class" : "technicianClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"clone"
+		],
+		"texts" : {
+			"name" : "Ixia",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Clone",
+				"tooltip" : "Spell Bonus: Clone",
+				"description" : "The first cast of Clone per combat summons 2 clones of the target unit."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/ixia/portraitSmall.png",
+			"large" : "heroes/forge/ixia/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Clone.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Clone.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "waterMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"clone" : {
+					"type" : "SPELL",
+					"subtype" : "spell.specialClone"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"spearwielderAU" : {
+		"name" : {
+			"singular" : "Spearwielder",
+			"plural" : "Spearwielders"
+		},
+		"faction" : "bulwark",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 3,
+		"shots" : 12,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"hitPoints" : 10,
+		"speed" : 4,
+		"growth" : 9,
+		"aiValue" : 145,
+		"fightValue" : 130,
+		"cost" : {
+			"gold" : 110
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 30
+		},
+		"upgrades" : [
+			"skirmisherAU",
+			"harpoonerAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl2.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl2.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl2.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl2.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/spearwielder/attack",
+			"defend" : "creatures/spearwielder/defend",
+			"killed" : "creatures/spearwielder/death",
+			"move" : "creatures/spearwielder/move",
+			"wince" : "creatures/spearwielder/hit",
+			"shoot" : "creatures/spearwielder/shoot"
+		}
+	}
+}

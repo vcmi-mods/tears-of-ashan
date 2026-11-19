@@ -230,7 +230,7 @@
 					"animation" : "town-screen/inferno/RIFT1.def",
 					"x" : 231,
 					"y" : 335,
-					"z" : 5,
+					"z" : 6,
 					"border" : "town-screen/inferno/borders/RIFTBK1.bmp",
 					"area" : "town-screen/inferno/areas/RIFTAR1.bmp"
 				},
@@ -238,7 +238,7 @@
 					"animation" : "town-screen/inferno/RIFT2.def",
 					"x" : 231,
 					"y" : 315,
-					"z" : 5,
+					"z" : 6,
 					"border" : "town-screen/inferno/borders/RIFTBK2.bmp",
 					"area" : "town-screen/inferno/areas/RIFTAR2.bmp"
 				}

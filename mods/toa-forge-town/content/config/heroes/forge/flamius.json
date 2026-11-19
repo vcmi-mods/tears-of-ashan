@@ -1,0 +1,58 @@
+{
+	"07Flamius" : {
+		"class" : "cyborgClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Flamius",
+			"biography" : "When King Kastore made a pact with Eeofol, Flamius was one of the first to replicate the ancient artifacts. His amazing skills in wielding fire were incredibly useful to the newly forming army.",
+			"specialty" : {
+				"name" : "Pyros",
+				"tooltip" : "Creature Bonus: Pyros",
+				"description" : "Increases the Speed of allied Pyros and Pyromaniacs by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/flamius/portraitSmall.png",
+			"large" : "heroes/forge/flamius/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Pyros.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Pyros.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "pyroAU",
+			"creatureLevel" : 1,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

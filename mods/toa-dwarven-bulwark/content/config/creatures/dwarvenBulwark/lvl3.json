@@ -1,0 +1,58 @@
+{
+	"bearRiderAU" : {
+		"name" : {
+			"singular" : "Bear Rider",
+			"plural" : "Bear Riders"
+		},
+		"faction" : "bulwark",
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 6,
+		"damage" : {
+			"min" : 3,
+			"max" : 6
+		},
+		"hitPoints" : 20,
+		"speed" : 7,
+		"growth" : 7,
+		"aiValue" : 350,
+		"fightValue" : 265,
+		"cost" : {
+			"gold" : 200
+		},
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
+		},
+		"upgrades" : [
+			"blackbearRiderAU",
+			"whitebearRiderAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"ferocity" : {
+				"type" : "FEROCITY",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl3.def",
+			"map" : "creatures/rampart/map/lvl2Alt.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl3.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl3.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/bearRider/attack",
+			"defend" : "creatures/bearRider/defend",
+			"killed" : "creatures/bearRider/death",
+			"move" : "creatures/bearRider/move",
+			"wince" : "creatures/bearRider/hit"
+		}
+	}
+}

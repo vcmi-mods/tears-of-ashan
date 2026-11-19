@@ -1,0 +1,58 @@
+{
+	"02kenage" : {
+		"class" : "samuraiClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Kenage",
+			"biography" : "Kenage was raised by sharks, or so the legend goes. This brilliant military strategist gained his reputation when sent on a mission to investigate problems on a southern island, provided with nothing but a detachment of Shark Guards. The \"problem\" turned out to be an Orc invasion, yet Kenage made rather short work of it by swimming up to their camp under cover of nightfall and capturing their Shaman. He served the Eternal Empress as a professor of wartime strategy for two decades in the prestigious Nariya Military Dojo, before establishing his own Dojo on a ship. Today, he sails the Jade Ocean and beyond in search of skirmishes and wars, which he asserts can teach more to his students than a thousand lessons on parchment. A loyal detachment of Wanizame accompanies him always and would die for their Master, who they claim can breathe underwater.",
+			"specialty" : {
+				"name" : "Shark Guards",
+				"tooltip" : "Creature Bonus: Shark Guards",
+				"description" : "Increases the Speed of allied Shark Guards and Wanizame by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/kenage/portraitSmall.png",
+			"large" : "heroes/sanctuary/kenage/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Shark Guards.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Shark Guards.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "sharkGuardAU",
+			"creatureLevel" : 1,
+			"stepSize" : 10
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			}
+		]
+	}
+}

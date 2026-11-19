@@ -10,13 +10,13 @@
 		"defense" : 17,
 		"damage" : {
 			"min" : 20,
-			"max" : 24
+			"max" : 30
 		},
 		"hitPoints" : 120,
 		"speed" : 9,
 		"growth" : 2,
-		"aiValue" : 2650,
-		"fightValue" : 2500,
+		"aiValue" : 2950,
+		"fightValue" : 2675,
 		"cost" : {
 			"gold" : 1500
 		},

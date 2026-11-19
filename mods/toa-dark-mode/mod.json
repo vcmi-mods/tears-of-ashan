@@ -1,0 +1,10 @@
+{
+	"name" : "Cosmetic: Dark Mode",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Changes the primary brown background texture to a dark grey texture.",
+	"version" : "1.0.0",
+	"modType" : "Interface",
+
+	"keepDisabled" : true
+}

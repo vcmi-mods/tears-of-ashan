@@ -1,0 +1,39 @@
+{
+	"munitionsCartAU" : {
+		"type" : [
+			"HERO"
+		],
+		"warMachine" : "munitionsCartAU",
+		"class" : "SPECIAL",
+		"slot" : "MACH2",
+		"value" : 1250,
+		"text" : {
+			"name" : "Munitions Cart",
+			"description" : "{Munitions Cart}\r\n\r\nThe Munitions Cart provides a 20% damage boost to all shooters in the army.",
+			"event" : "Munitions Cart event text."
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/munitionsCart.png",
+			"map" : "artifacts/map/munitionsCart.def",
+			"scenarioBonus" : "artifacts/bonus/munitionsCart.png"
+		},
+		"bonuses" : {
+			"munitionsBonus" : {
+				"type" : "MUNITIONS_BONUS",
+				"propagator" : "ARMY",
+				"limiters" : [
+					"SHOOTER_ONLY"
+				]
+			},
+			"creatureDamage" : {
+				"type" : "CREATURE_DAMAGE",
+				"val" : 20,
+				"valueType" : "PERCENT_TO_BASE",
+				"subtype" : "creatureDamageBoth",
+				"limiters" : [
+					"SHOOTER_ONLY"
+				]
+			}
+		}
+	}
+}

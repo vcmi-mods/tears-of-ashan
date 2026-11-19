@@ -1,0 +1,87 @@
+{
+	"jarl" : {
+		"name" : "Jarl",
+		"faction" : "bulwark",
+		"affinity" : "might",
+		"defaultTavern" : 5,
+		"commander" : "greatShaman",
+		"animation" : {
+			"battle" : {
+				"female" : "hota/bulwark/heroClasses/chieftain/battle/CH22b_08.DEF",
+				"male" : "hota/bulwark/heroClasses/chieftain/battle/CH22_08.DEF"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "hota/bulwark/heroClasses/chieftain/adventureMap/AH22b_.def",
+					"editorAnimation" : "hota/bulwark/heroClasses/chieftain/adventureMap/AH22_e.def"
+				},
+				"male" : {
+					"animation" : "hota/bulwark/heroClasses/chieftain/adventureMap/AH22_.def",
+					"editorAnimation" : "hota/bulwark/heroClasses/chieftain/adventureMap/AH22_e.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 2,
+			"spellpower" : 1,
+			"knowledge" : 1
+		},
+		"lowLevelChance" : {
+			"attack" : 35,
+			"defence" : 25,
+			"spellpower" : 20,
+			"knowledge" : 20
+		},
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 20,
+			"spellpower" : 30,
+			"knowledge" : 20
+		},
+		"secondarySkills" : {
+			"airMagic" : 3,
+			"archery" : 5,
+			"armorer" : 9,
+			"artillery" : 6,
+			"ballistics" : 4,
+			"diplomacy" : 3,
+			"eagleEye" : 1,
+			"earthMagic" : 6,
+			"estates" : 5,
+			"fireMagic" : 6,
+			"firstAid" : 6,
+			"intelligence" : 4,
+			"leadership" : 7,
+			"learning" : 2,
+			"logistics" : 6,
+			"luck" : 6,
+			"mysticism" : 2,
+			"navigation" : 4,
+			"necromancy" : 0,
+			"offence" : 10,
+			"pathfinding" : 6,
+			"resistance" : 0,
+			"scholar" : 2,
+			"scouting" : 6,
+			"sorcery" : 4,
+			"tactics" : 8,
+			"waterMagic" : 2,
+			"wisdom" : 6,
+			"hota.interference:interference" : 5
+		},
+		"tavern" : {
+			// no idea
+		}
+	}
+}

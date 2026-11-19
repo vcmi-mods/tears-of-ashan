@@ -3,8 +3,8 @@
 		"name" : "Repair",
 		"type" : "ability",
 		"targetType" : "CREATURE",
-		"level" : 3,
-		"power" : 30,
+		"level" : 1,
+		"power" : 5,
 
 		"school" : {
 			"air" : false,
@@ -58,9 +58,9 @@
 
 		"levels" : {
 			"base" : {
-				"cost" : 12,
+				"cost" : 0,
 				"range" : "0",
-				"power" : 5,
+				"power" : 0,
 				"battleEffects" : {
 					"heal" : {
 						"type" : "core:heal",
@@ -79,23 +79,13 @@
 				},
 				"targetModifier" : {
 					"smart" : true
-				}
+				},
+				"description" : "Target allied Siege Weapon, Golem, Gargoyle, or Giant troop with dead creatures has (Power x 5) health worth of creatures repaired until the end of combat."
 			},
-			"none" : {
-				"description" : "Target allied Siege Weapon or Golem, Gargoyle, or Giant troop with dead creatures has (30 + (power x 30)) health worth of creatures repaired until the end of combat."
-			},
-			"basic" : {
-				"description" : "Target allied Siege Weapon or Golem, Gargoyle, or Giant troop with dead creatures has (30 + (power x 30)) health worth of creatures repaired permanently.",
-				"power" : 30,
-				"battleEffects" : {
-					"heal" : {
-						"healPower" : "permanent"
-					}
-				}
-			},
+			"none" : {},
+			"basic" : {},
 			"advanced" : {
 				"description" : "Target allied Siege Weapon or Golem, Gargoyle, or Giant troop with dead creatures has (50 + (power x 30)) health worth of creatures repaired permanently.",
-				"power" : 50,
 				"battleEffects" : {
 					"heal" : {
 						"healPower" : "permanent"
@@ -103,8 +93,6 @@
 				}
 			},
 			"expert" : {
-				"description" : "Target allied Siege Weapon or Golem, Gargoyle, or Giant troop with dead creatures has (70 + (power x 30)) health worth of creatures repaired permanently.",
-				"power" : 70,
 				"battleEffects" : {
 					"heal" : {
 						"healPower" : "permanent"

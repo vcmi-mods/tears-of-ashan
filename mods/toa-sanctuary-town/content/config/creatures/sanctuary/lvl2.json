@@ -1,0 +1,103 @@
+{
+	"kappaAU" : {
+		"name" : {
+			"singular" : "Kappa",
+			"plural" : "Kappas"
+		},
+		"faction" : "sanctuary",
+		"level" : 2,
+		"attack" : 7,
+		"defense" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"hitPoints" : 15,
+		"speed" : 6,
+		"growth" : 10,
+		"aiValue" : 140,
+		"fightValue" : 120,
+		"cost" : {
+			"gold" : 110
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 30
+		},
+		"upgrades" : [
+			"kappaShoyaAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"jousting" : {
+				"type" : "JOUSTING",
+				"val" : 5
+			},
+			"leaping" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "kappaLeap",
+				"val" : 0,
+				"description" : "{Leap}\nCan leap at an enemy once per combat (gains Flight and +3 Speed).",
+				"icon" : "bonuses/kappaLeap.png"
+			},
+			"leapDuration" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"castsCount" : {
+				"type" : "CASTS",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl2.def",
+			"map" : "creatures/sanctuary/map/lvl2.def",
+			"mapMask" : [
+				"VV",
+				"AV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl2.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl2.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/kappa/attack.mp3",
+			"defend" : "creatures/kappa/defend.mp3",
+			"killed" : "creatures/kappa/death.mp3",
+			"move" : "creatures/kappa/move.mp3",
+			"wince" : "creatures/kappa/hit.mp3"
+		}
+	}
+}

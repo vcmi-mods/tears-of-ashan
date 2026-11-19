@@ -1,0 +1,61 @@
+{
+	"57gerdi" : {
+		"class" : "runemage",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"meteorShower"
+		],
+		"texts" : {
+			"name" : "Gerdi",
+			"biography" : "Gerdi Glintstone of Clan Deepflame has been accumulating a large number of followers in recent years. Always a charismatic Dwarf and powerful orator, she has recently been spotted speaking to massive groups about the dangers threatening the borders of Dwarven territory. In order to protect the values of her people, she insists certain groups must be obliterated. Chief among these threats, according to her, are the Dark Elves.",
+			"specialty" : {
+				"name" : "Thanes",
+				"tooltip" : "Creature Bonus: Thanes",
+				"description" : "Increases the Speed of allied Thanes, Flame Lords, and Thunder Thanes by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/gerdi/portraitSmall.png",
+			"large" : "heroes/bulwark/gerdi/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Jotunns.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Jotunns.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "runelore",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "thaneAU",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "thaneAU",
+				"min" : 1,
+				"max" : 1
+			}
+		]
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"04Vaathon" : {
+		"class" : "cyborgClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Vaathon",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Stingers",
+				"tooltip" : "Creature Bonus: Stingers",
+				"description" : "Increases the Speed of allied Stingers and Bruisers by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/vaathon/portraitSmall.png",
+			"large" : "heroes/forge/vaathon/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Stingers.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Stingers.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "ballistics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "stingerAU",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "stingerAU",
+				"min" : 1,
+				"max" : 2
+			},
+			{
+				"creature" : "stingerAU",
+				"min" : 1,
+				"max" : 2
+			}
+		]
+	}
+}

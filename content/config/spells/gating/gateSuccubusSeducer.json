@@ -61,7 +61,7 @@
 			},
 			"expert" : {
 				"description" : "{Expert Gate Succubus Seducers}\r\n\r\nGates (Power x 3) Succubus Seducers.\r\n\r\nOnce cast, other creatures may also be gated.",
-				"cost" : 62,
+				"cost" : 64,
 				"power" : 3
 			}
 		}

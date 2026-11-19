@@ -1,0 +1,61 @@
+{
+	"53meiLien" : {
+		"class" : "monkClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"iceBolt"
+		],
+		"texts" : {
+			"name" : "Mei-Lien",
+			"biography" : "The beautiful Mei-Lien was educated by the finest of courtesans in the art of entertaining the dignitaries of the Naga Empire. Mei-Lien's beauty, poise, and clever wit have been remarked upon by numerous leaders, including a powerful Naga Daimyo who sought to avail of her presence as frequently as was respectfully possible. The Daimyo's attention nearly cost Mei-Lien her life, as she was accused of his assassination by poison. Escaping to a Pearl Priestess temple, she accepted the interrogation of the sacred water and was found innocent of the crime. The trying ritual, which opened her mind and memories to an audience of judges, nearly killed the young woman, and she fell into a deep sleep which reportedly lasted a full year. When Mei-Lien awoke, she had received a blessing from Shalassa, the Dragon of Water: the power to interpret dreams. There are those that say the Eternal Empress herself has consulted Mei-Lien, and a few who claim she has become the monarch's most powerful spy.",
+			"specialty" : {
+				"name" : "Snow Maidens",
+				"tooltip" : "Creature Bonus: Snow Maidens",
+				"description" : "Increases the Speed of allied Snow Maidens and Yuki-onnas by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/meiLien/portraitSmall.png",
+			"large" : "heroes/sanctuary/meiLien/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Snow Maidens.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Snow Maidens.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "snowMaidenAU",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "snowMaidenAU",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	}
+}

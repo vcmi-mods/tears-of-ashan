@@ -1,0 +1,195 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"encampmentAU" : {
+				"name" : "Encampment",
+				"creatures" : [
+					[
+						"gruntAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPCAMP"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/forge/dwelling01",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"fleshGrinderAU" : {
+				"name" : "Flesh Grinder",
+				"creatures" : [
+					[
+						"cyberDeadAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPVENT"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/forge/dwelling02",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						]
+					}
+				}
+			},
+			"lavaBasinAU" : {
+				"name" : "Lava Basin",
+				"creatures" : [
+					[
+						"pyroAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFIRE"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/forge/dwelling03",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"armoryAU" : {
+				"name" : "Armory",
+				"creatures" : [
+					[
+						"stingerAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPOGRE"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/forge/dwelling04",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"landingZoneAU" : {
+				"name" : "Landing Zone",
+				"creatures" : [
+					[
+						"jumpTrooperAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPAIR"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/forge/dwelling05",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"hangarAU" : {
+				"name" : "Hangar",
+				"creatures" : [
+					[
+						"tankAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPNAGA"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/forge/dwelling06",
+						"mask" : [
+							"VVVVV",
+							"VVBBV",
+							"VVABV"
+						]
+					}
+				}
+			},
+			"mechalithAU" : {
+				"name" : "Mechalith",
+				"creatures" : [
+					[
+						"juggernautAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPMON2"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/forge/dwelling07",
+						"mask" : [
+							"VVVVV",
+							"VVBBV",
+							"VVABV"
+						]
+					}
+				}
+			}
+		}
+	}
+}

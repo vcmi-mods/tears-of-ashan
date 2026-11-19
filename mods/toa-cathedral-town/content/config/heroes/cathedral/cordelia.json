@@ -1,0 +1,61 @@
+{
+	"01cordelia" : {
+		"class" : "inquisitorClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"protectFire"
+		],
+		"texts" : {
+			"name" : "Cordelia",
+			"biography" : "Serving as a crusader under the Holy Inquisition, Lady Cordelia commands the fortress guarding the ravine of Nelsham’s Scar on the southern border of the Bull Duchy. It is said that Cordelia is the only woman who has ever pierced the hard heart of the Great Inquisitor Salvatore – not through any womanly charms mind you, but rather via her uncompromising faith in Elrath, with which she has condemned many a heretic’s soul to a slow and gruesome death. For her accomplishments, Cordelia was tasked with keeping an eye on the Necromancers settling the Heresh Valley beyond the Scar. She couldn’t have dreamt of a better reward.",
+			"specialty" : {
+				"name" : "Flaming Shield",
+				"tooltip" : "Creature Bonus: Flaming Shield",
+				"description" : "Allied units are permanently enchanted with Advanced Fire Shield."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/cordelia/portraitSmall.png",
+			"large" : "heroes/cathedral/cordelia/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Flaming Shield.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Flaming Shield.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "advanced"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"fireShield" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "fireShield",
+					"val" : 20
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

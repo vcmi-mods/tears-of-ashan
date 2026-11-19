@@ -1,0 +1,51 @@
+{
+	"liquidFlameBreathTrigger" : {
+		"name" : "Liquid Flame Breath",
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"level" : 5,
+		"power" : 25,
+
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true,
+			"special" : true
+		},
+
+		"targetCondition" : {},
+
+		"sounds" : {},
+
+		"levels" : {
+			"base" : {
+				"description" : "{Liquid Flame Breath}\n\nLeaves patches of liquid fire on the battlefield.",
+				"cost" : 0,
+				"range" : "0",
+				"power" : 0,
+				"targetModifier" : {
+					"smart" : false
+				},
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "damage"
+					}
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}

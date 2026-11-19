@@ -1,0 +1,59 @@
+{
+	"02salvatore" : {
+		"class" : "inquisitorClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"vigour"
+		],
+		"texts" : {
+			"name" : "Salvatore",
+			"biography" : "Salvatore, the Great Inquisitor, is a cold, pedantic man who has dedicated his life to Elrath, the Dragon of Light. Raised by a devout priest and priestess couple, he is a believer in absolute truths and has no time for anybody who follows the creed of any other Dragon – or superstition. His limited intelligence, allied with his very good memory, leaves Salvatore swift to judge and slow to forget those who don’t share in his unquestioning faith. Those found to be heretics in the eyes of this man, who has never known love, should not expect a short or merciful death.",
+			"specialty" : {
+				"name" : "Offense",
+				"tooltip" : "Secondary Skill Bonus: Offense",
+				"description" : "Receives a 5% per level bonus to Offense skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/salvatore/portraitSmall.png",
+			"large" : "heroes/cathedral/salvatore/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Offense.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Offense.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "offence"
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

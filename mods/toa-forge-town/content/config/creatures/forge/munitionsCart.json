@@ -1,0 +1,62 @@
+{
+	"munitionsCartAU" : {
+		"name" : {
+			"singular" : "Munitions Cart",
+			"plural" : "Munitions Carts"
+		},
+		"faction" : "neutral",
+		"level" : 4,
+		"attack" : 0,
+		"defense" : 10,
+		"damage" : {
+			"min" : 0,
+			"max" : 0
+		},
+		"hitPoints" : 150,
+		"speed" : 0,
+		"growth" : 0,
+		"aiValue" : 500,
+		"fightValue" : 500,
+		"cost" : {
+			"gold" : 1250
+		},
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 1
+		},
+		"special" : true,
+		"excludeFromRandomization" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"warmachine" : {
+				"type" : "SIEGE_WEAPON"
+			},
+			"inactive" : {
+				"type" : "NOT_ACTIVE"
+			},
+			"noRetaliation" : {
+				"type" : "NO_RETALIATION"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/munitionsCart.def",
+			"map" : "artifacts/map/munitionsCart.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/forge/iconsSmall/munitionsCart.png",
+			"iconLarge" : "creatures/forge/iconsBig/munitionsCart.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"killed" : "creatures/munitionsCart/death.wav",
+			"wince" : "creatures/munitionsCart/hit.wav"
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"10toshiro" : {
+		"class" : "samuraiClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Toshiro",
+			"biography" : "Schooled by the decedents of the ancient masters of Murahido Island, Toshiro is a Deep Naga who has spent his entire life readying himself to become a perfect warrior. Blades, tactics, honour; these are his steady companions. The scars of bamboo strikes across his knuckles are a constant reminder that a warrior must never lose his focus, and he looks upon the marks, if not with pride, for pride is a weakness, then at least with quiet dignity. He would gladly give his life to protect his daimyo, Lord Hiroshi.",
+			"specialty" : {
+				"name" : "Kenshis",
+				"tooltip" : "Creature Bonus: Kenshis",
+				"description" : "Increases the Speed of allied Kenshis and Kenseis by 1. Allied Kenshis and Kenseis strike twice in melee combat."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/toshiro/portraitSmall.png",
+			"large" : "heroes/sanctuary/toshiro/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Kenshis.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Kenshis.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "kenshiAU",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				"attacksTwice" : {
+					"type" : "ADDITIONAL_ATTACK",
+					"val" : 1,
+					"propagator" : "HERO",
+					"limiters" : {
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "kenshiAU",
+						"includeUpgrades" : true
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "kenshiAU",
+				"min" : 1,
+				"max" : 1
+			}
+		]
+	}
+}

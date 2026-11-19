@@ -1,0 +1,104 @@
+{
+	"adeptAU" : {
+		"name" : {
+			"singular" : "Adept",
+			"plural" : "Adepts"
+		},
+		"faction" : "cathedralTOA",
+		"level" : 5,
+		"attack" : 12,
+		"defense" : 12,
+		"shots" : 24,
+		"damage" : {
+			"min" : 10,
+			"max" : 14
+		},
+		"hitPoints" : 40,
+		"speed" : 7,
+		"growth" : 2,
+		"aiValue" : 930,
+		"fightValue" : 670,
+		"cost" : {
+			"gold" : 600
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"castPrayer" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "prayer",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Prayer (3 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/prayer3.png"
+			},
+			"prayerPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellLikeAttack" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "lightningBolt",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cathedral/battle/lvl5Up.def",
+			"map" : "creatures/cathedral/map/lvl5Up.def",
+			"iconSmall" : "creatures/cathedral/iconsSmall/lvl5Up.png",
+			"iconLarge" : "creatures/cathedral/iconsBig/lvl5Up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "creatures/inferno/battle/projectile/null.def",
+				"attackClimaxFrame" : 5,
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "ZELTATTK.wav",
+			"defend" : "ZELTDFND.wav",
+			"killed" : "ZELTKILL.wav",
+			"move" : "ZELTMOVE.wav",
+			"shoot" : "ZELTSHOT.wav",
+			"wince" : "ZELTWNCE.wav"
+		}
+	}
+}

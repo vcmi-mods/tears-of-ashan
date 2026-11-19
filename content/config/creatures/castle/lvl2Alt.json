@@ -11,7 +11,7 @@
 		"shots" : 24,
 		"damage" : {
 			"min" : 3,
-			"max" : 5
+			"max" : 4
 		},
 		"hitPoints" : 10,
 		"speed" : 7,

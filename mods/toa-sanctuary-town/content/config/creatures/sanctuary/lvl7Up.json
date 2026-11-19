@@ -1,0 +1,144 @@
+{
+	"sacredKirinAU" : {
+		"name" : {
+			"singular" : "Sacred Kirin",
+			"plural" : "Sacred Kirins"
+		},
+		"faction" : "sanctuary",
+		"level" : 7,
+		"attack" : 24,
+		"defense" : 26,
+		"damage" : {
+			"min" : 35,
+			"max" : 55
+		},
+		"hitPoints" : 280,
+		"speed" : 13,
+		"growth" : 1,
+		"aiValue" : 7275,
+		"fightValue" : 5635,
+		"cost" : {
+			"gold" : 4000,
+			"crystal" : 2
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"upgrades" : [
+			"enragedKirinAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"slowImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "slow",
+				"description" : "{Water Flows Freely}\nImmune to Slow, Wasp Swarm, Ice Bolt, Frost Ring, Deep Freeze, and Freezing attacks.",
+				"icon" : "bonuses/waterFlowsFreely.png"
+			},
+			"waspSwarmImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "waspSwarm",
+				"hidden" : true
+			},
+			"iceBoltImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "iceBolt",
+				"hidden" : true
+			},
+			"frostRingImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "frostRing",
+				"hidden" : true
+			},
+			"deepFreezeImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deepFreeze",
+				"hidden" : true
+			},
+			"freezingShotImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "freezingShot",
+				"hidden" : true
+			},
+			"trailOfClouds" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"propagator" : "ARMY",
+				"limiters" : [
+					{
+						"type" : "FACTION_LIMITER",
+						"faction" : "sanctuary"
+					}
+				],
+				"stacking" : "Kirins"
+			},
+			"trailOfCloudsBonus" : {
+				"type" : "NONE",
+				"description" : "{Trail of Clouds}\nSacred Kirins and Enraged Kirins grant +2 Speed to Sanctuary creatures",
+				"icon" : "bonuses/trailOfClouds.png"
+			},
+			"freezingShot" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "freezingShot",
+				"val" : 50,
+				"addInfo" : [
+					0,
+					0
+				],
+				"description" : "{Freezing Attack}\nHas a 50% chance to freeze enemies after attacking",
+				"icon" : "hota/bulwark/bonuses/freezingShot.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl7Up.def",
+			"map" : "creatures/sanctuary/map/lvl7Up.def",
+			"mapMask" : [
+				"VV",
+				"AV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl7Up.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl7Up.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/kirin/attack.mp3",
+			"defend" : "creatures/kirin/defend.mp3",
+			"killed" : "creatures/kirin/death.mp3",
+			"move" : "creatures/kirin/move.mp3",
+			"wince" : "creatures/kirin/hit.mp3"
+		}
+	}
+}

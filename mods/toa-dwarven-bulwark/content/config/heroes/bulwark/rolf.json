@@ -1,0 +1,177 @@
+{
+	"56rolf" : {
+		"class" : "runemage",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"bloodlust"
+		],
+		"texts" : {
+			"name" : "Rolf",
+			"biography" : "Rolf is as at ease in the court as he is in the saddle. He is an accomplished courtier and certainly an adequate, if not outstanding, fighter. He is an important member of the clan, but is too politically astute to let the concerns of the outside get in the way of his political career. To be blunt: Rolf wants to be king. To do this he must prove his worth to all of the six clans who will select Tolghar's heir. As such, he is entirely content that his dangerously competent half-brother Wulfstan is not around to mess up his plans.",
+			"specialty" : {
+				"name" : "Runes of Might",
+				"tooltip" : "Creature Bonus: Runes of Might",
+				"description" : "Increases the Damage of allied creatures by 5% per Rune affecting them."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/rolf/portraitSmall.png",
+			"large" : "heroes/bulwark/rolf/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Runes of Might.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Runes of Might.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "runelore",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"damage01" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfBattleRage"
+						}
+					]
+				},
+				"damage02" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfBerserking"
+						}
+					]
+				},
+				"damage03" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfCharge"
+						}
+					]
+				},
+				"damage04" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfDragonform"
+						}
+					]
+				},
+				"damage05" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfElementalImmunity"
+						}
+					]
+				},
+				"damage06" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfEtherealness"
+						}
+					]
+				},
+				"damage07" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfExorcism"
+						}
+					]
+				},
+				"damage08" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfMagicControl"
+						}
+					]
+				},
+				"damage09" : {
+					"type" : "CREATURE_DAMAGE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "creatureDamageBoth",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfThunderclap"
+						}
+					]
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

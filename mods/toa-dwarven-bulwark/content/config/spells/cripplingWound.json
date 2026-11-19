@@ -1,0 +1,79 @@
+{
+	"cripplingWound" : {
+		"name" : "Crippling Wound",
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"level" : 1,
+		"power" : 0,
+
+		"school" : {
+			"air" : false,
+			"earth" : true,
+			"fire" : false,
+			"water" : false
+		},
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"flags" : {
+			"negative" : true,
+			"special" : true
+		},
+
+		"targetCondition" : {},
+
+		"graphics" : {
+			"iconEffect" : "spells/cripplingWound/spellEffect.png"
+		},
+
+		"animation" : {
+			"affect" : [
+				"spells/markOfFire/animation.def"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "FIREBLST"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "{Crippling Wound}\n\nReduces the target's Defense by 25% and its Speed by 50% for 3 turns.",
+				"cost" : 0,
+				"range" : "0",
+				"power" : 0,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"debuff" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"defenseDecrease" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : -25,
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : "N_TURNS",
+								"turns" : 3
+							},
+							"speedDecrease" : {
+								"type" : "STACKS_SPEED",
+								"val" : -50,
+								"valueType" : "PERCENT_TO_BASE",
+								"duration" : "N_TURNS",
+								"turns" : 3
+							}
+						}
+					}
+				}
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
+		}
+	}
+}

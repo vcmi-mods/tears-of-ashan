@@ -1,0 +1,58 @@
+{
+	"02Carvas" : {
+		"class" : "cyborgClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Carvas",
+			"biography" : "Carvas is remarkably sane for a technologically advanced corpse, competent enough to strategise well and optimise the efficiency of even the most mindless zombies. He has made incremental improvements to the mechanisms inside the legs of his undead troops in the most recent years of his un-life, and some believe that this is only the beginning of a fully mechanised undead army.",
+			"specialty" : {
+				"name" : "Cyber Dead",
+				"tooltip" : "Creature Bonus: Cyber Dead",
+				"description" : "Increases the Speed of allied Cyber Dead and Cyber Zombies by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/carvas/portraitSmall.png",
+			"large" : "heroes/forge/carvas/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Cyber Dead.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Cyber Dead.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "cyberDeadAU",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

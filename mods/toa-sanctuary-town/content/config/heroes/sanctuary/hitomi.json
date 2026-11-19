@@ -1,0 +1,52 @@
+{
+	"05hitomi" : {
+		"class" : "samuraiClass",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Hitomi",
+			"biography" : "Hitomi was born the only daughter of an incredibly gifted blacksmith in a reclusive and secluded mountain village of the Pearl Empire. In spite of this isolation, the smith's reputation quickly spread both above and below the waters. Hitomi was present on the day the legendary Daimyo Manowa placed an order for a particular quartet of swords. The four-armed Naga War Master desired weapons that would function just as well underwater as above. Hitomi and her father worked for seven years forging, testing and enchanting their steel in every extreme condition imaginable. Manowa was delighted and paid for the masterworks with four cups of pearls. However, he returned a year later and drove two of the swords through the blacksmith's heart, killing him instantly. He had lost a battle with pirates and claimed that the swords were useless above the waves. Hitomi pulled the weapons from her father's breathless chest and challenged a dozen of Manowa's finest warriors to successive duels, besting them all. With proof of the weapons' superiority demonstrated, Manowa made reparation for his error and cut off two of his fingers, presenting them to Hitomi. It is said she wears them on a necklace to this very day.",
+			"specialty" : {
+				"name" : "Offense",
+				"tooltip" : "Secondary Skill Bonus: Offense",
+				"description" : "Receives a 5% per level bonus to Offense skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/hitomi/portraitSmall.png",
+			"large" : "heroes/sanctuary/hitomi/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Offense.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Offense.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "advanced"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "offence"
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

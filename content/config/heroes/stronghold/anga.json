@@ -37,8 +37,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"lightningBolt" : {
-					"subtype" : "spell.lightningBolt",
 					"type" : "SPECIAL_SPELL_SCALING",
+					"subtype" : "spell.lightningBolt",
 					"val" : 10
 				}
 			}

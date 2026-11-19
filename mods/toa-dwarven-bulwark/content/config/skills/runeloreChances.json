@@ -1,0 +1,20 @@
+{
+	"tears-of-ashan:runelore" : {
+		"gainChance" : {
+			"jarl" : 7,
+			"runemage" : 10
+		}
+	},
+	"tears-of-ashan:darkMagic" : {
+		"gainChance" : {
+			"jarl" : 2,
+			"runemage" : 5
+		}
+	},
+	"tears-of-ashan:lightMagic" : {
+		"gainChance" : {
+			"jarl" : 4,
+			"runemage" : 7
+		}
+	}
+}

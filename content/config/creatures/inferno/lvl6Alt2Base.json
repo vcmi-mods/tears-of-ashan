@@ -18,7 +18,7 @@
 		"aiValue" : 1800,
 		"fightValue" : 1500,
 		"cost" : {
-			"gold" : 1100
+			"gold" : 1000
 		},
 		"advMapAmount" : {
 			"min" : 5,

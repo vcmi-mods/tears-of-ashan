@@ -1,0 +1,61 @@
+{
+	"53eileen" : {
+		"class" : "chaplainClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"precision"
+		],
+		"texts" : {
+			"name" : "Eileen",
+			"biography" : "Lady Eileen first became famous for bringing identical triplets into the world. This miraculous blessing from Elrath was soon defiled as her three sons were captured by mercenaries seeking ransom, and held captive for seven years. During this period where Emperor Liam himself offered a tremendous reward for the children's return, Eileen turned to Elrath for guidance and became an extremely devout priestess. Upon the return of her children and the beheading of their captors, her sons were far from the gentle Angels that she had once known and were sent to the schools of the inquisitors for a desperate reeducation. Eileen continues to see them regularly, but she relies more on prayers to Elrath and the education of the church for their upbringing than her personal attention. Eileen's secret rage at the turn of fate in her life, has given her an extremely pragmatic if not expedient sense of justice.",
+			"specialty" : {
+				"name" : "Acolytes",
+				"tooltip" : "Creature Bonus: Acolytes",
+				"description" : "Increases the Speed of allied Acolytes and Adepts by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/eileen/portraitSmall.png",
+			"large" : "heroes/cathedral/eileen/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Acolytes.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Acolytes.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "acolyteAU",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "acolyteAU",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	}
+}

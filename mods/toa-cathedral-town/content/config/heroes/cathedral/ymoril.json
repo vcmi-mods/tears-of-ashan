@@ -1,0 +1,88 @@
+{
+	"03ymoril" : {
+		"class" : "inquisitorClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"bloodlust"
+		],
+		"texts" : {
+			"name" : "Ymoril",
+			"biography" : "Hailing from Hammer Fall, Ymoril Redshield is a young captain trained by Konrad Wolf in person. Ymoril lost her parents at a very young age and Konrad, who had just been appointed governor of the city, adopted her as his own daughter. Ymoril grew into a capable fighter but also a wise administrator, and she has the full trust of her foster father. Ymoril has no memories of the night of her parents' death, but she knows they were slaughtered by Demons, just as she knowst how Konrad risked his own life to track down the demonic assassins and avenge their victims.",
+			"specialty" : {
+				"name" : "Battlemaster",
+				"tooltip" : "Secondary Skill Bonus: Battlemaster",
+				"description" : "Receives a 2% per level bonus to Offense, Armorer, and Archery skill percentages."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/ymoril/portraitSmall.png",
+			"large" : "heroes/cathedral/ymoril/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Battlemaster.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Battlemaster.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeMelee",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 2,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				},
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 2,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				},
+				"archery" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 2,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

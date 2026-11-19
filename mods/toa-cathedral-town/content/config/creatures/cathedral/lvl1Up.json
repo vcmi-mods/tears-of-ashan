@@ -1,0 +1,68 @@
+{
+	"conscriptAU" : {
+		"name" : {
+			"singular" : "Conscript",
+			"plural" : "Conscripts"
+		},
+		"faction" : "cathedralTOA",
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 4,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"hitPoints" : 6,
+		"speed" : 6,
+		"growth" : 25,
+		"aiValue" : 65,
+		"fightValue" : 65,
+		"cost" : {
+			"gold" : 40
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"generateGold" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "gold",
+				"val" : 4,
+				"propagator" : "ARMY",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"stepSize" : 1,
+					"filteredCreature" : "conscriptAU"
+				},
+				"stacking" : "conscriptAU",
+				"icon" : "zvs/Lib1.res/gold.png",
+				"description" : "{Generates Gold}\nConscripts produce 4 Gold per unit per day."
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cathedral/battle/conscript.json",
+			"map" : "creatures/cathedral/map/conscript.json",
+			"iconSmall" : "creatures/cathedral/iconsSmall/conscript.png",
+			"iconLarge" : "creatures/cathedral/iconsBig/conscript.png",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "PSNTATTK",
+			"defend" : "PSNTDFND",
+			"killed" : "PSNTKILL",
+			"move" : "PSNTMOVE",
+			"wince" : "PSNTWNCE"
+		}
+	}
+}

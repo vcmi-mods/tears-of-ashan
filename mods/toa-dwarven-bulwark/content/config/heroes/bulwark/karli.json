@@ -1,0 +1,61 @@
+{
+	"08karli" : {
+		"class" : "jarl",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"precision"
+		],
+		"texts" : {
+			"name" : "Karli",
+			"biography" : "Karli spent many a year in the underworld smithies, studying ancient formulae and experimenting with various alloys and components in order to create the finest weapons possible. The warriors led by Karli have the best-balanced arms, giving them noticeable advantages in the battlefield.",
+			"specialty" : {
+				"name" : "Spearwielders",
+				"tooltip" : "Creature Bonus: Spearwielders",
+				"description" : "Increases the Speed of allied Spearwielders, Skirmishers, and Harpooners by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/karli/portraitSmall.png",
+			"large" : "heroes/bulwark/karli/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Jotunns.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Jotunns.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "spearwielderAU",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			}
+		]
+	}
+}

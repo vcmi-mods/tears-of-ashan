@@ -1,0 +1,36 @@
+{
+	"frozenChrysanthemum" : {
+		"text" : {
+			"name" : "Frozen Chrysanthemum",
+			"description" : "{Frozen Chrysanthemum}\n\nThe Frozen Chrysanthemum increases your Experience gained by 20%, and by a further 20% if you are a Sanctuary hero.",
+			"event" : "Frozen Chrysanthemum pickup text."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "MISC",
+		"class" : "MINOR",
+		"value" : 4500,
+		"bonuses" : {
+			"experience" : {
+				"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+				"val" : 20
+			},
+			"sanctuaryExperience" : {
+				"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+				"val" : 20,
+				"limiters" : [
+					{
+						"type" : "FACTION_LIMITER",
+						"faction" : "sanctuary"
+					}
+				]
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/frozenChrysanthemum.png",
+			"map" : "artifacts/map/frozenChrysanthemum.json",
+			"scenarioBonus" : "artifacts/bonus/frozenChrysanthemum.png"
+		}
+	}
+}

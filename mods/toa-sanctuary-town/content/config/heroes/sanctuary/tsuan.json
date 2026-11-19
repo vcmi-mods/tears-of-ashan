@@ -1,0 +1,56 @@
+{
+	"04tsuan" : {
+		"class" : "samuraiClass",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Tsuan",
+			"biography" : "Born into a community of pirates, Tsuan was given command of her own vessel at a very young age, and she amassed quite a bit of booty by robbing merchant vessels from the Seven Cities on their way to the Jade Ocean. Her destiny took an eventful turn when her ship was eaten by a giant sea monster and she awoke a thousand leagues below the ocean in the vast palace of a Naga Daimyo. Tsuan was appreciative to be alive, but realized quickly that she was a prisoner. After five years of captivity, during which she learned more than any human before her about the vast and rich complexities of Naga underwater culture, she was awarded her freedom and given an island by the Daimyo, with which she could do as she pleased.",
+			"specialty" : {
+				"name" : "Logistics",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/tsuan/portraitSmall.png",
+			"large" : "heroes/sanctuary/tsuan/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Logistics.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Logistics.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			},
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "logistics"
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

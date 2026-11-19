@@ -1,0 +1,111 @@
+{
+	"name" : "Faction: Crownwork (Heroes V)",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "The Fortress faction from Heroes V, ported over to replace the Bulwark and renamed as the Crownwork!<p>This mod's state is <b>WORK IN PROGRESS</b> as it lacks assets for alternate upgrades and several map sprites.</p>",
+	"version" : "1.0.0",
+	"modType" : "Town",
+
+	"keepDisabled" : true,
+
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"conflicts" : [
+		"highlands-town"
+	],
+
+	"depends" : [
+		"hota.bulwark",
+		"hota.cove",
+		"hota.factory",
+		"hota.factory.bonuses icons",
+		"hota.gamebalance.heroes",
+		"hota.gamebalance.skills.firstaid",
+		"hota.heroes3datapatch",
+		"hota.interference",
+		"market-of-time",
+		"new-old-spells-plus",
+		"vcmi-extras.bonusicons.bonus icons"
+	],
+
+	"skills" : [
+		"config/skills/runeloreChances.json",
+		"config/skills/runeloreIngaSpec.json"
+	],
+
+	"spells" : [
+		"config/spells/bearRoar.json",
+		"config/spells/berserkerRage.json",
+		"config/spells/cripplingWound.json",
+		"config/spells/liquidFlameBreath.json",
+		"config/spells/liquidFlameBreathTrigger.json",
+		"config/spells/markOfFire.json"
+	],
+
+	"factions" : [
+		"config/town-screen/dwarvenBulwark.json"
+	],
+
+	"heroClasses" : [
+		"config/classes/jarl.json",
+		"config/classes/runemage.json",
+		"config/classes/runemageIngaSpec.json"
+	],
+
+	"heroes" : [
+		"config/heroes/bulwarkHeroChanges.json",
+
+		"config/heroes/bulwark/aslaug.json",
+		"config/heroes/bulwark/brigid.json",
+		"config/heroes/bulwark/fredrik.json",
+		"config/heroes/bulwark/ebba.json",
+		"config/heroes/bulwark/gerdi.json",
+		"config/heroes/bulwark/haegeir.json",
+		"config/heroes/bulwark/hangvul.json",
+		"config/heroes/bulwark/hedwig.json",
+		"config/heroes/bulwark/helmar.json",
+		"config/heroes/bulwark/inga.json",
+		"config/heroes/bulwark/karli.json",
+		"config/heroes/bulwark/rolf.json",
+		"config/heroes/bulwark/svea.json",
+		"config/heroes/bulwark/tolghar.json",
+		"config/heroes/bulwark/vilma.json"
+	],
+
+	"creatures" : [
+		"config/creatures/dwarvenBulwark/banDefault",
+		"config/creatures/dwarvenBulwark/lvl1",
+		"config/creatures/dwarvenBulwark/lvl1Upg1",
+		"config/creatures/dwarvenBulwark/lvl1Upg2",
+		"config/creatures/dwarvenBulwark/lvl2",
+		"config/creatures/dwarvenBulwark/lvl2Upg1",
+		"config/creatures/dwarvenBulwark/lvl2Upg2",
+		"config/creatures/dwarvenBulwark/lvl3",
+		"config/creatures/dwarvenBulwark/lvl3Upg1",
+		"config/creatures/dwarvenBulwark/lvl3Upg2",
+		"config/creatures/dwarvenBulwark/lvl4",
+		"config/creatures/dwarvenBulwark/lvl4Upg1",
+		"config/creatures/dwarvenBulwark/lvl4Upg2",
+		"config/creatures/dwarvenBulwark/lvl5",
+		"config/creatures/dwarvenBulwark/lvl5Upg1",
+		"config/creatures/dwarvenBulwark/lvl5Upg2",
+		"config/creatures/dwarvenBulwark/lvl6",
+		"config/creatures/dwarvenBulwark/lvl6Upg1",
+		"config/creatures/dwarvenBulwark/lvl6Upg2",
+		"config/creatures/dwarvenBulwark/lvl7",
+		"config/creatures/dwarvenBulwark/lvl7Upg1",
+		"config/creatures/dwarvenBulwark/lvl7Upg2"
+	],
+
+	"objects" : [
+		"config/dwellings.json"
+	],
+
+	"scripts" : [
+		"config/crownworkScriptBindings.json"
+	]
+}

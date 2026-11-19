@@ -1,0 +1,258 @@
+{
+	"58fasolt" : {
+		"class" : "jarl",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"mirth"
+		],
+		"texts" : {
+			"name" : "Fasolt",
+			"biography" : "Already a veteran politician of the Hearthguard clan, Fasolt Sigurdsson was bestowed the Iron Crown by the elders of the six Dwarven clans during a time of peace, when Grimheim had little to no relations with the other nations of Ashan besides the occasional trade agreement. As long as the peace lasted, Fasolt \"Goldentongue\" was considered a good, if unremarkable, ruler. But when the War under the Mountains started, he failed to also prove himself a leader of men. Many Dwarves, especially those directly affected by the Dark Elf threat, started to resent Fasolt's lack of military acumen and perceived inability to take any kind of meaningful decision.",
+			"specialty" : {
+				"name" : "Runic Attunement",
+				"tooltip" : "Creature Bonus: Runic Attunement",
+				"description" : "Increases the Luck and Morale of allied creatures by 1 per Rune affecting them."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/fasolt/portraitSmall.png",
+			"large" : "heroes/bulwark/fasolt/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Runic Attunement.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Runic Attunement.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "runelore",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"luck01" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfBattleRage"
+						}
+					]
+				},
+				"luck02" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfBerserking"
+						}
+					]
+				},
+				"luck03" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfCharge"
+						}
+					]
+				},
+				"luck04" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfDragonform"
+						}
+					]
+				},
+				"luck05" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfElementalImmunity"
+						}
+					]
+				},
+				"luck06" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfEtherealness"
+						}
+					]
+				},
+				"luck07" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfExorcism"
+						}
+					]
+				},
+				"luck08" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfMagicControl"
+						}
+					]
+				},
+				"luck09" : {
+					"type" : "LUCK",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfThunderclap"
+						}
+					]
+				},
+				"morale01" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfBattleRage"
+						}
+					]
+				},
+				"morale02" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfBerserking"
+						}
+					]
+				},
+				"morale03" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfCharge"
+						}
+					]
+				},
+				"morale04" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfDragonform"
+						}
+					]
+				},
+				"morale05" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfElementalImmunity"
+						}
+					]
+				},
+				"morale06" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfEtherealness"
+						}
+					]
+				},
+				"morale07" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfExorcism"
+						}
+					]
+				},
+				"morale08" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfMagicControl"
+						}
+					]
+				},
+				"morale09" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfThunderclap"
+						}
+					]
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

@@ -1,0 +1,405 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "CUwlfr10.pcx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "CUwlfr11.pcx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "CUwlfr12.pcx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "CUwlfr13.pcx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "CUwlfr14.pcx.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "CUwlfr15.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "CUwlfr05.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "CUwlfr06.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "CUwlfr07.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "CUwlfr08.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "CUwlfr08.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "CUwlfr07.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "CUwlfr06.pcx.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "CUwlfr05.pcx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "CUwlfr02.pcx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "CUwlfr03.pcx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "CUwlfr04.pcx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "CUwlfr04.pcx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "CUwlfr03.pcx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 6,
+			"file" : "CUwlfr02.pcx.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 7,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "CUwlfr43.pcx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "CUwlfr44.pcx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "CUwlfr45.pcx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "CUwlfr46.pcx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "CUwlfr47.pcx.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 6,
+			"file" : "CUwlfr48.pcx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "CUwlfr19.pcx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "CUwlfr20.pcx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "CUwlfr21.pcx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "CUwlfr21.pcx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 5,
+			"file" : "CUwlfr22.pcx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 6,
+			"file" : "CUwlfr23.pcx.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 7,
+			"file" : "CUwlfr24.pcx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "CUwlfr49.pcx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "CUwlfr50.pcx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "CUwlfr51.pcx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "CUwlfr52.pcx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "CUwlfr53.pcx.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "CUwlfr54.pcx.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "CUwlfr17.pcx.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 2,
+			"file" : "CUwlfr18.pcx.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "CUwlfr18.pcx.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "CUwlfr17.pcx.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 2,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "CUwlfr17.pcx.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 2,
+			"file" : "CUwlfr18.pcx.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "CUwlfr18.pcx.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "CUwlfr17.pcx.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 2,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "CUwlfr25.pcx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "CUwlfr26.pcx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "CUwlfr27.pcx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "CUwlfr28.pcx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "CUwlfr29.pcx.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 6,
+			"file" : "CUwlfr30.pcx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "CUwlfr31.pcx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "CUwlfr32.pcx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "CUwlfr33.pcx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "CUwlfr34.pcx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "CUwlfr35.pcx.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "CUwlfr36.pcx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "CUwlfr01.pcx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "CUwlfr37.pcx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "CUwlfr38.pcx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "CUwlfr39.pcx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "CUwlfr40.pcx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 5,
+			"file" : "CUwlfr41.pcx.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 6,
+			"file" : "CUwlfr42.pcx.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 0,
+			"file" : "CUwlfr09.pcx.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 0,
+			"file" : "CUwlfr16.pcx.png"
+		}
+	],
+	"basepath" : "creatures/dwarvenBulwark/battle/lvl3Alt/"
+}

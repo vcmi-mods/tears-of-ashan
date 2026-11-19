@@ -1,0 +1,56 @@
+{
+	"08Tybold" : {
+		"class" : "cyborgClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Tybold",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Offense",
+				"tooltip" : "Secondary Skill Bonus: Offense",
+				"description" : "Receives a 5% per level bonus to Offense skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/tybold/portraitSmall.png",
+			"large" : "heroes/forge/tybold/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Offense.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Offense.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "offence"
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

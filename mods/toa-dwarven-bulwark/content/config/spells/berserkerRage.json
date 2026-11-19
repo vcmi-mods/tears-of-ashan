@@ -1,0 +1,84 @@
+{
+	"berserkerRage" : {
+		"name" : "Berserker Rage",
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"level" : 3,
+		"power" : 0,
+
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"flags" : {
+			"indifferent" : true,
+			"nonMagical" : true,
+			"special" : true
+		},
+
+		"targetCondition" : {},
+
+		"canCastOnSelf" : true,
+		"canCastWithoutSkip" : false,
+		"canCastOnlyOnSelf" : true,
+
+		"graphics" : {
+			"iconEffect" : "spells/berserkerRage/spellEffect.png"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C01SPF"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "BERSERK"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "{Berserker Rage}\n\nPsyches the user up into a state of total fury, reducing their Defense to 0 while increasing their Attack by the same amount. On their next turn, they strike the nearest target and do not suffer retaliation.",
+				"cost" : 0,
+				"range" : "0",
+				"power" : 0,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"buff" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"retaliationBonus" : {
+								"type" : "BLOCKS_RETALIATION",
+								"duration" : [
+									"UNTIL_AFTER_ATTACK_SEQUENCE"
+								]
+							},
+							"inBerserk" : {
+								"type" : "ATTACKS_NEAREST_CREATURE",
+								"duration" : "UNTIL_AFTER_ATTACK_SEQUENCE"
+							},
+							"inFrenzy" : {
+								"type" : "IN_FRENZY",
+								"val" : 100,
+								"duration" : "UNTIL_AFTER_ATTACK_SEQUENCE"
+							}
+						}
+					}
+				}
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
+		}
+	}
+}

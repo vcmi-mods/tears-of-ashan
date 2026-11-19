@@ -1,0 +1,56 @@
+{
+	"01Deckard" : {
+		"class" : "cyborgClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Deckard",
+			"biography" : "Deckard's state-of-the-art heavy armor fully lives up to its expectations. The mere sight of this impregnable cyborg on the battlefield fills his troops with strength to weather the onslaught of bullets and blows.",
+			"specialty" : {
+				"name" : "Armorer",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/deckard/portraitSmall.png",
+			"large" : "heroes/forge/deckard/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Armorer.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Armorer.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "armorer"
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

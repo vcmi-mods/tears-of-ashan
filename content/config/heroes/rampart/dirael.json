@@ -37,8 +37,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"waspSwarm" : {
-					"subtype" : "spell.waspSwarm",
 					"type" : "SPECIAL_SPELL_SCALING",
+					"subtype" : "spell.waspSwarm",
 					"val" : 10
 				}
 			}

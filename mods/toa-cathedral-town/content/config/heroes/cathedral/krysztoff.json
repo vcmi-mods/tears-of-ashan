@@ -1,0 +1,116 @@
+{
+	"54krysztoff" : {
+		"class" : "chaplainClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"prayer"
+		],
+		"texts" : {
+			"name" : "Krysztoff",
+			"biography" : "Kryzstoff rules a small barony located on the contested border between the Griffin and Wolf Duchies. Maybe because his parents gave him a name that nobody seems to be able to write correctly, he grew into a punctilious and persnickety man, which made him the perfect material to join the ranks of the Inquisition. Make no mistake though: he is very much a man of action, and his meticulousness even made him an efficient spellcaster. As a result, the white eagle that adorns his blazon is quite often soaked in his enemies' blood.",
+			"specialty" : {
+				"name" : "Prayer",
+				"tooltip" : "Spell Bonus: Prayer",
+				"description" : "Casts Prayer with effect increased by 1 for every 7 hero levels."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/krysztoff/portraitSmall.png",
+			"large" : "heroes/cathedral/krysztoff/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Prayer.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Prayer.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "lightMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"attackBonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				},
+				"defenceBonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				},
+				"speedBonus" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

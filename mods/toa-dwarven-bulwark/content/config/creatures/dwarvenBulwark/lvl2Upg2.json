@@ -1,0 +1,95 @@
+{
+	"harpoonerAU" : {
+		"name" : {
+			"singular" : "Harpooner",
+			"plural" : "Harpooners"
+		},
+		"faction" : "bulwark",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 6,
+		"shots" : 24,
+		"damage" : {
+			"min" : 3,
+			"max" : 5
+		},
+		"hitPoints" : 12,
+		"speed" : 6,
+		"growth" : 9,
+		"aiValue" : 190,
+		"fightValue" : 165,
+		"cost" : {
+			"gold" : 160
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"upgrades" : [
+			"skirmisherAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"disruptingRayImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "disruptingRay"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl2Up.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl2Up.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl2Alt.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl2Alt.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/harpooner/attack",
+			"defend" : "creatures/harpooner/defend",
+			"killed" : "creatures/harpooner/death",
+			"move" : "creatures/harpooner/move",
+			"wince" : "creatures/harpooner/hit",
+			"shoot" : "creatures/harpooner/shoot"
+		}
+	}
+}

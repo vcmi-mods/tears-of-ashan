@@ -1,6 +1,6 @@
 {
 	//CATHEDRAL
-	"toa-cathedral-town:conscriptAU" : {
+	"tears-of-ashan.toa-cathedral-town:conscriptAU" : {
 		"sound" : {
 			"attack" : "creatures/peasantConscriptBrute/Peasant_attack",
 			"defend" : "creatures/peasantConscriptBrute/Peasant_hit",
@@ -9,7 +9,7 @@
 			"wince" : "creatures/peasantConscriptBrute/Peasant_hit"
 		}
 	},
-	"toa-cathedral-town:torturerAU" : {
+	"tears-of-ashan.toa-cathedral-town:torturerAU" : {
 		"sound" : {
 			"attack" : "creatures/footman/Footman_attack",
 			"defend" : "creatures/footman/Footman_hit",
@@ -18,7 +18,7 @@
 			"wince" : "creatures/footman/Footman_hit"
 		}
 	},
-	"toa-cathedral-town:executionerAU" : {
+	"tears-of-ashan.toa-cathedral-town:executionerAU" : {
 		"sound" : {
 			"attack" : "creatures/vindicator/Vindicator_attack",
 			"defend" : "creatures/vindicator/Vindicator_hit",
@@ -27,7 +27,7 @@
 			"wince" : "creatures/vindicator/Vindicator_hit"
 		}
 	},
-	"toa-cathedral-town:witchHunterAU" : {
+	"tears-of-ashan.toa-cathedral-town:witchHunterAU" : {
 		"sound" : {
 			"attack" : "creatures/archer/Archer_attack",
 			"defend" : "creatures/archer/Archer_hit",
@@ -37,7 +37,7 @@
 			"shoot" : "creatures/archer/Archer_ranged_short"
 		}
 	},
-	"toa-cathedral-town:undeadSlayerAU" : {
+	"tears-of-ashan.toa-cathedral-town:undeadSlayerAU" : {
 		"sound" : {
 			"attack" : "creatures/marksmanCrossbowman/Marksman_attack",
 			"defend" : "creatures/marksmanCrossbowman/Marksman_hit",
@@ -47,7 +47,7 @@
 			"shoot" : "creatures/marksmanCrossbowman/Marksman_ranged_short"
 		}
 	},
-	"toa-cathedral-town:earthenChimeraAU" : {
+	"tears-of-ashan.toa-cathedral-town:earthenChimeraAU" : {
 		"sound" : {
 			"attack" : "creatures/griffin/Griffin_attack",
 			"defend" : "creatures/griffin/Griffin_hit",
@@ -56,7 +56,7 @@
 			"wince" : "creatures/griffin/Griffin_hit"
 		}
 	},
-	"toa-cathedral-town:fierceChimeraAU" : {
+	"tears-of-ashan.toa-cathedral-town:fierceChimeraAU" : {
 		"sound" : {
 			"attack" : "creatures/royalGriffin/RoyalGriffin_attack",
 			"defend" : "creatures/royalGriffin/RoyalGriffin_hit",
@@ -65,7 +65,7 @@
 			"wince" : "creatures/royalGriffin/RoyalGriffin_hit"
 		}
 	},
-	"toa-cathedral-town:acolyteAU" : {
+	"tears-of-ashan.toa-cathedral-town:acolyteAU" : {
 		"sound" : {
 			"attack" : "creatures/priest/Priest_cast",
 			"defend" : "creatures/priest/Priest_hit",
@@ -75,7 +75,7 @@
 			"shoot" : "creatures/priest/Priest_ranged"
 		}
 	},
-	"toa-cathedral-town:adeptAU" : {
+	"tears-of-ashan.toa-cathedral-town:adeptAU" : {
 		"sound" : {
 			"attack" : "creatures/inquisitorZealot/Cleric_cast",
 			"defend" : "creatures/inquisitorZealot/Cleric_hit",
@@ -85,7 +85,7 @@
 			"shoot" : "creatures/inquisitorZealot/Cleric_ranged"
 		}
 	},
-	"toa-cathedral-town:darkPaladinAU" : {
+	"tears-of-ashan.toa-cathedral-town:darkPaladinAU" : {
 		"sound" : {
 			"attack" : "creatures/vindicator/Vindicator_attack",
 			"defend" : "creatures/vindicator/Vindicator_hit",
@@ -94,7 +94,7 @@
 			"wince" : "creatures/vindicator/Vindicator_hit"
 		}
 	},
-	"toa-cathedral-town:darkTemplarAU" : {
+	"tears-of-ashan.toa-cathedral-town:darkTemplarAU" : {
 		"sound" : {
 			"attack" : "creatures/squire/Swordsman_upgrade_attack",
 			"defend" : "creatures/squire/Swordsman_upgrade_hit",
@@ -103,7 +103,7 @@
 			"wince" : "creatures/squire/Swordsman_upgrade_hit"
 		}
 	},
-	"toa-cathedral-town:avengerAU" : {
+	"tears-of-ashan.toa-cathedral-town:avengerAU" : {
 		"sound" : {
 			"attack" : "creatures/angel/Angel_attack_short",
 			"defend" : "creatures/angel/Angel_hit",
@@ -112,7 +112,7 @@
 			"wince" : "creatures/angel/Angel_hit"
 		}
 	},
-	"toa-cathedral-town:punisherAU" : {
+	"tears-of-ashan.toa-cathedral-town:punisherAU" : {
 		"sound" : {
 			"attack" : "creatures/archangelSeraph/Archangel_attack_short",
 			"defend" : "creatures/archangelSeraph/Archangel_hit",

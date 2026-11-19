@@ -1,0 +1,61 @@
+{
+	"54hangvul" : {
+		"class" : "runemage",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"fireball"
+		],
+		"texts" : {
+			"name" : "Hangvul",
+			"biography" : "A stolid priest of the Deepflame clan, Hangvul has gone to war against the Dark Elves to defend his nation. Though he carries little of his brethren's insensate hatred for his foe, Hangvul will not shirk from the battle and savagery necessary to end the Dark Elf threat.",
+			"specialty" : {
+				"name" : "Rune Priests",
+				"tooltip" : "Creature Bonus: Rune Priests",
+				"description" : "Increases the Speed of allied Rune Priests, Rune Patriarchs, and Rune Keepers by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/hangvul/portraitSmall.png",
+			"large" : "heroes/bulwark/hangvul/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Jotunns.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Jotunns.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "runelore",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "runePriestAU",
+			"creatureLevel" : 5,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "runePriestAU",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	}
+}

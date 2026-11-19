@@ -1,0 +1,10 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "hall04.png"
+		}
+	],
+	"basepath" : "town-screen/sanctuary/buildings/"
+}

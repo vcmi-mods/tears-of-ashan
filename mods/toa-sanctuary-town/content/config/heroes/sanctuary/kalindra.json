@@ -1,0 +1,65 @@
+{
+	"57kalindra" : {
+		"class" : "monkClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"deepFreeze"
+		],
+		"texts" : {
+			"name" : "Kalindra",
+			"biography" : "Calling herself a princess, Kalindra boasts that she can trace her ancestry back to the lost Shantiri civilization. But then again, so too can most of the denizens of southern Ashan in one way or another. Her golden skin and ebony hair, not to mention her taste in luxurious clothes and jewels, have rendered her quite the attraction in the courts of the lords of the Free Cities. Against all odds, it was her extravagant way of life that brought her to the attention of a priestess of Shalassa, who instantly understood that this noble-blooded lady was in fact marked by the Dragon Goddess of Water. It tested the venerable snake-lady's untold patience to convince Kalindra to come to the temple and become a disciple, but she eventually succeeded. In truth, the young woman had finally grown tired of the vanity of her life and felt ready at last to start a new life of asceticism.",
+			"specialty" : {
+				"name" : "Deep Freeze",
+				"tooltip" : "Spell Bonus: Deep Freeze",
+				"description" : "Casts Deep Freeze with damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/kalindra/portraitSmall.png",
+			"large" : "heroes/sanctuary/kalindra/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Deep Freeze.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Deep Freeze.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "waterMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"deepFreeze" : {
+					"type" : "SPECIAL_SPELL_SCALING",
+					"subtype" : "spell.deepFreeze",
+					"val" : 10
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

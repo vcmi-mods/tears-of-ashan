@@ -1,0 +1,23 @@
+{
+	"name" : "Sanctuary Compatibility",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Compatibility layer for Sanctuary mod.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "",
+	"modType" : "Compatibility",
+	"version" : "1.0.0",
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"depends" : [
+		"tears-of-ashan.toa-sanctuary-town"
+	],
+
+	"heroClasses" : [
+		"config/classChanges.json"
+	]
+}

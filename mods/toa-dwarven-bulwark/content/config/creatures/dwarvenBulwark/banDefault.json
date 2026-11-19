@@ -1,0 +1,44 @@
+{
+	"hota.bulwark:kobold" : {
+		"special" : true
+	},
+	"hota.bulwark:koboldForeman" : {
+		"special" : true
+	},
+	"hota.bulwark:mountainRam" : {
+		"special" : true
+	},
+	"hota.bulwark:argali" : {
+		"special" : true
+	},
+	"hota.bulwark:snowElf" : {
+		"special" : true
+	},
+	"hota.bulwark:steelElf" : {
+		"special" : true
+	},
+	"hota.bulwark:yeti" : {
+		"special" : true
+	},
+	"hota.bulwark:yetiRunemaster" : {
+		"special" : true
+	},
+	"hota.bulwark:shaman" : {
+		"special" : true
+	},
+	"hota.bulwark:greatShaman" : {
+		"special" : true
+	},
+	"hota.bulwark:mammoth" : {
+		"special" : true
+	},
+	"hota.bulwark:warMammoth" : {
+		"special" : true
+	},
+	"hota.bulwark:jotunn" : {
+		"special" : true
+	},
+	"hota.bulwark:jotunnWarlord" : {
+		"special" : true
+	}
+}

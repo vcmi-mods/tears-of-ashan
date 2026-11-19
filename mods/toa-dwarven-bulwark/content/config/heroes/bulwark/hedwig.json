@@ -1,0 +1,177 @@
+{
+	"55hedwig" : {
+		"class" : "runemage",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"celestialArmor"
+		],
+		"texts" : {
+			"name" : "Hedwig",
+			"biography" : "Like the rest of the Winterwind clan, Hedwig \"Silverhair\" Randversdottir actually enjoys venturing far from the comfort of the great stone halls of Grimheim, exploring new lands and meeting new faces. But as a Shieldmaiden, she also considers her duty to protect and escort Dwarves from other clans who are less than thrilled at the idea of leaving the safety of their underground homes.",
+			"specialty" : {
+				"name" : "Reinforced Runes",
+				"tooltip" : "Creature Bonus: Reinforced Runes",
+				"description" : "Decreases the physical Damage received by allied creatures by 5% per Rune affecting them."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/hedwig/portraitSmall.png",
+			"large" : "heroes/bulwark/hedwig/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Rune Reinforced.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Rune Reinforced.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "runelore",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"damage01" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfBattleRage"
+						}
+					]
+				},
+				"damage02" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfBerserking"
+						}
+					]
+				},
+				"damage03" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfCharge"
+						}
+					]
+				},
+				"damage04" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfDragonform"
+						}
+					]
+				},
+				"damage05" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfElementalImmunity"
+						}
+					]
+				},
+				"damage06" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfEtherealness"
+						}
+					]
+				},
+				"damage07" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfExorcism"
+						}
+					]
+				},
+				"damage08" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfMagicControl"
+						}
+					]
+				},
+				"damage09" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"subtype" : "damageTypeAll",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.runeOfThunderclap"
+						}
+					]
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

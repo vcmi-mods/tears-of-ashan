@@ -1,0 +1,60 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"colliery" : {
+				"name" : "Delvers' Mine",
+				"creatures#override" : [
+					[
+						"defenderAU"
+					]
+				]
+			},
+			"hallOfTheBold" : {
+				"creatures#override" : [
+					[
+						"spearwielderAU"
+					]
+				]
+			},
+			"frigidSpur" : {
+				"creatures#override" : [
+					[
+						"bearRiderAU"
+					]
+				]
+			},
+			"mountainEmbassy" : {
+				"name" : "Fighters' Guild",
+				"creatures#override" : [
+					[
+						"brawlerAU"
+					]
+				]
+			},
+			"shamanFane" : {
+				"name" : "Rune Henge",
+				"creatures#override" : [
+					[
+						"runePriestAU"
+					]
+				]
+			},
+			"mammothStalls" : {
+				"name" : "Meeting Halls",
+				"creatures#override" : [
+					[
+						"thaneAU"
+					]
+				]
+			},
+			"frosthome" : {
+				"name" : "Dragon Palace",
+				"creatures#override" : [
+					[
+						"fireDragonAU"
+					]
+				]
+			}
+		}
+	}
+}

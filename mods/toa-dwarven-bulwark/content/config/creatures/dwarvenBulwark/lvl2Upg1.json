@@ -1,0 +1,102 @@
+{
+	"skirmisherAU" : {
+		"name" : {
+			"singular" : "Skirmisher",
+			"plural" : "Skirmishers"
+		},
+		"faction" : "bulwark",
+		"level" : 2,
+		"attack" : 8,
+		"defense" : 4,
+		"shots" : 24,
+		"damage" : {
+			"min" : 3,
+			"max" : 5
+		},
+		"hitPoints" : 15,
+		"speed" : 6,
+		"growth" : 9,
+		"aiValue" : 190,
+		"fightValue" : 165,
+		"cost" : {
+			"gold" : 160
+		},
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"upgrades" : [
+			"harpoonerAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"cripplingWound" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "cripplingWound",
+				"val" : 50,
+				"addInfo" : [
+					0,
+					0
+				],
+				"description" : "{Crippling Wound}\nHas a 50% chance to reduce the enemy's Defense by 25% and Speed by 50% after attacking.",
+				"icon" : "bonuses/cripplingWound.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl2Up.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl2Up.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl2Up.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl2Up.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/skirmisher/attack",
+			"defend" : "creatures/skirmisher/defend",
+			"killed" : "creatures/skirmisher/death",
+			"move" : "creatures/skirmisher/move",
+			"wince" : "creatures/skirmisher/hit",
+			"shoot" : "creatures/skirmisher/shoot"
+		}
+	}
+}

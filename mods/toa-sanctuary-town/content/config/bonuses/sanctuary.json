@@ -1,0 +1,13 @@
+{
+	"SANCTUARY" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Ashan Naga}\nReceives -50% damage from Water Magic spells and +25% damage from Air Magic spells",
+
+		"graphics" : {
+			"icon" : "bonuses/sanctuary.png"
+		}
+	}
+}

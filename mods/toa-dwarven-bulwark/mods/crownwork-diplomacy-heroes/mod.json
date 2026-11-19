@@ -1,0 +1,16 @@
+{
+	"name" : "Crownwork Diplomacy Heroes",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Compatibility layer for Diplomacy Heroes submod.",
+	"version" : "1.0.0",
+	"modType" : "Compatibility",
+
+	"depends" : [
+		"tears-of-ashan.toa-diplomacy-heroes"
+	],
+
+	"heroes" : [
+		"config/enabled.json"
+	]
+}

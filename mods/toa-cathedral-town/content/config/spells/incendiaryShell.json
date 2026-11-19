@@ -1,0 +1,53 @@
+{
+	"incendiaryShell" : {
+		"type" : "ability",
+		"name" : "Incendiary Shell",
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"animation" : {},
+		"flags" : {
+			"special" : true,
+			"positive" : true,
+			"nonMagical" : true
+		},
+		"targetCondition" : {},
+		"canCastWithoutSkip" : true,
+		"canCastOnlyOnSelf" : true,
+		"graphics" : {
+			"iconEffect" : "SpellInt.def:0:22"
+		},
+		"sounds" : {
+			"cast" : "incendiaryShell.wav"
+		},
+		"targetType" : "LOCATION",
+		"levels" : {
+			"base" : {
+				"description" : "{Incendiary Shell}\nLoads an incendiary rocket that causes splash damage after it lands.\n",
+				"range" : "0",
+				"power" : 1,
+				"cost" : 0,
+				"effects" : {
+					"grantShell" : {
+						"type" : "INCENDIARY_BONUS",
+						"duration" : "N_TURNS"
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}

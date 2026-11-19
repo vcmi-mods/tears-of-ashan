@@ -1,0 +1,61 @@
+{
+	"51zhaoyu" : {
+		"class" : "monkClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"clone"
+		],
+		"texts" : {
+			"name" : "Zhaoyu",
+			"biography" : "Zhaoyu comes from the eastern islands of the Jade Ocean, and is of peculiar descent: His father Sheng was a human merchant, but his mother was a Naga. Desperately in love with the snake-woman despite their being of different species, Sheng challenged his beloved's father to obtain the right to marry her. Tragically, Sheng was killed during the duel. Heartbroken, the Naga woman gave her life to Shalassa in exchange for the resurrection of her Human lover. The Dragon-Goddess of Water accepted her offering but, deeply moved by the selflessness of her love, Shalassa asked Asha to reincarnate them both as Human babies. It took twenty years and many more adventures to reunite the two lovers, but Zhaoyu was eventually born as testament to their devotion.",
+			"specialty" : {
+				"name" : "Kappas",
+				"tooltip" : "Creature Bonus: Kappas",
+				"description" : "Increases the Speed of allied Kappas and Kappa Shoyas by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/zhaoyu/portraitSmall.png",
+			"large" : "heroes/sanctuary/zhaoyu/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Kappas.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Kappas.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scholar",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "kappaAU",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			}
+		]
+	}
+}

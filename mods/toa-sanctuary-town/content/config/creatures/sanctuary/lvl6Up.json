@@ -1,0 +1,91 @@
+{
+	"kenseiAU" : {
+		"name" : {
+			"singular" : "Kensei",
+			"plural" : "Kenseis"
+		},
+		"faction" : "sanctuary",
+		"level" : 6,
+		"attack" : 16,
+		"defense" : 16,
+		"damage" : {
+			"min" : 20,
+			"max" : 25
+		},
+		"hitPoints" : 120,
+		"speed" : 9,
+		"growth" : 2,
+		"aiValue" : 2750,
+		"fightValue" : 2750,
+		"cost" : {
+			"gold" : 1400
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"attackReduction" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 40
+			},
+			"unlimitedRetaliation" : {
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"attackAllAdjacent" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl6Up.def",
+			"map" : "creatures/sanctuary/map/lvl6Up.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl6Up.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl6Up.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/kenshi/attack.mp3",
+			"defend" : "creatures/kenshi/defend.mp3",
+			"killed" : "creatures/kenshi/death.mp3",
+			"move" : "creatures/kenshi/move.mp3",
+			"wince" : "creatures/kenshi/hit.mp3"
+		}
+	}
+}

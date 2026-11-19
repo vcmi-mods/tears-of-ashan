@@ -1,0 +1,105 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "mage05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "mage05-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "mage05-02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "mage05-03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "mage05-04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "mage05-05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "mage05-06.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "mage05-07.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "mage05-08.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "mage05-09.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "mage05-10.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "mage05-11.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "mage05-12.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "mage05-13.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "mage05-14.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "mage05-15.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "mage05-16.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "mage05-17.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "mage05-18.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "mage05-19.png"
+		}
+	],
+	"basepath" : "town-screen/forge/buildings/"
+}

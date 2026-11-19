@@ -1,0 +1,71 @@
+{
+	"dreadnoughtAU" : {
+		"name" : {
+			"singular" : "Dreadnought",
+			"plural" : "Dreadnoughts"
+		},
+		"faction" : "forgeTOA",
+		"level" : 7,
+		"attack" : 40,
+		"defense" : 35,
+		"damage" : {
+			"min" : 45,
+			"max" : 65
+		},
+		"hitPoints" : 375,
+		"speed" : 13,
+		"growth" : 1,
+		"horde" : -1,
+		"aiValue" : 10000,
+		"fightValue" : 8000,
+		"cost" : {
+			"gold" : 6500,
+			"mercury" : 3
+		},
+		"advMapAmount" : {
+			"min" : 2,
+			"max" : 6
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"king3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"mechanical" : {
+				"type" : "MECHANICAL"
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 100,
+				"addInfo" : [
+					3,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Expert Disrupting Ray after attacking.",
+				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray3"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl7Up.def",
+			"map" : "creatures/forge/map/lvl7Up.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl7Up.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl7Up.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/juggernaut/attack.mp3",
+			"defend" : "creatures/juggernaut/defend.mp3",
+			"killed" : "creatures/juggernaut/death.mp3",
+			"move" : "creatures/juggernaut/move.mp3",
+			"wince" : "creatures/juggernaut/hit.mp3"
+		}
+	}
+}

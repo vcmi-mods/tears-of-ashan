@@ -1,0 +1,119 @@
+{
+	"haiRyouAU" : {
+		"name" : {
+			"singular" : "Hai Ryou",
+			"plural" : "Hai Ryou"
+		},
+		"faction" : "sanctuary",
+		"level" : 10,
+		"attack" : 250,
+		"defense" : 250,
+		"damage" : {
+			"min" : 25000,
+			"max" : 25000
+		},
+		"hitPoints" : 175000,
+		"speed" : 50,
+		"growth" : 1,
+		"aiValue" : 10000000,
+		"fightValue" : 10000000,
+		"cost" : {
+			"gold" : 10000000,
+			"crystal" : 250
+		},
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 1
+		},
+		"special" : true,
+		"excludeFromRandomization" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"twoHexAttackBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"attacksAround" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"lifeguardMembrane" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 50,
+				"description" : "{Lifeguard Membrane}\nReduces all incoming damage by 50% (racial bonus becomes -100% Water/-25% Air damage).",
+				"icon" : "bonuses/lifeguardMembrane.png"
+			},
+			"lifeguardEarth" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 50,
+				"hidden" : true
+			},
+			"slowImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "slow",
+				"description" : "{Water Flows Freely}\nImmune to Slow, Wasp Swarm, Ice Bolt, Deep Freeze, and Freezing attacks.",
+				"icon" : "bonuses/waterFlowsFreely.png"
+			},
+			"waspSwarmImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "waspSwarm",
+				"hidden" : true
+			},
+			"iceBoltImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "iceBolt",
+				"hidden" : true
+			},
+			"deepFreezeImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deepFreeze",
+				"hidden" : true
+			},
+			"freezingShotImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "freezingShot",
+				"hidden" : true
+			},
+			"immuneToWater" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.water"
+			},
+			"waterBuff" : {
+				"type" : "RECEPTIVE"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/boss.def",
+			"map" : "creatures/sanctuary/map/boss.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/boss.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/boss.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/kirin/attack.mp3",
+			"defend" : "creatures/kirin/defend.mp3",
+			"killed" : "creatures/kirin/death.mp3",
+			"move" : "creatures/kirin/move.mp3",
+			"wince" : "creatures/kirin/hit.mp3"
+		}
+	}
+}

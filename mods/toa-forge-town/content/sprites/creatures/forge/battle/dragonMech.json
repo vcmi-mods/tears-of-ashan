@@ -1,0 +1,510 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "walkForward01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "walkForward02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "walkForward03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "walkForward04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "walkForward05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "walkForward06.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "walkForward07.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "walkForward08.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "walkForward09.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "walkForward10.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "shootForward01.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "shootForward02.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "shootForward03.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "shootForward04.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "shootForward04.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "shootForward04.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "shootForward03.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "shootForward02.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "shootForward01.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "walkForward01.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "winceForward01.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "winceForward02.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "winceForward03.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "winceForward04.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "winceForward05.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "winceForward06.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 6,
+			"file" : "winceForward07.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "winceForward01.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "winceForward02.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "winceForward03.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "winceForward04.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "winceForward04.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 5,
+			"file" : "winceForward05.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 6,
+			"file" : "winceForward06.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 7,
+			"file" : "winceForward07.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "deathForward01.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "deathForward02.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "deathForward03.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "deathForward04.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "deathForward05.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "turn02.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "turn01.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "turn01.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "turn02.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "turn02.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "turn01.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "turn01.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "turn02.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "attackDiagUp01.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "attackDiagUp02.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "attackDiagUp03.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "attackDiagUp04.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "attackDiagUp05.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "attackDiagUp06.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "attackForward01.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "attackForward02.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "attackForward03.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "attackForward04.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "attackForward05.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "attackForward06.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "attackDiagDown01.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "attackDiagDown02.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "attackDiagDown03.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "attackDiagDown04.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "attackDiagDown05.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 5,
+			"file" : "attackDiagDown06.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 0,
+			"file" : "shootDiagUp01.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 1,
+			"file" : "shootDiagUp02.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 2,
+			"file" : "shootDiagUp03.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 3,
+			"file" : "shootDiagUp04.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 4,
+			"file" : "shootDiagUp05.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 5,
+			"file" : "shootDiagUp05.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 6,
+			"file" : "shootDiagUp05.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 7,
+			"file" : "shootDiagUp05.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 8,
+			"file" : "shootDiagUp05.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 9,
+			"file" : "shootDiagUp06.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 10,
+			"file" : "shootDiagUp07.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 0,
+			"file" : "shootForward01.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 1,
+			"file" : "shootForward02.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 2,
+			"file" : "shootForward03.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 3,
+			"file" : "shootForward04.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 4,
+			"file" : "shootForward05.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 5,
+			"file" : "shootForward05.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 6,
+			"file" : "shootForward05.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 7,
+			"file" : "shootForward05.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 8,
+			"file" : "shootForward05.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 9,
+			"file" : "shootForward06.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 10,
+			"file" : "shootForward07.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 0,
+			"file" : "shootDiagDown01.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 1,
+			"file" : "shootDiagDown02.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 2,
+			"file" : "shootDiagDown03.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 3,
+			"file" : "shootDiagDown04.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 4,
+			"file" : "shootDiagDown05.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 5,
+			"file" : "shootDiagDown05.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 6,
+			"file" : "shootDiagDown05.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 7,
+			"file" : "shootDiagDown05.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 8,
+			"file" : "shootDiagDown05.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 9,
+			"file" : "shootDiagDown06.png"
+		},
+		{
+			"group" : 16,
+			"frame" : 10,
+			"file" : "shootDiagDown07.png"
+		}
+		//{
+		//	"group" : 20,
+		//	"frame" : 0,
+		//	"file" : "walkForward01.png"
+		//},
+		//{
+		//	"group" : 21,
+		//	"frame" : 0,
+		//	"file" : "walkForward01.png"
+		//}
+	],
+	"basepath" : "creatures/forge/battle/dragonMech/"
+}

@@ -1,0 +1,76 @@
+{
+	"55laurielle" : {
+		"class" : "chaplainClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"cure"
+		],
+		"texts" : {
+			"name" : "Laurielle",
+			"biography" : "A faithful servant of Elrath for twenty-three centuries past, Laurielle is an Angel who survived the Elder Wars, but not before coming face-to-face with Azkaal, the Prince of Destruction, himself. Manning the battlements of the great flying city Albanora, Laurielle was struck down by the legendary Demon Lord with a searing blow whose memory still haunts her to this very day.",
+			"specialty" : {
+				"name" : "First Aid",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"description" : "Creatures receive a 1% per level bonus to their Health while equipped with a First Aid Tent."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/laurielle/portraitSmall.png",
+			"large" : "heroes/cathedral/laurielle/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/First Aid.png",
+			"specialtyLarge" : "heroes/specialtyLarge/First Aid.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "firstAid",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"bonusHealth" : {
+					"val" : 1,
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRST_AID_AVAILABLE"
+						}
+					],
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 1
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "firstAidTent",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

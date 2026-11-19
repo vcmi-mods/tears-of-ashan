@@ -365,6 +365,24 @@
 			}
 		}
 	},
+	"core:magicMirror" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Magic Mirror}\n\nProtects the target allied unit with a magical reflective barrier. The affected unit has a 20% chance to reflect hostile, single-target spells that would usually affect it, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area."
+			},
+			"basic" : {
+				"description" : "{Basic Magic Mirror}\n\nProtects the target allied unit with a magical reflective barrier. The affected unit has a 20% chance to reflect hostile, single-target spells that would usually affect it, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area."
+			},
+			"advanced" : {
+				"description" : "{Advanced Magic Mirror}\n\nProtects the target allied unit and any allied units adjacent to the target with a magical reflective barrier. The affected units have a 30% chance to reflect hostile, single-target spells that would usually affect them, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area.",
+				"range" : "0,1"
+			},
+			"expert" : {
+				"description" : "{Expert Magic Mirror}\n\nProtects the target allied unit and any allied units within 2 hexes of the target with a magical reflective barrier. The affected units have a 40% chance to reflect hostile, single-target spells that would usually affect them, redirecting the effects to a random enemy unit. Also provides immunity to Hypnotize.\n\nDoes not protect against creature spells, mass spells, or spells that affect an area.",
+				"range" : "0,1,2"
+			}
+		}
+	},
 	"core:meteorShower" : {
 		"power" : 25,
 		"levels" : {
@@ -693,6 +711,9 @@
 					"smart" : true
 				},
 				"battleEffects" : {
+					"directDamage" : {
+						"type" : "damage"
+					},
 					"timed" : {
 						"type" : "core:timed",
 						"bonus" : {
@@ -830,76 +851,11 @@
 		}
 	},
 	"new-old-spells-plus:oh3Fear" : {
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : false,
-			"02darkSchool" : true
-		},
-		"graphics" : {
-			"iconBook" : "spells/fear/spellBook",
-			"iconScroll" : "spells/fear/spellScroll",
-			"iconScenarioBonus" : "spells/fear/spellBonus",
-			"iconEffect" : "spells/fear/spellEffect"
-		},
-		"levels" : {
-			"base" : {
-				"battleEffects" : {
-					"timed" : {
-						"type" : "core:timed",
-						"bonus#override" : {
-							"reduceDamage" : {
-								"type" : "CREATURE_DAMAGE",
-								"subtype" : "creatureDamageBoth",
-								"val" : -100,
-								"valueType" : "PERCENT_TO_ALL",
-								"duration" : [
-									"UNTIL_BEING_ATTACKED",
-									"N_TURNS"
-								],
-								"turns" : 3
-							},
-							"reduceSpeed" : {
-								"type" : "STACKS_SPEED",
-								"val" : -25,
-								"valueType" : "PERCENT_TO_BASE",
-								"duration" : [
-									"UNTIL_BEING_ATTACKED",
-									"N_TURNS"
-								],
-								"turns" : 3
-							},
-							"noAttack" : {
-								"type" : "ADDITIONAL_ATTACK",
-								"val" : -1,
-								"valueType" : "INDEPENDENT_MIN",
-								"duration" : [
-									"UNTIL_BEING_ATTACKED",
-									"N_TURNS"
-								],
-								"turns" : 3
-							}
-						}
-					}
-				}
-			},
-			"none" : {
-				"description" : "{Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move for 3 turns.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 25% until it is attacked or overcomes its fear.",
-				"cost" : 36
-			},
-			"basic" : {
-				"description" : "{Basic Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move for 3 turns.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 25% until it is attacked or overcomes its fear.",
-				"cost" : 32
-			},
-			"advanced" : {
-				"description" : "{Advanced Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move for 3 turns.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 50% until it is attacked or overcomes its fear.",
-				"cost" : 32
-			},
-			"expert" : {
-				"description" : "{Expert Fear}\n\nStrikes an enemy unit with such fear that it becomes unable to attack and nearly unable to move for 3 turns.\n\nTarget enemy unit cannot attack or retaliate and has its Speed reduced by 75% until it is attacked or overcomes its fear.",
-				"cost" : 32
-			}
+		"defaultGainChance#override" : 0,
+		"gainChance#override" : {},
+		"flags#override" : {
+			"negative" : true,
+			"special" : true
 		}
 	},
 	"new-old-spells-plus:levitation" : {

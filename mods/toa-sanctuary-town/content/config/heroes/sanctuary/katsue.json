@@ -1,0 +1,61 @@
+{
+	"55katsue" : {
+		"class" : "monkClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"cure"
+		],
+		"texts" : {
+			"name" : "Katsue",
+			"biography" : "Katsue is head-priestess of the temple of Banteki Reef. Long years of contemplative study have made her a cautious, patient individual who often counsels restrain and reflection when other urge action. Deeply committed to fortifying the pillars of Naga society - devotion to Shalassa, the Dragon of Water, respect to the Elders – Katsue places honour and duty above all other callings, and as such can make for a humourless, stick-in-the-mud companion.",
+			"specialty" : {
+				"name" : "Spring Spirits",
+				"tooltip" : "Creature Bonus: Spring Spirits",
+				"description" : "Increases the Speed of allied Spring Spirits and Mizu-kamis by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/katsue/portraitSmall.png",
+			"large" : "heroes/sanctuary/katsue/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Spring Spirits.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Spring Spirits.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "springSpiritAU",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "springSpiritAU",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "springSpiritAU",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"54yugen" : {
+		"class" : "monkClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"frostRing"
+		],
+		"texts" : {
+			"name" : "Yugen",
+			"biography" : "Yugen was trained to be a dancer in Nariya's imperial company, the Silk Waves. This all-Human troupe of over a hundred men and women performs twice a year, when the Eternal Empress leaves her immense palace beneath the oceans to visit her island provinces above the waters. The prestigious company was decimated by assassins for reasons that are still unkown. Yugen was one of only three survivors, and he became a priest of Shalassa to thank the Dragon Goddess of Water for his miraculous escape. The Eternal Empress still asks the surviving trio to perform for her once a year; these spectacles mark the only occasions Yugen still dances in public. It is said that his dance is so melancholic that even the Dragon Eels cry when he performs.",
+			"specialty" : {
+				"name" : "Water Paragon",
+				"tooltip" : "Secondary Skill Bonus: Water Magic",
+				"description" : "Increases the damage of Water Magic spells by 15 per level."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/yugen/portraitSmall.png",
+			"large" : "heroes/sanctuary/yugen/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Expert Water Magic.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Expert Water Magic.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "waterMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"waterMagicDamage" : {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "water",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 15
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

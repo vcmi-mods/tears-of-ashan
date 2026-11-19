@@ -958,6 +958,16 @@
 				"min" : 3,
 				"max" : 5
 			}
+		],
+		"skills#override" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "avenger",
+				"level" : "basic"
+			}
 		]
 	},
 	"core:elleshar" : {
@@ -4802,8 +4812,8 @@
 		"specialty#override" : {
 			"bonuses" : {
 				"magicArrow" : {
-					"subtype" : "spell.magicArrow",
 					"type" : "SPECIAL_SPELL_SCALING",
+					"subtype" : "spell.magicArrow",
 					"val" : 20
 				}
 			}
@@ -5074,7 +5084,7 @@
 	"hota.cove:05derek" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Crew Mates, Seamen, and Swashbucklers by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"description" : "Increases the Speed of allied Crew Mates, Privateers, and Swashbucklers by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
 				"name" : "Crew Mates",
 				"tooltip" : "Creature Bonus: Crew Mates"
 			}

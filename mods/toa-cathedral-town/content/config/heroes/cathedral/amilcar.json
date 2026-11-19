@@ -1,0 +1,61 @@
+{
+	"08amilcar" : {
+		"class" : "inquisitorClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"slayer"
+		],
+		"texts" : {
+			"name" : "Amilcar",
+			"biography" : "It would be easy to dismiss the proud Amilcar of Bull as a mere loudmouth, with more bark than bite. That's a mistake nobody does twice, as few have fought more wars than the aging Duke. He was barely a man when he took part to what was not yet known as the War of the Broken Staff, coming face-to-face with a Darkness that left his hair white and his nights sleepless. Unfortunately, his many qualities and keen tactical mind are too often eclipsed by his raucous and irritable nature.",
+			"specialty" : {
+				"name" : "Torturers",
+				"tooltip" : "Creature Bonus: Torturers",
+				"description" : "Increases the Speed of allied Torturers and Executioners by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/amilcar/portraitSmall.png",
+			"large" : "heroes/cathedral/amilcar/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Torturers.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Torturers.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "torturerAU",
+			"creatureLevel" : 2,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			}
+		]
+	}
+}

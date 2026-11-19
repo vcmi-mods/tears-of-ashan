@@ -1,0 +1,103 @@
+{
+	"inquisitorClass" : {
+		"name" : "Inquisitor",
+		"faction" : "cathedralTOA",
+		"affinity" : "might",
+		"defaultTavern" : 5,
+		"commander" : "undeadSlayerAU",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/inquisitor/FemaleCombat.def",
+				"male" : "classes/inquisitor/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/inquisitor/FemaleMap.def"
+					//"editorAnimation": "inquisitor/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/inquisitor/MaleMap.def"
+					//"editorAnimation": "inquisitor/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 1,
+			"spellpower" : 2,
+			"knowledge" : 1
+		},
+		"lowLevelChance" : {
+			"attack" : 30,
+			"defence" : 20,
+			"spellpower" : 30,
+			"knowledge" : 20
+		},
+		"highLevelChance" : {
+			"attack" : 25,
+			"defence" : 20,
+			"spellpower" : 30,
+			"knowledge" : 25
+		},
+		"secondarySkills" : {
+			"archery" : 6,
+			"armorer" : 6,
+			"artillery" : 4,
+			"ballistics" : 2,
+			"firstAid" : 4,
+			"interference" : 8,
+			"leadership" : 5,
+			"luck" : 4,
+			"offence" : 6,
+			"resistance" : 8,
+			"tactics" : 3,
+
+			"airMagic" : 4,
+			"earthMagic" : 5,
+			"fireMagic" : 5,
+			"waterMagic" : 2,
+			"lightMagic" : 6,
+			"darkMagic" : 5,
+			"eagleEye" : 2,
+			"intelligence" : 6,
+			"mysticism" : 4,
+			"necromancy" : 0,
+			"scholar" : 4,
+			"sorcery" : 6,
+			"wisdom" : 7,
+
+			"diplomacy" : 4,
+			"estates" : 6,
+			"learning" : 5,
+			"logistics" : 7,
+			"navigation" : 4,
+			"pathfinding" : 5,
+			"scouting" : 6
+		},
+		"tavern" : {
+			"castle" : 1,
+			"rampart" : 1,
+			"tower" : 1,
+			"inferno" : 6,
+			"necropolis" : 7,
+			"dungeon" : 6,
+			"stronghold" : 4,
+			"fortress" : 4,
+			"conflux" : 0,
+			"cove" : 3,
+			"factory" : 7,
+			"bulwark" : 1,
+			"cathedralTOA" : 10
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"stingerAU" : {
+		"name" : {
+			"singular" : "Stinger",
+			"plural" : "Stingers"
+		},
+		"faction" : "forgeTOA",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 10,
+		"shots" : 12,
+		"damage" : {
+			"min" : 10,
+			"max" : 14
+		},
+		"hitPoints" : 45,
+		"speed" : 5,
+		"growth" : 3,
+		"aiValue" : 825,
+		"fightValue" : 615,
+		"cost" : {
+			"gold" : 575
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"upgrades" : [
+			"bruiserAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl4.def",
+			"map" : "creatures/forge/map/lvl4.def",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"iconSmall" : "creatures/forge/iconsSmall/lvl4.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl4.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"projectile" : "creatures/forge/battle/projectile/lvl5shot.def",
+				"attackClimaxFrame" : 9,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "OGRMATTK.wav",
+			"shoot" : "creatures/stinger/shoot.wav",
+			"defend" : "OGRMDFND.wav",
+			"killed" : "OGRMKILL.wav",
+			"move" : "OGRMMOVE.wav",
+			"wince" : "OGRMWNCE.wav"
+		}
+	}
+}

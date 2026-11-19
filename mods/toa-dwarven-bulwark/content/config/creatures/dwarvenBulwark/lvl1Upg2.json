@@ -1,0 +1,74 @@
+{
+	"mountainGuardAU" : {
+		"name" : {
+			"singular" : "Mountain Guard",
+			"plural" : "Mountain Guards"
+		},
+		"faction" : "bulwark",
+		"level" : 1,
+		"attack" : 3,
+		"defense" : 7,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
+		"hitPoints" : 12,
+		"speed" : 5,
+		"growth" : 14,
+		"aiValue" : 105,
+		"fightValue" : 105,
+		"cost" : {
+			"gold" : 65
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"upgrades" : [
+			"shieldguardAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"cavalryChargeImmunity" : {
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"rangedDamageReduction" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 50
+			},
+			"meleeDamageReduction" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 25
+			},
+			"disruptingRayImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "disruptingRay"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl1Alt.json",
+			"map" : "creatures/dwarvenBulwark/map/lvl1Up.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl1Alt.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl1Alt.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/mountainGuard/attack",
+			"defend" : "creatures/mountainGuard/hit",
+			"killed" : "creatures/mountainGuard/death",
+			"move" : "creatures/mountainGuard/move",
+			"wince" : "creatures/mountainGuard/hit"
+		}
+	}
+}

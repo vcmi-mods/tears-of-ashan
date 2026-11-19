@@ -1,0 +1,61 @@
+{
+	"01vilma" : {
+		"class" : "jarl",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"shield"
+		],
+		"texts" : {
+			"name" : "Vilma",
+			"biography" : "Shieldmaidens are a special caste among Dwarven women. If a woman decides to become a Shieldmaiden, she forfeits her right to marry and bear children, and severs her blood bonds to family and clan. Instead, she becomes an impartial protector for the community as a whole, often acting as constable and lawkeeper. Though born in Tor-Lindhath, Vilma \"Stoneshield\" Bjornsdottir is the Shieldmaiden of the southern city of Sudgerd. But there are increasingly frequent times when she finds the loneliness of her function intolerable.",
+			"specialty" : {
+				"name" : "Defenders",
+				"tooltip" : "Creature Bonus: Defenders",
+				"description" : "Increases the Speed of allied Defenders, Shieldguards, and Mountain Guards by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/vilma/portraitSmall.png",
+			"large" : "heroes/bulwark/vilma/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Jotunns.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Jotunns.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "defenderAU",
+			"creatureLevel" : 1,
+			"stepSize" : 10
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			}
+		]
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"bearRoar" : {
+		"name" : "Bear Roar",
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"level" : 2,
+		"power" : 0,
+
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"flags" : {
+			"negative" : true,
+			"nonMagical" : true,
+			"special" : true
+		},
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {
+				"core:bonus.NON_LIVING" : "normal",
+				"core:bonus.GARGOYLE" : "normal",
+				"core:bonus.MECHANICAL" : "normal",
+				"core:bonus.FEARFUL" : "normal",
+				"core:bonus.UNDEAD" : "normal"
+			}
+		},
+
+		"graphics" : {
+			"iconEffect" : "spells/bearRoar/spellEffect.png"
+		},
+
+		"animation" : {
+			"hit" : [
+				"C0fear"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "FEAR"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "{Bear Roar}\n\nSubjects the target to a fearsome bellow, giving them a 15% chance to skip their turn for the next 3 turns. Does not affect undead or non-living units.",
+				"cost" : 0,
+				"range" : "0",
+				"power" : 0,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"debuff" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"retaliationBonus" : {
+								"type" : "FEARFUL",
+								"val" : 15,
+								"duration" : "N_TURNS",
+								"turns" : 3
+							}
+						}
+					}
+				}
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
+		}
+	}
+}
