@@ -58,7 +58,7 @@
 
 	"heroes" : [
 		"config/heroes/bulwarkHeroChanges.json",
-		
+
 		"config/heroes/bulwark/aslaug.json",
 		"config/heroes/bulwark/brigid.json",
 		"config/heroes/bulwark/fredrik.json",
@@ -104,7 +104,7 @@
 	"objects" : [
 		"config/dwellings.json"
 	],
-	
+
 	"scripts" : [
 		"config/crownworkScriptBindings.json"
 	]
