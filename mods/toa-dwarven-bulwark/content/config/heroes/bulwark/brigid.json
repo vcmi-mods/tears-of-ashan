@@ -10,17 +10,17 @@
 			"name" : "Brigid",
 			"biography" : "Brigid was once a Dwarven Rune priestess, one of the rare women to occupy such a function. But that was before King Hathor reinforced his grip on the clergy of Arkath and exiled—or worse—all those who didn't share his vision of a stronger, fiercer Grimheim. Brigid was content to start a new life in the distant Agyn Peninsula, watching over a small community of goat farmers near the free port of Seahaven. But fate was not done with her yet, and she was one of the unfortunate Dwarves abducted and experimented upon by the mad Wizard, Dagar.",
 			"specialty" : {
-				"name" : "Gems",
-				"tooltip" : "Resource Bonus: Gems",
-				"description" : "Increases kingdom's gem production by 1 for every 4 levels per day."
+				"name" : "Crystal",
+				"tooltip" : "Resource Bonus: Crystal",
+				"description" : "Increases kingdom's crystal production by 1 for every 4 levels per day."
 			}
 		},
 
 		"images" : {
 			"small" : "heroes/bulwark/brigid/portraitSmall.png",
 			"large" : "heroes/bulwark/brigid/portraitLarge.png",
-			"specialtySmall" : "heroes/specialtySmall/Gems.png",
-			"specialtyLarge" : "heroes/specialtyLarge/Gems.png"
+			"specialtySmall" : "heroes/specialtySmall/Crystal.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Crystal.png"
 		},
 
 		"skills" : [
