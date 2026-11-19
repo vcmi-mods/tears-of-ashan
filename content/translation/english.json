@@ -999,7 +999,7 @@
 	"creatures.tears-of-ashan.toa-cathedral-town.punisherAU.bonus.castsWeakness" : "{Cast After Attack}\nHas a 15% chance to cast Advanced Weakness after attacking (6 Power).",
 	"creatures.tears-of-ashan.toa-cathedral-town.punisherAU.name.plural" : "Punishers",
 	"creatures.tears-of-ashan.toa-cathedral-town.punisherAU.name.singular" : "Punisher",
-	"creatures.tears-of-ashan.toa-cathedral-town.torturerAU.bonus.bloodlust" : "{Enchanted}\nPermanently affected by Advanced Bloodlust.",
+	"creatures.tears-of-ashan.toa-cathedral-town.torturerAU.bonus.bloodlust" : "{Enchanted}\nPermanently affected by Basic Bloodlust.",
 	"creatures.tears-of-ashan.toa-cathedral-town.torturerAU.name.plural" : "Torturers",
 	"creatures.tears-of-ashan.toa-cathedral-town.torturerAU.name.singular" : "Torturer",
 	"creatures.tears-of-ashan.toa-cathedral-town.undeadSlayerAU.bonus.hatesDemonic" : "{Hates Demons}\nDeals 50% increased damage to Demonic units.",
