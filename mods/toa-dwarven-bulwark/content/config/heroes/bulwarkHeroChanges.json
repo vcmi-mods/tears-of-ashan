@@ -1,5 +1,6 @@
 {
 	"hota.bulwark:01dhuin" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -19,6 +20,7 @@
 		]
 	},
 	"hota.bulwark:02oidana" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -38,6 +40,7 @@
 		]
 	},
 	"hota.bulwark:03neia" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -57,6 +60,7 @@
 		]
 	},
 	"hota.bulwark:04eikthurn" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "spearwielderAU",
@@ -76,6 +80,7 @@
 		]
 	},
 	"hota.bulwark:05creyle" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -95,6 +100,7 @@
 		]
 	},
 	"hota.bulwark:06spadum" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -114,6 +120,7 @@
 		]
 	},
 	"hota.bulwark:07kynr" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -133,6 +140,7 @@
 		]
 	},
 	"hota.bulwark:08ergon" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -152,6 +160,7 @@
 		]
 	},
 	"hota.bulwark:09kriv" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -171,6 +180,7 @@
 		]
 	},
 	"hota.bulwark:10glacius" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -190,6 +200,7 @@
 		]
 	},
 	"hota.bulwark:11sial" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -209,6 +220,7 @@
 		]
 	},
 	"hota.bulwark:12dalton" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -228,6 +240,7 @@
 		]
 	},
 	"hota.bulwark:13biarma" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -247,6 +260,7 @@
 		]
 	},
 	"hota.bulwark:14akka" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -266,6 +280,7 @@
 		]
 	},
 	"hota.bulwark:15vehr" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -285,6 +300,7 @@
 		]
 	},
 	"hota.bulwark:16allora" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -304,6 +320,7 @@
 		]
 	},
 	"hota.bulwark:17haugir" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",
@@ -324,178 +341,7 @@
 	},
 
 	"tears-of-ashan:01hrimnir" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "spearwielderAU",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-
-	"tears-of-ashan:81inga" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "spearwielderAU",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-	"tears-of-ashan:82helmar" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "spearwielderAU",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-	"tears-of-ashan:83svea" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "ballista",
-				"min" : 1,
-				"max" : 1
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-	"tears-of-ashan:84tolghar" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "spearwielderAU",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-	"tears-of-ashan:85ebba" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "spearwielderAU",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-	"tears-of-ashan:86rolf" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "spearwielderAU",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-	"tears-of-ashan:87hedwig" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "spearwielderAU",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-	"tears-of-ashan:88haegeir" : {
-		"army#override" : [
-			{
-				"creature" : "defenderAU",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "spearwielderAU",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "bearRiderAU",
-				"min" : 3,
-				"max" : 5
-			}
-		]
-	},
-	"tears-of-ashan:89aslaug" : {
+		"special" : true,
 		"army#override" : [
 			{
 				"creature" : "defenderAU",

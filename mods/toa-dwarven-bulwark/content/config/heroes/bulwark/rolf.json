@@ -1,14 +1,14 @@
 {
-	"85ebba" : {
+	"56rolf" : {
 		"class" : "runemage",
-		"female" : true,
+		"female" : false,
 		"special" : false,
 		"spellbook" : [
 			"bloodlust"
 		],
 		"texts" : {
-			"name" : "Ebba",
-			"biography" : "Among the Dwarves' most amazing heroines stands Ebba, small and ruthless, who was brought up by a family of bears. When she first appeared among them, few recognised that this nubbin of feral frenzy was in fact a Dwarf. But Ebba soon gained prestige and even the loyalty and adoration of those stern warriors of the North, the Bear Riders.",
+			"name" : "Rolf",
+			"biography" : "Rolf is as at ease in the court as he is in the saddle. He is an accomplished courtier and certainly an adequate, if not outstanding, fighter. He is an important member of the clan, but is too politically astute to let the concerns of the outside get in the way of his political career. To be blunt: Rolf wants to be king. To do this he must prove his worth to all of the six clans who will select Tolghar's heir. As such, he is entirely content that his dangerously competent half-brother Wulfstan is not around to mess up his plans.",
 			"specialty" : {
 				"name" : "Runes of Might",
 				"tooltip" : "Creature Bonus: Runes of Might",
@@ -17,8 +17,8 @@
 		},
 
 		"images" : {
-			"small" : "heroes/bulwark/ebba/portraitSmall.png",
-			"large" : "heroes/bulwark/ebba/portraitLarge.png",
+			"small" : "heroes/bulwark/rolf/portraitSmall.png",
+			"large" : "heroes/bulwark/rolf/portraitLarge.png",
 			"specialtySmall" : "heroes/specialtySmall/Runes of Might.png",
 			"specialtyLarge" : "heroes/specialtyLarge/Runes of Might.png"
 		},
@@ -158,17 +158,17 @@
 
 		"army" : [
 			{
-				"creature" : "kobold",
+				"creature" : "defenderAU",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "mountainRam",
+				"creature" : "spearwielderAU",
 				"min" : 6,
 				"max" : 8
 			},
 			{
-				"creature" : "snowElf",
+				"creature" : "bearRiderAU",
 				"min" : 3,
 				"max" : 5
 			}

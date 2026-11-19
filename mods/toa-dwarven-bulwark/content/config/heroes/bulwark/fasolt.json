@@ -1,14 +1,14 @@
 {
-	"86rolf" : {
-		"class" : "runemage",
+	"58fasolt" : {
+		"class" : "jarl",
 		"female" : false,
 		"special" : false,
 		"spellbook" : [
-			"visions"
+			"mirth"
 		],
 		"texts" : {
-			"name" : "Rolf",
-			"biography" : "Rolf is as at ease in the court as he is in the saddle. He is an accomplished courtier and certainly an adequate, if not outstanding, fighter. He is an important member of the clan, but is too politically astute to let the concerns of the outside get in the way of his political career. To be blunt: Rolf wants to be king. To do this he must prove his worth to all of the six clans who will select Tolghar's heir. As such, he is entirely content that his dangerously competent half-brother Wulfstan is not around to mess up his plans.",
+			"name" : "Fasolt",
+			"biography" : "Already a veteran politician of the Hearthguard clan, Fasolt Sigurdsson was bestowed the Iron Crown by the elders of the six Dwarven clans during a time of peace, when Grimheim had little to no relations with the other nations of Ashan besides the occasional trade agreement. As long as the peace lasted, Fasolt \"Goldentongue\" was considered a good, if unremarkable, ruler. But when the War under the Mountains started, he failed to also prove himself a leader of men. Many Dwarves, especially those directly affected by the Dark Elf threat, started to resent Fasolt's lack of military acumen and perceived inability to take any kind of meaningful decision.",
 			"specialty" : {
 				"name" : "Runic Attunement",
 				"tooltip" : "Creature Bonus: Runic Attunement",
@@ -17,8 +17,8 @@
 		},
 
 		"images" : {
-			"small" : "heroes/bulwark/rolf/portraitSmall.png",
-			"large" : "heroes/bulwark/rolf/portraitLarge.png",
+			"small" : "heroes/bulwark/fasolt/portraitSmall.png",
+			"large" : "heroes/bulwark/fasolt/portraitLarge.png",
 			"specialtySmall" : "heroes/specialtySmall/Runic Attunement.png",
 			"specialtyLarge" : "heroes/specialtyLarge/Runic Attunement.png"
 		},
@@ -239,17 +239,17 @@
 
 		"army" : [
 			{
-				"creature" : "kobold",
+				"creature" : "defenderAU",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "mountainRam",
+				"creature" : "spearwielderAU",
 				"min" : 6,
 				"max" : 8
 			},
 			{
-				"creature" : "snowElf",
+				"creature" : "bearRiderAU",
 				"min" : 3,
 				"max" : 5
 			}

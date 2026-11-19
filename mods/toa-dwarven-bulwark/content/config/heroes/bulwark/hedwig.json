@@ -1,10 +1,10 @@
 {
-	"87hedwig" : {
+	"55hedwig" : {
 		"class" : "runemage",
 		"female" : true,
 		"special" : false,
 		"spellbook" : [
-			"shield"
+			"celestialArmor"
 		],
 		"texts" : {
 			"name" : "Hedwig",
@@ -158,17 +158,17 @@
 
 		"army" : [
 			{
-				"creature" : "kobold",
+				"creature" : "defenderAU",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "mountainRam",
+				"creature" : "spearwielderAU",
 				"min" : 6,
 				"max" : 8
 			},
 			{
-				"creature" : "snowElf",
+				"creature" : "bearRiderAU",
 				"min" : 3,
 				"max" : 5
 			}

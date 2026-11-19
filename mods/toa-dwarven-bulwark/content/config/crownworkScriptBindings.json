@@ -3,28 +3,28 @@
 		"implements" : "combatEvent",
 		"script" : "liquidFlameBreath.lua",
 		"patches" : [],
-		"schema" : {
-			"required" : [
-				"messageSingular",
-				"messagePlural"
-			],
-			"properties" : {
-				"messageSingular" : {
-					"type" : "string"
-				},
-				"messagePlural" : {
-					"type" : "string"
-				},
-				"turnsRemaining" : {
-					"type" : "integer"
-				}
-			},
-			"additionalProperties" : false
-		},
-		"stringRegistrations" : [
-			"messageSingular",
-			"messagePlural"
-		],
+		"schema": {
+            "required": [
+                "messageSingular",
+                "messagePlural"
+            ],
+            "properties": {
+                "messageSingular": {
+                    "type": "string"
+                },
+                "messagePlural": {
+                    "type": "string"
+                },
+                "turnsRemaining": {
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false
+        },
+		"stringRegistrations": [
+            "messageSingular",
+            "messagePlural"
+        ],
 		"priority" : 100,
 		"description" : "{Liquid Flame Breath}\n\nLeaves patches of liquid fire on the battlefield."
 	}

@@ -65,7 +65,7 @@
 				"val" : 100,
 				"description" : "{Liquid Flame Breath}\nSpews liquid flames over the enemy unit after attacking (25 Damage per Lava Dragon).",
 				"icon" : "zvs/Lib1.res/e_breath.png",
-				"addInfo" : {
+				"addInfo" : { 
 					"messageSingular" : "The %s spews liquid flames over the battlefield.",
 					"messagePlural" : "The %s spew liquid flames over the battlefield."
 				}

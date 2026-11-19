@@ -5,8 +5,7 @@
 			"might" : 0,
 			"magic" : 0,
 			"chieftain" : 6,
-			"elder" : 8,
-			"runemage" : 10
+			"elder" : 8
 		},
 		"specialty" : [],
 		"base" : {

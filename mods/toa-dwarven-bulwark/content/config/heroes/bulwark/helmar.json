@@ -1,5 +1,5 @@
 {
-	"82helmar" : {
+	"52helmar" : {
 		"class" : "runemage",
 		"female" : false,
 		"special" : false,
@@ -8,7 +8,7 @@
 		],
 		"texts" : {
 			"name" : "Helmar",
-			"biography" : "Helmar began his miitary career as a fighting Rune Priest and was prominent among his brother soldiers for his austerity, his asceticism and his fanatical hatred of his enemies. Helmar's superiors soon took note and began to entrust him with the command of small units. Helmar learned how to spread his rage to his warriors, and is now famed as a Warlord whose troops are fierce and merciless in battle.",
+			"biography" : "Helmar began his military career as a fighting Rune Priest and was prominent among his brother soldiers for his austerity, his asceticism and his fanatical hatred of his enemies. Helmar's superiors soon took note and began to entrust him with the command of small units. Helmar learned how to spread his rage to his warriors, and is now famed as a Warlord whose troops are fierce and merciless in battle.",
 			"specialty" : {
 				"name" : "Divine Strength",
 				"tooltip" : "Spell Bonus: Divine Strength",
@@ -53,17 +53,17 @@
 
 		"army" : [
 			{
-				"creature" : "kobold",
+				"creature" : "defenderAU",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "mountainRam",
+				"creature" : "spearwielderAU",
 				"min" : 6,
 				"max" : 8
 			},
 			{
-				"creature" : "snowElf",
+				"creature" : "bearRiderAU",
 				"min" : 3,
 				"max" : 5
 			}

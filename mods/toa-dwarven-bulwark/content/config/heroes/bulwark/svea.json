@@ -1,5 +1,5 @@
 {
-	"83svea" : {
+	"53svea" : {
 		"class" : "runemage",
 		"female" : true,
 		"special" : false,
@@ -11,7 +11,7 @@
 			"biography" : "Svea spent her youth in the towns of the Silver League as part of the Dwarves' small embassy in the land of the Wizards. But while other Dwarves, depressed by their stay in the foreign country, were giving way to homesickness, Svea spent her time studying all the mysteries of the League's magical art. The outcome of her studies was the mastery—unusual for a Dwarf—of Lightning Magic.",
 			"specialty" : {
 				"name" : "Stormcaller",
-				"tooltip" : "Creature Bonus: Stormcaller",
+				"tooltip" : "Rune Bonus: Stormcaller",
 				"description" : "The Ballista fires bolts imbued with specialised Runes that call down a lightning strike on impact. Basic Lightning Bolt is cast with Power equal to the hero's level after every shot."
 			}
 		},
@@ -67,17 +67,17 @@
 
 		"army" : [
 			{
-				"creature" : "kobold",
+				"creature" : "defenderAU",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "ballista",
-				"min" : 1,
-				"max" : 1
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
 			},
 			{
-				"creature" : "snowElf",
+				"creature" : "bearRiderAU",
 				"min" : 3,
 				"max" : 5
 			}
