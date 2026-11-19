@@ -38,7 +38,7 @@
 			"bonuses" : {
 				"gems" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.gems",
+					"subtype" : "resource.crystal",
 					"val" : 1,
 					"updater" : {
 						"type" : "TIMES_HERO_LEVEL",
