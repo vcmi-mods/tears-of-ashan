@@ -20,7 +20,7 @@
 			"damage" : true,
 			"indifferent" : true,
 			"nonMagical" : true,
-			"special": true
+			"special" : true
 		},
 
 		"targetCondition" : {},

@@ -17,10 +17,10 @@
 		"gainChance" : {},
 
 		"flags" : {
-			"damage": true,
-			"negative": true,
+			"damage" : true,
+			"negative" : true,
 			"nonMagical" : true,
-			"special": true
+			"special" : true
 		},
 
 		"targetCondition" : {},
@@ -38,7 +38,7 @@
 				},
 				"battleEffects" : {
 					"directDamage" : {
-						"type":"damage"
+						"type" : "damage"
 					}
 				}
 			},

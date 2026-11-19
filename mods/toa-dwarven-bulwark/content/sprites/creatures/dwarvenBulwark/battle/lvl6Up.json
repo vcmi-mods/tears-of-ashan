@@ -1,740 +1,740 @@
 {
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "CDTAH01.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "CDTAH02.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "CDTAH03.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "CDTAH04.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "CDTAH05.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "CDTAH06.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "CDTAH07.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "CDTAH08.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "CDTAH09.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 9,
-            "file": "CDTAH10.uwm.png"
-        },
-        {
-            "group": 0,
-            "frame": 10,
-            "file": "CDTAH11.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 0,
-            "file": "CDTAH01.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 1,
-            "file": "CDTAH02.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 2,
-            "file": "CDTAH03.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 3,
-            "file": "CDTAH04.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 4,
-            "file": "CDTAH05.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 5,
-            "file": "CDTAH06.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 6,
-            "file": "CDTAH07.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 7,
-            "file": "CDTAH08.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 8,
-            "file": "CDTAH09.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 9,
-            "file": "CDTAH10.uwm.png"
-        },
-        {
-            "group": 1,
-            "frame": 10,
-            "file": "CDTAH11.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 0,
-            "file": "CDTAH01.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 1,
-            "file": "CDTAH02.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 2,
-            "file": "CDTAH03.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 3,
-            "file": "CDTAH04.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 4,
-            "file": "CDTAH05.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 5,
-            "file": "CDTAH06.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 6,
-            "file": "CDTAH07.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 7,
-            "file": "CDTAH08.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 8,
-            "file": "CDTAH09.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 9,
-            "file": "CDTAH10.uwm.png"
-        },
-        {
-            "group": 2,
-            "frame": 10,
-            "file": "CDTAH11.uwm.png"
-        },
-        {
-            "group": 3,
-            "frame": 0,
-            "file": "CDTAH09.uwm.png"
-        },
-        {
-            "group": 3,
-            "frame": 1,
-            "file": "CDTAH12.uwm.png"
-        },
-        {
-            "group": 3,
-            "frame": 2,
-            "file": "CDTAH16.uwm.png"
-        },
-        {
-            "group": 3,
-            "frame": 3,
-            "file": "CDTAH13.uwm.png"
-        },
-        {
-            "group": 3,
-            "frame": 4,
-            "file": "CDTAH14.uwm.png"
-        },
-        {
-            "group": 3,
-            "frame": 5,
-            "file": "CDTAH08.uwm.png"
-        },
-        {
-            "group": 4,
-            "frame": 0,
-            "file": "CDTAH09.uwm.png"
-        },
-        {
-            "group": 4,
-            "frame": 1,
-            "file": "CDTAH12.uwm.png"
-        },
-        {
-            "group": 4,
-            "frame": 2,
-            "file": "CDTAH16.uwm.png"
-        },
-        {
-            "group": 4,
-            "frame": 3,
-            "file": "CDTAH13.uwm.png"
-        },
-        {
-            "group": 4,
-            "frame": 4,
-            "file": "CDTAH14.uwm.png"
-        },
-        {
-            "group": 4,
-            "frame": 5,
-            "file": "CDTAH08.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 0,
-            "file": "CDTAH13.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 1,
-            "file": "CDTAH28.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 2,
-            "file": "CDTAH29.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 3,
-            "file": "CDTAH30.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 4,
-            "file": "CDTAH31.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 5,
-            "file": "CDTAH32.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 6,
-            "file": "CDTAH33.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 7,
-            "file": "CDTAH34.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 8,
-            "file": "CDTAH38.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 9,
-            "file": "CDTAH39.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 10,
-            "file": "CDTAH40.uwm.png"
-        },
-        {
-            "group": 5,
-            "frame": 11,
-            "file": "CDTAH41.uwm.png"
-        },
-        {
-            "group": 7,
-            "frame": 0,
-            "file": "CDTAH48.uwm.png"
-        },
-        {
-            "group": 7,
-            "frame": 1,
-            "file": "CDTAH49.uwm.png"
-        },
-        {
-            "group": 8,
-            "frame": 0,
-            "file": "CDTAH49.uwm.png"
-        },
-        {
-            "group": 8,
-            "frame": 1,
-            "file": "CDTAH48.uwm.png"
-        },
-        {
-            "group": 9,
-            "frame": 0,
-            "file": "CDTAH48.uwm.png"
-        },
-        {
-            "group": 9,
-            "frame": 1,
-            "file": "CDTAH49.uwm.png"
-        },
-        {
-            "group": 10,
-            "frame": 0,
-            "file": "CDTAH49.uwm.png"
-        },
-        {
-            "group": 10,
-            "frame": 1,
-            "file": "CDTAH48.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 0,
-            "file": "CDTAH01.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 1,
-            "file": "CDTAH17.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 2,
-            "file": "CDTAH19.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 3,
-            "file": "CDTAH20.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 4,
-            "file": "CDTAH21.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 5,
-            "file": "CDTAH22.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 6,
-            "file": "CDTAH23.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 7,
-            "file": "CDTAH24.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 8,
-            "file": "CDTAH25.uwm.png"
-        },
-        {
-            "group": 11,
-            "frame": 9,
-            "file": "CDTAH06.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 0,
-            "file": "CDTAH01.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 1,
-            "file": "CDTAH17.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 2,
-            "file": "CDTAH19.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 3,
-            "file": "CDTAH20.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 4,
-            "file": "CDTAH50.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 5,
-            "file": "CDTAH51.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 6,
-            "file": "CDTAH52.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 7,
-            "file": "CDTAH53.uwm.png"
-        },
-        {
-            "group": 12,
-            "frame": 8,
-            "file": "CDTAH54.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 0,
-            "file": "CDTAH01.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 1,
-            "file": "CDTAH17.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 2,
-            "file": "CDTAH18.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 3,
-            "file": "CDTAH20.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 4,
-            "file": "CDTAH50.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 5,
-            "file": "CDTAH51.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 6,
-            "file": "CDTAH52.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 7,
-            "file": "CDTAH53.uwm.png"
-        },
-        {
-            "group": 13,
-            "frame": 8,
-            "file": "CDTAH54.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 0,
-            "file": "CDTAH08.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 1,
-            "file": "CDTAH26.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 2,
-            "file": "CDTAH27.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 3,
-            "file": "CDTAH28.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 4,
-            "file": "CDTAH20.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 5,
-            "file": "CDTAH50.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 6,
-            "file": "CDTAH51.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 7,
-            "file": "CDTAH52.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 8,
-            "file": "CDTAH53.uwm.png"
-        },
-        {
-            "group": 17,
-            "frame": 9,
-            "file": "CDTAH54.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 0,
-            "file": "CDTAH08.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 1,
-            "file": "CDTAH26.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 2,
-            "file": "CDTAH27.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 3,
-            "file": "CDTAH28.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 4,
-            "file": "CDTAH20.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 5,
-            "file": "CDTAH50.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 6,
-            "file": "CDTAH51.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 7,
-            "file": "CDTAH52.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 8,
-            "file": "CDTAH53.uwm.png"
-        },
-        {
-            "group": 18,
-            "frame": 9,
-            "file": "CDTAH54.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 0,
-            "file": "CDTAH08.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 1,
-            "file": "CDTAH26.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 2,
-            "file": "CDTAH27.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 3,
-            "file": "CDTAH28.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 4,
-            "file": "CDTAH20.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 5,
-            "file": "CDTAH50.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 6,
-            "file": "CDTAH51.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 7,
-            "file": "CDTAH52.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 8,
-            "file": "CDTAH53.uwm.png"
-        },
-        {
-            "group": 19,
-            "frame": 9,
-            "file": "CDTAH54.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 0,
-            "file": "CDTAH26.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 1,
-            "file": "CDTAH27.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 2,
-            "file": "CDTAH28.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 3,
-            "file": "CDTAH29.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 4,
-            "file": "CDTAH30.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 5,
-            "file": "CDTAH31.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 6,
-            "file": "CDTAH32.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 7,
-            "file": "CDTAH33.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 8,
-            "file": "CDTAH34.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 9,
-            "file": "CDTAH35.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 10,
-            "file": "CDTAH36.uwm.png"
-        },
-        {
-            "group": 20,
-            "frame": 11,
-            "file": "CDTAH37.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 0,
-            "file": "CDTAH37.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 1,
-            "file": "CDTAH36.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 2,
-            "file": "CDTAH35.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 3,
-            "file": "CDTAH34.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 4,
-            "file": "CDTAH33.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 5,
-            "file": "CDTAH32.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 6,
-            "file": "CDTAH31.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 7,
-            "file": "CDTAH30.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 8,
-            "file": "CDTAH29.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 9,
-            "file": "CDTAH28.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 10,
-            "file": "CDTAH27.uwm.png"
-        },
-        {
-            "group": 21,
-            "frame": 11,
-            "file": "CDTAH26.uwm.png"
-        }
-    ],
-    "basepath" : "creatures/dwarvenBulwark/battle/lvl6Up/"
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "CDTAH01.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "CDTAH02.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "CDTAH03.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "CDTAH04.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "CDTAH05.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "CDTAH06.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "CDTAH07.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "CDTAH08.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "CDTAH09.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "CDTAH10.uwm.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "CDTAH11.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "CDTAH01.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "CDTAH02.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "CDTAH03.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "CDTAH04.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "CDTAH05.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "CDTAH06.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "CDTAH07.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "CDTAH08.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "CDTAH09.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 9,
+			"file" : "CDTAH10.uwm.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 10,
+			"file" : "CDTAH11.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "CDTAH01.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "CDTAH02.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "CDTAH03.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "CDTAH04.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "CDTAH05.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "CDTAH06.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 6,
+			"file" : "CDTAH07.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 7,
+			"file" : "CDTAH08.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 8,
+			"file" : "CDTAH09.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 9,
+			"file" : "CDTAH10.uwm.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 10,
+			"file" : "CDTAH11.uwm.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "CDTAH09.uwm.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "CDTAH12.uwm.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "CDTAH16.uwm.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "CDTAH13.uwm.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "CDTAH14.uwm.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "CDTAH08.uwm.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "CDTAH09.uwm.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "CDTAH12.uwm.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "CDTAH16.uwm.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "CDTAH13.uwm.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "CDTAH14.uwm.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 5,
+			"file" : "CDTAH08.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "CDTAH13.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "CDTAH28.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "CDTAH29.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "CDTAH30.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "CDTAH31.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "CDTAH32.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "CDTAH33.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 7,
+			"file" : "CDTAH34.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 8,
+			"file" : "CDTAH38.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 9,
+			"file" : "CDTAH39.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 10,
+			"file" : "CDTAH40.uwm.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 11,
+			"file" : "CDTAH41.uwm.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "CDTAH48.uwm.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "CDTAH49.uwm.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "CDTAH49.uwm.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "CDTAH48.uwm.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "CDTAH48.uwm.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "CDTAH49.uwm.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "CDTAH49.uwm.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "CDTAH48.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "CDTAH01.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "CDTAH17.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "CDTAH19.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "CDTAH20.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "CDTAH21.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "CDTAH22.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 6,
+			"file" : "CDTAH23.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 7,
+			"file" : "CDTAH24.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 8,
+			"file" : "CDTAH25.uwm.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 9,
+			"file" : "CDTAH06.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "CDTAH01.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "CDTAH17.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "CDTAH19.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "CDTAH20.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "CDTAH50.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "CDTAH51.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "CDTAH52.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 7,
+			"file" : "CDTAH53.uwm.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 8,
+			"file" : "CDTAH54.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "CDTAH01.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "CDTAH17.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "CDTAH18.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "CDTAH20.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "CDTAH50.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 5,
+			"file" : "CDTAH51.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 6,
+			"file" : "CDTAH52.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 7,
+			"file" : "CDTAH53.uwm.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 8,
+			"file" : "CDTAH54.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 0,
+			"file" : "CDTAH08.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 1,
+			"file" : "CDTAH26.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 2,
+			"file" : "CDTAH27.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 3,
+			"file" : "CDTAH28.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 4,
+			"file" : "CDTAH20.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 5,
+			"file" : "CDTAH50.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 6,
+			"file" : "CDTAH51.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 7,
+			"file" : "CDTAH52.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 8,
+			"file" : "CDTAH53.uwm.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 9,
+			"file" : "CDTAH54.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 0,
+			"file" : "CDTAH08.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 1,
+			"file" : "CDTAH26.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 2,
+			"file" : "CDTAH27.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 3,
+			"file" : "CDTAH28.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 4,
+			"file" : "CDTAH20.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 5,
+			"file" : "CDTAH50.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 6,
+			"file" : "CDTAH51.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 7,
+			"file" : "CDTAH52.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 8,
+			"file" : "CDTAH53.uwm.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 9,
+			"file" : "CDTAH54.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 0,
+			"file" : "CDTAH08.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 1,
+			"file" : "CDTAH26.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 2,
+			"file" : "CDTAH27.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 3,
+			"file" : "CDTAH28.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 4,
+			"file" : "CDTAH20.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 5,
+			"file" : "CDTAH50.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 6,
+			"file" : "CDTAH51.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 7,
+			"file" : "CDTAH52.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 8,
+			"file" : "CDTAH53.uwm.png"
+		},
+		{
+			"group" : 19,
+			"frame" : 9,
+			"file" : "CDTAH54.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 0,
+			"file" : "CDTAH26.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 1,
+			"file" : "CDTAH27.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 2,
+			"file" : "CDTAH28.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 3,
+			"file" : "CDTAH29.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 4,
+			"file" : "CDTAH30.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 5,
+			"file" : "CDTAH31.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 6,
+			"file" : "CDTAH32.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 7,
+			"file" : "CDTAH33.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 8,
+			"file" : "CDTAH34.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 9,
+			"file" : "CDTAH35.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 10,
+			"file" : "CDTAH36.uwm.png"
+		},
+		{
+			"group" : 20,
+			"frame" : 11,
+			"file" : "CDTAH37.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 0,
+			"file" : "CDTAH37.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 1,
+			"file" : "CDTAH36.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 2,
+			"file" : "CDTAH35.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 3,
+			"file" : "CDTAH34.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 4,
+			"file" : "CDTAH33.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 5,
+			"file" : "CDTAH32.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 6,
+			"file" : "CDTAH31.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 7,
+			"file" : "CDTAH30.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 8,
+			"file" : "CDTAH29.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 9,
+			"file" : "CDTAH28.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 10,
+			"file" : "CDTAH27.uwm.png"
+		},
+		{
+			"group" : 21,
+			"frame" : 11,
+			"file" : "CDTAH26.uwm.png"
+		}
+	],
+	"basepath" : "creatures/dwarvenBulwark/battle/lvl6Up/"
 }
