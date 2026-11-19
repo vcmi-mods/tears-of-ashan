@@ -37,7 +37,7 @@
 					"spell" : "bloodlust"
 				},
 				"val" : 1,
-				"description" : "{Enchanted}\nPermanently affected by Advanced Bloodlust.",
+				"description" : "{Enchanted}\nPermanently affected by Basic Bloodlust.",
 				"icon" : "zvs/Lib1.res/spellsSOD/bloodlust1.png"
 			}
 		},
