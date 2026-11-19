@@ -38,6 +38,7 @@
 			"Added Godric (Knight, Paragon Knight specialist)",
 			"Added Markus (Knight, Revenge specialist)",
 			"Uland Basic Wisdom & Basic Ballistics → Basic Wisdom & Basic Avenger",
+			"Moved all Runemages into the Crownwork submod; Runelore remains part of Tears of Ashan",
 			"Magic Mirror affects a greater radius with Air Magic proficiency",
 			"Altered the effects of the Fear spell",
 			"New Old Spells version of Fear has been disabled to avoid configuration and formatting issues",
@@ -602,7 +603,6 @@
 		"config/skills/warcries.json",
 		"config/skills/occultism.json",
 		"config/skills/runelore.json",
-		"config/skills/runeloreIngaSpec.json",
 		"config/skills/rebalance.json"
 	],
 
@@ -726,9 +726,7 @@
 		"config/classes/gatekeeperNightmareSpec.json",
 		"config/classes/gatekeeperSuccubusSpec.json",
 		"config/classes/plaguespreader.json",
-		"config/classes/deathKnightNew.json",
-		"config/classes/runemage.json",
-		"config/classes/runemageIngaSpec.json"
+		"config/classes/deathKnightNew.json"
 	],
 
 	"heroes" : [
@@ -812,16 +810,7 @@
 		"config/heroes/factory/ixchel.json",
 		"config/heroes/factory/kastore.json",
 
-		"config/heroes/bulwark/aslaug.json",
-		"config/heroes/bulwark/ebba.json",
-		"config/heroes/bulwark/haegeir.json",
-		"config/heroes/bulwark/hedwig.json",
-		"config/heroes/bulwark/helmar.json",
-		"config/heroes/bulwark/hrimnir.json",
-		"config/heroes/bulwark/inga.json",
-		"config/heroes/bulwark/rolf.json",
-		"config/heroes/bulwark/svea.json",
-		"config/heroes/bulwark/tolghar.json"
+		"config/heroes/bulwark/hrimnir.json"
 	],
 
 	"creatures" : [
