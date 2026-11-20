@@ -1,8 +1,8 @@
 {
 	"succubusSeducerAU" : {
 		"name" : {
-			"singular" : "Succubus Secuder",
-			"plural" : "Succubus Secuders"
+			"singular" : "Succubus Seducer",
+			"plural" : "Succubus Seducers"
 		},
 		"faction" : "inferno",
 		"level" : 5,
