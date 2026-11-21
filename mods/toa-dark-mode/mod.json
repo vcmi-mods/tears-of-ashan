@@ -6,5 +6,10 @@
 	"version" : "1.0.0",
 	"modType" : "Interface",
 
-	"keepDisabled" : true
+	"keepDisabled" : true,
+
+	"czech" : {
+		"name" : "Tmavý režim",
+		"description" : "Nahrazuje hlavní hnědé pozadí tmavě šedou variantou."
+	}
 }

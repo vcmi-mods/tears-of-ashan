@@ -107,5 +107,13 @@
 
 	"scripts" : [
 		"config/crownworkScriptBindings.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Trpasličí bašta",
+		"description" : "Trpasličí frakce z Heroes V nahrazuje původní Baštu z Horn of the Abyss a nově nese název Trpasličí bašta!<p>Tato modifikace je stále <b>VE VÝVOJI</b>. Dosud chybí grafické podklady pro alternativní vylepšení a několik mapových animací.</p>",
+		"translations" : [
+			"translation/czech.json"
+		]
+	}
 }
