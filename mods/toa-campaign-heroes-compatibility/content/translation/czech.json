@@ -1,15 +1,15 @@
 {
     "hero.campaign-heroes.finneasVilmar.specialty.description": "Sesílá Oživ mrtvé s účinkem zvýšeným o 5% za každých N úrovní hrdiny, kde N je úroveň cílové jednotky.",
-    "hero.campaign-heroes.generalKendal.specialty.description": "Získává bonus 5% za úroveň k procentu dovednosti Brnění.",
+    "hero.campaign-heroes.generalKendal.specialty.description": "Získává bonus 5% za úroveň k účinku dovednosti Brnění.",
     "hero.campaign-heroes.generalKendal.specialty.name": "Brnění",
     "hero.campaign-heroes.generalKendal.specialty.tooltip": "Bonus sekundární dovednosti: Brnění",
-    "hero.campaign-heroes.ordwald.specialty.description": "Sesílá Přemožitele se zvýšeným účinkem: o 20 pro jednotky 1.–2. úrovně, o 16 pro jednotky 3.–4. úrovně, o 12 pro jednotky 5.–6. úrovně a o 8 pro jednotky 7. úrovně.",
-    "hero.campaign-heroes.youngAlkin.specialty.description": "Zvyšuje Rychlost spojeneckých gorgon, mocných gorgon a leptavých gorgon o 1 a jejich Útok a Obranu o 20% za každých 5 úrovní hrdiny (zaokrouhleno nahoru).",
-    "hero.campaign-heroes.youngCatherine.specialty.description": "Zvyšuje Rychlost spojeneckých šermířů, křižáků a strážců o 1 a jejich Útok a Obranu o 20% za každé 4 úrovně hrdiny (zaokrouhleno nahoru).",
-    "hero.campaign-heroes.youngChristian.specialty.description": "Získává bonus 5% za úroveň k procentu dovednosti Logistika.",
+    "hero.campaign-heroes.ordwald.specialty.description": "Sesílá Zabijáka se zvýšeným účinkem: o 20 pro jednotky 1.–2. úrovně, o 16 pro jednotky 3.–4. úrovně, o 12 pro jednotky 5.–6. úrovně a o 8 pro jednotky 7. úrovně.",
+    "hero.campaign-heroes.youngAlkin.specialty.description": "Zvyšuje rychlost spojeneckých gorgon, mocných gorgon a leptavých gorgon o 1 a jejich útok a obranu o 20% za každých 5 úrovní hrdiny (zaokrouhleno nahoru).",
+    "hero.campaign-heroes.youngCatherine.specialty.description": "Zvyšuje rychlost spojeneckých šermířů, křižáků a strážců o 1 a jejich útok a obranu o 20% za každé 4 úrovně hrdiny (zaokrouhleno nahoru).",
+    "hero.campaign-heroes.youngChristian.specialty.description": "Získává bonus 5% za úroveň k účinku dovednosti Logistika.",
     "hero.campaign-heroes.youngChristian.specialty.name": "Logistika",
     "hero.campaign-heroes.youngChristian.specialty.tooltip": "Bonus sekundární dovednosti: Logistika",
-    "hero.campaign-heroes.youngYog.specialty.description": "Zvyšuje oblast rozmístění Taktiky o 2.",
+    "hero.campaign-heroes.youngYog.specialty.description": "Zvětšuje oblast taktického rozestavení o 2 pole.",
     "hero.campaign-heroes.youngYog.specialty.name": "Taktika",
     "hero.campaign-heroes.youngYog.specialty.tooltip": "Bonus sekundární dovednosti: Taktika"
 }

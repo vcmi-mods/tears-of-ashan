@@ -157,5 +157,13 @@
 				}
 			}
 		}
+	},
+
+	"czech" : {
+		"name" : "Kovárna",
+		"description" : "Frakce Kovárna, jak ji společnost New World Computing představila na E3 v roce 1999, a něco navíc! Děkujeme, že hraješ Tears of Ashan!<p>Tato modifikace byla po dosažení 50 členů na serveru Tears of Ashan na Discordu zpřístupněna jako dárek úžasným fanouškům a podporovatelům.</p>",
+		"translations" : [
+			"translation/czech.json"
+		]
 	}
 }
