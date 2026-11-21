@@ -107,5 +107,13 @@
 
 	"scripts" : [
 		"config/crownworkScriptBindings.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Trpasličí bašta",
+		"description" : "Pevnost z Heroes V, převedená jako náhrada za Bulwark a přejmenovaná na Trpasličí baštu!<p>Tato modifikace je stále <b>VE VÝVOJI</b>, protože jí chybějí grafické prvky alternativních vylepšení a některé objekty na mapě.</p>",
+		"translations" : [
+			"translation/czech.json"
+		]
+	}
 }

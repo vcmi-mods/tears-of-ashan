@@ -19,7 +19,7 @@
 		"config/heroChanges.json"
 	],
 	"czech" : {
-		"name" : "Kompatibilita s Campaign Heroes",
+		"name" : "Kompatibilita s Hrdiny kampaně",
 		"description" : "Vrstva kompatibility pro modifikaci Hrdinové kampaně. Upravuje armády a popisy specializací.",
 		"translations" : [
 			"translation/czech.json"
