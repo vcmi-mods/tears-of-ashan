@@ -8,5 +8,10 @@
 
 	"heroes" : [
 		"config/enabled.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Specialisté na diplomacii",
+		"description" : "Zpřístupňuje Biaru, Markala, Melchiora a Oidanu. Je-li nainstalována Katedrála, zpřístupní také Diane; je-li nainstalována Svatyně, zpřístupní Jun."
+	}
 }

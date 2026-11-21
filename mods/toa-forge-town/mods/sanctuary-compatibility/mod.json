@@ -19,5 +19,10 @@
 
 	"heroClasses" : [
 		"config/classChanges.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Kompatibilita se Svatyní",
+		"description" : "Zajišťuje kompatibilitu Kovárny se Svatyní."
+	}
 }

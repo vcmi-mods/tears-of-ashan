@@ -23,5 +23,10 @@
 
 	"creatures" : [
 		"config/creatures.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Zvuky pro Katedrálu",
+		"description" : "Zajišťuje kompatibilitu Zvuků Ashanu s Katedrálou."
+	}
 }

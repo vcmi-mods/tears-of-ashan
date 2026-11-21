@@ -118,7 +118,7 @@
 
 	"czech" : {
 		"name" : "Svatyně",
-		"description" : "Frakce Svatyně z Heroes VI, jak ji znáš a máš rád.",
+		"description" : "Svatyně z Heroes VI se vrací v podobě, jak ji znáš a máš rád — včetně vlastní kampaně!<p>Tato modifikace je stále <b>VE VÝVOJI</b>. Animace jednotek a obrazovka obléhání zatím nejsou dokončené a dočasně je nahrazují provizorní podklady. Ty budou odstraněny, jakmile bude výsledná grafika hotová.</p>",
 		"translations" : [
 			"translation/czech.json"
 		]

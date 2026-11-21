@@ -12,5 +12,10 @@
 
 	"heroes" : [
 		"config/enabled.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Hrdinové diplomacie pro Katedrálu",
+		"description" : "Zajišťuje kompatibilitu Katedrály se submodem Hrdinové diplomacie."
+	}
 }

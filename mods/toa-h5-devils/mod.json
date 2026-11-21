@@ -10,5 +10,10 @@
 
 	"creatures" : [
 		"config/creatures.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Ďáblové z Heroes V",
+		"description" : "Mění vzhled ďáblů podle Heroes V a zároveň z nich činí jednotky zabírající dvě pole."
+	}
 }
