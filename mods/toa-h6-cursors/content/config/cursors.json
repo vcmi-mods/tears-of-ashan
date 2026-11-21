@@ -1,0 +1,242 @@
+{
+	"mapHero": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTown": {
+		"pivotX": 18,
+		"pivotY": 16
+	},
+	"mapTurn1Move": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn1Attack": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn1Sail": {
+		"pivotX": 18,
+		"pivotY": 33
+	},
+	"mapTurn1Disembark": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn1Exchange": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn1Visit": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn2Move": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn2Attack": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn2Sail": {
+		"pivotX": 18,
+		"pivotY": 33
+	},
+	"mapTurn2Disembark": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn2Exchange": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn2Visit": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn3Move": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn3Attack": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn3Sail": {
+		"pivotX": 18,
+		"pivotY": 33
+	},
+	"mapTurn3Disembark": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn3Exchange": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn3Visit": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn4Move": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn4Attack": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn4Sail": {
+		"pivotX": 18,
+		"pivotY": 33
+	},
+	"mapTurn4Disembark": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn4Exchange": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn4Visit": {
+		"pivotX": 18,
+		"pivotY": 18
+	},
+	"mapTurn1SailVisit": {
+		"pivotX": 18,
+		"pivotY": 33
+	},
+	"mapTurn2SailVisit": {
+		"pivotX": 18,
+		"pivotY": 33
+	},
+	"mapTurn3SailVisit": {
+		"pivotX": 18,
+		"pivotY": 33
+	},
+	"mapTurn4SailVisit": {
+		"pivotX": 18,
+		"pivotY": 33
+	},
+	"mapScrollNorth": {
+		"pivotX": 8,
+		"pivotY": 0
+	},
+	"mapScrollNorthEast": {
+		"pivotX": 11,
+		"pivotY": 0
+	},
+	"mapScrollEast": {
+		"pivotX": 9,
+		"pivotY": 8
+	},
+	"mapScrollSouthEast": {
+		"pivotX": 11,
+		"pivotY": 11
+	},
+	"mapScrollSouth": {
+		"pivotX": 8,
+		"pivotY": 9
+	},
+	"mapScrollSouthWest": {
+		"pivotX": 0,
+		"pivotY": 11
+	},
+	"mapScrollWest": {
+		"pivotX": 0,
+		"pivotY": 8
+	},
+	"mapScrollNorthWest": {
+		"pivotX": 0,
+		"pivotY": 0
+	},
+	"mapDimensionDoor": {
+		"pivotX": 16,
+		"pivotY": 14
+	},
+	"mapScuttleBoat": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatBlocked": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatMove": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatFly": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatShoot": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatHero": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatQuery": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatHitNorthEast": {
+		"pivotX": 31,
+		"pivotY": 0
+	},
+	"combatHitEast": {
+		"pivotX": 31,
+		"pivotY": 7
+	},
+	"combatHitSouthEast": {
+		"pivotX": 31,
+		"pivotY": 31
+	},
+	"combatHitSouthWest": {
+		"pivotX": 0,
+		"pivotY": 31
+	},
+	"combatHitWest": {
+		"pivotX": 0,
+		"pivotY": 7
+	},
+	"combatHitNorthWest": {
+		"pivotX": 0,
+		"pivotY": 0
+	},
+	"combatHitNorth": {
+		"pivotX": 7,
+		"pivotY": 0
+	},
+	"combatHitSouth": {
+		"pivotX": 7,
+		"pivotY": 31
+	},
+	"combatShootPenalty": {
+		"pivotX": 16,
+		"pivotY": 0
+	},
+	"combatShootCatapult": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatHeal": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatSacrifice": {
+		"pivotX": 16,
+		"pivotY": 16
+	},
+	"combatTeleport": {
+		"pivotX": 16,
+		"pivotY": 24
+	},
+	"castSpell": {
+		"pivotX": 16,
+		"pivotY": 30
+	}
+}
