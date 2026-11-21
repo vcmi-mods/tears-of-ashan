@@ -12,14 +12,16 @@ Explore a whole new realm in **Tears of Ashan**, a fan-made expansion for Heroes
 
 <table>
   <tr>
-    <td width="25%"><img src="screenshots/lightMagic.png" alt="Light Magic"></td>
-    <td width="25%"><img src="screenshots/darkMagic.png" alt="Dark Magic"></td>
-    <td width="25%"><img src="screenshots/toa_promo_spells_warcries.png" alt="Warcries"></td>
-    <td width="25%"><img src="screenshots/runelore.png" alt="Runelore"></td>
+    <td width="20%"><img src="screenshots/toa_promo_spells_light.png" alt="Light Magic"></td>
+    <td width="20%"><img src="screenshots/toa_promo_spells_dark.png" alt="Dark Magic"></td>
+	<td width="20%"><img src="screenshots/toa_promo_spells_gating.png" alt="Gating"></td>
+    <td width="20%"><img src="screenshots/toa_promo_spells_warcries.png" alt="Warcries"></td>
+    <td width="20%"><img src="screenshots/toa_promo_spells_runelore.png" alt="Runelore"></td>
   </tr>
   <tr>
     <td align="center"><b>Light Magic</b></td>
     <td align="center"><b>Dark Magic</b></td>
+	<td align="center"><b>Gating</b></td>
 	<td align="center"><b>Warcries</b></td>
     <td align="center"><b>Runelore</b></td>
   </tr>
