@@ -69,6 +69,9 @@ The Fortress from Heroes V is the vision of the Crownwork. Completely overriding
   </tr>
   <tr>
     <td align="center"><b>Conflux</b></td>
+	<td align="center"><b>Sanctuary</b></td>
+	<td align="center"><b>Cathedral</b></td>
+	<td align="center"><b>Crownwork</b></td>
   </tr>
 </table>
 
