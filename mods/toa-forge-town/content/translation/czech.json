@@ -1,6 +1,6 @@
 {
 	"core.bonus.MUNITIONS_BONUS.description": "{Zásobovací vůz}\nPoškození je zvýšeno Zásobovacím vozem.",
-	"skill.core.ballistics.description.advanced": "{Lepší balistika}\n\nLepší Balistika umožňuje hrdinovi ovládat katapult. Katapult lze zaměřit, má vyšší šanci zasáhnout opevnění a vystřelí dvakrát. Katapultu, Vozu s municí ani Zásobovacímu vozu nemůže jediný zdroj poškození ubrat více než 40% zdraví.",
-	"skill.core.ballistics.description.basic": "{Základní balistika}\n\nZákladní Balistika umožňuje hrdinovi ovládat katapult. Katapult lze zaměřit a má vyšší šanci zasáhnout opevnění. Katapultu, Vozu s municí ani Zásobovacímu vozu nemůže jediný zdroj poškození ubrat více než 40% zdraví.",
-	"skill.core.ballistics.description.expert": "{Expert balistika}\n\nExpert balistika umožňuje hrdinovi ovládat katapult. Katapult lze zaměřit, vždy zasáhne zvolený cíl a vystřelí dvakrát. Katapultu, Vozu s municí ani Zásobovacímu vozu nemůže jediný zdroj poškození ubrat více než 40% zdraví."
+	"skill.core.ballistics.description.advanced": "{Lepší balistika}\n\nLepší balistika umožňuje hrdinovi ovládat katapult. Katapult lze zaměřit, má vyšší šanci zasáhnout opevnění a vystřelí dvakrát. Katapultu, vozu s municí ani zásobovacímu vozu nemůže jediný zdroj poškození ubrat více než 40% zdraví.",
+	"skill.core.ballistics.description.basic": "{Základní balistika}\n\nZákladní balistika umožňuje hrdinovi ovládat katapult. Katapult lze zaměřit a má vyšší šanci zasáhnout opevnění. Katapultu, vozu s municí ani zásobovacímu vozu nemůže jediný zdroj poškození ubrat více než 40% zdraví.",
+	"skill.core.ballistics.description.expert": "{Expert balistika}\n\nExpert balistika umožňuje hrdinovi ovládat katapult. Katapult lze zaměřit, vždy zasáhne zvolený cíl a vystřelí dvakrát. Katapultu, vozu s municí ani zásobovacímu vozu nemůže jediný zdroj poškození ubrat více než 40% zdraví."
 }

@@ -10,5 +10,10 @@
 
 	"heroes" : [
 		"config/enabled.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Escaton",
+		"description" : "Zpřístupňuje mocného hrdinu Escatona, který se specializuje na dračí stroje."
+	}
 }

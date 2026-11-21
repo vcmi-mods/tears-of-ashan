@@ -98,5 +98,10 @@
 
 	"objects" : [
 		"config/dwellings.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Katedrála",
+		"description" : "Katedrála z Horn of the Abyss přivádí do hry známé postavy z Heroes VI a Heroes VII!"
+	}
 }

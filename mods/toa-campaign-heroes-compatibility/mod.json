@@ -20,7 +20,7 @@
 	],
 	"czech" : {
 		"name" : "Kompatibilita s Hrdiny kampaně",
-		"description" : "Vrstva kompatibility pro modifikaci Hrdinové kampaně. Upravuje armády a popisy specializací.",
+		"description" : "Zajišťuje kompatibilitu s modifikací Hrdinové kampaně a upravuje armády i popisy specializací.",
 		"translations" : [
 			"translation/czech.json"
 		]

@@ -17,7 +17,7 @@
 	],
 
 	"czech" : {
-		"name" : "Frakční neutrální draci",
-		"description" : "Přesouvá azurové draky k Bulwarku, křišťálové draky k Věži, rezavé draky k Pevnosti a pohádkové draky k Baště."
+		"name" : "Neutrální draci ve frakcích",
+		"description" : "Přiřazuje azurové draky k Trpasličí baště, křišťálové draky k Věži, rezavé draky k Pevnosti a pohádkové draky k Baště."
 	}
 }

@@ -28,6 +28,6 @@
 
 	"czech" : {
 		"name" : "Kompatibilita s Nádvořím",
-		"description" : "Vrstva kompatibility pro modifikaci Nádvoří. Nahrazuje všechny výskyty Rekonstrukce verzí z Tears of Ashan, přesouvá Pacifismus do Magie světla a Smrtící sevření do Magie temnoty."
+		"description" : "Zajišťuje kompatibilitu s modifikací Nádvoří. Všechny výskyty Rekonstrukce nahrazuje verzí z Tears of Ashan, Pacifismus přesouvá do magie světla a Smrtící sevření do magie temnoty."
 	}
 }
