@@ -32,7 +32,9 @@
 			"minimumMorale" : {
 				"type" : "MORALE",
 				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+				"valueType" : "INDEPENDENT_MAX",
+				"description" : "{Positive Morale}\nMinotaur Taskmasters cannot have their Morale lowered below +1.",
+				"icon" : "zvs/Lib1.res/e_minot"
 			},
 			"raisesMorale" : {
 				"type" : "MORALE",

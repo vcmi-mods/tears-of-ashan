@@ -1,4 +1,21 @@
 {
+	"core:pikeman" : {
+		"abilities" : {
+			"longWeapon" : {
+				"type" : "LONG_WEAPON"
+			}
+		}
+	},
+	"core:halberdier" : {
+		"abilities" : {
+			"longWeapon" : {
+				"type" : "LONG_WEAPON"
+			}
+		}
+	},
+	"core:marksman" : {
+		"fightValue" : 145
+	},
 	"core:crusader" : {
 		"hitPoints" : 40,
 		"speed" : 7,

@@ -31,6 +31,9 @@
 		"abilities" : {
 			"cavalryChargeImmunity" : {
 				"type" : "CHARGE_IMMUNITY"
+			},
+			"longWeapon" : {
+				"type" : "LONG_WEAPON"
 			}
 		},
 		"graphics" : {
