@@ -101,12 +101,12 @@
 			}
 		},
 		"sound" : {
-			"attack" : "creatures/marksmanCrossbowman/Marksman_attack",
-			"defend" : "creatures/marksmanCrossbowman/Marksman_hit",
-			"killed" : "creatures/marksmanCrossbowman/Marksman_death",
-			"move" : "creatures/marksmanCrossbowman/Marksman_move",
-			"wince" : "creatures/marksmanCrossbowman/Marksman_hit",
-			"shoot" : "creatures/marksmanCrossbowman/Marksman_ranged_short"
+			"attack" : "creatures/urielMarksman/Marksman_attack",
+			"defend" : "creatures/urielMarksman/Marksman_hit",
+			"killed" : "creatures/urielMarksman/Marksman_death",
+			"move" : "creatures/urielMarksman/Marksman_move",
+			"wince" : "creatures/urielMarksman/Marksman_hit",
+			"shoot" : "creatures/urielMarksman/Marksman_ranged_short"
 		}
 	}
 }
