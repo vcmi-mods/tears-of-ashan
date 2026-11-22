@@ -135,11 +135,11 @@
 			}
 		},
 		"sound" : {
-			"attack" : "creatures/archangelSeraph/Archangel_attack1_short",
-			"defend" : "creatures/archangelSeraph/Archangel_hit",
-			"killed" : "creatures/archangelSeraph/Archangel_death",
-			"move" : "creatures/archangelSeraph/Archangel_move",
-			"wince" : "creatures/archangelSeraph/Archangel_hit"
+			"attack" : "creatures/uriel/Archangel_attack1_short",
+			"defend" : "creatures/uriel/Archangel_hit",
+			"killed" : "creatures/uriel/Archangel_death",
+			"move" : "creatures/uriel/Archangel_move",
+			"wince" : "creatures/uriel/Archangel_hit"
 		}
 	}
 }
