@@ -2,7 +2,7 @@
 	"forgeTOA" : {
 		"name" : "Forge",
 
-		"nativeTerrain" : "asphalt",
+		"nativeTerrain" : [ "asphalt" ],
 
 		"alignment" : "evil",
 
