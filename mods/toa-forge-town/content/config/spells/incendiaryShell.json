@@ -34,10 +34,15 @@
 				"range" : "0",
 				"power" : 1,
 				"cost" : 0,
-				"effects" : {
-					"grantShell" : {
-						"type" : "INCENDIARY_BONUS",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"grantShell" : {
+								"type" : "INCENDIARY_BONUS",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				},
 				"targetModifier" : {

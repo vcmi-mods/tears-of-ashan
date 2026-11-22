@@ -46,19 +46,22 @@
 				"type" : "TWO_HEX_ATTACK_BREATH",
 				"icon" : "zvs/Lib1.res/e_breathblack.png"
 			},
-			"acidBreath" : {
+			"acidBreathDefense" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.acidBreath",
 				"val" : 100,
+				"description" : "{Erode Defense}\nTemporarily reduces the target's Defense by 3 after attacking.",
 				"icon" : "zvs/Lib1.res/acidattack.png"
 			},
-			"acidBreathChance" : {
+			"acidBreathDamage" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "acidBreathDamage",
-				"val" : 30
+				"val" : 30,
+				"description" : "{Acid Breath}\nHas a 30% chance to deal 25 Damage per Shadow Dragon after attacking.",
+				"icon" : "zvs/Lib1.res/spellsSOD/acid0.png"
 			},
 			// damage of the cast above, multiplied by the number of creatures in the stack
-			"acidBreathDamage" : {
+			"spellPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "acidBreathDamage",
 				"val" : 25

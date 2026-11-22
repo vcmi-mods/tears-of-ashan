@@ -16,6 +16,7 @@
 			"Renamed mods with categories for easier organising and legibility",
 			"Updated the Courtyard compatibility submod with balanced starting armies",
 			"Added the Sanctuary campaign",
+			"Pikeman line gains Long Weapon",
 			"Crossbowman Damage 3–5 → 3–4",
 			"Gremlin Mechanic Defense 3 → 5; Repair 10 Health per Gremlin → 5 Health per Gremlin",
 			"Dreadtaur Cursing Attack 20% → 50%",
@@ -567,6 +568,7 @@
 		"hota.wastelandTerrain",
 		"market-of-time",
 		"new-old-spells-plus",
+		"reinforcements-spell",
 		"vcmi-extras.bonusicons.bonus icons"
 	],
 
