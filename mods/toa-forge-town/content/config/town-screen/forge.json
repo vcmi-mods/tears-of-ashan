@@ -337,7 +337,7 @@
 					"animation" : "town-screen/forge/buildings/tavern",
 					"x" : 337,
 					"y" : 310,
-					"z" : 10,
+					"z" : 12,
 					"campaignBonus" : "BoEtav.pcx",
 					"border" : "town-screen/forge/borders/tavern",
 					"area" : "town-screen/forge/areas/tavern"
@@ -355,7 +355,7 @@
 					"animation" : "town-screen/forge/buildings/market01",
 					"x" : 635,
 					"y" : 308,
-					"z" : 9,
+					"z" : 11,
 					"campaignBonus" : "BoEMark.pcx",
 					"border" : "town-screen/forge/borders/market01",
 					"area" : "town-screen/forge/areas/market01"
@@ -364,7 +364,7 @@
 					"animation" : "town-screen/forge/buildings/market02",
 					"x" : 466,
 					"y" : 303,
-					"z" : 11,
+					"z" : 13,
 					"campaignBonus" : "BoEMarkS.pcx",
 					"border" : "town-screen/forge/borders/market02",
 					"area" : "town-screen/forge/areas/market02"
@@ -375,7 +375,7 @@
 					"animation" : "town-screen/forge/buildings/mage01",
 					"x" : 200,
 					"y" : 173,
-					"z" : 6,
+					"z" : 7,
 					"campaignBonus" : "BoEgld1.pcx",
 					"border" : "town-screen/forge/borders/mage01",
 					"area" : "town-screen/forge/areas/mage01"
@@ -384,7 +384,7 @@
 					"animation" : "town-screen/forge/buildings/mage02",
 					"x" : 200,
 					"y" : 119,
-					"z" : 6,
+					"z" : 7,
 					"campaignBonus" : "BoEgld2.pcx",
 					"border" : "town-screen/forge/borders/mage02",
 					"area" : "town-screen/forge/areas/mage02"
@@ -393,7 +393,7 @@
 					"animation" : "town-screen/forge/buildings/mage03",
 					"x" : 200,
 					"y" : 71,
-					"z" : 6,
+					"z" : 7,
 					"campaignBonus" : "BoEgld3.pcx",
 					"border" : "town-screen/forge/borders/mage03",
 					"area" : "town-screen/forge/areas/mage03"
@@ -402,7 +402,7 @@
 					"animation" : "town-screen/forge/buildings/mage04",
 					"x" : 200,
 					"y" : 46,
-					"z" : 6,
+					"z" : 7,
 					"campaignBonus" : "BoEgld4.pcx",
 					"border" : "town-screen/forge/borders/mage04",
 					"area" : "town-screen/forge/areas/mage04"
@@ -411,7 +411,7 @@
 					"animation" : "town-screen/forge/buildings/mage05",
 					"x" : 207,
 					"y" : 8,
-					"z" : 6,
+					"z" : 7,
 					"campaignBonus" : "BoEgld5.pcx",
 					"border" : "town-screen/forge/borders/mage05",
 					"area" : "town-screen/forge/areas/mage05"
@@ -422,7 +422,7 @@
 					"animation" : "town-screen/forge/buildings/hall01",
 					"x" : 0,
 					"y" : 73,
-					"z" : 13,
+					"z" : 14,
 					"campaignBonus" : "BoEhall1.pcx",
 					"border" : "town-screen/forge/borders/hall01",
 					"area" : "town-screen/forge/areas/hall01"
@@ -431,7 +431,7 @@
 					"animation" : "town-screen/forge/buildings/hall02",
 					"x" : 0,
 					"y" : 71,
-					"z" : 13,
+					"z" : 14,
 					"campaignBonus" : "BoEhall2.pcx",
 					"border" : "town-screen/forge/borders/hall02",
 					"area" : "town-screen/forge/areas/hall02"
@@ -440,7 +440,7 @@
 					"animation" : "town-screen/forge/buildings/hall03",
 					"x" : 0,
 					"y" : 0,
-					"z" : 13,
+					"z" : 14,
 					"campaignBonus" : "BoEhall3.pcx",
 					"border" : "town-screen/forge/borders/hall03",
 					"area" : "town-screen/forge/areas/hall03"
@@ -449,7 +449,7 @@
 					"animation" : "town-screen/forge/buildings/hall04",
 					"x" : 0,
 					"y" : 0,
-					"z" : 13,
+					"z" : 14,
 					"campaignBonus" : "BoEhall4.pcx",
 					"border" : "town-screen/forge/borders/hall04",
 					"area" : "town-screen/forge/areas/hall04"
@@ -510,7 +510,7 @@
 					"animation" : "town-screen/forge/buildings/goblin01",
 					"x" : 448,
 					"y" : 236,
-					"z" : 5,
+					"z" : 6,
 					"campaignBonus" : "BoEdn_0.pcx",
 					"border" : "town-screen/forge/borders/goblin01",
 					"area" : "town-screen/forge/areas/goblin01"
@@ -519,7 +519,7 @@
 					"animation" : "town-screen/forge/buildings/goblin02",
 					"x" : 448,
 					"y" : 236,
-					"z" : 5,
+					"z" : 6,
 					"campaignBonus" : "BoEup_0.pcx",
 					"border" : "town-screen/forge/borders/goblin02",
 					"area" : "town-screen/forge/areas/goblin02"
@@ -528,7 +528,7 @@
 					"animation" : "town-screen/forge/buildings/goblin03",
 					"x" : 506,
 					"y" : 281,
-					"z" : 6,
+					"z" : 8,
 					"campaignBonus" : "BoEHrd1.pcx",
 					"border" : "town-screen/forge/borders/goblin03",
 					"area" : "town-screen/forge/areas/goblin03"
@@ -537,7 +537,7 @@
 					"animation" : "town-screen/forge/buildings/goblin03",
 					"x" : 506,
 					"y" : 281,
-					"z" : 6,
+					"z" : 9,
 					"campaignBonus" : "BoEHrd2.pcx",
 					"border" : "town-screen/forge/borders/goblin03",
 					"area" : "town-screen/forge/areas/goblin03",
@@ -547,7 +547,7 @@
 					"animation" : "town-screen/forge/buildings/zombie01",
 					"x" : 400,
 					"y" : 161,
-					"z" : 2,
+					"z" : 3,
 					"campaignBonus" : "BoEdn_1.pcx",
 					"border" : "town-screen/forge/borders/zombie01",
 					"area" : "town-screen/forge/areas/zombie01"
@@ -556,7 +556,7 @@
 					"animation" : "town-screen/forge/buildings/zombie02",
 					"x" : 398,
 					"y" : 161,
-					"z" : 2,
+					"z" : 3,
 					"campaignBonus" : "BoEup_1.pcx",
 					"border" : "town-screen/forge/borders/zombie02",
 					"area" : "town-screen/forge/areas/zombie02"
@@ -565,7 +565,7 @@
 					"animation" : "town-screen/forge/buildings/pyro01",
 					"x" : 340,
 					"y" : 261,
-					"z" : 7,
+					"z" : 9,
 					"campaignBonus" : "BoEdn_2.pcx",
 					"border" : "town-screen/forge/borders/pyro01",
 					"area" : "town-screen/forge/areas/pyro01"
@@ -574,7 +574,7 @@
 					"animation" : "town-screen/forge/buildings/pyro02",
 					"x" : 340,
 					"y" : 169,
-					"z" : 7,
+					"z" : 9,
 					"campaignBonus" : "BoEup_2.pcx",
 					"border" : "town-screen/forge/borders/pyro02",
 					"area" : "town-screen/forge/areas/pyro02"
@@ -583,7 +583,7 @@
 					"animation" : "town-screen/forge/buildings/ogre01",
 					"x" : 449,
 					"y" : 166,
-					"z" : 3,
+					"z" : 4,
 					"campaignBonus" : "BoEdn_3.pcx",
 					"border" : "town-screen/forge/borders/ogre01",
 					"area" : "town-screen/forge/areas/ogre01"
@@ -592,7 +592,7 @@
 					"animation" : "town-screen/forge/buildings/ogre02",
 					"x" : 451,
 					"y" : 168,
-					"z" : 3,
+					"z" : 4,
 					"campaignBonus" : "BoEup_3.pcx",
 					"border" : "town-screen/forge/borders/ogre02",
 					"area" : "town-screen/forge/areas/ogre02"
@@ -601,7 +601,7 @@
 					"animation" : "town-screen/forge/buildings/minotaur01",
 					"x" : 0,
 					"y" : 231,
-					"z" : 3,
+					"z" : 4,
 					"campaignBonus" : "BoEdn_4.pcx",
 					"border" : "town-screen/forge/borders/minotaur01",
 					"area" : "town-screen/forge/areas/minotaur01"
@@ -610,7 +610,7 @@
 					"animation" : "town-screen/forge/buildings/minotaur02",
 					"x" : 0,
 					"y" : 227,
-					"z" : 3,
+					"z" : 4,
 					"campaignBonus" : "BoEup_4.pcx",
 					"border" : "town-screen/forge/borders/minotaur02",
 					"area" : "town-screen/forge/areas/minotaur02"
@@ -619,7 +619,7 @@
 					"animation" : "town-screen/forge/buildings/naga01",
 					"x" : 190,
 					"y" : 264,
-					"z" : 8,
+					"z" : 10,
 					"campaignBonus" : "BoEdn_5.pcx",
 					"border" : "town-screen/forge/borders/naga01",
 					"area" : "town-screen/forge/areas/naga01"
@@ -628,7 +628,7 @@
 					"animation" : "town-screen/forge/buildings/naga02",
 					"x" : 190,
 					"y" : 259,
-					"z" : 8,
+					"z" : 10,
 					"campaignBonus" : "BoEup_5.pcx",
 					"border" : "town-screen/forge/borders/naga02",
 					"area" : "town-screen/forge/areas/naga02"
@@ -637,7 +637,7 @@
 					"animation" : "town-screen/forge/buildings/juggernaut01",
 					"x" : 562,
 					"y" : 194,
-					"z" : 4,
+					"z" : 5,
 					"campaignBonus" : "BoEdn_6.pcx",
 					"border" : "town-screen/forge/borders/juggernaut01",
 					"area" : "town-screen/forge/areas/juggernaut01"
@@ -646,7 +646,7 @@
 					"animation" : "town-screen/forge/buildings/juggernaut02",
 					"x" : 565,
 					"y" : 178,
-					"z" : 4,
+					"z" : 5,
 					"campaignBonus" : "BoEup_6.pcx",
 					"border" : "town-screen/forge/borders/juggernaut02",
 					"area" : "town-screen/forge/areas/juggernaut02"
@@ -655,7 +655,7 @@
 					"animation" : "town-screen/forge/buildings/grail",
 					"x" : 377,
 					"y" : 0,
-					"z" : 1,
+					"z" : 2,
 					"campaignBonus" : "BoEgrail.pcx",
 					"border" : "town-screen/forge/borders/grail",
 					"area" : "town-screen/forge/areas/grail",
