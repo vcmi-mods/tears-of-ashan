@@ -9,7 +9,7 @@
 			"specialty" : {
 				"name" : "Dragonblessed",
 				"tooltip" : "Creature Bonus: Dragonblessed",
-				"description" : "Allied units are permanently enchanted with Expert Bless."
+				"description" : "Allied units are permanently enchanted with Expert Divine Strength."
 			}
 		},
 
@@ -34,9 +34,14 @@
 		"specialty" : {
 			"bonuses" : {
 				"bless" : {
-					"type" : "ENCHANTED",
-					"subtype" : "bless",
-					"val" : 3
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "bless"
+					},
+					"val" : 3,
+					"description" : "{Enchanted}\nPermanently affected by Expert Divine Strength.",
+					"icon" : "zvs/Lib1.res/spellsSOD/bless3.png"
 				}
 			}
 		},

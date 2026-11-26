@@ -1,0 +1,68 @@
+{
+	"earthenChimeraAU" : {
+		"name" : {
+			"singular" : "Earthen Chimera",
+			"plural" : "Earthen Chimeras"
+		},
+		"faction" : "cathedralTOA",
+		"level" : 4,
+		"attack" : 8,
+		"defense" : 12,
+		"damage" : {
+			"min" : 6,
+			"max" : 8
+		},
+		"hitPoints" : 40,
+		"speed" : 8,
+		"growth" : 4,
+		"aiValue" : 585,
+		"fightValue" : 430,
+		"cost" : {
+			"gold" : 325
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"upgrades" : [
+			"fierceChimeraAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"attackReduction" : {
+				"type" : "ENEMY_ATTACK_REDUCTION",
+				"val" : 20
+			},
+			"earthReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "earth",
+				"val" : 40
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cathedral/battle/lvl4.def",
+			"map" : "creatures/cathedral/map/lvl4.def",
+			"iconSmall" : "creatures/cathedral/iconsSmall/lvl4.png",
+			"iconLarge" : "creatures/cathedral/iconsBig/lvl4.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "RGRFATTK.wav",
+			"defend" : "RGRFDFND.wav",
+			"killed" : "RGRFKILL.wav",
+			"move" : "RGRFMOVE.wav",
+			"wince" : "RGRFWNCE.wav"
+		}
+	}
+}

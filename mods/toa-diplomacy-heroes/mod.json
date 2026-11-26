@@ -1,5 +1,5 @@
 {
-	"name" : "Enable Diplomacy Specialists",
+	"name" : "Gameplay: Enable Diplomacy Specialists",
 	"author" : "Aphra",
 	"contact" : "",
 	"description" : "Enables Biara, Markal, Melchior, and Oidana. Also enables Diane if Cathedral is installed and Jun if Sanctuary is installed.",
@@ -8,5 +8,10 @@
 
 	"heroes" : [
 		"config/enabled.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Specialisté na diplomacii",
+		"description" : "Zpřístupňuje Biaru, Markala, Melchiora a Oidanu. Je-li nainstalována Katedrála, zpřístupní také Diane; je-li nainstalována Svatyně, zpřístupní Jun."
+	}
 }

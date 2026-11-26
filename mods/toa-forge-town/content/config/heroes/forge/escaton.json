@@ -1,0 +1,61 @@
+{
+	"99escaton" : {
+		"class" : "ancientClass",
+		"female" : false,
+		"special" : true,
+		"spellbook" : [
+			"implosion"
+		],
+		"texts" : {
+			"name" : "Escaton",
+			"biography" : "An agent of the Ancients and great enemy of the Kreegans, Escaton's mission was to render planets, such as Enroth, uninhabitable or inexistent if Kreegans invaded them successfully. He appeared in Jadame and would have destroyed Enroth had a mysterious group of adventurers not stopped him and his plans. Despite them telling him that the Kreegans had been eradicated, Escaton was unable to stop the program of world destruction once it was initiated, and as such, he instructed the adventurers to destroy the means by which he was to purge the world.",
+			"specialty" : {
+				"name" : "Dragon Mechs",
+				"tooltip" : "Creature Bonus: Dragon Mechs",
+				"description" : "Increases the Speed of allied Dragon Mechs by 1 and their Attack and Defense skills by 33% for every 10 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/escaton/portraitSmall.png",
+			"large" : "heroes/forge/escaton/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Dragon Mechs.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Dragon Mechs.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "dragonMechAU",
+			"creatureLevel" : 10,
+			"stepSize" : 33
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

@@ -35,7 +35,7 @@
 			"curses" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
-				"val" : 20,
+				"val" : 50,
 				"icon" : "zvs/Lib1.res/curseattack"
 			},
 			"ignoreDefense" : {

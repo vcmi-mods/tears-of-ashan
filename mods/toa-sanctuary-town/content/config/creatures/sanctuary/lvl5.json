@@ -1,0 +1,133 @@
+{
+	"snowMaidenAU" : {
+		"name" : {
+			"singular" : "Snow Maiden",
+			"plural" : "Snow Maidens"
+		},
+		"faction" : "sanctuary",
+		"level" : 5,
+		"attack" : 12,
+		"defense" : 10,
+		"shots" : 12,
+		"damage" : {
+			"min" : 12,
+			"max" : 15
+		},
+		"hitPoints" : 40,
+		"speed" : 7,
+		"growth" : 3,
+		"horde" : 2,
+		"aiValue" : 900,
+		"fightValue" : 775,
+		"cost" : {
+			"gold" : 575
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		},
+		"upgrades" : [
+			"yukiOnnaAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"freezingShot" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "freezingShot",
+				"val" : 20,
+				"addInfo" : [
+					0,
+					1
+				],
+				"description" : "{Freezing Shot}\nHas a 20% chance to freeze enemies after shooting.",
+				"icon" : "hota/bulwark/bonuses/freezingShot.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl5.def",
+			"map" : "creatures/sanctuary/map/lvl5.def",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl5.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl5.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "PICEE.DEF",
+				"attackClimaxFrame" : 4,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 18,
+					"lowerY" : -92,
+					"middleX" : 43,
+					"middleY" : -99,
+					"upperX" : 28,
+					"upperY" : -107
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/snowMaiden/attack.mp3",
+			"defend" : "creatures/snowMaiden/defend.mp3",
+			"killed" : "creatures/snowMaiden/death.mp3",
+			"move" : "creatures/snowMaiden/move.mp3",
+			"shoot" : "creatures/snowMaiden/shoot.mp3",
+			"wince" : "creatures/snowMaiden/hit.mp3"
+		}
+	}
+}

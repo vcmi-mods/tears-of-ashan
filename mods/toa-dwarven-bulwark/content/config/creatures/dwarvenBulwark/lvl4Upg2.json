@@ -1,0 +1,95 @@
+{
+	"battleragerAU" : {
+		"name" : {
+			"singular" : "Battlerager",
+			"plural" : "Battleragers"
+		},
+		"faction" : "bulwark",
+		"level" : 4,
+		"attack" : 14,
+		"defense" : 10,
+		"damage" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"hitPoints" : 35,
+		"speed" : 7,
+		"growth" : 4,
+		"aiValue" : 715,
+		"fightValue" : 675,
+		"cost" : {
+			"gold" : 425
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"upgrades" : [
+			"berserkerAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"battleRage" : {
+				"type" : "ON_COMBAT_EVENT",
+				"subtype" : "combatEventAfterAttacked",
+				"addInfo" : {
+					"effect" : [
+						{
+							"action" : "bonus",
+							"targetEnemy" : false,
+							"bonus" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "attack",
+								"val" : 5,
+								"duration" : "N_TURNS",
+								"turns" : 2
+							}
+						},
+						{
+							"action" : "bonus",
+							"targetEnemy" : false,
+							"bonus" : {
+								"type" : "STACKS_SPEED",
+								"val" : 2,
+								"duration" : "N_TURNS",
+								"turns" : 2
+							}
+						}
+					]
+				},
+				"description" : "{Battle Rage}\nRaises this unit's Attack by 5 and Speed by 2 for 2 turns after being attacked.",
+				"icon" : "bonuses/battleRage.png"
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl4Up.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl4Up.json",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl4Alt.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl4Alt.png",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/battlerager/attack",
+			"defend" : "creatures/battlerager/defend",
+			"killed" : "creatures/battlerager/death",
+			"move" : "creatures/battlerager/move",
+			"wince" : "creatures/battlerager/hit"
+		}
+	}
+}

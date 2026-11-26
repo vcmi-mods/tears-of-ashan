@@ -39,14 +39,6 @@
 											},
 											"canLearnSkills" : true
 										}
-									],
-									"noneOf" : [
-										{
-											"secondary" : {
-												"tears-of-ashan:runeloreIngaSpec" : 1
-											},
-											"canLearnSkills" : false
-										}
 									]
 								},
 								"message" : "Do you want your hero to learn Basic Runelore?",
@@ -71,11 +63,6 @@
 										{
 											"secondary" : {
 												"scholar" : 1
-											}
-										},
-										{
-											"secondary" : {
-												"tears-of-ashan:runeloreIngaSpec" : 1
 											}
 										}
 									]

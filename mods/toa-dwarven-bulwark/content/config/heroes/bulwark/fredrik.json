@@ -1,0 +1,61 @@
+{
+	"06fredrik" : {
+		"class" : "jarl",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"visions"
+		],
+		"texts" : {
+			"name" : "Fredrik",
+			"biography" : "Fredrik Lokesson, also known as Eagle-Eye, might be the oldest Dwarf soldier alive: he has been a scout in Grimheim's army for nearly four hundred years. While his many feats-of-arms would have guaranteed him a place among the elder council of his clan, Fredrik has been living in the wilderness for so long he can't stand to sleep with a roof above his head anymore. He now leads a group of similarly-minded veterans, calling themselves the Old and the Bold.",
+			"specialty" : {
+				"name" : "Brawlers",
+				"tooltip" : "Creature Bonus: Brawlers",
+				"description" : "Increases the Speed of allied Brawlers, Berserkers, and Battleragers by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/fredrik/portraitSmall.png",
+			"large" : "heroes/bulwark/fredrik/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Jotunns.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Jotunns.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "brawlerAU",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "brawlerAU",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "brawlerAU",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	}
+}

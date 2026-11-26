@@ -1,0 +1,90 @@
+{
+	"51inga" : {
+		"class" : "runemageIngaSpec",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"stoneSkin"
+		],
+		"texts" : {
+			"name" : "Inga",
+			"biography" : "This child of famous stonemasons did not turn out as expected. Instead of shaping the rock, Inga claimed to be able to \"hear\" it. Growing up, she spent so much of her time with the Rune Priests, studying the mysterious songs she heard in the bedrock, that she left her uncomprehending family to join them. Her attunement to the hidden whisperings of Arkath has helped her develop into an outstanding leader of the Rune Priests.",
+			"specialty" : {
+				"name" : "Rune Master",
+				"tooltip" : "Spell Bonus: Rune Master",
+				"description" : "Increases the duration of all Runes by 3 turns."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/inga/portraitSmall.png",
+			"large" : "heroes/bulwark/inga/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Rune Master.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Rune Master.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "runelore",
+				"level" : "basic"
+			},
+			{
+				"skill" : "learning",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"runeDuration01" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "runeOfBattleRage",
+					"val" : 3
+				},
+				"runeDuration02" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "runeOfBerserking",
+					"val" : 3
+				},
+				"runeDuration03" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "runeOfCharge",
+					"val" : 3
+				},
+				"runeDuration04" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "runeOfMagicControl",
+					"val" : 3
+				},
+				"runeDuration05" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "runeOfResurrection",
+					"val" : 3
+				},
+				"runeDuration06" : {
+					"type" : "SPELL_DURATION",
+					"subtype" : "runeOfThunderclap",
+					"val" : 3
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"05ebba" : {
+		"class" : "jarl",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"dragonStrength"
+		],
+		"texts" : {
+			"name" : "Ebba",
+			"biography" : "Among the Dwarves' most amazing heroines stands Ebba, small and ruthless, who was brought up by a family of bears. When she first appeared among them, few recognised that this nubbin of feral frenzy was in fact a Dwarf. But Ebba soon gained prestige and even the loyalty and adoration of those stern warriors of the North, the Bear Riders.",
+			"specialty" : {
+				"name" : "Bear Riders",
+				"tooltip" : "Creature Bonus: Bear Riders",
+				"description" : "Increases the Speed of allied Bear Riders, Blackbear Riders, and Whitebear Riders by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/ebba/portraitSmall.png",
+			"large" : "heroes/bulwark/ebba/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Jotunns.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Jotunns.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "bearRiderAU",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

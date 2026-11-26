@@ -1,0 +1,56 @@
+{
+	"01changbo" : {
+		"class" : "samuraiClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Changbo",
+			"biography" : "Once a vassal of Lord Okane, Changbo refused to swear allegiance to his new daimyo, Hiroshi. That day he became two men. Pirate and brigand to those within earshot of the daimyo's soldiers. Hero and defender to those same folk when speaking with hushed voices in private. A Ronin who who puts his strict moral code above all other considerations, Changbo can easily gave up wealth, power or status in his quest to protect the weak from the whims of the strong.",
+			"specialty" : {
+				"name" : "Armorer",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/changbo/portraitSmall.png",
+			"large" : "heroes/sanctuary/changbo/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Armorer.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Armorer.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "armorer"
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

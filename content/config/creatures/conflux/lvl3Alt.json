@@ -86,7 +86,6 @@
 			},
 			"frostRingPower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"subtype" : "frostRing",
 				"val" : 30
 			},
 			"spellpoints" : {

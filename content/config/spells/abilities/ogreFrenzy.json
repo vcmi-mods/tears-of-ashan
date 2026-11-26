@@ -58,11 +58,16 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"inFrenzy" : {
-						"type" : "IN_FRENZY",
-						"val" : 100,
-						"duration" : "UNTIL_ATTACK"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"inFrenzy" : {
+								"type" : "IN_FRENZY",
+								"val" : 100,
+								"duration" : "UNTIL_ATTACK"
+							}
+						}
 					}
 				}
 			},

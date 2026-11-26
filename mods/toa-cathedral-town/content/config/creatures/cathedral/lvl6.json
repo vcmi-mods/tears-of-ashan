@@ -1,0 +1,75 @@
+{
+	"darkPaladinAU" : {
+		"name" : {
+			"singular" : "Dark Paladin",
+			"plural" : "Dark Paladins"
+		},
+		"faction" : "cathedralTOA",
+		"level" : 6,
+		"attack" : 16,
+		"defense" : 14,
+		"damage" : {
+			"min" : 15,
+			"max" : 20
+		},
+		"hitPoints" : 85,
+		"speed" : 7,
+		"growth" : 2,
+		"aiValue" : 1750,
+		"fightValue" : 1325,
+		"cost" : {
+			"gold" : 900
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
+		},
+		"upgrades" : [
+			"darkTemplarAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"castBless" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "bless",
+				"val" : 3,
+				"description" : "{Spellcaster}\nCan cast Expert Bless (6 Power).",
+				"icon" : "zvs/Lib1.res/spellsSOD/bless3.png"
+			},
+			"blessPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"hatesUndead" : {
+				"type" : "HATES_TRAIT",
+				"subtype" : "UNDEAD",
+				"val" : 50,
+				"description" : "{Hates Undead}\nDeals 50% increased damage to Undead units.",
+				"icon" : "zvs/Lib1.res/e_undead.png"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cathedral/battle/lvl6.def",
+			"map" : "creatures/cathedral/map/lvl6.def",
+			"iconSmall" : "creatures/cathedral/iconsSmall/lvl6.png",
+			"iconLarge" : "creatures/cathedral/iconsBig/lvl6.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "CRUSATTK.wav",
+			"defend" : "CRUSDFND.wav",
+			"killed" : "CRUSKILL.wav",
+			"move" : "CRUSMOVE.wav",
+			"wince" : "CRUSWNCE.wav"
+		}
+	}
+}

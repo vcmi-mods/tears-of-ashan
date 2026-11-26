@@ -1,0 +1,64 @@
+{
+	"tankAU" : {
+		"name" : {
+			"singular" : "Tank",
+			"plural" : "Tanks"
+		},
+		"faction" : "forgeTOA",
+		"level" : 6,
+		"attack" : 16,
+		"defense" : 16,
+		"damage" : {
+			"min" : 30,
+			"max" : 30
+		},
+		"hitPoints" : 120,
+		"speed" : 9,
+		"growth" : 1,
+		"aiValue" : 3050,
+		"fightValue" : 3050,
+		"cost" : {
+			"gold" : 1600
+		},
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"upgrades" : [
+			"heavyTankAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"landMineImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "landMine",
+				"addInfo" : 0
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl6.def",
+			"map" : "creatures/forge/map/lvl6.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl6.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl6.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/tank/attack.mp3",
+			"defend" : "creatures/tank/defend.mp3",
+			"killed" : "creatures/tank/death.mp3",
+			"move" : "creatures/tank/move.mp3",
+			"wince" : "creatures/tank/hit.mp3"
+		}
+	}
+}

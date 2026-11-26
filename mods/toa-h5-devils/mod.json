@@ -1,5 +1,5 @@
 {
-	"name" : "Heroes V Devils",
+	"name" : "Gameplay: Heroes V Devils",
 	"author" : "Aphra",
 	"contact" : "",
 	"description" : "Changes the appearance of Devils to those from Heroes V. Also makes them double wide.",
@@ -10,5 +10,10 @@
 
 	"creatures" : [
 		"config/creatures.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Ďáblové z Heroes V",
+		"description" : "Mění vzhled ďáblů podle Heroes V a zároveň z nich činí jednotky zabírající dvě pole."
+	}
 }

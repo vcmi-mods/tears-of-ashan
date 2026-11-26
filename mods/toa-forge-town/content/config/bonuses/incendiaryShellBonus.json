@@ -1,0 +1,13 @@
+{
+	"INCENDIARY_BONUS" : {
+		"hidden" : true,
+
+		"creatureNature" : false,
+
+		"description" : "{Incendiary Shell}\nCan fire an incendiary shell",
+
+		"graphics" : {
+			"icon" : "bonuses/bonusDemonic.png"
+		}
+	}
+}

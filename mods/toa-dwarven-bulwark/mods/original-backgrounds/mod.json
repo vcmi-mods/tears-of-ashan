@@ -1,0 +1,15 @@
+{
+	"name" : "Original Creature Icon Backgrounds",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Reverts the backgrounds of Crownwork creatures' large icons to that of the HOTA Bulwark.",
+	"version" : "1.0.0",
+	"modType" : "Graphical",
+
+	"keepDisabled" : true,
+
+	"czech" : {
+		"name" : "Původní pozadí ikon jednotek",
+		"description" : "Vrací velkým ikonám jednotek Trpasličí bašty původní pozadí používané jednotkami Bašty v Horn of the Abyss."
+	}
+}

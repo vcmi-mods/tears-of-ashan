@@ -1,0 +1,61 @@
+{
+	"51Kastore" : {
+		"class" : "technicianClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"reconstructionTOA"
+		],
+		"texts" : {
+			"name" : "Kastore",
+			"biography" : "Kastore, a visitor not of this world, took power in Deyja after overthrowing Archibald Ironfist. His obsession with the magic of the Ancients and conviction to restore the Heavenly Forges is all in service of something greater and older than any being who has walked the planet.",
+			"specialty" : {
+				"name" : "Juggernauts",
+				"tooltip" : "Creature Bonus: Juggernauts",
+				"description" : "Increases the Speed of allied Juggernauts and Dreadnoughts by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/kastore/portraitSmall.png",
+			"large" : "heroes/forge/kastore/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Juggernauts.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Juggernauts.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "earthMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "juggernautAU",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

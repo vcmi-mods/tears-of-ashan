@@ -1,0 +1,70 @@
+{
+	"defenderAU" : {
+		"name" : {
+			"singular" : "Defender",
+			"plural" : "Defenders"
+		},
+		"faction" : "bulwark",
+		"level" : 1,
+		"attack" : 2,
+		"defense" : 6,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
+		"hitPoints" : 10,
+		"speed" : 4,
+		"growth" : 14,
+		"aiValue" : 75,
+		"fightValue" : 75,
+		"cost" : {
+			"gold" : 55
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"upgrades" : [
+			"shieldguardAU",
+			"mountainGuardAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"cavalryChargeImmunity" : {
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"rangedDamageReduction" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 25
+			},
+			"disruptingRayImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "disruptingRay"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl1.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl1.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl1.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl1.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/defender/attack",
+			"defend" : "creatures/defender/hit",
+			"killed" : "creatures/defender/death",
+			"move" : "creatures/defender/move",
+			"wince" : "creatures/defender/hit"
+		}
+	}
+}

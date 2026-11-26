@@ -1,0 +1,91 @@
+{
+	"ancientClass" : {
+		"name" : "Ancient",
+		"faction" : "forgeTOA",
+		"affinity" : "magic",
+		"defaultTavern" : 0,
+		"commander" : "bruiserAU",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/technician/MaleCombat.def",
+				"male" : "classes/technician/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/technician/Map.def"
+					//"editorAnimation" : "classes/technician/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/technician/Map.def"
+					//"editorAnimation" : "classes/technician/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 2,
+			"spellpower" : 2,
+			"knowledge" : 2
+		},
+		"lowLevelChance" : {
+			"attack" : 35,
+			"defence" : 15,
+			"spellpower" : 30,
+			"knowledge" : 20
+		},
+		"highLevelChance" : {
+			"attack" : 25,
+			"defence" : 25,
+			"spellpower" : 25,
+			"knowledge" : 25
+		},
+		"secondarySkills" : {
+			"archery" : 8,
+			"armorer" : 8,
+			"artillery" : 8,
+			"ballistics" : 5,
+			"firstAid" : 4,
+			"interference" : 5,
+			"leadership" : 8,
+			"luck" : 7,
+			"offence" : 8,
+			"resistance" : 8,
+			"tactics" : 6,
+
+			"airMagic" : 4,
+			"earthMagic" : 5,
+			"fireMagic" : 4,
+			"waterMagic" : 2,
+			"lightMagic" : 1,
+			"darkMagic" : 5,
+			"eagleEye" : 1,
+			"intelligence" : 6,
+			"mysticism" : 3,
+			"necromancy" : 0,
+			"scholar" : 3,
+			"sorcery" : 7,
+			"wisdom" : 6,
+
+			"diplomacy" : 8,
+			"estates" : 8,
+			"learning" : 6,
+			"logistics" : 7,
+			"navigation" : 2,
+			"pathfinding" : 6,
+			"scouting" : 7
+		},
+		"tavern" : {
+			"forgeTOA" : 3
+		}
+	}
+}

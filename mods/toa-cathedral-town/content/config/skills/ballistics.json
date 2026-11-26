@@ -1,0 +1,43 @@
+{
+	"core:ballistics" : {
+		"base" : {
+			"effects" : {
+				"damageCapSC" : {
+					"type" : "DAMAGE_RECEIVED_CAP",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "munitionsCartAU"
+						}
+					],
+					"valueType" : "INDEPENDENT_MIN"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Artillery}\n\nBasic Ballistics gives the hero control of the Catapult. The Catapult can be aimed and has an increased chance to hit fortifications. The Catapult, the Ammo Cart, and the Munitions Cart cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"damageCapSC" : {
+					"val" : 40
+				}
+			}
+		},
+		"advanced" : {
+			"description" : "{Basic Artillery}\n\nBasic Ballistics gives the hero control of the Catapult. The Catapult can be aimed and has an increased chance to hit fortifications, and shoots twice. The Catapult, the Ammo Cart, and the Munitions Cart cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"damageCapSC" : {
+					"val" : 40
+				}
+			}
+		},
+		"expert" : {
+			"description" : "{Basic Artillery}\n\nBasic Ballistics gives the hero control of the Catapult. The Catapult can be aimed, always hits the intended target, and shoots twice. The Catapult, the Ammo Cart, and the Munitions Cart cannot be dealt more than 40% of their Health as Damage from any single damage source.",
+			"effects" : {
+				"damageCapSC" : {
+					"val" : 40
+				}
+			}
+		}
+	}
+}

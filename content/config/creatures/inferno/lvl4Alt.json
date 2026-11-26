@@ -15,10 +15,10 @@
 		"hitPoints" : 35,
 		"speed" : 8,
 		"growth" : 4,
-		"aiValue" : 550,
-		"fightValue" : 550,
+		"aiValue" : 565,
+		"fightValue" : 565,
 		"cost" : {
-			"gold" : 350
+			"gold" : 375
 		},
 		"advMapAmount" : {
 			"min" : 10,

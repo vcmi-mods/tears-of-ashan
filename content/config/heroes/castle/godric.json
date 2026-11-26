@@ -1,0 +1,85 @@
+{
+	"09godric" : {
+		"class" : "knight",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"bless"
+		],
+		"texts" : {
+			"name" : "Godric",
+			"biography" : "Godric is rightfully upheld as a model knight and sterling example of chivalric ideals. Demanding the highest standards of courage and integrity from both himself and his followers, Godric commands respect wherever he goes. Troops under his banner trust him without question, as his history of great deeds and his favor in Elrath's eye convince them that his mere presence upon the battlefield can guarantee victory.",
+			"specialty" : {
+				"name" : "Paragon Knight",
+				"tooltip" : "Creature Bonus: Paragon Knight",
+				"description" : "Gains an additional +1 Defense every 3 levels. Increases the Health of allied units by 1 for every 6 levels and their Morale by 1 for every 10 levels."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/castle/godric/portraitSmall.png",
+			"large" : "heroes/castle/godric/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Paragon Knight.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Paragon Knight.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "lightMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"defense" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 3
+					}
+				},
+				"health" : {
+					"type" : "STACK_HEALTH",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 6
+					}
+				},
+				"morale" : {
+					"type" : "MORALE",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 10
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	}
+}

@@ -1,0 +1,127 @@
+{
+	"name" : "Faction: Sanctuary (Heroes VI)",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "The Sanctuary faction (as you know and love it) from Heroes VI, including its campaign!<p>This mod's state is <b>WORK IN PROGRESS</b>. The creature animations and siege screen are currently missing and are using placeholder assets. These will be removed and switched out as soon as possible.</p>",
+	"version" : "1.0.0",
+	"modType" : "Town",
+
+	"keepDisabled" : true,
+
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"depends" : [
+		"hota.bulwark",
+		"hota.cove",
+		"hota.cove.bonuses icons",
+		"hota.factory",
+		"hota.factory.bonuses icons",
+		"hota.gamebalance.heroes",
+		"hota.gamebalance.skills.firstaid",
+		"hota.heroes3datapatch",
+		"hota.highlandsterrain",
+		"hota.interference",
+		"hota.newgraphics",
+		"market-of-time",
+		"new-old-spells-plus",
+		"reinforcements-spell",
+		"tears-of-ashan.toa-ashan-sounds",
+		"vcmi-extras.bonusicons.bonus icons"
+	],
+
+	"bonuses" : [
+		"config/bonuses/bloodFrenzy.json",
+		"config/bonuses/sanctuary.json"
+	],
+
+	"spells" : [
+		"config/spells/ferociousDamage.json",
+		"config/spells/ferociousWound.json",
+		"config/spells/kappaLeap.json",
+		"config/spells/kappaLeapUp.json"
+	],
+
+	"factions" : [
+		"config/town-screen/sanctuary.json"
+	],
+
+	"heroClasses" : [
+		"config/classes/monk.json",
+		"config/classes/samurai.json"
+	],
+
+	"heroes" : [
+		"config/heroes/sanctuary/akasha.json",
+		"config/heroes/sanctuary/atlas.json",
+		"config/heroes/sanctuary/changbo.json",
+		"config/heroes/sanctuary/hiroshi.json",
+		"config/heroes/sanctuary/hitomi.json",
+		"config/heroes/sanctuary/kenage.json",
+		"config/heroes/sanctuary/kenta.json",
+		"config/heroes/sanctuary/mukao.json",
+		"config/heroes/sanctuary/toshiro.json",
+		"config/heroes/sanctuary/tsuan.json",
+
+		"config/heroes/sanctuary/chiyoko.json",
+		"config/heroes/sanctuary/jun.json",
+		"config/heroes/sanctuary/kalindra.json",
+		"config/heroes/sanctuary/katsue.json",
+		"config/heroes/sanctuary/meiLien.json",
+		"config/heroes/sanctuary/oshiro.json",
+		"config/heroes/sanctuary/yugen.json",
+		"config/heroes/sanctuary/yume.json",
+		"config/heroes/sanctuary/zhaoyu.json",
+
+		"config/heroes/sanctuary/irina.json"
+	],
+
+	"creatures" : [
+		"config/creatures/inferno/asmodeus",
+
+		"config/creatures/sanctuary/lvl1",
+		"config/creatures/sanctuary/lvl1Up",
+		"config/creatures/sanctuary/lvl2",
+		"config/creatures/sanctuary/lvl2Up",
+		"config/creatures/sanctuary/lvl3",
+		"config/creatures/sanctuary/lvl3Up",
+		"config/creatures/sanctuary/lvl4",
+		"config/creatures/sanctuary/lvl4Up",
+		"config/creatures/sanctuary/lvl5",
+		"config/creatures/sanctuary/lvl5Up",
+		"config/creatures/sanctuary/lvl6",
+		"config/creatures/sanctuary/lvl6Up",
+		"config/creatures/sanctuary/lvl7",
+		"config/creatures/sanctuary/lvl7Up",
+		"config/creatures/sanctuary/lvl7Alt",
+		"config/creatures/sanctuary/boss"
+	],
+
+	"artifacts" : [
+		"config/artifacts/douliOfTheProphet",
+		"config/artifacts/frozenChrysanthemum",
+		"config/artifacts/iridescentPearl",
+		"config/artifacts/libramOfTheProphet",
+		"config/artifacts/raimentsOfShalassa",
+		"config/artifacts/robeOfTheProphet",
+		"config/artifacts/sandalsOfTheProphet",
+		"config/artifacts/spauldersOfTheProphet",
+		"config/artifacts/staffOfTheTides"
+	],
+
+	"objects" : [
+		"config/dwellings.json",
+		"config/objects.json"
+	],
+
+	"czech" : {
+		"name" : "Svatyně",
+		"description" : "Svatyně z Heroes VI se vrací v podobě, jak ji znáš a máš rád — včetně vlastní kampaně!<p>Tato modifikace je stále <b>VE VÝVOJI</b>. Animace jednotek a obrazovka obléhání zatím nejsou dokončené a dočasně je nahrazují provizorní podklady. Ty budou odstraněny, jakmile bude výsledná grafika hotová.</p>",
+		"translations" : [
+			"translation/czech.json"
+		]
+	}
+}

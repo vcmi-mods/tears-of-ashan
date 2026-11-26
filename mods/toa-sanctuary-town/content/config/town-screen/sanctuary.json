@@ -1,0 +1,1580 @@
+{
+	"sanctuary" : {
+		"name" : "Sanctuary",
+
+		"nativeTerrain" : [
+			"highlands"
+		],
+
+		"alignment" : "good",
+
+		"creatureBackground" : {
+			"120px" : "120px",
+			"130px" : "130px"
+		},
+
+		"boat" : "boatCastle",
+
+		"puzzleMap" : {
+			"prefix" : "PUZELE",
+			"pieces" : [
+				{
+					"x" : 7,
+					"y" : 8,
+					"index" : 1
+				},
+				{
+					"x" : 7,
+					"y" : 54,
+					"index" : 6
+				},
+				{
+					"x" : 7,
+					"y" : 227,
+					"index" : 16
+				},
+				{
+					"x" : 7,
+					"y" : 426,
+					"index" : 9
+				},
+				{
+					"x" : 15,
+					"y" : 48,
+					"index" : 22
+				},
+				{
+					"x" : 45,
+					"y" : 375,
+					"index" : 32
+				},
+				{
+					"x" : 48,
+					"y" : 249,
+					"index" : 28
+				},
+				{
+					"x" : 86,
+					"y" : 500,
+					"index" : 15
+				},
+				{
+					"x" : 93,
+					"y" : 55,
+					"index" : 37
+				},
+				{
+					"x" : 99,
+					"y" : 245,
+					"index" : 7
+				},
+				{
+					"x" : 101,
+					"y" : 354,
+					"index" : 27
+				},
+				{
+					"x" : 104,
+					"y" : 175,
+					"index" : 35
+				},
+				{
+					"x" : 107,
+					"y" : 14,
+					"index" : 21
+				},
+				{
+					"x" : 124,
+					"y" : 296,
+					"index" : 38
+				},
+				{
+					"x" : 134,
+					"y" : 8,
+					"index" : 4
+				},
+				{
+					"x" : 181,
+					"y" : 466,
+					"index" : 26
+				},
+				{
+					"x" : 182,
+					"y" : 200,
+					"index" : 40
+				},
+				{
+					"x" : 189,
+					"y" : 381,
+					"index" : 33
+				},
+				{
+					"x" : 192,
+					"y" : 40,
+					"index" : 8
+				},
+				{
+					"x" : 192,
+					"y" : 364,
+					"index" : 11
+				},
+				{
+					"x" : 201,
+					"y" : 124,
+					"index" : 48
+				},
+				{
+					"x" : 203,
+					"y" : 330,
+					"index" : 42
+				},
+				{
+					"x" : 228,
+					"y" : 293,
+					"index" : 45
+				},
+				{
+					"x" : 235,
+					"y" : 39,
+					"index" : 25
+				},
+				{
+					"x" : 242,
+					"y" : 335,
+					"index" : 44
+				},
+				{
+					"x" : 275,
+					"y" : 488,
+					"index" : 5
+				},
+				{
+					"x" : 278,
+					"y" : 202,
+					"index" : 46
+				},
+				{
+					"x" : 290,
+					"y" : 80,
+					"index" : 13
+				},
+				{
+					"x" : 291,
+					"y" : 115,
+					"index" : 20
+				},
+				{
+					"x" : 308,
+					"y" : 225,
+					"index" : 43
+				},
+				{
+					"x" : 310,
+					"y" : 158,
+					"index" : 39
+				},
+				{
+					"x" : 312,
+					"y" : 24,
+					"index" : 12
+				},
+				{
+					"x" : 317,
+					"y" : 8,
+					"index" : 2
+				},
+				{
+					"x" : 323,
+					"y" : 443,
+					"index" : 10
+				},
+				{
+					"x" : 327,
+					"y" : 253,
+					"index" : 41
+				},
+				{
+					"x" : 330,
+					"y" : 36,
+					"index" : 36
+				},
+				{
+					"x" : 349,
+					"y" : 330,
+					"index" : 34
+				},
+				{
+					"x" : 349,
+					"y" : 426,
+					"index" : 17
+				},
+				{
+					"x" : 407,
+					"y" : 191,
+					"index" : 47
+				},
+				{
+					"x" : 421,
+					"y" : 430,
+					"index" : 31
+				},
+				{
+					"x" : 428,
+					"y" : 246,
+					"index" : 23
+				},
+				{
+					"x" : 467,
+					"y" : 90,
+					"index" : 29
+				},
+				{
+					"x" : 481,
+					"y" : 13,
+					"index" : 30
+				},
+				{
+					"x" : 489,
+					"y" : 346,
+					"index" : 18
+				},
+				{
+					"x" : 504,
+					"y" : 113,
+					"index" : 19
+				},
+				{
+					"x" : 504,
+					"y" : 190,
+					"index" : 24
+				},
+				{
+					"x" : 507,
+					"y" : 8,
+					"index" : 14
+				},
+				{
+					"x" : 542,
+					"y" : 436,
+					"index" : 3
+				}
+			]
+		},
+
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
+				},
+				"templates" : {
+					"capitol" : {
+						"animation" : "map/sanctuary/capitol.json"
+					},
+					"castle" : {
+						"animation" : "map/sanctuary/castle.json"
+					},
+					"citadel" : {
+						"animation" : "map/sanctuary/citadel.json"
+					},
+					"fort" : {
+						"animation" : "map/sanctuary/fort.json"
+					},
+					"village" : {
+						"animation" : "map/sanctuary/hall.json"
+					}
+				}
+			},
+
+			"structures" : {
+				//EXTRA
+				"extraAnimation" : {
+					"animation" : "town-screen/sanctuary/buildings/foreground",
+					"x" : 698,
+					"y" : 40,
+					"z" : 15
+				},
+
+				//GRAIL
+				"grail" : {
+					"animation" : "town-screen/sanctuary/buildings/grail",
+					"x" : 231,
+					"y" : 77,
+					"z" : 4,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/grail",
+					"border" : "town-screen/sanctuary/borders/grail",
+					"area" : "town-screen/sanctuary/areas/grail"
+				},
+
+				//COMMON BUILDINGS
+				"tavern" : {
+					"animation" : "town-screen/sanctuary/buildings/tavern",
+					"x" : 488,
+					"y" : 136,
+					"z" : 11,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/tavern",
+					"border" : "town-screen/sanctuary/borders/tavern",
+					"area" : "town-screen/sanctuary/areas/tavern"
+				},
+				"blacksmith" : {
+					"animation" : "town-screen/sanctuary/buildings/portal01",
+					"x" : 277,
+					"y" : 56,
+					"z" : 6,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/blacksmith",
+					"border" : "town-screen/sanctuary/borders/portal01",
+					"area" : "town-screen/sanctuary/areas/portal01"
+				},
+				"marketplace" : {
+					"animation" : "town-screen/sanctuary/buildings/market01",
+					"x" : 450,
+					"y" : 215,
+					"z" : 12,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/market01",
+					"border" : "town-screen/sanctuary/borders/market01",
+					"area" : "town-screen/sanctuary/areas/market01"
+				},
+				"resourceSilo" : {
+					"animation" : "town-screen/sanctuary/buildings/market02",
+					"x" : 450,
+					"y" : 215,
+					"z" : 13,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/market02",
+					"border" : "town-screen/sanctuary/borders/market02",
+					"area" : "town-screen/sanctuary/areas/market02"
+				},
+
+				//MAGE GUILD
+				"mageGuild1" : {
+					"animation" : "town-screen/sanctuary/buildings/mage01",
+					"x" : 327,
+					"y" : 185,
+					"z" : 6,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/mage01",
+					"border" : "town-screen/sanctuary/borders/mage01",
+					"area" : "town-screen/sanctuary/areas/mage01"
+				},
+				"mageGuild2" : {
+					"animation" : "town-screen/sanctuary/buildings/mage02",
+					"x" : 327,
+					"y" : 163,
+					"z" : 6,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/mage02",
+					"border" : "town-screen/sanctuary/borders/mage02",
+					"area" : "town-screen/sanctuary/areas/mage02"
+				},
+				"mageGuild3" : {
+					"animation" : "town-screen/sanctuary/buildings/mage03",
+					"x" : 327,
+					"y" : 129,
+					"z" : 6,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/mage03",
+					"border" : "town-screen/sanctuary/borders/mage03",
+					"area" : "town-screen/sanctuary/areas/mage03"
+				},
+				"mageGuild4" : {
+					"animation" : "town-screen/sanctuary/buildings/mage04",
+					"x" : 327,
+					"y" : 128,
+					"z" : 6,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/mage04",
+					"border" : "town-screen/sanctuary/borders/mage04",
+					"area" : "town-screen/sanctuary/areas/mage04"
+				},
+				"mageGuild5" : {
+					"animation" : "town-screen/sanctuary/buildings/mage05",
+					"x" : 309,
+					"y" : 23,
+					"z" : 6,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/mage05",
+					"border" : "town-screen/sanctuary/borders/mage05",
+					"area" : "town-screen/sanctuary/areas/mage05"
+				},
+
+				//HALLS
+				"villageHall" : {
+					"animation" : "town-screen/sanctuary/buildings/hall01",
+					"x" : 266,
+					"y" : 54,
+					"z" : 5,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/hall01",
+					"border" : "town-screen/sanctuary/borders/hall01",
+					"area" : "town-screen/sanctuary/areas/hall01"
+				},
+				"townHall" : {
+					"animation" : "town-screen/sanctuary/buildings/hall02",
+					"x" : 266,
+					"y" : 35,
+					"z" : 5,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/hall02",
+					"border" : "town-screen/sanctuary/borders/hall02",
+					"area" : "town-screen/sanctuary/areas/hall02"
+				},
+				"cityHall" : {
+					"animation" : "town-screen/sanctuary/buildings/hall03",
+					"x" : 265,
+					"y" : 26,
+					"z" : 5,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/hall03",
+					"border" : "town-screen/sanctuary/borders/hall03",
+					"area" : "town-screen/sanctuary/areas/hall03"
+				},
+				"capitol" : {
+					"animation" : "town-screen/sanctuary/buildings/hall04",
+					"x" : 264,
+					"y" : 0,
+					"z" : 5,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/hall04",
+					"border" : "town-screen/sanctuary/borders/hall04",
+					"area" : "town-screen/sanctuary/areas/hall04"
+				},
+
+				//FORTIFICATIONS
+				"fort" : {
+					"animation" : "town-screen/sanctuary/buildings/fort01",
+					"x" : 0,
+					"y" : 235,
+					"z" : 14,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/fort01",
+					"border" : "town-screen/sanctuary/borders/fort01",
+					"area" : "town-screen/sanctuary/areas/fort01"
+				},
+				"citadel" : {
+					"animation" : "town-screen/sanctuary/buildings/fort02",
+					"x" : 0,
+					"y" : 216,
+					"z" : 14,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/fort02",
+					"border" : "town-screen/sanctuary/borders/fort02",
+					"area" : "town-screen/sanctuary/areas/fort02"
+				},
+				"castle" : {
+					"animation" : "town-screen/sanctuary/buildings/fort03",
+					"x" : 0,
+					"y" : 216,
+					"z" : 14,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/fort03",
+					"border" : "town-screen/sanctuary/borders/fort03",
+					"area" : "town-screen/sanctuary/areas/fort03"
+				},
+
+				//DWELLINGS
+				"dwellingLvl1" : {
+					"animation" : "town-screen/sanctuary/buildings/shark01",
+					"x" : 292,
+					"y" : 211,
+					"z" : 9,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/shark01",
+					"border" : "town-screen/sanctuary/borders/shark01",
+					"area" : "town-screen/sanctuary/areas/shark01"
+				},
+				"dwellingUpLvl1" : {
+					"animation" : "town-screen/sanctuary/buildings/shark02",
+					"x" : 273,
+					"y" : 196,
+					"z" : 9,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/shark02",
+					"border" : "town-screen/sanctuary/borders/shark02",
+					"area" : "town-screen/sanctuary/areas/shark02"
+				},
+				"dwellingLvl2" : {
+					"animation" : "town-screen/sanctuary/buildings/kappa01",
+					"x" : 191,
+					"y" : 150,
+					"z" : 7,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/kappa01",
+					"border" : "town-screen/sanctuary/borders/kappa01",
+					"area" : "town-screen/sanctuary/areas/kappa01"
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "town-screen/sanctuary/buildings/kappa02",
+					"x" : 191,
+					"y" : 150,
+					"z" : 7,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/kappa02",
+					"border" : "town-screen/sanctuary/borders/kappa02",
+					"area" : "town-screen/sanctuary/areas/kappa02"
+				},
+				"dwellingLvl3" : {
+					"animation" : "town-screen/sanctuary/buildings/priestess01",
+					"x" : 112,
+					"y" : 139,
+					"z" : 10,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/priestess01",
+					"border" : "town-screen/sanctuary/borders/priestess01",
+					"area" : "town-screen/sanctuary/areas/priestess01"
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "town-screen/sanctuary/buildings/priestess02",
+					"x" : 112,
+					"y" : 119,
+					"z" : 10,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/priestess02",
+					"border" : "town-screen/sanctuary/borders/priestess02",
+					"area" : "town-screen/sanctuary/areas/priestess02"
+				},
+				"horde1" : {
+					"animation" : "town-screen/sanctuary/buildings/priestess01",
+					"x" : 112,
+					"y" : 139,
+					"z" : 10,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/priestess01",
+					"border" : "town-screen/sanctuary/borders/priestess01",
+					"area" : "town-screen/sanctuary/areas/priestess01",
+					"hidden" : true
+				},
+				"horde1Upgr" : {
+					"animation" : "town-screen/sanctuary/buildings/priestess02",
+					"x" : 112,
+					"y" : 119,
+					"z" : 10,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/priestess02",
+					"border" : "town-screen/sanctuary/borders/priestess02",
+					"area" : "town-screen/sanctuary/areas/priestess02",
+					"hidden" : true,
+					"builds" : "horde1"
+				},
+				"dwellingLvl4" : {
+					"animation" : "town-screen/sanctuary/buildings/spirit01",
+					"x" : 552,
+					"y" : 73,
+					"z" : 2,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/spirit01",
+					"border" : "town-screen/sanctuary/borders/spirit01",
+					"area" : "town-screen/sanctuary/areas/spirit01"
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "town-screen/sanctuary/buildings/spirit02",
+					"x" : 552,
+					"y" : 73,
+					"z" : 2,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/spirit02",
+					"border" : "town-screen/sanctuary/borders/spirit02",
+					"area" : "town-screen/sanctuary/areas/spirit02"
+				},
+				"dwellingLvl5" : {
+					"animation" : "town-screen/sanctuary/buildings/maiden01",
+					"x" : 98,
+					"y" : 0,
+					"z" : 3,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/maiden01",
+					"border" : "town-screen/sanctuary/borders/maiden01",
+					"area" : "town-screen/sanctuary/areas/maiden01"
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "town-screen/sanctuary/buildings/maiden02",
+					"x" : 98,
+					"y" : 0,
+					"z" : 3,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/maiden02",
+					"border" : "town-screen/sanctuary/borders/maiden02",
+					"area" : "town-screen/sanctuary/areas/maiden02"
+				},
+				"horde2" : {
+					"animation" : "town-screen/sanctuary/buildings/maiden01",
+					"x" : 98,
+					"y" : 0,
+					"z" : 3,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/maiden01",
+					"border" : "town-screen/sanctuary/borders/maiden01",
+					"area" : "town-screen/sanctuary/areas/maiden01",
+					"hidden" : true
+				},
+				"horde2Upgr" : {
+					"animation" : "town-screen/sanctuary/buildings/maiden02",
+					"x" : 98,
+					"y" : 0,
+					"z" : 3,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/maiden02",
+					"border" : "town-screen/sanctuary/borders/maiden02",
+					"area" : "town-screen/sanctuary/areas/maiden02",
+					"hidden" : true,
+					"builds" : "horde2"
+				},
+				"dwellingLvl6" : {
+					"animation" : "town-screen/sanctuary/buildings/naga01",
+					"x" : 338,
+					"y" : 212,
+					"z" : 8,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/naga01",
+					"border" : "town-screen/sanctuary/borders/naga01",
+					"area" : "town-screen/sanctuary/areas/naga01"
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "town-screen/sanctuary/buildings/naga02",
+					"x" : 331,
+					"y" : 205,
+					"z" : 8,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/naga02",
+					"border" : "town-screen/sanctuary/borders/naga02",
+					"area" : "town-screen/sanctuary/areas/naga02"
+				},
+				"dwellingLvl7" : {
+					"animation" : "town-screen/sanctuary/buildings/kirin01",
+					"x" : 539,
+					"y" : 7,
+					"z" : 1,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/kirin01",
+					"border" : "town-screen/sanctuary/borders/kirin01",
+					"area" : "town-screen/sanctuary/areas/kirin01"
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "town-screen/sanctuary/buildings/kirin02",
+					"x" : 546,
+					"y" : 10,
+					"z" : 1,
+					"campaignBonus" : "town-screen/sanctuary/campaignBonus/kirin02",
+					"border" : "town-screen/sanctuary/borders/kirin01",
+					"area" : "town-screen/sanctuary/areas/kirin01"
+				},
+				"dwellingUp2Lvl7" : {
+					"animation" : "town-screen/cyan",
+					"x" : 546,
+					"y" : 10,
+					"z" : 1,
+					"border" : "town-screen/sanctuary/borders/kirin01",
+					"area" : "town-screen/sanctuary/areas/kirin01",
+					"hidden" : true,
+					"builds" : "dwellingUpLvl7"
+				}
+			},
+
+			"buildings" : {
+				//GRAIL
+				"grail" : {
+					"description" : "The presence of Shalassa's Frozen Breath increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day.",
+					"name" : "Shalassa's Frozen Breath"
+				},
+
+				//COMMON BUILDINGS
+				"tavern" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"name" : "Tavern"
+				},
+				"blacksmith" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"description" : "The Blacksmith provides your armies with First Aid Tents.",
+					"warMachine" : "firstAidTent",
+					"name" : "Blacksmith"
+				},
+				"marketplace" : {
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
+					"name" : "Resource Silo",
+					"produce" : {
+						"crystal" : 1
+					}
+				},
+
+				//MAGE GUILD
+				"mageGuild1" : {
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+				},
+				"mageGuild2" : {
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+				},
+				"mageGuild3" : {
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+				},
+				"mageGuild4" : {
+					"cost" : {
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4"
+				},
+				"mageGuild5" : {
+					"cost" : {
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5"
+				},
+
+				//HALLS
+				"villageHall" : {
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"name" : "Village Hall"
+				},
+				"townHall" : {
+					"cost" : {
+						"gold" : 2500
+					},
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"name" : "Town Hall"
+				},
+				"cityHall" : {
+					"cost" : {
+						"gold" : 5000
+					},
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"name" : "City Hall"
+				},
+				"capitol" : {
+					"cost" : {
+						"gold" : 10000
+					},
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"name" : "Capitol"
+				},
+
+				//FORTIFICATIONS
+				"fort" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
+					"description" : "The Fort provides your town with defensive walls.",
+					"name" : "Fort"
+				},
+				"citadel" : {
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"name" : "Citadel"
+				},
+				"castle" : {
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"name" : "Castle"
+				},
+
+				//DWELLINGS
+				"dwellingLvl1" : {
+					"cost" : {
+						"gold" : 500,
+						"ore" : 10
+					},
+					"name" : "Reef Barrier",
+					"description" : "The Reef Barrier allows you to recruit Shark Guards.",
+					"requires" : [
+						"fort"
+					]
+				},
+				"dwellingUpLvl1" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"name" : "Upg. Reef Rampart",
+					"description" : "The Reef Rampart allows you to recruit Wanizame.",
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingLvl2" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 10
+					},
+					"name" : "Enchanted Pond",
+					"description" : "The Enchanted Pond allow you to recruit Kappas.",
+					"requires" : [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingUpLvl2" : {
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"name" : "Upg. Blessed Pond",
+					"description" : "The Blessed Pond allow you to recruit Kappa Shoyas.",
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingLvl3" : {
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 10
+					},
+					"name" : "Coral Sanctuary",
+					"description" : "The Coral Sanctuary allow you to recruit Coral Priestesses.",
+					"requires" : [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingUpLvl3" : {
+					"cost" : {
+						"gold" : 1000,
+						"sulfur" : 5
+					},
+					"name" : "Upg. Pearl Sanctuary",
+					"description" : "The Pearl Sanctuary allows you to recruit Pearl Priestesses.",
+					"upgrades" : "dwellingLvl3",
+					"requires" : [
+						"mageGuild1"
+					]
+				},
+				"horde1" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"name" : "Inner Sanctuary",
+					"description" : "The Inner Sanctuary increases Coral Priestess production by 3 per week.",
+					"upgrades" : "dwellingLvl3"
+				},
+				"horde1Upgr" : {
+					"cost" : {
+						"gold" : 1000
+					},
+					"name" : "Inner Sanctuary",
+					"description" : "The Inner Sanctuary increases Pearl Priestess production by 3 per week.",
+					"upgrades" : "dwellingUpLvl3",
+					"requires" : [
+						"horde1"
+					]
+				},
+				"dwellingLvl4" : {
+					"cost" : {
+						"gold" : 2500,
+						"wood" : 5,
+						"crystal" : 5
+					},
+					"name" : "Sacred Source",
+					"description" : "The Sacred Source allows you to recruit Spring Spirits.",
+					"requires" : [
+						"dwellingLvl3"
+					]
+				},
+				"dwellingUpLvl4" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 10
+					},
+					"name" : "Upg. Sanctified Source",
+					"description" : "The Sanctified Source allows you to recruit Mizu-kamis.",
+					"upgrades" : "dwellingLvl4",
+					"requires" : [
+						"mageGuild1"
+					]
+				},
+				"dwellingLvl5" : {
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"gems" : 5
+					},
+					"name" : "Frost Shrine",
+					"description" : "The Frost Shrine allow you to recruit Snow Maidens.",
+					"requires" : [
+						"dwellingLvl3"
+					]
+				},
+				"dwellingUpLvl5" : {
+					"cost" : {
+						"gold" : 2000,
+						"crystal" : 5,
+						"gems" : 5
+					},
+					"name" : "Upg. Frost Miya",
+					"description" : "The Frost Miya allow you to recruit Yuki-onnas.",
+					"upgrades" : "dwellingLvl5",
+					"requires" : [
+						"mageGuild1"
+					]
+				},
+				"horde2" : {
+					"cost" : {
+						"gold" : 3000
+					},
+					"name" : "Frost Awnings",
+					"description" : "The Frost Awnings increase Snow Maiden production by 2 per week.",
+					"upgrades" : "dwellingLvl5"
+				},
+				"horde2Upgr" : {
+					"cost" : {
+						"gold" : 3000
+					},
+					"name" : "Frost Awnings",
+					"description" : "The Frost Awnings increase Yuki-Onna production by 2 per week.",
+					"upgrades" : "dwellingUpLvl5",
+					"requires" : [
+						"horde2"
+					]
+				},
+				"dwellingLvl6" : {
+					"cost" : {
+						"gold" : 4500,
+						"ore" : 10,
+						"wood" : 10
+					},
+					"name" : "Sunken Arena",
+					"description" : "The Sunken Arena allows you to recruit Kenshis.",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
+				},
+				"dwellingUpLvl6" : {
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 5,
+						"crystal" : 5
+					},
+					"name" : "Upg. Sunken Dojo",
+					"description" : "The Sunken Dojo allows you to recruit Kenseis.",
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingLvl7" : {
+					"cost" : {
+						"gold" : 10000,
+						"ore" : 10,
+						"crystal" : 5
+					},
+					"name" : "Misty Mountain",
+					"description" : "The Misty Mountain allows you to recruit Kirins.",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl7" : {
+					"cost" : {
+						"gold" : 15000,
+						"ore" : 10,
+						"crystal" : 15
+					},
+					"name" : "Upg. Cloudy Mountain",
+					"description" : "The Cloudy Mountain allows you to recruit Sacred Kirins and Enraged Kirins.",
+					"upgrades" : "dwellingLvl7",
+					"requires" : [
+						"mageGuild2"
+					]
+				},
+				"dwellingUp2Lvl7" : {
+					"name" : "Upg. Cloudy Mountain",
+					"description" : "The Cloudy Mountain allows you to recruit Sacred Kirins and Enraged Kirins.",
+					"mode" : "auto",
+					"requires" : [
+						"allOf",
+						[
+							"dwellingUpLvl7"
+						]
+					]
+				},
+
+				"special1" : null,
+				"special2" : null,
+				"special3" : null,
+				"special4" : null,
+				"ship" : null,
+				"shipyard" : null
+			},
+
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "town-screen/sanctuary/icons/fortLargeBuilt",
+						"small" : "town-screen/sanctuary/icons/fortSmallBuilt"
+					},
+					"normal" : {
+						"large" : "town-screen/sanctuary/icons/fortLarge",
+						"small" : "town-screen/sanctuary/icons/fortSmall"
+					}
+				},
+				"village" : {
+					"built" : {
+						"large" : "town-screen/sanctuary/icons/townLargeBuilt",
+						"small" : "town-screen/sanctuary/icons/townSmallBuilt"
+					},
+					"normal" : {
+						"large" : "town-screen/sanctuary/icons/townLarge",
+						"small" : "town-screen/sanctuary/icons/townSmall"
+					}
+				}
+			},
+
+			"musicTheme" : [
+				"music/sanctuaryTown"
+			],
+
+			"defaultTavern" : 5,
+
+			"tavernVideo" : "TAVERN.BIK",
+
+			"guildBackground" : [
+				"TPMAGE.bmp"
+			],
+
+			"guildSpells" : {
+				// Level 1
+				"bless" : 35,
+				"bloodlust" : 15,
+				"cure" : 30,
+				"curse" : 5,
+				"dispel" : 30,
+				"haste" : 30,
+				"magicArrow" : 80,
+				"protectWater" : 20,
+				"protectFire" : 10,
+				"shield" : 30,
+				"slow" : 40,
+				"stoneSkin" : 30,
+				"summonBoat" : 20,
+				"viewAir" : 15,
+				"viewEarth" : 15,
+				"new-old-spells-plus:waspSwarm" : 20,
+
+				// Level 2
+				"disguise" : 10,
+				"deathRipple" : 0,
+				"blind" : 25,
+				"disruptingRay" : 20,
+				"fireWall" : 0,
+				"fortune" : 25,
+				"iceBolt" : 80,
+				"lightningBolt" : 50,
+				"precision" : 40,
+				"protectAir" : 60,
+				"quicksand" : 20,
+				"removeObstacle" : 10,
+				"scuttleBoat" : 25,
+				"visions" : 25,
+				"weakness" : 30,
+
+				// Level 3
+				"airShield" : 25,
+				"antiMagic" : 15,
+				"earthquake" : 20,
+				"fireball" : 0,
+				"forceField" : 20,
+				"forgetfulness" : 30,
+				"frostRing" : 80,
+				"hypnotize" : 15,
+				"landMine" : 0,
+				"mirth" : 25,
+				"misfortune" : 0,
+				"protectEarth" : 10,
+				"teleport" : 30,
+				"destroyUndead" : 10,
+				"new-old-spells-plus:confusion" : 30,
+				"new-old-spells-plus:levitation" : 20,
+				"deathCloudDark" : 0,
+
+				//Level 4
+				"armageddon" : 0,
+				"berserk" : 0,
+				"chainLightning" : 20,
+				"clone" : 20,
+				"counterstrike" : 10,
+				"fireShield" : 0,
+				"frenzy" : 0,
+				"inferno" : 0,
+				"meteorShower" : 20,
+				"prayer" : 30,
+				"resurrection" : 30,
+				"slayer" : 0,
+				"sorrow" : 0,
+				"townPortal" : 20,
+				"waterWalk" : 40,
+				"new-old-spells-plus:vigour" : 0,
+				"holyWord" : 10,
+
+				//Level 5
+				"implosion" : 20,
+				"magicMirror" : 10,
+				"airElemental" : 20,
+				"earthElemental" : 20,
+				"fireElemental" : 0,
+				"waterElemental" : 30,
+				"sacrifice" : 0,
+				"new-old-spells-plus:deepFreeze" : 40,
+				"new-old-spells-plus:dragonStrength" : 0,
+				"new-old-spells-plus:oh3Fear" : 0,
+				"new-old-spells-plus:puppetMaster" : 0,
+				"new-old-spells-plus:vampirism" : 0
+			},
+
+			"townBackground" : "town-screen/sanctuary/background",
+
+			"guildWindow" : [
+				"town-screen/sanctuary/window"
+			],
+
+			"buildingsIcons" : "town-screen/sanctuary/townFrames/HALLSNCT",
+
+			"hallBackground" : "town-screen/sanctuary/buildmenu",
+
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					]
+				],
+				[
+					[
+						"horde1",
+						"horde1Upgr"
+					],
+					[
+						"horde2",
+						"horde2Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+
+			"creatures" : [
+				[
+					"sharkGuardAU",
+					"wanizameAU"
+				],
+				[
+					"kappaAU",
+					"kappaShoyaAU"
+				],
+				[
+					"coralPriestessAU",
+					"pearlPriestessAU"
+				],
+				[
+					"springSpiritAU",
+					"mizuKamiAU"
+				],
+				[
+					"snowMaidenAU",
+					"yukiOnnaAU"
+				],
+				[
+					"kenshiAU",
+					"kenseiAU"
+				],
+				[
+					"kirinAU",
+					"sacredKirinAU",
+					"enragedKirinAU"
+				]
+			],
+
+			"horde" : [
+				2,
+				4
+			],
+
+			"mageGuild" : 5,
+
+			"guildSpellPositions" : [
+				[
+					{
+						"x" : 222,
+						"y" : 445
+					},
+					{
+						"x" : 312,
+						"y" : 445
+					},
+					{
+						"x" : 402,
+						"y" : 445
+					},
+					{
+						"x" : 520,
+						"y" : 445
+					},
+					{
+						"x" : 610,
+						"y" : 445
+					},
+					{
+						"x" : 700,
+						"y" : 445
+					}
+				],
+				[
+					{
+						"x" : 48,
+						"y" : 53
+					},
+					{
+						"x" : 48,
+						"y" : 147
+					},
+					{
+						"x" : 48,
+						"y" : 241
+					},
+					{
+						"x" : 48,
+						"y" : 335
+					},
+					{
+						"x" : 48,
+						"y" : 429
+					}
+				],
+				[
+					{
+						"x" : 570,
+						"y" : 82
+					},
+					{
+						"x" : 672,
+						"y" : 82
+					},
+					{
+						"x" : 570,
+						"y" : 157
+					},
+					{
+						"x" : 672,
+						"y" : 157
+					}
+				],
+				[
+					{
+						"x" : 183,
+						"y" : 42
+					},
+					{
+						"x" : 183,
+						"y" : 148
+					},
+					{
+						"x" : 183,
+						"y" : 253
+					}
+				],
+				[
+					{
+						"x" : 491,
+						"y" : 325
+					},
+					{
+						"x" : 591,
+						"y" : 325
+					}
+				]
+			],
+
+			"guildWindowPosition" : {
+				"x" : 332,
+				"y" : 76
+			},
+
+			"primaryResource" : "crystal",
+
+			"moatAbility" : "castleMoat",
+
+			"names" : [
+				"Atlantis",
+				"Cloud City",
+				"Fort Wave",
+				"Ice Crown",
+				"Jade Palace",
+				"Kirin Peak",
+				"Lotus",
+				"Mistvale",
+				"Oceania",
+				"Pearl Gates",
+				"Sanctum",
+				"Shark Temple",
+				"Shellspire",
+				"Shuang",
+				"Umi",
+				"Wellspring"
+			],
+
+			"siege" : {
+				"shooter" : "yukiOnnaAU",
+				"imagePrefix" : "SGEL",
+				"towerIconSmall" : "creatures/sanctuary/iconsSmall/siegeTower",
+				"towerIconLarge" : "creatures/sanctuary/iconsBig/siegeTower",
+				"gate" : {
+					"arch" : {
+						"x" : 486,
+						"y" : 232
+					},
+					"gate" : {
+						"x" : 408,
+						"y" : 254
+					}
+				},
+				"moat" : {
+					"bank" : {
+						"x" : 407,
+						"y" : 80
+					},
+					"moat" : {
+						"x" : 407,
+						"y" : 80
+					}
+				},
+				"static" : {
+					"background" : {
+						"x" : 600,
+						"y" : 50
+					},
+					"bottom" : {
+						"x" : 509,
+						"y" : 346
+					},
+					"top" : {
+						"x" : 490,
+						"y" : 97
+					}
+				},
+				"towers" : {
+					"bottom" : {
+						"battlement" : {
+							"x" : 608,
+							"y" : 505
+						},
+						"creature" : {
+							"x" : 382,
+							"y" : 308
+						},
+						"tower" : {
+							"x" : 608,
+							"y" : 505
+						}
+					},
+					"keep" : {
+						"battlement" : {
+							"x" : 736,
+							"y" : 159
+						},
+						"creature" : {
+							"x" : 529,
+							"y" : -42
+						},
+						"tower" : {
+							"x" : 736,
+							"y" : 159
+						}
+					},
+					"top" : {
+						"battlement" : {
+							"x" : 576,
+							"y" : 28
+						},
+						"creature" : {
+							"x" : 341,
+							"y" : -162
+						},
+						"tower" : {
+							"x" : 576,
+							"y" : 28
+						}
+					}
+				},
+				"walls" : {
+					"bottom" : {
+						"x" : 509,
+						"y" : 346
+					},
+					"bottomMid" : {
+						"x" : 468,
+						"y" : 299
+					},
+					"upper" : {
+						"x" : 521,
+						"y" : 41
+					},
+					"upperMid" : {
+						"x" : 471,
+						"y" : 147
+					}
+				}
+				//"gate" : {
+				//	"arch" : { "x" : 483, "y" : 206 },
+				//	"gate" : { "x" : 433, "y" : 282 }
+				//},
+				//"moat" : {
+				//	"bank" : { "x" : 407, "y" : 80 },
+				//	"moat" : { "x" : 407, "y" : 80 }
+				//},
+				//"static" : {
+				//	"background" : { "x" : 600, "y" : 50 },
+				//	"bottom" : { "x" : 509, "y" : 346 },
+				//	"top" : { "x" : 490, "y" : 97 }
+				//},
+				//"towers" : {
+				//	"bottom" : {
+				//		"battlement" : { "x" : 614, "y" : 437 },
+				//		"creature" : { "x" : 382, "y" : 308 },
+				//		"tower" : { "x" : 614, "y" : 437 }
+				//	},
+				//	"keep" : {
+				//		"battlement" : { "x" : 715, "y" : 132 },
+				//		"creature" : { "x" : 529, "y" : -42 },
+				//		"tower" : { "x" : 715, "y" : 132 }
+				//	},
+				//	"top" : {
+				//		"battlement" : { "x" : 571, "y" : 0 },
+				//		"creature" : { "x" : 341, "y" : -162 },
+				//		"tower" : { "x" : 571, "y" : 0 }
+				//	}
+				//},
+				//"walls" : {
+				//	"bottom" : { "x" : 546, "y" : 418 },
+				//	"bottomMid" : { "x" : 480, "y" : 314 },
+				//	"upper" : { "x" : 542, "y" : 39 },
+				//	"upperMid" : { "x" : 491, "y" : 170 }
+				//}
+			}
+		}
+	}
+}

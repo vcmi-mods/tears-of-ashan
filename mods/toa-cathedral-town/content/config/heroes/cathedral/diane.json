@@ -1,0 +1,69 @@
+{
+	"51diane" : {
+		"class" : "chaplainClass",
+		"female" : true,
+		"special" : true,
+		"spellbook" : [
+			"sunBeam"
+		],
+		"texts" : {
+			"name" : "Diane",
+			"biography" : "Diane was born into a covenant of nuns and was raised by them as a collective. She only learned which of them was her birth mother when she came of age, a reward for her outstanding personal growth and having proved herself to not let attachments shroud her judgement. She was ordained as the Matriarch of her region by her 30th birthday and leads her order with a level of care seldom found in others.",
+			"specialty" : {
+				"name" : "Diplomacy",
+				"tooltip" : "Secondary Skill Bonus: Diplomacy",
+				"description" : "Decreases the disposition of wandering creatures by 1 for every 7 hero levels."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/diane/portraitSmall.png",
+			"large" : "heroes/cathedral/diane/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Diplomacy.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Diplomacy.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "WANDERING_CREATURES_JOIN_BONUS",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 7
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

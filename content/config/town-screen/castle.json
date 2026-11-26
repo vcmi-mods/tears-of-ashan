@@ -46,10 +46,28 @@
 			],
 
 			"structures" : {
+				"villageHall" : {
+					"z" : 3
+				},
+				"townHall" : {
+					"z" : 3
+				},
+				"cityHall" : {
+					"z" : 3
+				},
+				"capitol" : {
+					"z" : 3
+				},
+				"tavern" : {
+					"z" : 4
+				},
+				"special3" : {
+					"z" : 4
+				},
 				"horde1Upgr2" : {
 					"animation" : "town-screen/cyan",
 					"x" : 76,
-					"y" : 1,
+					"y" : 35,
 					"z" : -1,
 					"border" : "TOCSGR2H.PCX",
 					"area" : "town-screen/cyan",

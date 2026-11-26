@@ -1,0 +1,64 @@
+{
+	"05elisabeth" : {
+		"class" : "inquisitorClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"dragonStrength"
+		],
+		"texts" : {
+			"name" : "Elisabeth",
+			"biography" : "Born to a lesser baron in the Greyhound Duchy, Elisabeth would've grown an unremarkable player in the affairs of Ashan were it not for a chance encounter with the young Duke of Griffin. Slava fell in love with the fiery beauty at first sight during a formal reception at Falcon's Reach. The feeling was mutual, and the pair would have wed were it not for the intervention of the Holy Emperor himself. Slava was forced to marry Cate, a daughter of the Stag Duchy, and Elisabeth was discarded like stale bread - except Slava couldn't keep away. A bastard child, Sandor, was the result. Discreetly housed near Eastalon, the ducal house of Griffin, Elisabeth raised her son a warrior. Bitter at her fate that she believes was stolen by Cate, Elisabeth keeps her resentment simmering, silent and reserved, except when she has the chance to gloat.",
+			"specialty" : {
+				"name" : "Revenge",
+				"tooltip" : "Creature Bonus: Revenge",
+				"description" : "Allied units gain Revenge."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/elisabeth/portraitSmall.png",
+			"large" : "heroes/cathedral/elisabeth/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Revenge.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Revenge.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"revenge" : {
+					"type" : "REVENGE",
+					"propagator" : "HERO"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

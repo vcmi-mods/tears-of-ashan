@@ -1,0 +1,61 @@
+{
+	"cyberZombieAU" : {
+		"name" : {
+			"singular" : "Cyber Zombie",
+			"plural" : "Cyber Zombies"
+		},
+		"faction" : "forgeTOA",
+		"level" : 2,
+		"attack" : 7,
+		"defense" : 7,
+		"damage" : {
+			"min" : 4,
+			"max" : 7
+		},
+		"hitPoints" : 25,
+		"speed" : 6,
+		"growth" : 8,
+		"aiValue" : 385,
+		"fightValue" : 335,
+		"cost" : {
+			"gold" : 280
+		},
+		"advMapAmount" : {
+			"min" : 14,
+			"max" : 20
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
+			},
+			"jousting" : {
+				"type" : "JOUSTING",
+				"val" : 3
+			},
+			"doubleAttack" : {
+				"type" : "FEROCITY",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl2Up.def",
+			"map" : "creatures/forge/map/lvl2Up.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl2Up.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl2Up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "ZMBLATTK.wav",
+			"defend" : "ZMBLDFND.wav",
+			"killed" : "ZMBLKILL.wav",
+			"move" : "ZMBLMOVE.wav",
+			"wince" : "ZMBLWNCE.wav"
+		}
+	}
+}

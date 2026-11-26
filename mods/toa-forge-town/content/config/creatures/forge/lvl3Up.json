@@ -1,0 +1,58 @@
+{
+	"pyromaniacAU" : {
+		"name" : {
+			"singular" : "Pyromaniac",
+			"plural" : "Pyromaniacs"
+		},
+		"faction" : "forgeTOA",
+		"level" : 3,
+		"attack" : 12,
+		"defense" : 9,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"hitPoints" : 35,
+		"speed" : 8,
+		"growth" : 6,
+		"aiValue" : 580,
+		"fightValue" : 505,
+		"cost" : {
+			"gold" : 400
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 18
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"breathAttack" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 50
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl3Up.def",
+			"map" : "creatures/forge/map/lvl3Up.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl3Up.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl3Up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/pyro/attack.wav",
+			"defend" : "creatures/pyro/defend.wav",
+			"killed" : "creatures/pyro/deathUpg.wav",
+			"move" : "creatures/pyro/move.wav",
+			"wince" : "creatures/pyro/hitUpg.wav"
+		}
+	}
+}

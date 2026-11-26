@@ -1,0 +1,61 @@
+{
+	"52chiyoko" : {
+		"class" : "monkClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"mirth"
+		],
+		"texts" : {
+			"name" : "Chiyoko",
+			"biography" : "Chiyoko more than anyone lives in interesting times. Born in the eastern Free City of Foster’s Reach, the call of Shalassa, the Dragon of Water, reached her at a young age, forcing her to abandon everything she knew in order to take up residence on the Naga island of Hashima. A respecter of the natural flow of the world, Chiyoko rose swiftly in the ranks of the Naga priesthood. She is recognized by her daimyo, Lord Hiroshi, as a useful, pliant bridge between Nagas and Humans.",
+			"specialty" : {
+				"name" : "Priestesses",
+				"tooltip" : "Creature Bonus: Priestesses",
+				"description" : "Increases the Speed of allied Coral Priestesses and Pearl Priestesses by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/chiyoko/portraitSmall.png",
+			"large" : "heroes/sanctuary/chiyoko/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Pearl Priestesses.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Pearl Priestesses.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "coralPriestessAU",
+			"creatureLevel" : 3,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

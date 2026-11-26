@@ -11,13 +11,13 @@
 		"shots" : 24,
 		"damage" : {
 			"min" : 3,
-			"max" : 5
+			"max" : 4
 		},
 		"hitPoints" : 10,
 		"speed" : 7,
 		"growth" : 9,
 		"aiValue" : 184,
-		"fightValue" : 115,
+		"fightValue" : 145,
 		"cost" : {
 			"gold" : 150
 		},

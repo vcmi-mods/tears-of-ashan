@@ -199,6 +199,7 @@
 		"defense" : 14,
 		"hitPoints" : 120,
 		"speed" : 8,
+		"fightValue" : 2485,
 		"cost" : {
 			"gold" : 1450
 		}

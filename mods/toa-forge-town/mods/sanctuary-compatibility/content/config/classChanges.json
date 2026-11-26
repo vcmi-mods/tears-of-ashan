@@ -1,0 +1,17 @@
+{
+	"tears-of-ashan.toa-forge-town:ancientClass" : {
+		"tavern" : {
+			"sanctuary" : 0
+		}
+	},
+	"tears-of-ashan.toa-forge-town:cyborgClass" : {
+		"tavern" : {
+			"sanctuary" : 0
+		}
+	},
+	"tears-of-ashan.toa-forge-town:technicianClass" : {
+		"tavern" : {
+			"sanctuary" : 0
+		}
+	}
+}

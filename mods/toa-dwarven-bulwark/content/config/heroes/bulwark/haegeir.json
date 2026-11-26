@@ -1,0 +1,67 @@
+{
+	"02haegeir" : {
+		"class" : "jarl",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"frenzy"
+		],
+		"texts" : {
+			"name" : "Haegeir",
+			"biography" : "Haegeir Mordisson is the current warlord of the Grimsteel clan, but you wouldn't necessarily suspect it from his cheerful personality. Make no mistake, though: he hasn’t been given the nickname \"Bearheart\" because of his cuddly disposition. His oldest friend and comrade-in-arms, Hathor the Deepstrider, would tell you Haegeir is a simple man, who likes doing what he does best. In Haegeir's case, that would be eating, drinking, maiming and killing.",
+			"specialty" : {
+				"name" : "Exorcist",
+				"tooltip" : "Rune Bonus: Exorcist",
+				"description" : "Allied units start combat with Basic Runes of Exorcism."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/haegeir/portraitSmall.png",
+			"large" : "heroes/bulwark/haegeir/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Rune of Exorcism.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Rune of Exorcism.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"haegeirRuneOfExorcism" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "haegeirRuneOfExorcism",
+					"addInfo" : 1,
+					"val" : 2,
+					"icon" : "skills/runelore/runeloreEffect/runeOfExorcism.png"
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

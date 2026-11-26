@@ -1,0 +1,216 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"dragonMechBank" : {
+				"name" : "Heavenly Forge",
+				"templates" : {
+					"base" : {
+						"animation" : "map/forge/dragonMechBank.def",
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						],
+						"allowedTerrains" : [
+							"asphalt"
+						]
+					}
+				},
+				"sounds" : {
+					"ambient" : [
+						"dragonMechBank.wav"
+					],
+					"visit" : [
+						"ROGUE"
+					]
+				},
+				"battleground" : "asphalt",
+				"blockedVisitable" : false,
+				"rmg" : {
+					"value" : 12500,
+					"rarity" : 100,
+					//"mapLimit" : 20,
+					"zoneLimit" : 3
+				},
+
+				"onGuardedMessage" : "You stand before the entrance of a Heavenly Forge. Do you dare to enter it, no matter the danger?",
+				"onVisitedMessage" : "The Heavenly Forge was once full of riches. Now, it stands abandoned and empty.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankDragonMech",
+				"rewards" : [
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 0,
+							"max" : 33
+						},
+						"mapDice" : 0,
+						"guards" : [
+							{
+								"amount" : 15,
+								"type" : "tankAU"
+							},
+							{
+								"amount" : 9,
+								"type" : "heavyTankAU"
+							},
+							{
+								"amount" : 5,
+								"type" : "juggernautAU"
+							},
+							{
+								"amount" : 3,
+								"type" : "dreadnoughtAU"
+							}
+						],
+						"resources" : {
+							"gold" : 25000
+						},
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							},
+							{
+								"class" : "TREASURE"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							}
+						],
+						"creatures" : [
+							{
+								"type" : "dragonMechAU",
+								"amount" : 1
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 33,
+							"max" : 66
+						},
+						"mapDice" : 1,
+						"guards" : [
+							{
+								"amount" : 30,
+								"type" : "tankAU"
+							},
+							{
+								"amount" : 18,
+								"type" : "heavyTankAU"
+							},
+							{
+								"amount" : 10,
+								"type" : "juggernautAU"
+							},
+							{
+								"amount" : 6,
+								"type" : "dreadnoughtAU"
+							}
+						],
+						"resources" : {
+							"gold" : 50000
+						},
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						],
+						"creatures" : [
+							{
+								"type" : "dragonMechAU",
+								"amount" : 2
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 66,
+							"max" : 100
+						},
+						"mapDice" : 2,
+						"guards" : [
+							{
+								"amount" : 45,
+								"type" : "tankAU"
+							},
+							{
+								"amount" : 27,
+								"type" : "heavyTankAU"
+							},
+							{
+								"amount" : 15,
+								"type" : "juggernautAU"
+							},
+							{
+								"amount" : 9,
+								"type" : "dreadnoughtAU"
+							}
+						],
+						"resources" : {
+							"gold" : 75000
+						},
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						],
+						"creatures" : [
+							{
+								"type" : "dragonMechAU",
+								"amount" : 3
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

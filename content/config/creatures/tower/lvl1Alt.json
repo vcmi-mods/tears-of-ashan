@@ -7,7 +7,7 @@
 		"faction" : "tower",
 		"level" : 1,
 		"attack" : 3,
-		"defense" : 3,
+		"defense" : 5,
 		"damage" : {
 			"min" : 1,
 			"max" : 2
@@ -33,12 +33,12 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "gremlinRepair",
 				"val" : 2,
-				"description" : "{Spellcaster}\nCan cast Advanced Repair (10% Power)."
+				"description" : "{Spellcaster}\nCan cast Advanced Repair (5 Health per Gremlin Mechanic)."
 			},
 			"repairStrength" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "gremlinRepair",
-				"val" : 10
+				"val" : 5
 			},
 			"spellPoints" : {
 				"type" : "CASTS",

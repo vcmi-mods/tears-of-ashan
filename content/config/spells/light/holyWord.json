@@ -61,27 +61,23 @@
 			"none" : {
 				"description" : "{Holy Word}\n\nPurges an enemy demonic or undead unit with holy magic.\n\nTarget unit receives (Spell Power x 30 + 25) damage.\n",
 				"cost" : 28,
-				"power" : 25,
-				"effects" : {}
+				"power" : 25
 			},
 			"basic" : {
 				"description" : "{Basic Holy Word}\n\nPurges an enemy demonic or undead unit with holy magic.\n\nTarget unit receives (Spell Power x 30 + 25) damage.\n",
 				"cost" : 24,
-				"power" : 25,
-				"effects" : {}
+				"power" : 25
 			},
 			"advanced" : {
 				"description" : "{Advanced Holy Word}\n\nPurges an enemy demonic or undead unit with holy magic.\n\nTarget unit receives (Spell Power x 30 + 50) damage.\n",
 				"cost" : 24,
-				"power" : 50,
-				"effects" : {}
+				"power" : 50
 			},
 			"expert" : {
 				"range" : "X",
 				"description" : "{Expert Holy Word}\n\nPurges all enemy demonic and undead units with holy magic.\n\nTarget units receive (Spell Power x 30 + 100) damage.\n",
 				"cost" : 24,
-				"power" : 100,
-				"effects" : {}
+				"power" : 100
 			}
 		}
 	}

@@ -1,0 +1,65 @@
+{
+	"54Rialdo" : {
+		"class" : "technicianClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"inferno"
+		],
+		"texts" : {
+			"name" : "Rialdo",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Inferno",
+				"tooltip" : "Spell Bonus: Inferno",
+				"description" : "Casts Inferno with damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/rialdo/portraitSmall.png",
+			"large" : "heroes/forge/rialdo/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Inferno.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Inferno.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"inferno" : {
+					"type" : "SPECIAL_SPELL_SCALING",
+					"subtype" : "spell.inferno",
+					"val" : 10
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

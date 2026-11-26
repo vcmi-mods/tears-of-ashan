@@ -69,50 +69,59 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"stacksAttack" : {
-						"type" : "BATTLECRY_BONUS",
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"duration" : "N_TURNS"
-					},
-					"combatAttackRageLevels" : {
-						"type" : "RAGE_LEVEL_COUNTER",
-						"val" : 3,
-						"duration" : "ONE_BATTLE",
-						"propagator" : "BATTLE_WIDE",
-						"propagationUpdater" : "BONUS_OWNER_UPDATER",
-						"limiters" : [
-							{
-								"type" : "HAS_ANOTHER_BONUS_LIMITER",
-								"bonusType" : "RAGE_LEVEL_COUNTER"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stacksAttack" : {
+								"type" : "BATTLECRY_BONUS",
+								"val" : 1,
+								"duration" : "N_TURNS"
+							},
+							"stacksSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 1,
+								"duration" : "N_TURNS"
+							},
+							"combatAttackRageLevels" : {
+								"type" : "RAGE_LEVEL_COUNTER",
+								"val" : 3,
+								"duration" : "ONE_BATTLE",
+								"propagator" : "BATTLE_WIDE",
+								"propagationUpdater" : "BONUS_OWNER_UPDATER",
+								"limiters" : [
+									{
+										"type" : "HAS_ANOTHER_BONUS_LIMITER",
+										"bonusType" : "RAGE_LEVEL_COUNTER"
+									}
+								]
 							}
-						]
+						}
 					}
 				}
 			},
 			"none" : {
 				"description" : "{Battlecry}\n\nImbues allied Stronghold units with a furious cry of war.\n\nAll units gain (Hero Level / 2) Attack and +1 Speed.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 16,
-				"power" : 1,
-				"effects" : {}
+				"power" : 1
 			},
 			"basic" : {
 				"description" : "{Basic Battlecry}\n\nImbues allied Stronghold units with a furious cry of war.\n\nAll units gain (Hero Level / 2) Attack and +1 Speed.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 16,
-				"power" : 1,
-				"effects" : {}
+				"power" : 1
 			},
 			"advanced" : {
 				"description" : "{Advanced Battlecry}\n\nImbues allied Stronghold units with a furious cry of war.\n\nAll units gain (Hero Level / 2) Attack and +2 Speed.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 16,
 				"power" : 1,
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : 2
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stacksSpeed" : {
+								"val" : 2
+							}
+						}
 					}
 				}
 			},
@@ -120,9 +129,14 @@
 				"description" : "{Expert Battlecry}\n\nImbues allied Stronghold units with a furious cry of war.\n\nAll units gain (Hero Level / 2) Attack and +3 Speed.\n\n{Buffing Warcries grant allied Stronghold units +3 Rage Levels.}\n",
 				"cost" : 16,
 				"power" : 1,
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : 3
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"stacksSpeed" : {
+								"val" : 3
+							}
+						}
 					}
 				}
 			}

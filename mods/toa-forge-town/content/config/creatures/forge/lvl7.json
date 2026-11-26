@@ -1,0 +1,74 @@
+{
+	"juggernautAU" : {
+		"name" : {
+			"singular" : "Juggernaut",
+			"plural" : "Juggernauts"
+		},
+		"faction" : "forgeTOA",
+		"level" : 7,
+		"attack" : 30,
+		"defense" : 30,
+		"damage" : {
+			"min" : 45,
+			"max" : 65
+		},
+		"hitPoints" : 300,
+		"speed" : 11,
+		"growth" : 1,
+		"horde" : -1,
+		"aiValue" : 7550,
+		"fightValue" : 6100,
+		"cost" : {
+			"gold" : 5000,
+			"mercury" : 1
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"upgrades" : [
+			"dreadnoughtAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"king3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"mechanical" : {
+				"type" : "MECHANICAL"
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 100,
+				"addInfo" : [
+					1,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Disrupting Ray after attacking.",
+				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray1"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl7.def",
+			"map" : "creatures/forge/map/lvl7.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl7.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl7.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/juggernaut/attack.mp3",
+			"defend" : "creatures/juggernaut/defend.mp3",
+			"killed" : "creatures/juggernaut/death.mp3",
+			"move" : "creatures/juggernaut/move.mp3",
+			"wince" : "creatures/juggernaut/hit.mp3"
+		}
+	}
+}

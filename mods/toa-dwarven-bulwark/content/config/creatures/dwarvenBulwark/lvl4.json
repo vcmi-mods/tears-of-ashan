@@ -1,0 +1,61 @@
+{
+	"brawlerAU" : {
+		"name" : {
+			"singular" : "Brawler",
+			"plural" : "Brawlers"
+		},
+		"faction" : "bulwark",
+		"level" : 4,
+		"attack" : 14,
+		"defense" : 8,
+		"damage" : {
+			"min" : 8,
+			"max" : 10
+		},
+		"hitPoints" : 30,
+		"speed" : 6,
+		"growth" : 4,
+		"aiValue" : 510,
+		"fightValue" : 405,
+		"cost" : {
+			"gold" : 300
+		},
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"upgrades" : [
+			"berserkerAU",
+			"battleragerAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl4.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl4.json",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl4.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl4.png",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/brawler/attack",
+			"defend" : "creatures/brawler/defend",
+			"killed" : "creatures/brawler/death",
+			"move" : "creatures/brawler/move",
+			"wince" : "creatures/brawler/hit"
+		}
+	}
+}

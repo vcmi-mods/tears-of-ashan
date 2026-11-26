@@ -1,0 +1,312 @@
+{
+	"core:prison" : {
+		"types" : {
+			"prison" : {
+				"templates" : {
+					"barbarianHero" : {
+						"animation" : "AH13_E.def",
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : []
+					}
+				}
+			}
+		}
+	},
+
+	"core:questGuard" : {
+		"handler" : "questGuard",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"orcChieftain" : {
+						"animation" : "hota/stronghold/adventureMap/creatures/AVWorcx0",
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : []
+					},
+					"sentinel" : {
+						"animation" : "hota/castle/adventureMap/creatures/avwpikx0",
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : []
+					}
+				}
+			}
+		}
+	},
+
+	"core:seerHut" : {
+		"types" : {
+			"seerHutSpringSpirit" : {
+				"templates" : {
+					"snowMaiden" : {
+						"animation" : "creatures/sanctuary/map/lvl4.def",
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : []
+					}
+				}
+			},
+			"seerHutSnowMaiden" : {
+				"templates" : {
+					"snowMaiden" : {
+						"animation" : "creatures/sanctuary/map/lvl5.def",
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"++-",
+							"++-"
+						],
+						"allowedTerrains" : []
+					}
+				}
+			},
+			"seerHutKirin" : {
+				"templates" : {
+					"kirin" : {
+						"animation" : "creatures/sanctuary/map/lvl7.def",
+						"mask" : [
+							"VV",
+							"AV"
+						],
+						"visitableFrom" : [
+							"---",
+							"++-",
+							"++-"
+						],
+						"allowedTerrains" : []
+					}
+				}
+			}
+		}
+	},
+
+	"wtlily00" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily00" : {
+				"templates" : {
+					"wtlily00" : {
+						"animation" : "map/objects/wtlily00.def",
+						"mask" : [
+							"BBBV",
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily01" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily01" : {
+				"templates" : {
+					"wtlily01" : {
+						"animation" : "map/objects/wtlily01.def",
+						"mask" : [
+							"BBB",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily02" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily02" : {
+				"templates" : {
+					"wtlily02" : {
+						"animation" : "map/objects/wtlily02.def",
+						"mask" : [
+							"VBB",
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily03" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily03" : {
+				"templates" : {
+					"wtlily03" : {
+						"animation" : "map/objects/wtlily03.def",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily04" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily04" : {
+				"templates" : {
+					"wtlily04" : {
+						"animation" : "map/objects/wtlily04.def",
+						"mask" : [
+							"BB",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily05" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily05" : {
+				"templates" : {
+					"wtlily05" : {
+						"animation" : "map/objects/wtlily05.def",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily06" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily06" : {
+				"templates" : {
+					"wtlily06" : {
+						"animation" : "map/objects/wtlily06.def",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily07" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily07" : {
+				"templates" : {
+					"wtlily07" : {
+						"animation" : "map/objects/wtlily07.def",
+						"mask" : [
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily08" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily08" : {
+				"templates" : {
+					"wtlily08" : {
+						"animation" : "map/objects/wtlily08.def",
+						"mask" : [
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	},
+	"wtlily09" : {
+		"name" : "Lilypads",
+		"handler" : "static",
+		"types" : {
+			"wtlily09" : {
+				"templates" : {
+					"wtlily09" : {
+						"animation" : "map/objects/wtlily09.def",
+						"mask" : [
+							"VBBB",
+							"BBBV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -213,8 +213,18 @@
 						]
 					]
 				},
+				"dwellingLvl5" : {
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 10
+					}
+				},
 				"dwellingUpLvl5" : {
-					"description" : "The Dendroid Arches allow you to recruit Dendroid Soldiers and Dendroid Shamans."
+					"description" : "The Dendroid Arches allow you to recruit Dendroid Soldiers and Dendroid Shamans.",
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5
+					}
 				},
 				"dwellingUp2Lvl5" : {
 					"name" : "Upg. Dendroid Arches",

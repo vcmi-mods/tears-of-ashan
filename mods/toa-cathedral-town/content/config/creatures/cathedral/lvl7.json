@@ -1,0 +1,68 @@
+{
+	"avengerAU" : {
+		"name" : {
+			"singular" : "Avenger",
+			"plural" : "Avengers"
+		},
+		"faction" : "cathedralTOA",
+		"level" : 7,
+		"attack" : 20,
+		"defense" : 18,
+		"damage" : {
+			"min" : 40,
+			"max" : 55
+		},
+		"hitPoints" : 175,
+		"speed" : 13,
+		"growth" : 1,
+		"aiValue" : 4800,
+		"fightValue" : 3380,
+		"cost" : {
+			"gold" : 2800,
+			"gems" : 1
+		},
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"upgrades" : [
+			"punisherAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"king3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"revenge" : {
+				"type" : "REVENGE"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/cathedral/battle/lvl7.def",
+			"map" : "creatures/cathedral/map/lvl7.def",
+			"iconSmall" : "creatures/cathedral/iconsSmall/lvl7.png",
+			"iconLarge" : "creatures/cathedral/iconsBig/lvl7.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "AAGLATTK.wav",
+			"defend" : "AAGLDFND.wav",
+			"killed" : "AAGLKILL.wav",
+			"move" : "AAGLMOVE.wav",
+			"wince" : "AAGLWNCE.wav"
+		}
+	}
+}

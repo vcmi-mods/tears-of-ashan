@@ -291,7 +291,9 @@
 			"thunderOnAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.thunderbolt",
-				"val" : 30
+				"val" : 30,
+				"description" : "{Cast After Attack}\nHas a 30% chance to cast Thunderbolt after attacking (10 Damage per Thunderbird).",
+				"icon" : "zvs/Lib1.res/thunderbird.png"
 			},
 			"thunderStrength" : {
 				"type" : "SPECIFIC_SPELL_POWER",

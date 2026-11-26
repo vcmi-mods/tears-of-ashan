@@ -1,0 +1,102 @@
+{
+	"lavaDragonAU" : {
+		"name" : {
+			"singular" : "Lava Dragon",
+			"plural" : "Lava Dragons"
+		},
+		"faction" : "bulwark",
+		"level" : 7,
+		"attack" : 28,
+		"defense" : 24,
+		"damage" : {
+			"min" : 40,
+			"max" : 50
+		},
+		"hitPoints" : 225,
+		"speed" : 14,
+		"growth" : 1,
+		"aiValue" : 8275,
+		"fightValue" : 5915,
+		"cost" : {
+			"gold" : 4000,
+			"crystal" : 2
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"upgrades" : [
+			"magmaDragonAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"KING_1" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"dragon" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"twoHexAttackBreath" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"fireShield" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
+				"val" : 20
+			},
+			"immuneToFire" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
+			},
+			"liquidFlameBreath" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "liquidFlameBreath",
+				"val" : 100,
+				"description" : "{Liquid Flame Breath}\nSpews liquid flames over the enemy unit after attacking (25 Damage per Lava Dragon).",
+				"icon" : "zvs/Lib1.res/e_breath.png",
+				"addInfo" : {
+					"messageSingular" : "The %s spews liquid flames over the battlefield.",
+					"messagePlural" : "The %s spew liquid flames over the battlefield."
+				}
+			},
+			"spellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl7Up.def",
+			"map" : "creatures/dwarvenBulwark/map/lvl7Up.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl7Alt.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl7Alt.png",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/lavaDragon/attack",
+			"defend" : "creatures/lavaDragon/defend",
+			"killed" : "creatures/lavaDragon/death",
+			"move" : "creatures/lavaDragon/move",
+			"wince" : "creatures/lavaDragon/hit"
+		}
+	}
+}

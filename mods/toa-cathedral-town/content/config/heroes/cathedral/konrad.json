@@ -1,0 +1,61 @@
+{
+	"58konrad" : {
+		"class" : "chaplainClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"destroyUndead"
+		],
+		"texts" : {
+			"name" : "Konrad",
+			"biography" : "Konrad is Duke Heinrich of Wolf's older brother, and governor of the remote city of Hammer Fall. In the family, he is known as \"the old Wolf\", thanks to his hairstyle and grumpiness. He lost his beloved wife quite soon after he married her, and never had child, until he adopted Ymoril, an orphan girl saved from the claws of demons, shortly after he arrived in Hammer Fall. After having pacified Hammer Fall and its surroundings, Konrad took command of the order of Evergrey and discovered the secret of the Bloodsmiths, long-time dwellers of Hammer Fall. He was eventually initiated and became one of them.",
+			"specialty" : {
+				"name" : "Dark Paladins",
+				"tooltip" : "Creature Bonus: Dark Paladins",
+				"description" : "Increases the Speed of allied Dark Paladins and Dark Templars by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/konrad/portraitSmall.png",
+			"large" : "heroes/cathedral/konrad/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Dark Paladins.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Dark Paladins.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "darkPaladinAU",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "darkPaladinAU",
+				"min" : 1,
+				"max" : 1
+			}
+		]
+	}
+}

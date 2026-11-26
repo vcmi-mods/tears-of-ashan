@@ -1,0 +1,55 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "zombie01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "zombie01-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "zombie01-02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "zombie01-03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "zombie01-04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "zombie01-05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "zombie01-06.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "zombie01-07.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "zombie01-08.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "zombie01-09.png"
+		}
+	],
+	"basepath" : "town-screen/forge/buildings/"
+}

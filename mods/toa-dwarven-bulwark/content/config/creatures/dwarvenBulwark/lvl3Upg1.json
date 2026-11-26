@@ -1,0 +1,65 @@
+{
+	"blackbearRiderAU" : {
+		"name" : {
+			"singular" : "Blackbear Rider",
+			"plural" : "Blackbear Riders"
+		},
+		"faction" : "bulwark",
+		"level" : 3,
+		"attack" : 10,
+		"defense" : 7,
+		"damage" : {
+			"min" : 3,
+			"max" : 6
+		},
+		"hitPoints" : 25,
+		"speed" : 9,
+		"growth" : 7,
+		"aiValue" : 435,
+		"fightValue" : 340,
+		"cost" : {
+			"gold" : 275
+		},
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"upgrades" : [
+			"whitebearRiderAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"ferocity" : {
+				"type" : "FEROCITY",
+				"val" : 1
+			},
+			"deathStrike" : {
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
+			},
+			"disruptingRayImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "disruptingRay"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl3Up.def",
+			"map" : "creatures/rampart/map/lvl2Alt.def",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl3Up.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl3Up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/blackBearRider/attack",
+			"defend" : "creatures/blackBearRider/defend",
+			"killed" : "creatures/blackBearRider/death",
+			"move" : "creatures/blackBearRider/move",
+			"wince" : "creatures/blackBearRider/hit"
+		}
+	}
+}

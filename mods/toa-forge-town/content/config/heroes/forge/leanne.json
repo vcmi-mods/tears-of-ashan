@@ -1,0 +1,78 @@
+{
+	"53Leanne" : {
+		"class" : "technicianClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"viewAir"
+		],
+		"texts" : {
+			"name" : "Leanne",
+			"biography" : "",
+			"specialty" : {
+				"name" : "Merc. & Sulf.",
+				"tooltip" : "Resource Bonus: +1 Mercury and Sulfur",
+				"description" : "Increases kingdom's mercury and sulfur production by 1 for every 4 levels per day."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/leanne/portraitSmall.png",
+			"large" : "heroes/forge/leanne/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Mercury and Sulfur.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Mercury and Sulfur.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"mercury" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.mercury",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 4
+					}
+				},
+				"sulfur" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.sulfur",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 4
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

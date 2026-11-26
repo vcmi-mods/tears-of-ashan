@@ -1,0 +1,160 @@
+{
+	"runeloreIngaSpec" : {
+		"name" : "Runelore",
+		"tags" : {
+			"special" : true
+		},
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0,
+			"runemageIngaSpec" : 10
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"runeloreSchool" : {
+					"subtype" : "spellSchool.05runeloreSchool",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"runeOfBerserkingGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfBerserking",
+					"val" : 0
+				},
+				"runeOfChargeGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfCharge",
+					"val" : 0
+				},
+				"runeOfExorcismGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.ingaRuneOfExorcism",
+					"val" : 0
+				},
+				"runeOfMagicControlGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfMagicControl",
+					"val" : 0
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Runelore}\n\nGrants access to the Rune of Berserking, Rune of Charge, Rune of Exorcism, and Rune of Magic Control.",
+			"effects" : {
+				"runeloreSchool" : {
+					"val" : 1
+				},
+				"runeOfBerserkingGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfBerserking",
+					"val" : 0
+				},
+				"runeOfChargeGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfCharge",
+					"val" : 0
+				},
+				"runeOfExorcismGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.ingaRuneOfExorcism",
+					"val" : 0
+				},
+				"runeOfMagicControlGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfMagicControl",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/runelore/runeloreSmall/1",
+				"medium" : "skills/runelore/runeloreMedium/1",
+				"large" : "skills/runelore/runeloreLarge/1",
+				"scenarioBonus" : "skills/runelore/runeloreBonus/1"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Runelore}\n\nGrants access to the Rune of Battle Rage, Rune of Elemental Immunity, Rune of Etherealness, and Rune of Thunderclap in addition to previous Runes.",
+			"effects" : {
+				"runeloreSchool" : {
+					"val" : 2
+				},
+				"runeOfElementalImmunityGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.ingaRuneOfElementalImmunity",
+					"val" : 0
+				},
+				"runeOfEtherealnessGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.ingaRuneOfEtherealness",
+					"val" : 0
+				},
+				"runeOfBattleRageGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfBattleRage",
+					"val" : 0
+				},
+				"runeOfThunderclapGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfThunderclap",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/runelore/runeloreSmall/2",
+				"medium" : "skills/runelore/runeloreMedium/2",
+				"large" : "skills/runelore/runeloreLarge/2",
+				"scenarioBonus" : "skills/runelore/runeloreBonus/2"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Runelore}\n\nGrants access to the Rune of Dragonform and Rune of Resurrection in addition to previous Runes.",
+			"effects" : {
+				"runeloreSchool" : {
+					"val" : 3
+				},
+				"runeOfElementalImmunityGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.ingaRuneOfElementalImmunity",
+					"val" : 0
+				},
+				"runeOfEtherealnessGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.ingaRuneOfEtherealness",
+					"val" : 0
+				},
+				"runeOfBattleRageGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfBattleRage",
+					"val" : 0
+				},
+				"runeOfThunderclapGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfThunderclap",
+					"val" : 0
+				},
+				"runeOfDragonformGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.ingaRuneOfDragonform",
+					"val" : 0
+				},
+				"runeOfResurrectionGain" : {
+					"type" : "SPELL",
+					"subtype" : "spell.runeOfResurrection",
+					"val" : 0
+				}
+			},
+			"images" : {
+				"small" : "skills/runelore/runeloreSmall/3",
+				"medium" : "skills/runelore/runeloreMedium/3",
+				"large" : "skills/runelore/runeloreLarge/3",
+				"scenarioBonus" : "skills/runelore/runeloreBonus/3"
+			}
+		}
+	},
+	"hota.bulwark:runes" : {
+		"tags" : {
+			"special" : true
+		}
+	}
+}

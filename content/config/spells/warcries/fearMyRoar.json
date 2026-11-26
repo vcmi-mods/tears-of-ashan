@@ -54,32 +54,40 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"fearful" : {
-						"type" : "FEARFUL",
-						"val" : 20
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"fearful" : {
+								"type" : "FEARFUL",
+								"val" : 20
+							}
+						}
 					}
 				}
 			},
 			"none" : {
 				"description" : "{Fear My Roar}\n\nShrieks a terrifying scream that echoes in the mind of the target enemy unit.\n\nThe affected unit has a 20% chance to skip its turn.\n",
 				"cost" : 12,
-				"power" : 10,
-				"effects" : {}
+				"power" : 10
 			},
 			"basic" : {
 				"description" : "{Basic Fear My Roar}\n\nShrieks a terrifying scream that echoes in the mind of the target enemy unit.\n\nThe affected unit has a 20% chance to skip its turn.\n",
 				"cost" : 12,
-				"power" : 10,
-				"effects" : {}
+				"power" : 10
 			},
 			"advanced" : {
 				"description" : "{Advanced Fear My Roar}\n\nShrieks a terrifying scream that echoes in the mind of the target enemy unit and any enemy units adjacent to the target.\n\nThe affected units have a 25% chance to skip their turns.\n",
 				"cost" : 12,
 				"power" : 10,
-				"effects" : {
-					"fearful" : {
-						"val" : 25
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"fearful" : {
+								"val" : 25
+							}
+						}
 					}
 				},
 				"range" : "0,1"
@@ -88,9 +96,14 @@
 				"description" : "{Expert Fear My Roar}\n\nShrieks a terrifying scream that echoes in the mind of the target enemy unit and any enemy units within 2 hexes of the target.\n\nThe affected units have a 30% chance to skip their turns.\n",
 				"cost" : 12,
 				"power" : 10,
-				"effects" : {
-					"fearful" : {
-						"val" : 30
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"fearful" : {
+								"val" : 30
+							}
+						}
 					}
 				},
 				"range" : "0,1,2"

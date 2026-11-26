@@ -16,7 +16,7 @@
 		"speed" : 7,
 		"growth" : 2,
 		"aiValue" : 2840,
-		"fightValue" : 2840,
+		"fightValue" : 2485,
 		"cost" : {
 			"gold" : 1450
 		},

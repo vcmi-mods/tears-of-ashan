@@ -1,0 +1,19 @@
+{
+	"name" : "Enable Escaton",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "Enables Escaton, a powerful hero that specialises in Dragon Mechs.",
+	"version" : "1.0.0",
+	"modType" : "Heroes",
+
+	"keepDisabled" : true,
+
+	"heroes" : [
+		"config/enabled.json"
+	],
+
+	"czech" : {
+		"name" : "Escaton",
+		"description" : "Zpřístupňuje mocného hrdinu Escatona, který se specializuje na dračí stroje."
+	}
+}

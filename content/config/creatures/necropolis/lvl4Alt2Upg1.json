@@ -15,8 +15,8 @@
 		"hitPoints" : 50,
 		"speed" : 7,
 		"growth" : 4,
-		"aiValue" : 700,
-		"fightValue" : 600,
+		"aiValue" : 765,
+		"fightValue" : 730,
 		"cost" : {
 			"gold" : 450
 		},

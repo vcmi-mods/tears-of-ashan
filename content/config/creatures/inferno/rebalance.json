@@ -25,6 +25,7 @@
 		}
 	},
 	"core:familiar" : {
+		"hitPoints" : 5,
 		"fightValue" : 75,
 		"aiValue" : 75,
 		"cost" : {
@@ -57,8 +58,8 @@
 	},
 	"core:gog" : {
 		"hitPoints" : 15,
-		"fightValue" : 165,
-		"aiValue" : 150,
+		"aiValue" : 165,
+		"fightValue" : 150,
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -84,8 +85,8 @@
 			"max" : 5
 		},
 		"hitPoints" : 15,
-		"fightValue" : 300,
-		"aiValue" : 250,
+		"aiValue" : 300,
+		"fightValue" : 250,
 		"abilities#override" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -155,6 +156,9 @@
 		}
 	},
 	"core:demon" : {
+		"cost" : {
+			"gold" : 300
+		},
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -174,11 +178,12 @@
 		}
 	},
 	"core:hornedDemon" : {
+		"defense" : 12,
 		"speed" : 7,
-		"aiValue" : 550,
-		"fightValue" : 550,
+		"aiValue" : 565,
+		"fightValue" : 565,
 		"cost" : {
-			"gold" : 350
+			"gold" : 375
 		},
 		"abilities" : {
 			"demonic" : {
@@ -252,11 +257,8 @@
 		}
 	},
 	"core:efreet" : {
-		"aiValue" : 1750,
-		"fightValue" : 1475,
-		"cost" : {
-			"gold" : 950
-		},
+		"aiValue" : 1670,
+		"fightValue" : 1415,
 		"abilities" : {
 			"demonic" : {
 				"type" : "DEMONIC"
@@ -272,10 +274,6 @@
 				"subtype" : "holyWord",
 				"val" : 25,
 				"hidden" : true
-			},
-			"fireShield" : {
-				"type" : "FIRE_SHIELD",
-				"val" : 20
 			},
 			"hateGenies" : {
 				"hidden" : true
@@ -320,7 +318,8 @@
 				"icon" : "zvs/Lib1.res/e_fly3"
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 25
 			},
 			"immuneToFire" : {

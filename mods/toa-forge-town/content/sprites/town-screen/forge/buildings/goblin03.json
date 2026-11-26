@@ -1,0 +1,55 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "goblin03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "goblin03-01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "goblin03-02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "goblin03-03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "goblin03-04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "goblin03-05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "goblin03-06.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "goblin03-07.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "goblin03-08.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "goblin03-09.png"
+		}
+	],
+	"basepath" : "town-screen/forge/buildings/"
+}

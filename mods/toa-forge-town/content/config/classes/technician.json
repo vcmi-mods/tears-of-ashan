@@ -1,0 +1,103 @@
+{
+	"technicianClass" : {
+		"name" : "Technician",
+		"faction" : "forgeTOA",
+		"affinity" : "magic",
+		"defaultTavern" : 5,
+		"commander" : "bruiserAU",
+		"animation" : {
+			"battle" : {
+				"female" : "classes/technician/MaleCombat.def",
+				"male" : "classes/technician/MaleCombat.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "classes/technician/Map.def"
+					//"editorAnimation" : "classes/technician/FemaleEditor.def"
+				},
+				"male" : {
+					"animation" : "classes/technician/Map.def"
+					//"editorAnimation" : "classes/technician/MaleEditor.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 1,
+			"defence" : 1,
+			"spellpower" : 3,
+			"knowledge" : 2
+		},
+		"lowLevelChance" : {
+			"attack" : 20,
+			"defence" : 15,
+			"spellpower" : 35,
+			"knowledge" : 30
+		},
+		"highLevelChance" : {
+			"attack" : 25,
+			"defence" : 20,
+			"spellpower" : 30,
+			"knowledge" : 25
+		},
+		"secondarySkills" : {
+			"archery" : 6,
+			"armorer" : 6,
+			"artillery" : 4,
+			"ballistics" : 2,
+			"firstAid" : 4,
+			"interference" : 8,
+			"leadership" : 5,
+			"luck" : 4,
+			"offence" : 6,
+			"resistance" : 8,
+			"tactics" : 3,
+
+			"airMagic" : 6,
+			"earthMagic" : 8,
+			"fireMagic" : 5,
+			"waterMagic" : 4,
+			"lightMagic" : 1,
+			"darkMagic" : 8,
+			"eagleEye" : 6,
+			"intelligence" : 7,
+			"mysticism" : 5,
+			"necromancy" : 0,
+			"scholar" : 4,
+			"sorcery" : 9,
+			"wisdom" : 8,
+
+			"diplomacy" : 4,
+			"estates" : 8,
+			"learning" : 7,
+			"logistics" : 5,
+			"navigation" : 4,
+			"pathfinding" : 5,
+			"scouting" : 6
+		},
+		"tavern" : {
+			"castle" : 1,
+			"rampart" : 1,
+			"tower" : 1,
+			"inferno" : 6,
+			"necropolis" : 7,
+			"dungeon" : 6,
+			"stronghold" : 4,
+			"fortress" : 4,
+			"conflux" : 0,
+			"cove" : 3,
+			"factory" : 7,
+			"bulwark" : 1,
+			"forgeTOA" : 10
+		}
+	}
+}

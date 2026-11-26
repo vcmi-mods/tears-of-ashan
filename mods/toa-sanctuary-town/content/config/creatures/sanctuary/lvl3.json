@@ -1,0 +1,205 @@
+{
+	"coralPriestessAU" : {
+		"name" : {
+			"singular" : "Coral Priestess",
+			"plural" : "Coral Priestesses"
+		},
+		"faction" : "sanctuary",
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 5,
+		"shots" : 12,
+		"damage" : {
+			"min" : 4,
+			"max" : 7
+		},
+		"hitPoints" : 18,
+		"speed" : 5,
+		"growth" : 7,
+		"horde" : 3,
+		"aiValue" : 350,
+		"fightValue" : 260,
+		"cost" : {
+			"gold" : 225
+		},
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
+		},
+		"upgrades" : [
+			"pearlPriestessAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"castsSlow" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.slow",
+				"val" : 100,
+				"addInfo" : [
+					1,
+					1,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Basic Slow after attacking.",
+				"icon" : "zvs/Lib1.res/spellsSOD/slow1"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl3.json",
+			"map" : "creatures/sanctuary/map/lvl3.def",
+			"mapMask" : [
+				"VV",
+				"AV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl3.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl3.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"ray" : [
+					{
+						"start" : [
+							0,
+							192,
+							160,
+							255
+						],
+						"end" : [
+							0,
+							192,
+							160,
+							64
+						]
+					},
+					{
+						"start" : [
+							80,
+							225,
+							200,
+							255
+						],
+						"end" : [
+							80,
+							200,
+							225,
+							128
+						]
+					},
+					{
+						"start" : [
+							32,
+							176,
+							176,
+							255
+						],
+						"end" : [
+							32,
+							176,
+							176,
+							255
+						]
+					},
+					{
+						"start" : [
+							80,
+							200,
+							225,
+							255
+						],
+						"end" : [
+							80,
+							200,
+							225,
+							128
+						]
+					},
+					{
+						"start" : [
+							0,
+							192,
+							160,
+							255
+						],
+						"end" : [
+							0,
+							192,
+							160,
+							64
+						]
+					}
+				],
+				"offset" : {
+					"lowerX" : 24,
+					"lowerY" : -52,
+					"middleX" : 52,
+					"middleY" : -53,
+					"upperX" : 49,
+					"upperY" : -54
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/priestess/attack.mp3",
+			"defend" : "creatures/priestess/defend.mp3",
+			"killed" : "creatures/priestess/death.mp3",
+			"move" : "creatures/priestess/move.mp3",
+			"shoot" : "creatures/priestess/shoot.mp3",
+			"wince" : "creatures/priestess/hit.mp3"
+		}
+	}
+}

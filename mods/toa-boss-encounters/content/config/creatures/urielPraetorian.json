@@ -67,11 +67,11 @@
 			}
 		},
 		"sound" : {
-			"attack" : "creatures/squire/Swordsman_upgrade_attack",
-			"defend" : "creatures/squire/Swordsman_upgrade_hit",
-			"killed" : "creatures/squire/Swordsman_death",
-			"move" : "creatures/squire/Swordsman_move",
-			"wince" : "creatures/squire/Swordsman_upgrade_hit"
+			"attack" : "creatures/urielPraetorian/Swordsman_upgrade_attack",
+			"defend" : "creatures/urielPraetorian/Swordsman_upgrade_hit",
+			"killed" : "creatures/urielPraetorian/Swordsman_death",
+			"move" : "creatures/urielPraetorian/Swordsman_move",
+			"wince" : "creatures/urielPraetorian/Swordsman_upgrade_hit"
 		}
 	}
 }

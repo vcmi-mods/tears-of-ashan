@@ -13,7 +13,7 @@
 			"min" : 12,
 			"max" : 16
 		},
-		"hitPoints" : 45,
+		"hitPoints" : 40,
 		"speed" : 9,
 		"growth" : 3,
 		"aiValue" : 1125,
@@ -70,7 +70,7 @@
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 3
 			},
-			"spellpoints" : {
+			"spellPoints" : {
 				"type" : "CASTS",
 				"val" : 1
 			}

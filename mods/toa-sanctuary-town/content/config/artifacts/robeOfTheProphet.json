@@ -1,0 +1,39 @@
+{
+	"robeOfTheProphet" : {
+		"text" : {
+			"name" : "Robe of the Prophet",
+			"description" : "{Robe of the Prophet}\n\nWorn on the torso, this item increases your Defense and Knowledge skills by +4, and increases the health of all your units by +3.",
+			"event" : "Robe of the Prophet pickup text."
+		},
+		"type" : [
+			"HERO"
+		],
+		"slot" : "TORSO",
+		"class" : "MAJOR",
+		"value" : 9000,
+		"bonuses" : {
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"valueType" : "BASE_NUMBER",
+				"val" : 4
+			},
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"valueType" : "BASE_NUMBER",
+				"val" : 4
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/backpack/robeOfTheProphet.png",
+			"map" : "artifacts/map/robeOfTheProphet.json",
+			"scenarioBonus" : "artifacts/bonus/robeOfTheProphet.png"
+		}
+	}
+}

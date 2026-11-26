@@ -1,0 +1,59 @@
+{
+	"52Charity" : {
+		"class" : "technicianClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"lightningBolt"
+		],
+		"texts" : {
+			"name" : "Charity",
+			"biography" : "Following the conclusion of the Succession Wars, Charity left Enroth for greener pastures. The pools of acid waste across the barren lands of the Heavenly Forges was not what she intended those pastures to be, but she found herself welcomed by the technomancers of the Forge when she proved her experience with magical empowerment.",
+			"specialty" : {
+				"name" : "Sorcery",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/charity/portraitSmall.png",
+			"large" : "heroes/forge/charity/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Sorcery.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Sorcery.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "sorcery"
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "pyroAU",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	}
+}

@@ -56,7 +56,6 @@
 			},
 			"landMinePower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"subtype" : "landMine",
 				"val" : 5
 			},
 			"spellpoints" : {

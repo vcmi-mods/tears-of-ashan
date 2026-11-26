@@ -1,0 +1,105 @@
+{
+	"wanizameAU" : {
+		"name" : {
+			"singular" : "Wanizame",
+			"plural" : "Wanizame"
+		},
+		"faction" : "sanctuary",
+		"level" : 1,
+		"attack" : 6,
+		"defense" : 4,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"hitPoints" : 10,
+		"speed" : 6,
+		"growth" : 14,
+		"aiValue" : 120,
+		"fightValue" : 100,
+		"cost" : {
+			"gold" : 80
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"ferociousWound" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.ferociousWound",
+				"val" : 100,
+				"icon" : "bonuses/ferociousWound.png",
+				"description" : "{Ferocious Wound}\nAttacks inflict Ferocious Wound for 2 turns."
+			},
+			"damageMultiplier" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.ferociousWound",
+				"val" : 1
+			},
+			"damageDuration" : {
+				"type" : "SPELL_DURATION",
+				"subtype" : "spell.ferociousWound",
+				"val" : 2
+			},
+			"bloodFrenzyChance" : {
+				"type" : "HATES_TRAIT",
+				"subtype" : "BLOOD_FRENZY",
+				"val" : 30,
+				"icon" : "bonuses/bloodFrenzy.png",
+				"description" : "{Blood Frenzy}\nDeals 30% more damage to targets affected by Ferocious Wound."
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl1Up.def",
+			"map" : "creatures/sanctuary/map/lvl1Up.def",
+			"mapMask" : [
+				"VV",
+				"VA"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl1Up.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl1Up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/shark/attack.mp3",
+			"defend" : "creatures/shark/defend.mp3",
+			"killed" : "creatures/shark/death.mp3",
+			"move" : "creatures/shark/move.mp3",
+			"wince" : "creatures/shark/hit.mp3"
+		}
+	}
+}

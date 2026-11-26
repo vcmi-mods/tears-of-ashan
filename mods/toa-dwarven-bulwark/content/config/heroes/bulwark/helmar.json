@@ -1,0 +1,72 @@
+{
+	"52helmar" : {
+		"class" : "runemage",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"bless"
+		],
+		"texts" : {
+			"name" : "Helmar",
+			"biography" : "Helmar began his military career as a fighting Rune Priest and was prominent among his brother soldiers for his austerity, his asceticism and his fanatical hatred of his enemies. Helmar's superiors soon took note and began to entrust him with the command of small units. Helmar learned how to spread his rage to his warriors, and is now famed as a Warlord whose troops are fierce and merciless in battle.",
+			"specialty" : {
+				"name" : "Divine Strength",
+				"tooltip" : "Spell Bonus: Divine Strength",
+				"description" : "Increases the Damage of units affected by Divine Strength by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/helmar/portraitSmall.png",
+			"large" : "heroes/bulwark/helmar/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Bless.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Bless.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "runelore",
+				"level" : "basic"
+			},
+			{
+				"skill" : "lightMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"bless" : {
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bless"
+						}
+					],
+					"updater" : "TIMES_HERO_LEVEL_DIVIDE_STACK_LEVEL",
+					"val" : 10
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

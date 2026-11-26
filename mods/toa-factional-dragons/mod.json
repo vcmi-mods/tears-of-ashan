@@ -1,5 +1,5 @@
 {
-	"name" : "Factional Neutral Dragons",
+	"name" : "Gameplay: Factional Neutral Dragons",
 	"author" : "Aphra",
 	"contact" : "",
 	"description" : "Moves Azure Dragons to Bulwark, Crystal Dragons to Tower, Rust Dragons to Fortress, and Faerie Dragons to Rampart.",
@@ -17,7 +17,7 @@
 	],
 
 	"czech" : {
-		"name" : "Frakční neutrální draci",
-		"description" : "Přesouvá azurové draky k Baště, křišťálové draky k Věži, rezavé draky k Pevnosti a pohádkové draky k Baště."
+		"name" : "Neutrální draci ve frakcích",
+		"description" : "Přiřazuje azurové draky k Trpasličí baště, křišťálové draky k Věži, rezavé draky k Pevnosti a pohádkové draky k Baště."
 	}
 }

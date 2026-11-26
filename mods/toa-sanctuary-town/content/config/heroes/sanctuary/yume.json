@@ -1,0 +1,60 @@
+{
+	"59yume" : {
+		"class" : "monkClass",
+		"female" : true,
+		"special" : false,
+		"onlyOnWaterMap" : true,
+		"spellbook" : [
+			"summonBoat"
+		],
+		"texts" : {
+			"name" : "Yume",
+			"biography" : "An orphan raised at the White Temple of the Nagas, Yume's potential for spiritual matters didn't go unnoticed, and by an early age she was installed as Head Priestess of the sacred isle where the Mother Namtaru is held captive. Mystical and meditative, Yume's quiet holy appearance belies a fierce, steely heart that doesn't take kindly to liars or cravens. Expecting to devote herself only to her duty, the blossoming of her love for Akasha took her by surprise. Her usual serenity was recently broken by the gradual awakening of the Mother Namtaru, resulting in a spiritual corruption that made all pregnant Naga women on the island give birth to stillborn children – including Yume. Another consequence was Akasha's madness and his turning against his own people. Now Yume may be the only hope for her husband's salvation.",
+			"specialty" : {
+				"name" : "Navigation",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"description" : "Receives a bonus of 75 extra movement points at sea per level."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/yume/portraitSmall.png",
+			"large" : "heroes/sanctuary/yume/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Navigation.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Navigation.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "navigation",
+				"level" : "basic"
+			},
+			{
+				"skill" : "waterMagic",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "navigation"
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

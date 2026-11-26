@@ -57,18 +57,23 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"attackReduction" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"duration" : "N_TURNS"
-					},
-					"defenseReduction" : {
-						"val" : -2,
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attackReduction" : {
+								"val" : -2,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"duration" : "N_TURNS"
+							},
+							"defenseReduction" : {
+								"val" : -2,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -86,12 +91,17 @@
 				"description" : "{Disease}\n\nCauses an enemy creature to fall ill.\n\nThe unit has their Attack and Defense values reduced by 4. Does not affect undead or non-living units.\n",
 				"cost" : 10,
 				"power" : 10,
-				"effects" : {
-					"attackReduction" : {
-						"val" : -4
-					},
-					"defenseReduction" : {
-						"val" : -4
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attackReduction" : {
+								"val" : -4
+							},
+							"defenseReduction" : {
+								"val" : -4
+							}
+						}
 					}
 				}
 			},
@@ -99,12 +109,17 @@
 				"description" : "{Disease}\n\nCauses all enemy creatures to fall ill.\n\nAll units have their Attack and Defense values reduced by 6. Does not affect undead or non-living units.\n",
 				"cost" : 10,
 				"power" : 10,
-				"effects" : {
-					"attackReduction" : {
-						"val" : -6
-					},
-					"defenseReduction" : {
-						"val" : -6
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attackReduction" : {
+								"val" : -6
+							},
+							"defenseReduction" : {
+								"val" : -6
+							}
+						}
 					}
 				},
 				"range" : "X"

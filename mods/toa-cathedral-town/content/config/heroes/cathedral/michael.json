@@ -1,0 +1,61 @@
+{
+	"60michael" : {
+		"class" : "chaplainClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"berserk"
+		],
+		"texts" : {
+			"name" : "Michael",
+			"biography" : "Born to an Angel family of healers, Michael's destiny took flight in the opposite direction. While still a youth the charismatic leader was recognized as a military genius, and in his first military campaign as commander he saved Ashan from demonic conquest by defeating the notorious Azkaal, Demon Prince of Destruction. When the smouldering conflict between the Angels and the Faceless broke into open war, Michael was appointed to lead the children of Light into battle against the children of Darkness. The Cataclysmic decades that followed were known as the Elder Wars, and stories of Michael's victories have been eagerly recounted ever since... but always ending with the Archangel's tragic death. His sudden and unexplained return to Ashan has been qualified as a miracle by the Holy Emperor Liam Falcon and Michael immediately became his personal military adviser.",
+			"specialty" : {
+				"name" : "Avengers",
+				"tooltip" : "Creature Bonus: Avengers",
+				"description" : "Increases the Speed of allied Avengers and Punishers by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/michael/portraitSmall.png",
+			"large" : "heroes/cathedral/michael/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Avengers.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Avengers.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "avengerAU",
+			"creatureLevel" : 7,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

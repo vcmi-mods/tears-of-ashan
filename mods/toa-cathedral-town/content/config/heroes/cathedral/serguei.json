@@ -1,0 +1,57 @@
+{
+	"06serguei" : {
+		"class" : "inquisitorClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"stoneSkin"
+		],
+		"texts" : {
+			"name" : "Serguei",
+			"biography" : "Like a blade is tempered, Duke Serguei's temperament was forged by the freezing winds of the Griffin steppes. This harsh man did not take kindly to weakness, hated compromise, and despised skullduggery. While some at the imperial court found Serguei obnoxious, his qualities as a commander of men endeared him to Empress Kyla, who appointed him Admiral of her great armada just before the Orc Crusades. Serguei is also famous for his lifelong rivalry with Heinrich of Wolf, perpetuating the old feud between the two Duchies.",
+			"specialty" : {
+				"name" : "Peasants",
+				"tooltip" : "Creature Bonus: Peasants",
+				"description" : "Increases the Speed of allied Peasants and Conscripts by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/serguei/portraitSmall.png",
+			"large" : "heroes/cathedral/serguei/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Peasants.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Peasants.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "estates",
+				"level" : "advanced"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "core:peasant",
+			"creatureLevel" : 1,
+			"stepSize" : 10
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			}
+		]
+	}
+}

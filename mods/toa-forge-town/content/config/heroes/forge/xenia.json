@@ -1,0 +1,58 @@
+{
+	"06Xenia" : {
+		"class" : "cyborgClass",
+		"female" : true,
+		"special" : false,
+		"texts" : {
+			"name" : "Xenia",
+			"biography" : "Xenia and her band of renegade Nagas led the lives of fugitives after defying their Bracadan masters. With their tails bruised and torn from the long years of roaming, she and her sisters have finally found a safe haven in the embrace of circuits and steel.",
+			"specialty" : {
+				"name" : "Tanks",
+				"tooltip" : "Creature Bonus: Tanks",
+				"description" : "Increases the Speed of allied Tanks and Heavy Tanks by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/forge/xenia/portraitSmall.png",
+			"large" : "heroes/forge/xenia/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Tanks.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Tanks.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "tankAU",
+			"creatureLevel" : 6,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "gruntAU",
+				"min" : 10,
+				"max" : 16
+			},
+			{
+				"creature" : "cyberDeadAU",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "tankAU",
+				"min" : 1,
+				"max" : 1
+			}
+		]
+	}
+}

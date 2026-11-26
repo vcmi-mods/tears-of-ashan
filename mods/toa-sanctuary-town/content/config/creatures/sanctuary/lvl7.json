@@ -1,0 +1,117 @@
+{
+	"kirinAU" : {
+		"name" : {
+			"singular" : "Kirin",
+			"plural" : "Kirins"
+		},
+		"faction" : "sanctuary",
+		"level" : 7,
+		"attack" : 18,
+		"defense" : 18,
+		"damage" : {
+			"min" : 35,
+			"max" : 55
+		},
+		"hitPoints" : 180,
+		"speed" : 11,
+		"growth" : 1,
+		"aiValue" : 3900,
+		"fightValue" : 3200,
+		"cost" : {
+			"gold" : 2200,
+			"crystal" : 1
+		},
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"upgrades" : [
+			"sacredKirinAU",
+			"enragedKirinAU"
+		],
+		"doubleWide" : true,
+		"abilities" : {
+			"sanctuary" : {
+				"type" : "SANCTUARY"
+			},
+			"waterReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "water",
+				"val" : 50,
+				"hidden" : true
+			},
+			"lightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"chainLightningVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : 25,
+				"hidden" : true
+			},
+			"titanBoltVulnerablity" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.titanBolt",
+				"val" : 25,
+				"hidden" : true
+			},
+			"slowImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "slow",
+				"description" : "{Water Flows Freely}\nImmune to Slow, Wasp Swarm, Ice Bolt, Frost Ring, Deep Freeze, and Freezing attacks.",
+				"icon" : "bonuses/waterFlowsFreely.png"
+			},
+			"waspSwarmImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "waspSwarm",
+				"hidden" : true
+			},
+			"iceBoltImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "iceBolt",
+				"hidden" : true
+			},
+			"frostRingImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "frostRing",
+				"hidden" : true
+			},
+			"deepFreezeImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deepFreeze",
+				"hidden" : true
+			},
+			"freezingShotImmunity" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "freezingShot",
+				"hidden" : true
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/sanctuary/battle/lvl7.def",
+			"map" : "creatures/sanctuary/map/lvl7.def",
+			"mapMask" : [
+				"VV",
+				"AV"
+			],
+			"iconSmall" : "creatures/sanctuary/iconsSmall/lvl7.png",
+			"iconLarge" : "creatures/sanctuary/iconsBig/lvl7.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/kirin/attack.mp3",
+			"defend" : "creatures/kirin/defend.mp3",
+			"killed" : "creatures/kirin/death.mp3",
+			"move" : "creatures/kirin/move.mp3",
+			"wince" : "creatures/kirin/hit.mp3"
+		}
+	}
+}

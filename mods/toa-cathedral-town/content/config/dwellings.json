@@ -1,0 +1,195 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"lodgingsAU" : {
+				"name" : "Lodgings",
+				"creatures" : [
+					[
+						"core:peasant"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPCAMP"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/cathedral/dwelling01",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
+					}
+				}
+			},
+			"gallowsAU" : {
+				"name" : "Gallows",
+				"creatures" : [
+					[
+						"torturerAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPVENT"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/cathedral/dwelling02",
+						"mask" : [
+							"VVBB",
+							"VVAB"
+						]
+					}
+				}
+			},
+			"archeryRangeAU" : {
+				"name" : "Archery Range",
+				"creatures" : [
+					[
+						"witchHunterAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPFIRE"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/cathedral/dwelling03",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
+					}
+				}
+			},
+			"cemeteryAU" : {
+				"name" : "Cemetery",
+				"creatures" : [
+					[
+						"earthenChimeraAU"
+					]
+				],
+				"guards" : false,
+				"sounds" : {
+					"ambient" : [
+						"LOOPOGRE"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/cathedral/dwelling04",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
+					}
+				}
+			},
+			"chapelAU" : {
+				"name" : "Chapel",
+				"creatures" : [
+					[
+						"acolyteAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPAIR"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/cathedral/dwelling05",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swordInTheStoneAU" : {
+				"name" : "Sword in the Stone",
+				"creatures" : [
+					[
+						"darkPaladinAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPNAGA"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/cathedral/dwelling06",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
+					}
+				}
+			},
+			"forgottenShrineAU" : {
+				"name" : "Forgotten Shrine",
+				"creatures" : [
+					[
+						"avengerAU"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPMON2"
+					]
+				},
+				"visit" : [
+					"MILITARY"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "map/cathedral/dwelling07",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBV",
+							"VAV"
+						]
+					}
+				}
+			}
+		}
+	}
+}

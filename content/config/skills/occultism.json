@@ -20,9 +20,11 @@
 				},
 
 				"agingBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.agingTOA",
-					"addInfo" : -10
+					"addInfo" : [
+						-10
+					]
 				},
 				"agingDuration" : {
 					"type" : "SPELL_DURATION",
@@ -34,9 +36,11 @@
 					}
 				},
 				"curseBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.curse",
-					"addInfo" : 0
+					"addInfo" : [
+						0
+					]
 				},
 				"curseDuration" : {
 					"type" : "SPELL_DURATION",
@@ -48,9 +52,11 @@
 					}
 				},
 				"diseaseBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.diseaseTOA",
-					"addInfo" : -1
+					"addInfo" : [
+						-1
+					]
 				},
 				"diseaseDuration" : {
 					"type" : "SPELL_DURATION",
@@ -62,9 +68,11 @@
 					}
 				},
 				"disruptingRayBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.disruptingRay",
-					"addInfo" : -1
+					"addInfo" : [
+						-1
+					]
 				},
 				"disruptingRayDuration" : {
 					"type" : "SPELL_DURATION",
@@ -76,9 +84,11 @@
 					}
 				},
 				"forgetfulnessBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.forgetfulness",
-					"addInfo" : 0
+					"addInfo" : [
+						0
+					]
 				},
 				"forgetfulnessDuration" : {
 					"type" : "SPELL_DURATION",
@@ -90,9 +100,11 @@
 					}
 				},
 				"misfortuneBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.misfortune",
-					"addInfo" : 0
+					"addInfo" : [
+						0
+					]
 				},
 				"misfortuneDuration" : {
 					"type" : "SPELL_DURATION",
@@ -104,9 +116,11 @@
 					}
 				},
 				"slowBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.slow",
-					"addInfo" : -1
+					"addInfo" : [
+						-1
+					]
 				},
 				"slowDuration" : {
 					"type" : "SPELL_DURATION",
@@ -118,9 +132,11 @@
 					}
 				},
 				"sorrowBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.sorrow",
-					"addInfo" : 0
+					"addInfo" : [
+						0
+					]
 				},
 				"sorrowDuration" : {
 					"type" : "SPELL_DURATION",
@@ -132,9 +148,11 @@
 					}
 				},
 				"weaknessBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.weakness",
-					"addInfo" : -1
+					"addInfo" : [
+						-1
+					]
 				},
 				"weaknessDuration" : {
 					"type" : "SPELL_DURATION",
@@ -176,7 +194,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Occultism}\n\nIncreases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 50% (rounded up) based on their Basic effects and their duration by (Hero Level / 3).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level / 3).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level / 3).",
+			"description" : "{Basic Occultism}\n\nBasic Occultism increases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 50% (rounded up) based on their Basic effects and their duration by (Hero Level / 3).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level / 3).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level / 3).",
 			"images" : {
 				"small" : "skills/occultism/occultismSmall/1",
 				"medium" : "skills/occultism/occultismMedium/1",
@@ -185,7 +203,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Occultism}\n\nIncreases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 50% (rounded up) based on their Advanced effects and their duration by (Hero Level / 2).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level / 2).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level / 2).",
+			"description" : "{Advanced Occultism}\n\nAdvanced Occultism increases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 50% (rounded up) based on their Advanced effects and their duration by (Hero Level / 2).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level / 2).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level / 2).",
 			"images" : {
 				"small" : "skills/occultism/occultismSmall/2",
 				"medium" : "skills/occultism/occultismMedium/2",
@@ -203,9 +221,11 @@
 					}
 				},
 				"diseaseBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.diseaseTOA",
-					"addInfo" : -2
+					"addInfo" : [
+						-2
+					]
 				},
 				"diseaseDuration" : {
 					"updater" : {
@@ -213,9 +233,11 @@
 					}
 				},
 				"disruptingRayBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.disruptingRay",
-					"addInfo" : -2
+					"addInfo" : [
+						-2
+					]
 				},
 				"disruptingRayDuration" : {
 					"updater" : {
@@ -223,9 +245,11 @@
 					}
 				},
 				"forgetfulnessBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.forgetfulness",
-					"addInfo" : 1
+					"addInfo" : [
+						1
+					]
 				},
 				"forgetfulnessDuration" : {
 					"updater" : {
@@ -233,9 +257,11 @@
 					}
 				},
 				"misfortuneBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.misfortune",
-					"addInfo" : -1
+					"addInfo" : [
+						-1
+					]
 				},
 				"misfortuneDuration" : {
 					"updater" : {
@@ -243,9 +269,11 @@
 					}
 				},
 				"sorrowBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.sorrow",
-					"addInfo" : -1
+					"addInfo" : [
+						-1
+					]
 				},
 				"sorrowDuration" : {
 					"updater" : {
@@ -253,9 +281,11 @@
 					}
 				},
 				"weaknessBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.weakness",
-					"addInfo" : -3
+					"addInfo" : [
+						-3
+					]
 				},
 				"weaknessDuration" : {
 					"updater" : {
@@ -291,7 +321,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Occultism}\n\nIncreases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 100% based on their Expert effects and their duration by (Hero Level).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level).",
+			"description" : "{Expert Occultism}\n\nExpert Occultism increases the effect of {Curse}, {Disease}, {Disrupting Ray}, {Forgetfulness}, {Misfortune}, {Sorrow}, and {Weakness} by 100% based on their Expert effects and their duration by (Hero Level).\n\nIncreases the effects of {Aging} by 10%, {Slow} by 1, and both spells' duration by (Hero Level).\n\nIncreases the duration of {Blind}, {Confusion}, and {Hypnotise} by (Hero Level).",
 			"images" : {
 				"small" : "skills/occultism/occultismSmall/3",
 				"medium" : "skills/occultism/occultismMedium/3",
@@ -304,9 +334,11 @@
 				},
 
 				"curseBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.curse",
-					"addInfo" : 1
+					"addInfo" : [
+						1
+					]
 				},
 				"curseDuration" : {
 					"updater" : {
@@ -314,9 +346,11 @@
 					}
 				},
 				"diseaseBuff" : {
-					"type" : "SPECIAL_ADD_VALUE_ENCHANT",
+					"type" : "SPECIAL_PECULIAR_ENCHANT",
 					"subtype" : "spell.diseaseTOA",
-					"addInfo" : -6
+					"addInfo" : [
+						-6
+					]
 				},
 				"diseaseDuration" : {
 					"updater" : {
@@ -324,7 +358,9 @@
 					}
 				},
 				"disruptingRayBuff" : {
-					"addInfo" : -6
+					"addInfo" : [
+						-6
+					]
 				},
 				"disruptingRayDuration" : {
 					"updater" : {
@@ -332,7 +368,9 @@
 					}
 				},
 				"forgetfulnessBuff" : {
-					"addInfo" : 3
+					"addInfo" : [
+						3
+					]
 				},
 				"forgetfulnessDuration" : {
 					"updater" : {
@@ -340,7 +378,9 @@
 					}
 				},
 				"misfortuneBuff" : {
-					"addInfo" : -3
+					"addInfo" : [
+						-3
+					]
 				},
 				"misfortuneDuration" : {
 					"updater" : {
@@ -348,7 +388,9 @@
 					}
 				},
 				"sorrowBuff" : {
-					"addInfo" : -3
+					"addInfo" : [
+						-3
+					]
 				},
 				"sorrowDuration" : {
 					"updater" : {
@@ -356,7 +398,9 @@
 					}
 				},
 				"weaknessBuff" : {
-					"addInfo" : -6
+					"addInfo" : [
+						-6
+					]
 				},
 				"weaknessDuration" : {
 					"updater" : {

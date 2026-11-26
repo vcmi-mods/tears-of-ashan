@@ -1,0 +1,102 @@
+{
+	"flameLordAU" : {
+		"name" : {
+			"singular" : "Flame Lord",
+			"plural" : "Flame Lords"
+		},
+		"faction" : "bulwark",
+		"level" : 6,
+		"attack" : 18,
+		"defense" : 16,
+		"damage" : {
+			"min" : 18,
+			"max" : 24
+		},
+		"hitPoints" : 110,
+		"speed" : 11,
+		"growth" : 2,
+		"aiValue" : 2440,
+		"fightValue" : 1765,
+		"cost" : {
+			"gold" : 1250
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"upgrades" : [
+			"thunderThaneAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting",
+				"icon" : "zvs/Lib1.res/e_teleport"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 100
+			},
+			"fireImmunity" : {
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype" : "fire"
+			},
+			"markOfFire" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "markOfFire",
+				"val" : 100,
+				"addInfo" : [
+					0,
+					0,
+					0
+				],
+				"description" : "{Mark of Fire}\nHas a 100% chance to damn the target with a Mark of Fire after attacking.",
+				"icon" : "bonuses/markOfFire.png"
+			},
+			"fireballOnAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "fireball",
+				"val" : 100,
+				"addInfo" : [
+					2,
+					0,
+					1
+				],
+				"description" : "{Flame Strike}\nCasts Advanced Fireball after attacking targets with Marks of Fire (10 Damage per Lord).",
+				"icon" : "bonuses/flameStrike.png"
+			},
+			"fireballPower" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "fireball",
+				"val" : 10
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl6Up.json",
+			"map" : "creatures/dwarvenBulwark/map/lvl6Up.json",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl6Up.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl6Up.png",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/flameLord/attack",
+			"defend" : "creatures/flameLord/defend",
+			"killed" : "creatures/flameLord/death",
+			"startMoving" : "creatures/flameLord/moveStart",
+			"endMoving" : "creatures/flameLord/moveEnd",
+			"wince" : "creatures/flameLord/hit",
+			"shoot" : "creatures/flameLord/shoot"
+		}
+	}
+}

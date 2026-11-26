@@ -1,0 +1,13 @@
+{
+	"MUNITIONS_BONUS" : {
+		"hidden" : false,
+
+		"creatureNature" : false,
+
+		"description" : "{Munitions Cart}\nDamage is being increased by a Munitions Cart.",
+
+		"graphics" : {
+			"icon" : "bonuses/bonusMunitions.png"
+		}
+	}
+}

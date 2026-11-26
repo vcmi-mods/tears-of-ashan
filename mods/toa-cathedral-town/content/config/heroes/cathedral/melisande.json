@@ -1,0 +1,70 @@
+{
+	"09melisande" : {
+		"class" : "inquisitorClass",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"viewEarth"
+		],
+		"texts" : {
+			"name" : "Melisande",
+			"biography" : "Melisande is distantly related to the ruling dynasty of the Greyhound Duchy. Some say she could have used this connection to secure a high-ranking position within the Imperial army - instead, Melisande joined the Crusader order, leaving the green lands of Holy Empire for the blistering sands of the Sahaar Desert. Nobody knows why she chose this life, although the same gossipers claim she might have played a part in a political coup gone awry.",
+			"specialty" : {
+				"name" : "Pathfinding",
+				"tooltip" : "Secondary Skill Bonus: Pathfinding",
+				"description" : "Receives a 5% reduction to the cost of moving on rough terrain."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/melisande/portraitSmall.png",
+			"large" : "heroes/cathedral/melisande/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Pathfinding.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Pathfinding.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"baseTileCost" : {
+					"type" : "BASE_TILE_MOVEMENT_COST",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : -5
+				},
+				"terrainCostReduction" : {
+					"type" : "ROUGH_TERRAIN_DISCOUNT",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "torturerAU",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "witchHunterAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

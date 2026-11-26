@@ -1,0 +1,169 @@
+{
+	"name" : "Faction: Forge (Heroes III)",
+	"author" : "Aphra",
+	"contact" : "",
+	"description" : "The Forge faction as shown by New World Computing at E3 in 1999, with a few extras! Thank you for playing Tears of Ashan!<p>This mod used to be linked on the Tears of Ashan Discord server after it reached 50 members, as a gift to its wonderful fans and supporters.</p>",
+	"version" : "1.1.2",
+	"modType" : "Town",
+
+	"keepDisabled" : true,
+
+	"changelog" : {
+		"1.1.2" : [
+			"Fixed Xenia's specialty scaling (Tanks were erroneously counted as Level 1 units)"
+		],
+		"1.1.1" : [
+			"Pyro +25% Fire Magic damage resistance",
+			"Pyromaniac +50% Fire Magic damage resistance"
+		],
+		"1.1.0" : [
+			"Added a Munitions Cart bonus that shows when the Cart's effect is active",
+			"Fixed Sheikleen's specialty to only work while she possesses a Munitions Cart",
+			"Remade small unit icons",
+			"Minor text fixes"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+
+	"conflicts" : [
+		"farriery-town",
+		"forge",
+		"forge2k"
+	],
+
+	"depends" : [
+		"asphalt-terrain",
+		"hota.bulwark",
+		"hota.cove",
+		"hota.factory",
+		"hota.factory.bonuses icons",
+		"hota.gamebalance.heroes",
+		"hota.gamebalance.skills.firstaid",
+		"hota.heroes3datapatch",
+		"hota.interference",
+		"market-of-time",
+		"new-old-spells-plus",
+		"vcmi-extras.bonusicons.bonus icons"
+	],
+
+	"skills" : [
+		"config/skills/ballistics.json"
+	],
+
+	"bonuses" : [
+		"config/bonuses/incendiaryShellBonus.json",
+		"config/bonuses/munitionsCartBonus.json"
+	],
+
+	"spells" : [
+		"config/spells/incendiaryShell.json",
+		"config/spells/reconstruction.json"
+	],
+
+	"factions" : [
+		"config/town-screen/forge.json"
+	],
+
+	"heroClasses" : [
+		"config/classes/cyborg.json",
+		"config/classes/technician.json",
+		"config/classes/ancient.json"
+	],
+
+	"heroes" : [
+		"config/heroes/forge/carvas.json",
+		"config/heroes/forge/cistrict.json",
+		"config/heroes/forge/deckard.json",
+		"config/heroes/forge/flamius.json",
+		"config/heroes/forge/tiana.json",
+		"config/heroes/forge/tybold.json",
+		"config/heroes/forge/vaathon.json",
+		"config/heroes/forge/xenia.json",
+
+		"config/heroes/forge/charity.json",
+		"config/heroes/forge/codgur.json",
+		"config/heroes/forge/gurvich.json",
+		"config/heroes/forge/ixia.json",
+		"config/heroes/forge/kastore.json",
+		"config/heroes/forge/leanne.json",
+		"config/heroes/forge/rialdo.json",
+		"config/heroes/forge/sheikleen.json",
+
+		"config/heroes/forge/escaton.json"
+	],
+
+	"creatures" : [
+		"config/creatures/forge/lvl1",
+		"config/creatures/forge/lvl1Up",
+		"config/creatures/forge/lvl2",
+		"config/creatures/forge/lvl2Up",
+		"config/creatures/forge/lvl3",
+		"config/creatures/forge/lvl3Up",
+		"config/creatures/forge/lvl4",
+		"config/creatures/forge/lvl4Up",
+		"config/creatures/forge/lvl5",
+		"config/creatures/forge/lvl5Up",
+		"config/creatures/forge/lvl6",
+		"config/creatures/forge/lvl6Up",
+		"config/creatures/forge/lvl7",
+		"config/creatures/forge/lvl7Up",
+		"config/creatures/forge/dragonMech",
+		"config/creatures/forge/munitionsCart"
+	],
+
+	"artifacts" : [
+		"config/artifacts/munitionsCart"
+	],
+
+	"objects" : [
+		"config/dwellings.json",
+		"config/banks/dragonMechBank.json"
+	],
+
+	"settings" : {
+		"combat" : {
+			"layouts" : {
+				"creatureBankDragonMech" : {
+					"tacticsAllowed" : false,
+					"obstaclesAllowed" : false,
+					"attackerCommander" : 86,
+					"defenderCommander" : 83,
+					"attackerUnits" : [
+						57,
+						61,
+						90,
+						93,
+						96,
+						125,
+						129
+					],
+					"attackerWarMachines" : [
+						52,
+						18,
+						154,
+						120
+					],
+					"defenderUnits" : [
+						15,
+						185,
+						172,
+						2,
+						8,
+						174,
+						181
+					]
+				}
+			}
+		}
+	},
+
+	"czech" : {
+		"name" : "Kovárna",
+		"description" : "Kovárna, jak ji společnost New World Computing představila na E3 v roce 1999 — a ještě něco navíc! Děkujeme, že hraješ Tears of Ashan!<p>Tato modifikace byla původně zveřejněna na discordovém serveru Tears of Ashan poté, co počet jeho členů dosáhl padesáti, jako poděkování všem fanouškům a podporovatelům.</p>",
+		"translations" : [
+			"translation/czech.json"
+		]
+	}
+}

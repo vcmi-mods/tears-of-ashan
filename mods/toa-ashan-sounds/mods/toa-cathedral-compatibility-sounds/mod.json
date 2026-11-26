@@ -18,10 +18,15 @@
 	],
 
 	"depends" : [
-		"toa-cathedral-town"
+		"tears-of-ashan.toa-cathedral-town"
 	],
 
 	"creatures" : [
 		"config/creatures.json"
-	]
+	],
+
+	"czech" : {
+		"name" : "Zvuky pro Katedrálu",
+		"description" : "Zajišťuje kompatibilitu Zvuků Ashanu s Katedrálou."
+	}
 }

@@ -13,7 +13,7 @@
 			"min" : 12,
 			"max" : 16
 		},
-		"hitPoints" : 35,
+		"hitPoints" : 30,
 		"speed" : 7,
 		"growth" : 3,
 		"aiValue" : 750,

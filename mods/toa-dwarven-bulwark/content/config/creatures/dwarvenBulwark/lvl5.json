@@ -1,0 +1,120 @@
+{
+	"runePriestAU" : {
+		"name" : {
+			"singular" : "Rune Priest",
+			"plural" : "Rune Priests"
+		},
+		"faction" : "bulwark",
+		"level" : 5,
+		"attack" : 8,
+		"defense" : 12,
+		"shots" : 12,
+		"damage" : {
+			"min" : 10,
+			"max" : 14
+		},
+		"hitPoints" : 30,
+		"speed" : 5,
+		"growth" : 3,
+		"aiValue" : 825,
+		"fightValue" : 715,
+		"cost" : {
+			"gold" : 500
+		},
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		},
+		"upgrades" : [
+			"runePatriarchAU",
+			"runeKeeperAU"
+		],
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"fireReduction" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "fire",
+				"val" : 50
+			},
+			"markOfFire" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "markOfFire",
+				"val" : 40,
+				"addInfo" : [
+					0,
+					0
+				],
+				"description" : "{Mark of Fire}\nHas a 40% chance to damn the target with a Mark of Fire after attacking.",
+				"icon" : "bonuses/markOfFire.png"
+			},
+			"castRuneOfBerserking" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "runeOfBerserking",
+				"val" : 2,
+				"description" : "{Spellcaster}\nCan cast Advanced Rune of Berserking (6 Power).",
+				"icon" : "skills/runelore/runeloreEffect/runeOfBerserking.png"
+			},
+			"runePower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			},
+			"spellpoints" : {
+				"type" : "CASTS",
+				"val" : 2
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/dwarvenBulwark/battle/lvl5.json",
+			"map" : "creatures/dwarvenBulwark/map/lvl5.json",
+			"iconSmall" : "creatures/dwarvenBulwark/iconsSmall/lvl5.png",
+			"iconLarge" : "creatures/dwarvenBulwark/iconsBig/lvl5.png",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 6,
+				"offset" : {
+					"upperX" : 37,
+					"upperY" : -98,
+					"middleX" : 62,
+					"middleY" : -53,
+					"lowerX" : 28,
+					"lowerY" : -3
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/runePriest/attack",
+			"defend" : "creatures/runePriest/hit",
+			"killed" : "creatures/runePriest/death",
+			"move" : "creatures/runePriest/move",
+			"wince" : "creatures/runePriest/hit",
+			"shoot" : "creatures/runePriest/shoot"
+		}
+	}
+}

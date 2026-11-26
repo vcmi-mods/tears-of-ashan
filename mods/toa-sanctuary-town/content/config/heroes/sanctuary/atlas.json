@@ -1,0 +1,66 @@
+{
+	"06atlas" : {
+		"class" : "samuraiClass",
+		"female" : false,
+		"special" : false,
+		"texts" : {
+			"name" : "Atlas",
+			"biography" : "Atlas was born and raised on the island of Hashima, in one of the many Human villages belonging to the Lotus Empire. His impressive size earned him the nickname \"the mountain\". Atlas was prepared to live a peaceful life as the town's carpenter, until one fateful day, when the Daimyo Hitokage stopped in the village. During the festivities held in honor of the Snake-Lord, Atlas defeated the Daimyo's personal champion in a contest of hand-to-hand combat. Hitokage was amused and impressed by the natural talents displayed by Atlas, and offered to take the Human with him to train in the art of combat. While he has regularly impressed the Nagas with his skills on the battlefield or the wrestler ring, Atlas equally gained their respect for his craftamanship as a master-builder, sculptor and artisan.",
+			"specialty" : {
+				"name" : "Crystal",
+				"tooltip" : "Resource Bonus: Crystal",
+				"description" : "Increases kingdom's crystal production by 1 for every 4 levels per day."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/sanctuary/atlas/portraitSmall.png",
+			"large" : "heroes/sanctuary/atlas/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Crystal.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Crystal.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "estates",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.crystal",
+					"val" : 1,
+					"updater" : {
+						"type" : "TIMES_HERO_LEVEL",
+						"stepSize" : 4
+					}
+				}
+			}
+		},
+
+		"army" : [
+			{
+				"creature" : "sharkGuardAU",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "kappaAU",
+				"min" : 4,
+				"max" : 6
+			},
+			{
+				"creature" : "coralPriestessAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

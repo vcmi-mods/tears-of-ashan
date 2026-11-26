@@ -1,10 +1,15 @@
 {
-	"name" : "Mute Combat Intro",
+	"name" : "Cosmetic: Mute Combat Intro",
 	"description" : "Mutes combat intro music.",
 	"version" : "1.0.0",
 	"author" : "Aphra",
 	"contact" : "",
 	"modType" : "Music",
 
-	"keepDisabled" : true
+	"keepDisabled" : true,
+
+	"czech" : {
+		"name" : "Ztišit úvod bitvy",
+		"description" : "Vypíná hudbu přehrávanou na začátku bitvy."
+	}
 }

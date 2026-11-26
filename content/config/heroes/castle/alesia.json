@@ -35,14 +35,8 @@
 		],
 
 		"specialty" : {
-			"bonuses" : {
-				"resurrection" : {
-					"subtype" : "spell.resurrection",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5
-				}
-			}
+			"spellScalingPercentage" : "resurrection",
+			"spellScalingVal" : 5
 		},
 
 		"army" : [

@@ -34,6 +34,10 @@
 			"cast" : "BERSERK"
 		},
 
+		"counters" : {
+			"haegeirRuneOfExorcism" : true
+		},
+
 		"targetType" : "CREATURE",
 
 		"levels" : {

@@ -1,4 +1,99 @@
 {
+	"courtyard:00auk" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "dodo",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+	"courtyard:01caballe" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "potionCartCreature",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"courtyard:02kanim" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "arquebusier",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "arquebusier",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+	"courtyard:03lumiere" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "arquebusier",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "arquebusier",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+	"courtyard:04dizheel" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
 	"courtyard:05raphus" : {
 		"spellbook#override" : [
 			"reconstructionTOA"
@@ -17,6 +112,213 @@
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
-		}
+		},
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			}
+		]
+	},
+	"courtyard:06ophrys" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "mandrake",
+				"min" : 1,
+				"max" : 1
+			}
+		]
+	},
+	"courtyard:07teophrast" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"courtyard:08audred" : {
+		"army" : [
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			}
+		]
+	},
+	"courtyard:09migdigravia" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "cameraObscuraCreature",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"courtyard:10vogundessi" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"courtyard:11nefefareen" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"courtyard:12hanester" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"courtyard:13dictamnus" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"courtyard:14zana" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"courtyard:15zazzerpan" : {
+		"army" : [
+			{
+				"creature" : "cupid",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "homunculus",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "fireNewt",
+				"min" : 3,
+				"max" : 5
+			}
+		]
 	}
 }

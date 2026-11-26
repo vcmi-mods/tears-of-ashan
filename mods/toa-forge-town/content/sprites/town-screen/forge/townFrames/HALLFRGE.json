@@ -1,0 +1,230 @@
+{
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "mage02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "mage03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "mage04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "mage05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "tavern.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "fort01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "fort02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "fort03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "hall01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "hall02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "hall03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "hall04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "market01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "market02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "blacksmith.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "goblin01Horde.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "goblin02Horde.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "grail.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "fort03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "fort03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "grail.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 27,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 28,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 29,
+			"file" : "mage01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 30,
+			"file" : "goblin01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 31,
+			"file" : "zombie01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 32,
+			"file" : "pyro01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 33,
+			"file" : "stinger01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 34,
+			"file" : "jumpTrooper01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 35,
+			"file" : "tank01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 36,
+			"file" : "juggernaut01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 37,
+			"file" : "goblin02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 38,
+			"file" : "zombie02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 39,
+			"file" : "pyro02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 40,
+			"file" : "stinger02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 41,
+			"file" : "jumpTrooper02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 42,
+			"file" : "tank02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 43,
+			"file" : "juggernaut02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 150,
+			"file" : "grail.png"
+		}
+	],
+	"basepath" : "town-screen/forge/townFrames/HALLFRGE/"
+}

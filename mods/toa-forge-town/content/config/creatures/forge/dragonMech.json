@@ -1,0 +1,186 @@
+{
+	"dragonMechAU" : {
+		"name" : {
+			"singular" : "Dragon Mech",
+			"plural" : "Dragon Mechs"
+		},
+		"faction" : "forgeTOA",
+		"level" : 10,
+		"attack" : 60,
+		"defense" : 60,
+		"shots" : 24,
+		"damage" : {
+			"min" : 80,
+			"max" : 100
+		},
+		"hitPoints" : 1500,
+		"speed" : 20,
+		"growth" : 1,
+		"aiValue" : 90000,
+		"fightValue" : 75000,
+		"cost" : {
+			"gold" : 40000,
+			"mercury" : 15,
+			"sulfur" : 15
+		},
+		"advMapAmount" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"king3" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"mechanical" : {
+				"type" : "MECHANICAL"
+			},
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 100,
+				"addInfo" : [
+					3,
+					0
+				],
+				"description" : "{Cast After Attack}\nHas a 100% chance to cast Expert Disrupting Ray after attacking.",
+				"icon" : "zvs/Lib1.res/spellsSOD/disruptingray3"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/dragonMech.json",
+			"map" : "creatures/forge/map/dragonMech.json",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "creatures/forge/iconsSmall/dragonMech.png",
+			"iconLarge" : "creatures/forge/iconsBig/dragonMech.png",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"ray" : [
+					{
+						"start" : [
+							140,
+							30,
+							10,
+							255
+						],
+						"end" : [
+							140,
+							30,
+							10,
+							64
+						]
+					},
+					{
+						"start" : [
+							210,
+							120,
+							120,
+							255
+						],
+						"end" : [
+							210,
+							120,
+							120,
+							128
+						]
+					},
+					{
+						"start" : [
+							255,
+							20,
+							20,
+							255
+						],
+						"end" : [
+							255,
+							20,
+							20,
+							255
+						]
+					},
+					{
+						"start" : [
+							210,
+							120,
+							120,
+							255
+						],
+						"end" : [
+							210,
+							120,
+							120,
+							128
+						]
+					},
+					{
+						"start" : [
+							140,
+							30,
+							10,
+							255
+						],
+						"end" : [
+							140,
+							30,
+							10,
+							64
+						]
+					}
+				],
+				"offset" : {
+					"lowerX" : 43,
+					"lowerY" : -24,
+					"middleX" : 50,
+					"middleY" : -24,
+					"upperX" : 44,
+					"upperY" : -22
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/dragonMech/attack.wav",
+			"shoot" : "creatures/dragonMech/shoot.wav",
+			"defend" : "creatures/dragonMech/defend.wav",
+			"killed" : "creatures/dragonMech/death.wav",
+			"move" : "creatures/dragonMech/move.wav",
+			"wince" : "creatures/dragonMech/hit.wav"
+		}
+	}
+}

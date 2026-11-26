@@ -1,0 +1,61 @@
+{
+	"04mateusz" : {
+		"class" : "inquisitorClass",
+		"female" : false,
+		"special" : false,
+		"spellbook" : [
+			"protectEarth"
+		],
+		"texts" : {
+			"name" : "Mateusz",
+			"biography" : "Like his father Krysztoff, Mateusz is a loyal vassal of the Duke of Griffin and the proud guardian of the borderlands of Warhagen. Sometimes nicknamed \"the Bear\" because of his large stature and gruff appearance, Mateusz does possess a mysterious way with animals of all kinds.",
+			"specialty" : {
+				"name" : "Earth. Chimeras",
+				"tooltip" : "Creature Bonus: Earthen Chimeras",
+				"description" : "Increases the Speed of allied Earthen Chimeras and Fierce Chimeras by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/cathedral/mateusz/portraitSmall.png",
+			"large" : "heroes/cathedral/mateusz/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Earthen Chimeras.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Earthen Chimeras.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "earthenChimeraAU",
+			"creatureLevel" : 4,
+			"stepSize" : 20
+		},
+
+		"army" : [
+			{
+				"creature" : "core:peasant",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "earthenChimeraAU",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "earthenChimeraAU",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	}
+}

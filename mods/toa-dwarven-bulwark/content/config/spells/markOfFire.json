@@ -1,0 +1,73 @@
+{
+	"markOfFire" : {
+		"name" : "Mark of Fire",
+		"type" : "ability",
+		"targetType" : "CREATURE",
+		"level" : 4,
+		"power" : 0,
+
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
+		"flags" : {
+			"negative" : true,
+			"special" : true
+		},
+
+		"targetCondition" : {},
+
+		"graphics" : {
+			"iconEffect" : "spells/markOfFire/spellEffect.png"
+		},
+
+		"animation" : {
+			"affect" : [
+				"spells/markOfFire/animation.def"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "FIREBLST"
+		},
+
+		"levels" : {
+			"base" : {
+				"description" : "{Mark of Fire}\n\nIncreases damage received from Fire Magic spells by 50% for 3 turns.",
+				"cost" : 0,
+				"range" : "0",
+				"power" : 0,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"debuff" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"damageIncrease" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "spellSchool.fire",
+								"val" : -50,
+								"duration" : "N_TURNS",
+								"turns" : 3,
+								"description" : "{Vulnerable to Fire}\nReceives 50% more Damage from Fire Magic spells.",
+								"icon" : "zvs/Lib1.res/vulnerabilityfire.png"
+							}
+						}
+					}
+				}
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
+		}
+	}
+}

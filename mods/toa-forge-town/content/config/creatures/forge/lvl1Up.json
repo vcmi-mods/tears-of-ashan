@@ -1,0 +1,91 @@
+{
+	"footSoldierAU" : {
+		"name" : {
+			"singular" : "Foot Soldier",
+			"plural" : "Foot Soldiers"
+		},
+		"faction" : "forgeTOA",
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 3,
+		"shots" : 24,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
+		"hitPoints" : 10,
+		"speed" : 7,
+		"growth" : 10,
+		"horde" : 5,
+		"aiValue" : 125,
+		"fightValue" : 105,
+		"cost" : {
+			"gold" : 100
+		},
+		"advMapAmount" : {
+			"min" : 15,
+			"max" : 25
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+			"noWallPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"shootAdjacent" : {
+				"type" : "FREE_SHOOTING"
+			}
+		},
+		"graphics" : {
+			"animation" : "creatures/forge/battle/lvl1Up.def",
+			"map" : "creatures/forge/map/lvl1Up.def",
+			"iconSmall" : "creatures/forge/iconsSmall/lvl1Up.png",
+			"iconLarge" : "creatures/forge/iconsBig/lvl1Up.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "creatures/forge/battle/projectile/SHOT197.DEF",
+				"offset" : {
+					"upperX" : 34,
+					"upperY" : -96,
+					"middleX" : 50,
+					"middleY" : -62,
+					"lowerX" : 4,
+					"lowerY" : 0
+				},
+				"attackClimaxFrame" : 4,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/grunt/attack.wav",
+			"shoot" : "creatures/grunt/shoot.wav",
+			"defend" : "creatures/grunt/defend.wav",
+			"killed" : "creatures/grunt/death.wav",
+			"move" : "creatures/grunt/moveUpg.wav",
+			"wince" : "creatures/grunt/hit.wav"
+		}
+	}
+}
