@@ -70,7 +70,7 @@
 									{
 										"type" : "CREATURE_LEVEL_LIMITER",
 										"minLevel" : 1,
-										"maxlevel" : 2
+										"maxLevel" : 2
 									},
 									[
 										"noneOf",
@@ -89,7 +89,7 @@
 									{
 										"type" : "CREATURE_LEVEL_LIMITER",
 										"minLevel" : 2,
-										"maxlevel" : 3
+										"maxLevel" : 3
 									},
 									[
 										"noneOf",
@@ -108,7 +108,7 @@
 									{
 										"type" : "CREATURE_LEVEL_LIMITER",
 										"minLevel" : 3,
-										"maxlevel" : 4
+										"maxLevel" : 4
 									},
 									[
 										"noneOf",
@@ -127,7 +127,7 @@
 									{
 										"type" : "CREATURE_LEVEL_LIMITER",
 										"minLevel" : 4,
-										"maxlevel" : 5
+										"maxLevel" : 5
 									},
 									[
 										"noneOf",
@@ -146,7 +146,7 @@
 									{
 										"type" : "CREATURE_LEVEL_LIMITER",
 										"minLevel" : 5,
-										"maxlevel" : 6
+										"maxLevel" : 6
 									},
 									[
 										"noneOf",
@@ -165,7 +165,7 @@
 									{
 										"type" : "CREATURE_LEVEL_LIMITER",
 										"minLevel" : 6,
-										"maxlevel" : 7
+										"maxLevel" : 7
 									},
 									[
 										"noneOf",
@@ -184,7 +184,7 @@
 									{
 										"type" : "CREATURE_LEVEL_LIMITER",
 										"minLevel" : 7,
-										"maxlevel" : 11
+										"maxLevel" : 11
 									},
 									[
 										"noneOf",
