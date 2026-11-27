@@ -1,0 +1,59 @@
+{
+	"09disa" : {
+		"class" : "jarl",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"bloodlust"
+		],
+		"texts" : {
+			"name" : "Disa",
+			"biography" : "Disa was one of many daughters born to a family of runemages, though she never had the knack for magic like the rest of her siblings. No matter how studious she was, the wonders of spellcraft continued to elude her, and she long wondered if any profession would truly call to her. As fate would have it, the first time she donned a suit of armour and held a warhammer aloft, Disa immediately knew what was missing and became a mighty general in the Dwarven ranks.",
+			"specialty" : {
+				"name" : "Armorer",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/disa/portraitSmall.png",
+			"large" : "heroes/bulwark/disa/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Armorer.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Armorer.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "armorer"
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}

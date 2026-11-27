@@ -61,7 +61,7 @@
 								"limiters" : {
 									"type" : "CREATURE_LEVEL_LIMITER",
 									"minLevel" : 1,
-									"maxlevel" : 4
+									"maxLevel" : 4
 								}
 							},
 							"speedBonus02" : {
@@ -71,7 +71,7 @@
 								"limiters" : {
 									"type" : "CREATURE_LEVEL_LIMITER",
 									"minLevel" : 4,
-									"maxlevel" : 7
+									"maxLevel" : 7
 								}
 							},
 							"speedBonus03" : {
@@ -81,7 +81,7 @@
 								"limiters" : {
 									"type" : "CREATURE_LEVEL_LIMITER",
 									"minLevel" : 7,
-									"maxlevel" : 11
+									"maxLevel" : 11
 								}
 							}
 						}

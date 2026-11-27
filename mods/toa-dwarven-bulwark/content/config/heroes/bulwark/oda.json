@@ -1,0 +1,59 @@
+{
+	"59oda" : {
+		"class" : "runemage",
+		"female" : true,
+		"special" : false,
+		"spellbook" : [
+			"sunBurst"
+		],
+		"texts" : {
+			"name" : "Oda",
+			"biography" : "Oda often finds herself wandering deep below mountains, exploring ancient caverns and picking mushrooms in fields of bioluminescent flora. While she is an accomplished runemage, she believes that one of the most magical parts of life is the peace one may find from sources so very mundane.",
+			"specialty" : {
+				"name" : "Intelligence",
+				"tooltip" : "Secondary Skill Bonus: Intelligence",
+				"description" : "Receives a 5% per level bonus to Intelligence skill percentage."
+			}
+		},
+
+		"images" : {
+			"small" : "heroes/bulwark/oda/portraitSmall.png",
+			"large" : "heroes/bulwark/oda/portraitLarge.png",
+			"specialtySmall" : "heroes/specialtySmall/Intelligence.png",
+			"specialtyLarge" : "heroes/specialtyLarge/Intelligence.png"
+		},
+
+		"skills" : [
+			{
+				"skill" : "runelore",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "intelligence"
+		},
+
+		"army" : [
+			{
+				"creature" : "defenderAU",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "spearwielderAU",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bearRiderAU",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
+}
